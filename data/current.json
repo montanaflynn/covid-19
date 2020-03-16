@@ -131,7 +131,7 @@
       "deaths": 0
     },
     "Canada": {
-      "confirmed": 405,
+      "confirmed": 415,
       "recovered": 9,
       "deaths": 4
     },
@@ -226,9 +226,9 @@
       "deaths": 0
     },
     "France": {
-      "confirmed": 5397,
+      "confirmed": 6650,
       "recovered": 12,
-      "deaths": 127
+      "deaths": 148
     },
     "Französisch-Guyana": {
       "confirmed": 11,
@@ -661,9 +661,9 @@
       "deaths": 75
     },
     "Spain": {
-      "confirmed": 9428,
+      "confirmed": 9942,
       "recovered": 530,
-      "deaths": 335
+      "deaths": 342
     },
     "Sri Lanka": {
       "confirmed": 28,
@@ -741,9 +741,9 @@
       "deaths": 1
     },
     "United States": {
-      "confirmed": 4201,
+      "confirmed": 4282,
       "recovered": 17,
-      "deaths": 73
+      "deaths": 74
     },
     "Uruguay": {
       "confirmed": 8,
@@ -793,7 +793,7 @@
   },
   "states": {
     "Alabama": {
-      "confirmed": 22,
+      "confirmed": 28,
       "recovered": 0,
       "deaths": 0
     },
@@ -818,7 +818,7 @@
       "deaths": 0
     },
     "California": {
-      "confirmed": 474,
+      "confirmed": 486,
       "recovered": 6,
       "deaths": 6
     },
@@ -828,12 +828,12 @@
       "deaths": 1
     },
     "Connecticut": {
-      "confirmed": 26,
+      "confirmed": 30,
       "recovered": 0,
       "deaths": 0
     },
     "Delaware": {
-      "confirmed": 7,
+      "confirmed": 8,
       "recovered": 0,
       "deaths": 0
     },
@@ -913,7 +913,7 @@
       "deaths": 0
     },
     "Maryland": {
-      "confirmed": 37,
+      "confirmed": 41,
       "recovered": 3,
       "deaths": 0
     },
@@ -933,7 +933,7 @@
       "deaths": 0
     },
     "Mississippi": {
-      "confirmed": 10,
+      "confirmed": 12,
       "recovered": 0,
       "deaths": 0
     },
@@ -953,9 +953,9 @@
       "deaths": 0
     },
     "Nevada": {
-      "confirmed": 26,
+      "confirmed": 45,
       "recovered": 0,
-      "deaths": 0
+      "deaths": 1
     },
     "New Hampshire": {
       "confirmed": 13,
@@ -973,7 +973,7 @@
       "deaths": 0
     },
     "New York": {
-      "confirmed": 961,
+      "confirmed": 964,
       "recovered": 0,
       "deaths": 8
     },
@@ -988,7 +988,7 @@
       "deaths": 0
     },
     "Ohio": {
-      "confirmed": 38,
+      "confirmed": 50,
       "recovered": 0,
       "deaths": 0
     },
@@ -1003,7 +1003,7 @@
       "deaths": 1
     },
     "Pennsylvania": {
-      "confirmed": 79,
+      "confirmed": 77,
       "recovered": 0,
       "deaths": 0
     },
@@ -1023,7 +1023,7 @@
       "deaths": 1
     },
     "South Dakota": {
-      "confirmed": 9,
+      "confirmed": 10,
       "recovered": 0,
       "deaths": 1
     },
@@ -1033,7 +1033,7 @@
       "deaths": 0
     },
     "Texas": {
-      "confirmed": 76,
+      "confirmed": 82,
       "recovered": 0,
       "deaths": 0
     },
@@ -1068,7 +1068,7 @@
       "deaths": 0
     },
     "Wisconsin": {
-      "confirmed": 34,
+      "confirmed": 47,
       "recovered": 1,
       "deaths": 0
     },

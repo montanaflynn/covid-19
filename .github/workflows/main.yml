@@ -24,6 +24,7 @@ jobs:
             ${{ runner.os }}-go-
       - run: go run *.go > data/current.json
       - name: Commit data
+        continue-on-error: true
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"

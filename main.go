@@ -34,14 +34,14 @@ type datum struct {
 }
 
 type cases struct {
-	Confirmed int
-	Recovered int
-	Deaths    int
+	Confirmed int `json:"confirmed"`
+	Recovered int `json:"recovered"`
+	Deaths    int `json:"deaths"`
 }
 
 type results struct {
-	Countries map[string]cases
-	States    map[string]cases
+	Countries map[string]cases `json:"countries"`
+	States    map[string]cases `json:"states"`
 }
 
 func main() {
@@ -175,7 +175,7 @@ func main() {
 	}
 
 	output := results{countryCounts, stateCounts}
-	jsonBytes, err := json.Marshal(output)
+	jsonBytes, err := json.MarshalIndent(output, "", "  ")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -183,20 +183,4 @@ func main() {
 	fmt.Printf("%s\n", jsonBytes)
 
 	return
-
-	jsonBytes, err = json.Marshal(countryCounts)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Printf("%s\n", jsonBytes)
-
-	// return
-
-	jsonBytes, err = json.Marshal(stateCounts)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Printf("%s\n", jsonBytes)
 }

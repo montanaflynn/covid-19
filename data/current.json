@@ -135,6 +135,11 @@
       "recovered": 9,
       "deaths": 4
     },
+    "Central African Republic": {
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Chile": {
       "confirmed": 155,
       "recovered": 0,
@@ -166,6 +171,11 @@
       "deaths": 0
     },
     "DR Congo": {
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Demokratische Republik Kongo": {
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0
@@ -189,6 +199,11 @@
       "confirmed": 150,
       "recovered": 27,
       "deaths": 2
+    },
+    "Equatorial Guinea": {
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
     },
     "Estonia": {
       "confirmed": 205,
@@ -244,11 +259,6 @@
       "confirmed": 331,
       "recovered": 8,
       "deaths": 4
-    },
-    "Großbritannien": {
-      "confirmed": 1545,
-      "recovered": 53,
-      "deaths": 56
     },
     "Grönland": {
       "confirmed": 1,
@@ -515,7 +525,7 @@
       "recovered": 2,
       "deaths": 0
     },
-    "Palästinensische Autonomiegebiete": {
+    "Palestine": {
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0
@@ -560,11 +570,6 @@
       "recovered": 4,
       "deaths": 0
     },
-    "Republik Kongo": {
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
     "Romania": {
       "confirmed": 168,
       "recovered": 9,
@@ -590,12 +595,17 @@
       "recovered": 0,
       "deaths": 0
     },
+    "Saint Vincent and the Grenadines": {
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
     "San Marino": {
       "confirmed": 109,
       "recovered": 4,
       "deaths": 7
     },
-    "Saudiarabien": {
+    "Saudi Arabia": {
       "confirmed": 133,
       "recovered": 6,
       "deaths": 0
@@ -653,11 +663,6 @@
     "Sri Lanka": {
       "confirmed": 28,
       "recovered": 1,
-      "deaths": 0
-    },
-    "St. Vincent und die Grenadinen": {
-      "confirmed": 1,
-      "recovered": 0,
       "deaths": 0
     },
     "Sudan": {
@@ -725,6 +730,16 @@
       "recovered": 0,
       "deaths": 1
     },
+    "United Arab Emirates": {
+      "confirmed": 98,
+      "recovered": 23,
+      "deaths": 0
+    },
+    "United Kingdom": {
+      "confirmed": 1545,
+      "recovered": 53,
+      "deaths": 56
+    },
     "United States": {
       "confirmed": 4661,
       "recovered": 17,
@@ -740,7 +755,7 @@
       "recovered": 0,
       "deaths": 0
     },
-    "Vatikan": {
+    "Vatican City": {
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -750,28 +765,13 @@
       "recovered": 0,
       "deaths": 0
     },
-    "Vereinigte Arabische Emirate": {
-      "confirmed": 98,
-      "recovered": 23,
-      "deaths": 0
-    },
     "Vietnam": {
       "confirmed": 61,
       "recovered": 16,
       "deaths": 0
     },
-    "Zentralafrikanische Republik": {
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
     "Zypern": {
       "confirmed": 33,
-      "recovered": 0,
-      "deaths": 0
-    },
-    "Äquatorialguinea": {
-      "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     }

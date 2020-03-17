@@ -135,23 +135,13 @@
       "recovered": 9,
       "deaths": 4
     },
-    "Cayman Islands": {
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
-    "Central African Republic": {
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
     "Chile": {
       "confirmed": 155,
       "recovered": 0,
       "deaths": 0
     },
     "China": {
-      "confirmed": 81032,
+      "confirmed": 81033,
       "recovered": 67910,
       "deaths": 3217
     },
@@ -172,11 +162,6 @@
     },
     "Cuba": {
       "confirmed": 4,
-      "recovered": 0,
-      "deaths": 0
-    },
-    "Curaçao": {
-      "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
@@ -496,7 +481,7 @@
       "deaths": 0
     },
     "Netherlands": {
-      "confirmed": 1413,
+      "confirmed": 1414,
       "recovered": 2,
       "deaths": 24
     },
@@ -722,7 +707,7 @@
     },
     "Tschechien": {
       "confirmed": 298,
-      "recovered": 0,
+      "recovered": 3,
       "deaths": 0
     },
     "Tunisia": {
@@ -741,9 +726,9 @@
       "deaths": 1
     },
     "United States": {
-      "confirmed": 4465,
+      "confirmed": 4632,
       "recovered": 17,
-      "deaths": 78
+      "deaths": 85
     },
     "Uruguay": {
       "confirmed": 8,
@@ -802,11 +787,6 @@
       "recovered": 0,
       "deaths": 0
     },
-    "Amerikanische Jungferninseln": {
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
     "Arizona": {
       "confirmed": 18,
       "recovered": 1,
@@ -818,12 +798,12 @@
       "deaths": 0
     },
     "California": {
-      "confirmed": 530,
+      "confirmed": 557,
       "recovered": 6,
-      "deaths": 6
+      "deaths": 7
     },
     "Colorado": {
-      "confirmed": 135,
+      "confirmed": 160,
       "recovered": 0,
       "deaths": 1
     },
@@ -838,7 +818,7 @@
       "deaths": 0
     },
     "District of Columbia": {
-      "confirmed": 17,
+      "confirmed": 22,
       "recovered": 0,
       "deaths": 0
     },
@@ -878,7 +858,7 @@
       "deaths": 1
     },
     "Iowa": {
-      "confirmed": 22,
+      "confirmed": 23,
       "recovered": 0,
       "deaths": 0
     },
@@ -978,7 +958,7 @@
       "deaths": 10
     },
     "North Carolina": {
-      "confirmed": 39,
+      "confirmed": 38,
       "recovered": 0,
       "deaths": 0
     },
@@ -1033,7 +1013,7 @@
       "deaths": 0
     },
     "Texas": {
-      "confirmed": 84,
+      "confirmed": 85,
       "recovered": 0,
       "deaths": 0
     },
@@ -1058,9 +1038,9 @@
       "deaths": 1
     },
     "Washington": {
-      "confirmed": 794,
+      "confirmed": 904,
       "recovered": 1,
-      "deaths": 42
+      "deaths": 48
     },
     "West Virginia": {
       "confirmed": 0,

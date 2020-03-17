@@ -171,11 +171,6 @@
       "deaths": 0
     },
     "DR Congo": {
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
-    "Demokratische Republik Kongo": {
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0
@@ -230,7 +225,7 @@
       "recovered": 12,
       "deaths": 148
     },
-    "Französisch-Guyana": {
+    "French Guiana": {
       "confirmed": 11,
       "recovered": 0,
       "deaths": 0
@@ -260,7 +255,7 @@
       "recovered": 8,
       "deaths": 4
     },
-    "Grönland": {
+    "Greenland": {
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -568,6 +563,11 @@
     "Qatar": {
       "confirmed": 439,
       "recovered": 4,
+      "deaths": 0
+    },
+    "Republic of the Congo": {
+      "confirmed": 1,
+      "recovered": 0,
       "deaths": 0
     },
     "Romania": {

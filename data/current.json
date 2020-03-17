@@ -451,8 +451,8 @@
       "deaths": 0
     },
     "Moldawien": {
-      "confirmed": 23,
-      "recovered": 0,
+      "confirmed": 29,
+      "recovered": 1,
       "deaths": 0
     },
     "Monaco": {
@@ -461,12 +461,12 @@
       "deaths": 0
     },
     "Mongolia": {
-      "confirmed": 1,
+      "confirmed": 4,
       "recovered": 0,
       "deaths": 0
     },
     "Morocco": {
-      "confirmed": 29,
+      "confirmed": 37,
       "recovered": 1,
       "deaths": 1
     },
@@ -501,7 +501,7 @@
       "deaths": 0
     },
     "Norway": {
-      "confirmed": 1333,
+      "confirmed": 1347,
       "recovered": 1,
       "deaths": 3
     },
@@ -511,7 +511,7 @@
       "deaths": 0
     },
     "Pakistan": {
-      "confirmed": 136,
+      "confirmed": 183,
       "recovered": 2,
       "deaths": 0
     },
@@ -532,12 +532,12 @@
     },
     "Peru": {
       "confirmed": 86,
-      "recovered": 0,
+      "recovered": 1,
       "deaths": 0
     },
     "Philippines": {
       "confirmed": 142,
-      "recovered": 2,
+      "recovered": 5,
       "deaths": 12
     },
     "Poland": {
@@ -548,7 +548,7 @@
     "Portugal": {
       "confirmed": 331,
       "recovered": 3,
-      "deaths": 0
+      "deaths": 1
     },
     "Puerto Rico": {
       "confirmed": 3,
@@ -566,17 +566,17 @@
       "deaths": 0
     },
     "Romania": {
-      "confirmed": 158,
+      "confirmed": 168,
       "recovered": 9,
       "deaths": 0
     },
     "Russia": {
-      "confirmed": 90,
+      "confirmed": 93,
       "recovered": 8,
       "deaths": 0
     },
     "Rwanda": {
-      "confirmed": 5,
+      "confirmed": 7,
       "recovered": 0,
       "deaths": 0
     },
@@ -596,8 +596,8 @@
       "deaths": 7
     },
     "Saudiarabien": {
-      "confirmed": 118,
-      "recovered": 2,
+      "confirmed": 133,
+      "recovered": 6,
       "deaths": 0
     },
     "Senegal": {
@@ -606,7 +606,7 @@
       "deaths": 0
     },
     "Serbia": {
-      "confirmed": 55,
+      "confirmed": 57,
       "recovered": 1,
       "deaths": 0
     },
@@ -641,7 +641,7 @@
       "deaths": 0
     },
     "South Korea": {
-      "confirmed": 8236,
+      "confirmed": 8320,
       "recovered": 1137,
       "deaths": 75
     },

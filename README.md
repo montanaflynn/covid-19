@@ -1,4 +1,4 @@
-# Covid-19 Data
+# Covid-19 Data ![](https://github.com/montanaflynn/covid-19/workflows/Update%20Data/badge.svg)
 
 Current covid-19 data segmented into countries and states.
 

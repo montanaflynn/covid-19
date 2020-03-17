@@ -10,6 +10,7 @@ on:
 
 jobs:
   build:
+    name: Update Data
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'skip action')"
     steps:
@@ -23,14 +24,15 @@ jobs:
           key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
           restore-keys: |
             ${{ runner.os }}-go-
-      - run: go run *.go > data/current.json
-      - name: Commit data
+      - name: Run Program
+        run: go run *.go > data/current.json
+      - name: Commit Data
         continue-on-error: true
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Update current data" -a
-      - name: Push data
+      - name: Push Data
         if: success()
         uses: ad-m/github-push-action@master
         with:

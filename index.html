@@ -100,7 +100,7 @@
 
       svg.call(tip);
 
-      d3.json("https://raw.githubusercontent.com/montanaflynn/covid-19/master/data/current.json", function(rootData) {
+      d3.json("https://montanaflynn.github.io/covid-19/data/current.json", function(rootData) {
         var data = Object.entries(rootData.states).map(([key, value]) => ({key,value}));
         var dataArray = [];
         for (var d = 0; d < data.length; d++) {
@@ -113,7 +113,7 @@
           .domain([minVal, maxVal])
           .range([lowColor, highColor]);
 
-        d3.json("us-states.json", function(json) {
+        d3.json("https://d2ad6b4ur7yvpq.cloudfront.net/naturalearth-3.3.0/ne_110m_admin_1_states_provinces_shp.geojson", function(json) {
           for (var i = 0; i < data.length; i++) {
             var dataState = data[i].key;
             var dataValue = data[i].value.confirmed;

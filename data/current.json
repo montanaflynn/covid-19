@@ -11,12 +11,12 @@
       "deaths": 1
     },
     "Algeria": {
-      "confirmed": 54,
+      "confirmed": 60,
       "recovered": 12,
       "deaths": 4
     },
     "Andorra": {
-      "confirmed": 2,
+      "confirmed": 14,
       "recovered": 1,
       "deaths": 0
     },
@@ -26,13 +26,13 @@
       "deaths": 0
     },
     "Argentina": {
-      "confirmed": 56,
-      "recovered": 1,
+      "confirmed": 65,
+      "recovered": 3,
       "deaths": 2
     },
     "Armenia": {
       "confirmed": 52,
-      "recovered": 0,
+      "recovered": 1,
       "deaths": 0
     },
     "Aruba": {
@@ -47,11 +47,11 @@
     },
     "Austria": {
       "confirmed": 1018,
-      "recovered": 6,
+      "recovered": 8,
       "deaths": 3
     },
     "Azerbaijan": {
-      "confirmed": 15,
+      "confirmed": 25,
       "recovered": 6,
       "deaths": 1
     },
@@ -61,13 +61,13 @@
       "deaths": 0
     },
     "Bahrain": {
-      "confirmed": 214,
-      "recovered": 77,
+      "confirmed": 228,
+      "recovered": 81,
       "deaths": 1
     },
     "Bangladesh": {
       "confirmed": 8,
-      "recovered": 2,
+      "recovered": 3,
       "deaths": 0
     },
     "Belarus": {
@@ -78,7 +78,7 @@
     "Belgium": {
       "confirmed": 1058,
       "recovered": 1,
-      "deaths": 5
+      "deaths": 10
     },
     "Benin": {
       "confirmed": 1,
@@ -97,12 +97,12 @@
     },
     "Bosnia and Herzegovina": {
       "confirmed": 25,
-      "recovered": 0,
+      "recovered": 2,
       "deaths": 0
     },
     "Brazil": {
-      "confirmed": 200,
-      "recovered": 1,
+      "confirmed": 234,
+      "recovered": 2,
       "deaths": 0
     },
     "Brunei": {
@@ -111,7 +111,7 @@
       "deaths": 0
     },
     "Bulgaria": {
-      "confirmed": 52,
+      "confirmed": 62,
       "recovered": 0,
       "deaths": 2
     },
@@ -121,7 +121,7 @@
       "deaths": 0
     },
     "Cambodia": {
-      "confirmed": 7,
+      "confirmed": 12,
       "recovered": 1,
       "deaths": 0
     },
@@ -131,7 +131,7 @@
       "deaths": 0
     },
     "Canada": {
-      "confirmed": 415,
+      "confirmed": 439,
       "recovered": 9,
       "deaths": 4
     },
@@ -152,17 +152,17 @@
     },
     "Colombia": {
       "confirmed": 54,
-      "recovered": 0,
+      "recovered": 1,
       "deaths": 0
     },
     "Costa Rica": {
-      "confirmed": 35,
+      "confirmed": 41,
       "recovered": 0,
       "deaths": 0
     },
     "Croatia": {
       "confirmed": 57,
-      "recovered": 2,
+      "recovered": 3,
       "deaths": 0
     },
     "Cuba": {
@@ -183,15 +183,15 @@
     "Denmark": {
       "confirmed": 932,
       "recovered": 1,
-      "deaths": 3
+      "deaths": 4
     },
     "Dominican Republic": {
-      "confirmed": 11,
+      "confirmed": 21,
       "recovered": 0,
       "deaths": 0
     },
     "Ecuador": {
-      "confirmed": 37,
+      "confirmed": 58,
       "recovered": 0,
       "deaths": 2
     },
@@ -711,7 +711,7 @@
       "deaths": 0
     },
     "Tschechien": {
-      "confirmed": 298,
+      "confirmed": 344,
       "recovered": 3,
       "deaths": 0
     },
@@ -771,7 +771,7 @@
       "deaths": 0
     },
     "Zypern": {
-      "confirmed": 33,
+      "confirmed": 46,
       "recovered": 0,
       "deaths": 0
     }

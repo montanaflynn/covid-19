@@ -289,10 +289,10 @@
       "deaths": 0
     },
     "Germany": {
-      "updated": 1584446400000,
+      "updated": 1584457200000,
       "confirmed": 8086,
       "recovered": 69,
-      "deaths": 20
+      "deaths": 21
     },
     "Ghana": {
       "updated": 1584296418000,
@@ -373,10 +373,10 @@
       "deaths": 5
     },
     "Iran": {
-      "updated": 1584413583000,
-      "confirmed": 14991,
-      "recovered": 4996,
-      "deaths": 853
+      "updated": 1584457989000,
+      "confirmed": 16169,
+      "recovered": 5389,
+      "deaths": 988
     },
     "Iraq": {
       "updated": 1584413583000,
@@ -445,8 +445,8 @@
       "deaths": 0
     },
     "Kreuzfahrtschiffe und Sonstige": {
-      "updated": 1584108805000,
-      "confirmed": 696,
+      "updated": 1584377586000,
+      "confirmed": 743,
       "recovered": 325,
       "deaths": 7
     },
@@ -571,10 +571,10 @@
       "deaths": 0
     },
     "Netherlands": {
-      "updated": 1584369526000,
-      "confirmed": 1414,
+      "updated": 1584457991000,
+      "confirmed": 1706,
       "recovered": 2,
-      "deaths": 24
+      "deaths": 43
     },
     "New Zealand": {
       "updated": 1584445990000,
@@ -775,10 +775,10 @@
       "deaths": 81
     },
     "Spain": {
-      "updated": 1584448386000,
-      "confirmed": 11279,
+      "updated": 1584457989000,
+      "confirmed": 11309,
       "recovered": 1028,
-      "deaths": 499
+      "deaths": 509
     },
     "Sri Lanka": {
       "updated": 1584445990000,
@@ -805,8 +805,8 @@
       "deaths": 7
     },
     "Switzerland": {
-      "updated": 1584439991000,
-      "confirmed": 2330,
+      "updated": 1584457989000,
+      "confirmed": 2650,
       "recovered": 4,
       "deaths": 21
     },
@@ -871,14 +871,14 @@
       "deaths": 0
     },
     "United Kingdom": {
-      "updated": 1584413583000,
-      "confirmed": 1553,
+      "updated": 1584457989000,
+      "confirmed": 1960,
       "recovered": 53,
       "deaths": 56
     },
     "United States": {
       "updated": 1584405182000,
-      "confirmed": 4661,
+      "confirmed": 4614,
       "recovered": 17,
       "deaths": 85
     },
@@ -1033,12 +1033,6 @@
       "confirmed": 21,
       "recovered": 1,
       "deaths": 1
-    },
-    "Kreuzfahrtschiff \"Diamond Princess\"": {
-      "updated": 1584377586000,
-      "confirmed": 47,
-      "recovered": 0,
-      "deaths": 0
     },
     "Kreuzfahrtschiff \"Grand Princess\"": {
       "updated": 1584378803000,
@@ -1327,10 +1321,10 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1584442800000,
+      "updated": 1584457200000,
       "confirmed": 1105,
       "recovered": 7,
-      "deaths": 4
+      "deaths": 5
     },
     "Bayern": {
       "updated": 1584442800000,

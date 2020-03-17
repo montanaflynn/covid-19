@@ -34,14 +34,18 @@ type datum struct {
 }
 
 type cases struct {
+	Updated   int `json:"updated"`
 	Confirmed int `json:"confirmed"`
 	Recovered int `json:"recovered"`
 	Deaths    int `json:"deaths"`
 }
 
 type results struct {
-	Countries map[string]cases `json:"countries"`
-	States    map[string]cases `json:"states"`
+	Global  map[string]cases `json:"global"`
+	USA     map[string]cases `json:"usa"`
+	Canada  map[string]cases `json:"canada"`
+	Germany map[string]cases `json:"germany"`
+	China   map[string]cases `json:"china"`
 }
 
 func main() {
@@ -128,7 +132,10 @@ func main() {
 	}
 
 	countryCounts := make(map[string]cases)
-	stateCounts := make(map[string]cases)
+	usaCounts := make(map[string]cases)
+	chinaCounts := make(map[string]cases)
+	germanyCounts := make(map[string]cases)
+	canadaCounts := make(map[string]cases)
 
 	query := gountries.New()
 
@@ -152,29 +159,56 @@ func main() {
 
 		c, ok := countryCounts[countryName]
 		if !ok {
-			countryCounts[countryName] = cases{d.confirmed, d.recovered, d.deaths}
+			countryCounts[countryName] = cases{d.updated, d.confirmed, d.recovered, d.deaths}
 		} else {
 			updatedConfirmed := c.Confirmed + d.confirmed
 			updatedRecovered := c.Recovered + d.recovered
 			updatedDeaths := c.Deaths + d.deaths
-			countryCounts[countryName] = cases{updatedConfirmed, updatedRecovered, updatedDeaths}
+			updated := d.updated
+			if c.Updated > d.updated {
+				updated = c.Updated
+			}
+			countryCounts[countryName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths}
 		}
 
-		if countryName == "United States" {
-			stateName := d.label
-			c, ok := stateCounts[stateName]
+		if countryName == "United States" || countryName == "Canada" || countryName == "Germany" || countryName == "China" {
+
+			countMap := map[string]cases{}
+			switch countryName {
+			case "United States":
+				countMap = usaCounts
+			case "Canada":
+				countMap = canadaCounts
+			case "Germany":
+				countMap = germanyCounts
+			case "China":
+				countMap = chinaCounts
+			}
+
+			labelName := d.label
+			c, ok := countMap[labelName]
 			if !ok {
-				stateCounts[stateName] = cases{d.confirmed, d.recovered, d.deaths}
+				countMap[labelName] = cases{d.updated, d.confirmed, d.recovered, d.deaths}
 			} else {
 				updatedConfirmed := c.Confirmed + d.confirmed
 				updatedRecovered := c.Recovered + d.recovered
 				updatedDeaths := c.Deaths + d.deaths
-				stateCounts[stateName] = cases{updatedConfirmed, updatedRecovered, updatedDeaths}
+				updated := d.updated
+				if c.Updated > d.updated {
+					updated = c.Updated
+				}
+				countMap[labelName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths}
 			}
 		}
 	}
 
-	output := results{countryCounts, stateCounts}
+	output := results{
+		Global:  countryCounts,
+		USA:     usaCounts,
+		Canada:  canadaCounts,
+		Germany: germanyCounts,
+		China:   chinaCounts,
+	}
 	jsonBytes, err := json.MarshalIndent(output, "", "  ")
 	if err != nil {
 		log.Fatal(err)

@@ -101,7 +101,7 @@
       svg.call(tip);
 
       d3.json("https://montanaflynn.github.io/covid-19/data/current.json", function(rootData) {
-        var data = Object.entries(rootData.states).map(([key, value]) => ({key,value}));
+        var data = Object.entries(rootData.usa).map(([key, value]) => ({key,value}));
         var dataArray = [];
         for (var d = 0; d < data.length; d++) {
           dataArray.push(parseFloat(data[d].value.confirmed));

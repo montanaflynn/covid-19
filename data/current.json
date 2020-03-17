@@ -1,36 +1,42 @@
 {
-  "countries": {
+  "global": {
     "Afghanistan": {
       "confirmed": 22,
       "recovered": 1,
       "deaths": 0
     },
     "Albania": {
+      "updated": 1584369525000,
       "confirmed": 51,
       "recovered": 0,
       "deaths": 1
     },
     "Algeria": {
+      "updated": 1584414795000,
       "confirmed": 60,
       "recovered": 12,
       "deaths": 4
     },
     "Andorra": {
+      "updated": 1584414795000,
       "confirmed": 14,
       "recovered": 1,
       "deaths": 0
     },
     "Antigua and Barbuda": {
+      "updated": 1584296419000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Argentina": {
+      "updated": 1584414795000,
       "confirmed": 65,
       "recovered": 3,
       "deaths": 2
     },
     "Armenia": {
+      "updated": 1584414795000,
       "confirmed": 52,
       "recovered": 1,
       "deaths": 0
@@ -56,11 +62,13 @@
       "deaths": 1
     },
     "Bahamas": {
+      "updated": 1584329583000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Bahrain": {
+      "updated": 1584414795000,
       "confirmed": 228,
       "recovered": 81,
       "deaths": 1
@@ -71,41 +79,49 @@
       "deaths": 0
     },
     "Belarus": {
+      "updated": 1584369525000,
       "confirmed": 36,
       "recovered": 3,
       "deaths": 0
     },
     "Belgium": {
+      "updated": 1584414795000,
       "confirmed": 1058,
       "recovered": 1,
       "deaths": 10
     },
     "Benin": {
+      "updated": 1584369526000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Bhutan": {
+      "updated": 1584138122000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Bolivia": {
+      "updated": 1584369525000,
       "confirmed": 11,
       "recovered": 0,
       "deaths": 0
     },
     "Bosnia and Herzegovina": {
+      "updated": 1584414795000,
       "confirmed": 25,
       "recovered": 2,
       "deaths": 0
     },
     "Brazil": {
+      "updated": 1584414795000,
       "confirmed": 234,
       "recovered": 2,
       "deaths": 0
     },
     "Brunei": {
+      "updated": 1584369525000,
       "confirmed": 54,
       "recovered": 0,
       "deaths": 0
@@ -116,6 +132,7 @@
       "deaths": 2
     },
     "Burkina Faso": {
+      "updated": 1584369525000,
       "confirmed": 15,
       "recovered": 0,
       "deaths": 0
@@ -131,11 +148,13 @@
       "deaths": 0
     },
     "Canada": {
+      "updated": 1584414798000,
       "confirmed": 439,
       "recovered": 9,
       "deaths": 4
     },
     "Central African Republic": {
+      "updated": 1584329583000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -156,6 +175,7 @@
       "deaths": 0
     },
     "Costa Rica": {
+      "updated": 1584414795000,
       "confirmed": 41,
       "recovered": 0,
       "deaths": 0
@@ -166,6 +186,7 @@
       "deaths": 0
     },
     "Cuba": {
+      "updated": 1584143582000,
       "confirmed": 4,
       "recovered": 0,
       "deaths": 0
@@ -181,21 +202,25 @@
       "deaths": 4
     },
     "Dominican Republic": {
+      "updated": 1584432802000,
       "confirmed": 21,
       "recovered": 0,
       "deaths": 1
     },
     "Ecuador": {
+      "updated": 1584414795000,
       "confirmed": 58,
       "recovered": 0,
       "deaths": 2
     },
     "Egypt": {
+      "updated": 1584413583000,
       "confirmed": 166,
       "recovered": 32,
       "deaths": 4
     },
     "Equatorial Guinea": {
+      "updated": 1584254514000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -206,11 +231,13 @@
       "deaths": 0
     },
     "Eswatini": {
+      "updated": 1584254514000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Ethiopia": {
+      "updated": 1584369525000,
       "confirmed": 5,
       "recovered": 0,
       "deaths": 0
@@ -226,11 +253,13 @@
       "deaths": 148
     },
     "French Guiana": {
+      "updated": 1584369526000,
       "confirmed": 11,
       "recovered": 0,
       "deaths": 0
     },
     "Gabon": {
+      "updated": 1584192784000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -246,16 +275,19 @@
       "deaths": 20
     },
     "Ghana": {
+      "updated": 1584296418000,
       "confirmed": 6,
       "recovered": 0,
       "deaths": 0
     },
     "Greece": {
+      "updated": 1584413583000,
       "confirmed": 352,
       "recovered": 8,
       "deaths": 4
     },
     "Greenland": {
+      "updated": 1584377586000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -266,6 +298,7 @@
       "deaths": 0
     },
     "Guam": {
+      "updated": 1584324796000,
       "confirmed": 3,
       "recovered": 0,
       "deaths": 0
@@ -276,6 +309,7 @@
       "deaths": 1
     },
     "Guinea": {
+      "updated": 1584254514000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -296,6 +330,7 @@
       "deaths": 1
     },
     "Iceland": {
+      "updated": 1584324795000,
       "confirmed": 180,
       "recovered": 0,
       "deaths": 0
@@ -311,16 +346,19 @@
       "deaths": 5
     },
     "Iran": {
+      "updated": 1584413583000,
       "confirmed": 14991,
       "recovered": 4996,
       "deaths": 853
     },
     "Iraq": {
+      "updated": 1584413583000,
       "confirmed": 133,
       "recovered": 32,
       "deaths": 10
     },
     "Ireland": {
+      "updated": 1584413583000,
       "confirmed": 223,
       "recovered": 5,
       "deaths": 2
@@ -331,6 +369,7 @@
       "deaths": 0
     },
     "Italy": {
+      "updated": 1584379983000,
       "confirmed": 27980,
       "recovered": 2749,
       "deaths": 2158
@@ -346,6 +385,7 @@
       "deaths": 0
     },
     "Japan": {
+      "updated": 1584439991000,
       "confirmed": 833,
       "recovered": 139,
       "deaths": 28
@@ -361,16 +401,19 @@
       "deaths": 0
     },
     "Kenya": {
+      "updated": 1584318131000,
       "confirmed": 3,
       "recovered": 0,
       "deaths": 0
     },
     "Kosovo": {
+      "updated": 1584296419000,
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0
     },
     "Kreuzfahrtschiffe und Sonstige": {
+      "updated": 1584108805000,
       "confirmed": 696,
       "recovered": 325,
       "deaths": 7
@@ -391,6 +434,7 @@
       "deaths": 3
     },
     "Liberia": {
+      "updated": 1584447196000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -411,16 +455,19 @@
       "deaths": 1
     },
     "Malaysia": {
+      "updated": 1584447194000,
       "confirmed": 566,
       "recovered": 42,
       "deaths": 2
     },
     "Maldives": {
+      "updated": 1584296418000,
       "confirmed": 13,
       "recovered": 0,
       "deaths": 0
     },
     "Malta": {
+      "updated": 1584372783000,
       "confirmed": 30,
       "recovered": 2,
       "deaths": 0
@@ -431,11 +478,13 @@
       "deaths": 1
     },
     "Mauritania": {
+      "updated": 1584296419000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Mayotte": {
+      "updated": 1584369525000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -446,36 +495,43 @@
       "deaths": 0
     },
     "Moldawien": {
+      "updated": 1584412390000,
       "confirmed": 29,
       "recovered": 1,
       "deaths": 0
     },
     "Monaco": {
+      "updated": 1584369525000,
       "confirmed": 7,
       "recovered": 0,
       "deaths": 0
     },
     "Mongolia": {
+      "updated": 1584412390000,
       "confirmed": 4,
       "recovered": 0,
       "deaths": 0
     },
     "Morocco": {
+      "updated": 1584412389000,
       "confirmed": 37,
       "recovered": 1,
       "deaths": 1
     },
     "Namibia": {
+      "updated": 1584203583000,
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0
     },
     "Nepal": {
+      "updated": 1584138123000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0
     },
     "Netherlands": {
+      "updated": 1584369526000,
       "confirmed": 1414,
       "recovered": 2,
       "deaths": 24
@@ -511,6 +567,7 @@
       "deaths": 0
     },
     "Palestine": {
+      "updated": 1583956382000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0
@@ -526,6 +583,7 @@
       "deaths": 0
     },
     "Peru": {
+      "updated": 1584412389000,
       "confirmed": 86,
       "recovered": 1,
       "deaths": 0
@@ -541,21 +599,25 @@
       "deaths": 5
     },
     "Portugal": {
+      "updated": 1584412389000,
       "confirmed": 331,
       "recovered": 3,
       "deaths": 1
     },
     "Puerto Rico": {
+      "updated": 1584369525000,
       "confirmed": 3,
       "recovered": 0,
       "deaths": 0
     },
     "Qatar": {
+      "updated": 1584371589000,
       "confirmed": 439,
       "recovered": 4,
       "deaths": 0
     },
     "Republic of the Congo": {
+      "updated": 1584369525000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -566,36 +628,43 @@
       "deaths": 0
     },
     "Russia": {
+      "updated": 1584412389000,
       "confirmed": 93,
       "recovered": 8,
       "deaths": 0
     },
     "Rwanda": {
+      "updated": 1584412390000,
       "confirmed": 7,
       "recovered": 0,
       "deaths": 0
     },
     "Réunion": {
+      "updated": 1584429325000,
       "confirmed": 9,
       "recovered": 0,
       "deaths": 0
     },
     "Saint Lucia": {
+      "updated": 1584419539000,
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0
     },
     "Saint Vincent and the Grenadines": {
+      "updated": 1584203583000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "San Marino": {
+      "updated": 1584322383000,
       "confirmed": 109,
       "recovered": 4,
       "deaths": 7
     },
     "Saudi Arabia": {
+      "updated": 1584412389000,
       "confirmed": 133,
       "recovered": 6,
       "deaths": 0
@@ -616,31 +685,37 @@
       "deaths": 0
     },
     "Singapore": {
+      "updated": 1584369525000,
       "confirmed": 243,
       "recovered": 109,
       "deaths": 0
     },
     "Slovakia": {
+      "updated": 1584411214000,
       "confirmed": 72,
       "recovered": 0,
       "deaths": 0
     },
     "Slovenia": {
+      "updated": 1584369525000,
       "confirmed": 253,
       "recovered": 0,
       "deaths": 1
     },
     "Somalia": {
+      "updated": 1584369526000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "South Africa": {
+      "updated": 1584369525000,
       "confirmed": 62,
       "recovered": 0,
       "deaths": 0
     },
     "South Korea": {
+      "updated": 1584441183000,
       "confirmed": 8320,
       "recovered": 1407,
       "deaths": 81
@@ -656,11 +731,13 @@
       "deaths": 0
     },
     "Sudan": {
+      "updated": 1584148412000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 1
     },
     "Suriname": {
+      "updated": 1584203583000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -671,6 +748,7 @@
       "deaths": 7
     },
     "Switzerland": {
+      "updated": 1584439991000,
       "confirmed": 2330,
       "recovered": 4,
       "deaths": 21
@@ -681,6 +759,7 @@
       "deaths": 1
     },
     "Tanzania": {
+      "updated": 1584408783000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -691,11 +770,13 @@
       "deaths": 1
     },
     "Togo": {
+      "updated": 1584138122000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Trinidad and Tobago": {
+      "updated": 1584369525000,
       "confirmed": 4,
       "recovered": 0,
       "deaths": 0
@@ -711,16 +792,19 @@
       "deaths": 0
     },
     "Turkey": {
+      "updated": 1584411226000,
       "confirmed": 47,
       "recovered": 0,
       "deaths": 0
     },
     "Ukraine": {
+      "updated": 1584393197000,
       "confirmed": 7,
       "recovered": 0,
       "deaths": 1
     },
     "United Arab Emirates": {
+      "updated": 1584318131000,
       "confirmed": 98,
       "recovered": 23,
       "deaths": 0
@@ -731,11 +815,13 @@
       "deaths": 56
     },
     "United States": {
+      "updated": 1584405182000,
       "confirmed": 4661,
       "recovered": 17,
       "deaths": 85
     },
     "Uruguay": {
+      "updated": 1584411234000,
       "confirmed": 29,
       "recovered": 0,
       "deaths": 0
@@ -746,6 +832,7 @@
       "deaths": 0
     },
     "Vatican City": {
+      "updated": 1584138122000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -756,296 +843,726 @@
       "deaths": 0
     },
     "Vietnam": {
+      "updated": 1584370384000,
       "confirmed": 61,
       "recovered": 16,
       "deaths": 0
     },
     "Zypern": {
+      "updated": 1584414795000,
       "confirmed": 46,
       "recovered": 0,
       "deaths": 0
     }
   },
-  "states": {
+  "usa": {
     "Alabama": {
+      "updated": 1584397983000,
       "confirmed": 29,
       "recovered": 0,
       "deaths": 0
     },
     "Alaska": {
+      "updated": 1584111183000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Arizona": {
+      "updated": 1584378803000,
       "confirmed": 18,
       "recovered": 1,
       "deaths": 0
     },
     "Arkansas": {
+      "updated": 1584378803000,
       "confirmed": 22,
       "recovered": 0,
       "deaths": 0
     },
     "California": {
+      "updated": 1584402783000,
       "confirmed": 557,
       "recovered": 6,
       "deaths": 7
     },
     "Colorado": {
+      "updated": 1584402783000,
       "confirmed": 160,
       "recovered": 0,
       "deaths": 1
     },
     "Connecticut": {
+      "updated": 1584405182000,
       "confirmed": 41,
       "recovered": 0,
       "deaths": 0
     },
     "Delaware": {
+      "updated": 1584389600000,
       "confirmed": 8,
       "recovered": 0,
       "deaths": 0
     },
     "District of Columbia": {
+      "updated": 1584402783000,
       "confirmed": 22,
       "recovered": 0,
       "deaths": 0
     },
     "Florida": {
+      "updated": 1584403991000,
       "confirmed": 160,
       "recovered": 0,
       "deaths": 5
     },
     "Georgia": {
+      "updated": 1584377586000,
       "confirmed": 121,
       "recovered": 0,
       "deaths": 1
     },
     "Guam": {
+      "updated": 1584296419000,
       "confirmed": 3,
       "recovered": 0,
       "deaths": 0
     },
     "Hawaii": {
+      "updated": 1584403991000,
       "confirmed": 8,
       "recovered": 0,
       "deaths": 0
     },
     "Idaho": {
+      "updated": 1584296419000,
       "confirmed": 5,
       "recovered": 0,
       "deaths": 0
     },
     "Illinois": {
+      "updated": 1584396801000,
       "confirmed": 105,
       "recovered": 2,
       "deaths": 0
     },
     "Indiana": {
+      "updated": 1584397983000,
       "confirmed": 25,
       "recovered": 0,
       "deaths": 1
     },
     "Iowa": {
+      "updated": 1584402783000,
       "confirmed": 23,
       "recovered": 0,
       "deaths": 0
     },
     "Kansas": {
+      "updated": 1584378803000,
       "confirmed": 11,
       "recovered": 0,
       "deaths": 1
     },
     "Kentucky": {
+      "updated": 1584383583000,
       "confirmed": 21,
       "recovered": 1,
       "deaths": 1
     },
     "Kreuzfahrtschiff \"Diamond Princess\"": {
+      "updated": 1584377586000,
       "confirmed": 47,
       "recovered": 0,
       "deaths": 0
     },
     "Kreuzfahrtschiff \"Grand Princess\"": {
+      "updated": 1584378803000,
       "confirmed": 20,
       "recovered": 0,
       "deaths": 0
     },
     "Louisiana": {
+      "updated": 1584396801000,
       "confirmed": 136,
       "recovered": 0,
       "deaths": 3
     },
     "Maine": {
+      "updated": 1584382452000,
       "confirmed": 17,
       "recovered": 0,
       "deaths": 0
     },
     "Maryland": {
+      "updated": 1584405182000,
       "confirmed": 42,
       "recovered": 3,
       "deaths": 0
     },
     "Massachusetts": {
+      "updated": 1584395583000,
       "confirmed": 197,
       "recovered": 1,
       "deaths": 0
     },
     "Michigan": {
+      "updated": 1584403991000,
       "confirmed": 54,
       "recovered": 0,
       "deaths": 0
     },
     "Minnesota": {
+      "updated": 1584377586000,
       "confirmed": 54,
       "recovered": 0,
       "deaths": 0
     },
     "Mississippi": {
+      "updated": 1584397983000,
       "confirmed": 13,
       "recovered": 0,
       "deaths": 0
     },
     "Missouri": {
+      "updated": 1584378803000,
       "confirmed": 6,
       "recovered": 0,
       "deaths": 0
     },
     "Montana": {
+      "updated": 1584296419000,
       "confirmed": 7,
       "recovered": 0,
       "deaths": 0
     },
     "Nebraska": {
+      "updated": 1584378803000,
       "confirmed": 18,
       "recovered": 0,
       "deaths": 0
     },
     "Nevada": {
+      "updated": 1584389600000,
       "confirmed": 45,
       "recovered": 0,
       "deaths": 1
     },
     "New Hampshire": {
+      "updated": 1584397983000,
       "confirmed": 17,
       "recovered": 0,
       "deaths": 0
     },
     "New Jersey": {
+      "updated": 1584396801000,
       "confirmed": 178,
       "recovered": 1,
       "deaths": 2
     },
     "New Mexico": {
+      "updated": 1584403991000,
       "confirmed": 21,
       "recovered": 0,
       "deaths": 0
     },
     "New York": {
+      "updated": 1584395583000,
       "confirmed": 967,
       "recovered": 0,
       "deaths": 10
     },
     "North Carolina": {
+      "updated": 1584405182000,
       "confirmed": 39,
       "recovered": 0,
       "deaths": 0
     },
     "North Dakota": {
+      "updated": 1584005583000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Ohio": {
+      "updated": 1584389601000,
       "confirmed": 50,
       "recovered": 0,
       "deaths": 0
     },
     "Oklahoma": {
+      "updated": 1584382452000,
       "confirmed": 10,
       "recovered": 0,
       "deaths": 0
     },
     "Oregon": {
+      "updated": 1584325989000,
       "confirmed": 39,
       "recovered": 0,
       "deaths": 1
     },
     "Pennsylvania": {
+      "updated": 1584403991000,
       "confirmed": 79,
       "recovered": 0,
       "deaths": 0
     },
     "Puerto Rico": {
+      "updated": 1584318131000,
       "confirmed": 5,
       "recovered": 0,
       "deaths": 0
     },
     "Rhode Island": {
+      "updated": 1584382452000,
       "confirmed": 21,
       "recovered": 0,
       "deaths": 0
     },
     "South Carolina": {
+      "updated": 1584397983000,
       "confirmed": 33,
       "recovered": 0,
       "deaths": 1
     },
     "South Dakota": {
+      "updated": 1584389600000,
       "confirmed": 10,
       "recovered": 0,
       "deaths": 1
     },
     "Tennessee": {
+      "updated": 1584396801000,
       "confirmed": 52,
       "recovered": 0,
       "deaths": 0
     },
     "Texas": {
+      "updated": 1584402783000,
       "confirmed": 85,
       "recovered": 0,
       "deaths": 0
     },
     "Utah": {
+      "updated": 1584397983000,
       "confirmed": 39,
       "recovered": 0,
       "deaths": 0
     },
     "Vermont": {
+      "updated": 1584378803000,
       "confirmed": 12,
       "recovered": 0,
       "deaths": 0
     },
     "Virgin Islands": {
+      "updated": 1584318131000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Virginia": {
+      "updated": 1584405182000,
       "confirmed": 51,
       "recovered": 0,
       "deaths": 1
     },
     "Washington": {
+      "updated": 1584402783000,
       "confirmed": 904,
       "recovered": 1,
       "deaths": 48
     },
     "West Virginia": {
+      "updated": 1583803984000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0
     },
     "Wisconsin": {
+      "updated": 1584405182000,
       "confirmed": 48,
       "recovered": 1,
       "deaths": 0
     },
     "Wyoming": {
+      "updated": 1584240783000,
       "confirmed": 3,
       "recovered": 0,
       "deaths": 0
+    }
+  },
+  "canada": {
+    "Alberta": {
+      "updated": 1584414798000,
+      "confirmed": 74,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "British Columbia": {
+      "updated": 1584385993000,
+      "confirmed": 103,
+      "recovered": 4,
+      "deaths": 4
+    },
+    "Kreuzfahrtschiff \"Grand Princess\"": {
+      "updated": 1584414798000,
+      "confirmed": 8,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Manitoba": {
+      "updated": 1584327192000,
+      "confirmed": 7,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "New Brunswick": {
+      "updated": 1584327192000,
+      "confirmed": 6,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Newfoundland and Labrador": {
+      "updated": 1584238401000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Nova Scotia": {
+      "updated": 1584381183000,
+      "confirmed": 5,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Ontario": {
+      "updated": 1584375206000,
+      "confirmed": 177,
+      "recovered": 5,
+      "deaths": 0
+    },
+    "Prince Edward Island": {
+      "updated": 1584238401000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Quebec": {
+      "updated": 1584389600000,
+      "confirmed": 50,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Saskatchewan": {
+      "updated": 1584389600000,
+      "confirmed": 7,
+      "recovered": 0,
+      "deaths": 0
+    }
+  },
+  "germany": {
+    "Baden-Württemberg": {
+      "updated": 1584442800000,
+      "confirmed": 1105,
+      "recovered": 7,
+      "deaths": 4
+    },
+    "Bayern": {
+      "updated": 1584442800000,
+      "confirmed": 1352,
+      "recovered": 14,
+      "deaths": 5
+    },
+    "Berlin": {
+      "updated": 1584381600000,
+      "confirmed": 332,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Brandenburg": {
+      "updated": 1584439200000,
+      "confirmed": 104,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Bremen": {
+      "updated": 1584435600000,
+      "confirmed": 57,
+      "recovered": 1,
+      "deaths": 0
+    },
+    "Hamburg": {
+      "updated": 1584446400000,
+      "confirmed": 312,
+      "recovered": 1,
+      "deaths": 1
+    },
+    "Hessen": {
+      "updated": 1584356400000,
+      "confirmed": 342,
+      "recovered": 2,
+      "deaths": 0
+    },
+    "Mecklenburg-Vorpommern": {
+      "updated": 1584370800000,
+      "confirmed": 51,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Niedersachsen": {
+      "updated": 1584446400000,
+      "confirmed": 392,
+      "recovered": 1,
+      "deaths": 0
+    },
+    "Nordrhein-Westfalen": {
+      "updated": 1584435600000,
+      "confirmed": 3060,
+      "recovered": 39,
+      "deaths": 10
+    },
+    "Repatriierte": {
+      "updated": 1584342000000,
+      "confirmed": 2,
+      "recovered": 2,
+      "deaths": 0
+    },
+    "Rheinland-Pfalz": {
+      "updated": 1584381600000,
+      "confirmed": 325,
+      "recovered": 1,
+      "deaths": 0
+    },
+    "Saarland": {
+      "updated": 1584367200000,
+      "confirmed": 85,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Sachsen": {
+      "updated": 1584378000000,
+      "confirmed": 152,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Sachsen-Anhalt": {
+      "updated": 1584439200000,
+      "confirmed": 93,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Schleswig-Holstein": {
+      "updated": 1584439200000,
+      "confirmed": 145,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Thüringen": {
+      "updated": 1584381600000,
+      "confirmed": 67,
+      "recovered": 1,
+      "deaths": 0
+    }
+  },
+  "china": {
+    "Anhui": {
+      "updated": 1583893094000,
+      "confirmed": 990,
+      "recovered": 984,
+      "deaths": 6
+    },
+    "Chongqing": {
+      "updated": 1584244384000,
+      "confirmed": 576,
+      "recovered": 570,
+      "deaths": 6
+    },
+    "Fujian": {
+      "updated": 1583893094000,
+      "confirmed": 296,
+      "recovered": 295,
+      "deaths": 1
+    },
+    "Gansu": {
+      "updated": 1584296418000,
+      "confirmed": 133,
+      "recovered": 91,
+      "deaths": 2
+    },
+    "Guangdong": {
+      "updated": 1584409983000,
+      "confirmed": 1364,
+      "recovered": 1307,
+      "deaths": 8
+    },
+    "Guangxi": {
+      "updated": 1584405182000,
+      "confirmed": 253,
+      "recovered": 248,
+      "deaths": 2
+    },
+    "Guizhou": {
+      "updated": 1584430383000,
+      "confirmed": 147,
+      "recovered": 144,
+      "deaths": 2
+    },
+    "Hainan": {
+      "updated": 1584369525000,
+      "confirmed": 168,
+      "recovered": 161,
+      "deaths": 6
+    },
+    "Hebei": {
+      "updated": 1584097743000,
+      "confirmed": 318,
+      "recovered": 310,
+      "deaths": 6
+    },
+    "Heilongjiang": {
+      "updated": 1584408782000,
+      "confirmed": 482,
+      "recovered": 456,
+      "deaths": 13
+    },
+    "Henan": {
+      "updated": 1584179588000,
+      "confirmed": 1273,
+      "recovered": 1250,
+      "deaths": 22
+    },
+    "Hong Kong": {
+      "updated": 1584439991000,
+      "confirmed": 162,
+      "recovered": 88,
+      "deaths": 4
+    },
+    "Hubei (Wuhan)": {
+      "updated": 1584445990000,
+      "confirmed": 67799,
+      "recovered": 56003,
+      "deaths": 3111
+    },
+    "Hunan": {
+      "updated": 1584174783000,
+      "confirmed": 1018,
+      "recovered": 1014,
+      "deaths": 4
+    },
+    "Innere Mongolei": {
+      "updated": 1584369525000,
+      "confirmed": 75,
+      "recovered": 73,
+      "deaths": 1
+    },
+    "Jiangsu": {
+      "updated": 1584237182000,
+      "confirmed": 631,
+      "recovered": 631,
+      "deaths": 0
+    },
+    "Jiangxi": {
+      "updated": 1583979184000,
+      "confirmed": 935,
+      "recovered": 934,
+      "deaths": 1
+    },
+    "Jilin": {
+      "updated": 1584318130000,
+      "confirmed": 93,
+      "recovered": 92,
+      "deaths": 1
+    },
+    "Liaoning": {
+      "updated": 1584447193000,
+      "confirmed": 125,
+      "recovered": 120,
+      "deaths": 1
+    },
+    "Macau": {
+      "updated": 1584419538000,
+      "confirmed": 12,
+      "recovered": 10,
+      "deaths": 0
+    },
+    "Ningxia": {
+      "updated": 1584369525000,
+      "confirmed": 75,
+      "recovered": 75,
+      "deaths": 0
+    },
+    "Peking (Beijing)": {
+      "updated": 1584442383000,
+      "confirmed": 456,
+      "recovered": 369,
+      "deaths": 8
+    },
+    "Qinghai": {
+      "updated": 1583893094000,
+      "confirmed": 18,
+      "recovered": 18,
+      "deaths": 0
+    },
+    "Shaanxi": {
+      "updated": 1584442383000,
+      "confirmed": 246,
+      "recovered": 236,
+      "deaths": 3
+    },
+    "Shandong": {
+      "updated": 1584405182000,
+      "confirmed": 761,
+      "recovered": 746,
+      "deaths": 7
+    },
+    "Shanghai": {
+      "updated": 1584411200000,
+      "confirmed": 358,
+      "recovered": 325,
+      "deaths": 3
+    },
+    "Shanxi": {
+      "updated": 1584097743000,
+      "confirmed": 133,
+      "recovered": 133,
+      "deaths": 0
+    },
+    "Sichuan": {
+      "updated": 1584433982000,
+      "confirmed": 540,
+      "recovered": 520,
+      "deaths": 3
+    },
+    "Tianjin": {
+      "updated": 1584296418000,
+      "confirmed": 136,
+      "recovered": 133,
+      "deaths": 3
+    },
+    "Tibet": {
+      "updated": 1583893094000,
+      "confirmed": 1,
+      "recovered": 1,
+      "deaths": 0
+    },
+    "Xinjiang": {
+      "updated": 1583893094000,
+      "confirmed": 76,
+      "recovered": 73,
+      "deaths": 3
+    },
+    "Yunnan": {
+      "updated": 1584402782000,
+      "confirmed": 176,
+      "recovered": 172,
+      "deaths": 2
+    },
+    "Zhejiang": {
+      "updated": 1584411201000,
+      "confirmed": 1232,
+      "recovered": 1216,
+      "deaths": 1
     }
   }
 }

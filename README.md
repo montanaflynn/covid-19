@@ -10,7 +10,13 @@ A [GitHub action](https://github.com/montanaflynn/covid-19/blob/master/.github/w
 
 If you just want the current data in JSON format it's available here:
 
-https://raw.githubusercontent.com/montanaflynn/covid-19/master/data/current.json
+https://montanaflynn.github.io/covid-19/data/current.json
+
+### Website
+
+If you want to see the current cases in the United States by State:
+
+https://montanaflynn.github.io/covid-19
 
 ### Example Usage
 
@@ -33,3 +39,9 @@ go run *.go
   }
 }
 ```
+
+### TODO
+
+- Better Country Name Translation
+- Toggle between US and World in Website
+- Add table with sorting and filtering to Website

@@ -196,9 +196,9 @@
       "deaths": 2
     },
     "Egypt": {
-      "confirmed": 150,
-      "recovered": 27,
-      "deaths": 2
+      "confirmed": 166,
+      "recovered": 32,
+      "deaths": 4
     },
     "Equatorial Guinea": {
       "confirmed": 1,
@@ -256,7 +256,7 @@
       "deaths": 0
     },
     "Greece": {
-      "confirmed": 331,
+      "confirmed": 352,
       "recovered": 8,
       "deaths": 4
     },
@@ -291,7 +291,7 @@
       "deaths": 0
     },
     "Guyana": {
-      "confirmed": 4,
+      "confirmed": 11,
       "recovered": 0,
       "deaths": 1
     },
@@ -302,7 +302,7 @@
     },
     "Hungary": {
       "confirmed": 39,
-      "recovered": 1,
+      "recovered": 2,
       "deaths": 1
     },
     "Iceland": {
@@ -322,21 +322,21 @@
     },
     "Iran": {
       "confirmed": 14991,
-      "recovered": 4590,
+      "recovered": 4996,
       "deaths": 853
     },
     "Iraq": {
-      "confirmed": 124,
-      "recovered": 26,
+      "confirmed": 133,
+      "recovered": 32,
       "deaths": 10
     },
     "Ireland": {
-      "confirmed": 169,
-      "recovered": 0,
+      "confirmed": 223,
+      "recovered": 5,
       "deaths": 2
     },
     "Israel": {
-      "confirmed": 255,
+      "confirmed": 298,
       "recovered": 4,
       "deaths": 0
     },
@@ -351,13 +351,13 @@
       "deaths": 0
     },
     "Jamaica": {
-      "confirmed": 10,
+      "confirmed": 15,
       "recovered": 2,
       "deaths": 0
     },
     "Japan": {
-      "confirmed": 825,
-      "recovered": 144,
+      "confirmed": 833,
+      "recovered": 139,
       "deaths": 27
     },
     "Jersey": {
@@ -366,7 +366,7 @@
       "deaths": 0
     },
     "Jordan": {
-      "confirmed": 17,
+      "confirmed": 29,
       "recovered": 1,
       "deaths": 0
     },
@@ -401,8 +401,8 @@
       "deaths": 0
     },
     "Lebanon": {
-      "confirmed": 99,
-      "recovered": 1,
+      "confirmed": 109,
+      "recovered": 3,
       "deaths": 3
     },
     "Liberia": {
@@ -421,7 +421,7 @@
       "deaths": 0
     },
     "Luxembourg": {
-      "confirmed": 77,
+      "confirmed": 81,
       "recovered": 0,
       "deaths": 1
     },
@@ -736,7 +736,7 @@
       "deaths": 0
     },
     "United Kingdom": {
-      "confirmed": 1545,
+      "confirmed": 1547,
       "recovered": 53,
       "deaths": 56
     },

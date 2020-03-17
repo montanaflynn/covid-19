@@ -2,7 +2,7 @@
 
 Current covid-19 data segmented into countries and states including `confirmed`, `recovered` and `deaths`.
 
-The data comes from a https://interaktiv.morgenpost.de [csv file](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) which is converted to JSON and translated into english.
+The data comes from a [https://interaktiv.morgenpost.de](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/) [csv file](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) which is converted to JSON and translated into english.
 
 A [GitHub action](https://github.com/montanaflynn/covid-19/blob/master/.github/workflows/main.yml) checks for updates every 15 minutes and updates the [current.json](https://raw.githubusercontent.com/montanaflynn/covid-19/master/data/current.json) file.
 

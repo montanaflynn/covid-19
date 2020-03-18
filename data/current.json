@@ -181,8 +181,8 @@
       "deaths": 0
     },
     "China": {
-      "updated": 1584447193000,
-      "confirmed": 81058,
+      "updated": 1584490389000,
+      "confirmed": 81061,
       "recovered": 68798,
       "deaths": 3230
     },
@@ -871,8 +871,8 @@
       "deaths": 56
     },
     "United States": {
-      "updated": 1584489183000,
-      "confirmed": 6374,
+      "updated": 1584490393000,
+      "confirmed": 6376,
       "recovered": 17,
       "deaths": 108
     },
@@ -1195,6 +1195,12 @@
       "confirmed": 110,
       "recovered": 0,
       "deaths": 1
+    },
+    "United States Virgin Islands": {
+      "updated": 1584490393000,
+      "confirmed": 2,
+      "recovered": 0,
+      "deaths": 0
     },
     "Utah": {
       "updated": 1584478382000,
@@ -1569,8 +1575,8 @@
       "deaths": 7
     },
     "Shanghai": {
-      "updated": 1584411200000,
-      "confirmed": 358,
+      "updated": 1584490389000,
+      "confirmed": 361,
       "recovered": 325,
       "deaths": 3
     },

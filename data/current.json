@@ -37,8 +37,8 @@
       "deaths": 2
     },
     "Armenia": {
-      "updated": 1584473582000,
-      "confirmed": 78,
+      "updated": 1584528782000,
+      "confirmed": 84,
       "recovered": 1,
       "deaths": 0
     },
@@ -79,10 +79,10 @@
       "deaths": 1
     },
     "Bangladesh": {
-      "updated": 1584447196000,
+      "updated": 1584528783000,
       "confirmed": 10,
       "recovered": 3,
-      "deaths": 0
+      "deaths": 1
     },
     "Barbados": {
       "updated": 1584513187000,
@@ -303,7 +303,7 @@
     "Germany": {
       "updated": 1584525600000,
       "confirmed": 9921,
-      "recovered": 74,
+      "recovered": 75,
       "deaths": 26
     },
     "Ghana": {
@@ -367,16 +367,16 @@
       "deaths": 1
     },
     "India": {
-      "updated": 1584459186000,
-      "confirmed": 142,
+      "updated": 1584528782000,
+      "confirmed": 152,
       "recovered": 14,
       "deaths": 3
     },
     "Indonesia": {
-      "updated": 1584527584000,
-      "confirmed": 228,
-      "recovered": 8,
-      "deaths": 5
+      "updated": 1584528782000,
+      "confirmed": 227,
+      "recovered": 11,
+      "deaths": 19
     },
     "Iran": {
       "updated": 1584457989000,
@@ -457,9 +457,9 @@
       "deaths": 7
     },
     "Kuwait": {
-      "updated": 1584501199000,
-      "confirmed": 130,
-      "recovered": 12,
+      "updated": 1584528782000,
+      "confirmed": 142,
+      "recovered": 15,
       "deaths": 0
     },
     "Kyrgyzstan": {
@@ -475,8 +475,8 @@
       "deaths": 0
     },
     "Lebanon": {
-      "updated": 1584442383000,
-      "confirmed": 120,
+      "updated": 1584528782000,
+      "confirmed": 133,
       "recovered": 3,
       "deaths": 3
     },
@@ -499,10 +499,10 @@
       "deaths": 0
     },
     "Luxembourg": {
-      "updated": 1584459186000,
-      "confirmed": 140,
+      "updated": 1584528782000,
+      "confirmed": 203,
       "recovered": 0,
-      "deaths": 1
+      "deaths": 2
     },
     "Malaysia": {
       "updated": 1584527584000,
@@ -535,8 +535,8 @@
       "deaths": 0
     },
     "Mexico": {
-      "updated": 1584442383000,
-      "confirmed": 82,
+      "updated": 1584528782000,
+      "confirmed": 93,
       "recovered": 4,
       "deaths": 0
     },
@@ -631,8 +631,8 @@
       "deaths": 0
     },
     "Panama": {
-      "updated": 1584442383000,
-      "confirmed": 69,
+      "updated": 1584528782000,
+      "confirmed": 86,
       "recovered": 0,
       "deaths": 1
     },
@@ -649,10 +649,10 @@
       "deaths": 0
     },
     "Philippines": {
-      "updated": 1584441183000,
-      "confirmed": 187,
+      "updated": 1584528782000,
+      "confirmed": 202,
       "recovered": 5,
-      "deaths": 12
+      "deaths": 19
     },
     "Poland": {
       "updated": 1584527584000,
@@ -727,8 +727,8 @@
       "deaths": 0
     },
     "Serbia": {
-      "updated": 1584499983000,
-      "confirmed": 72,
+      "updated": 1584528782000,
+      "confirmed": 83,
       "recovered": 1,
       "deaths": 0
     },
@@ -763,8 +763,8 @@
       "deaths": 0
     },
     "South Africa": {
-      "updated": 1584498786000,
-      "confirmed": 85,
+      "updated": 1584528782000,
+      "confirmed": 116,
       "recovered": 0,
       "deaths": 0
     },
@@ -823,9 +823,9 @@
       "deaths": 0
     },
     "Thailand": {
-      "updated": 1584441183000,
-      "confirmed": 177,
-      "recovered": 41,
+      "updated": 1584528782000,
+      "confirmed": 212,
+      "recovered": 42,
       "deaths": 1
     },
     "Togo": {
@@ -1377,7 +1377,7 @@
     "Nordrhein-Westfalen": {
       "updated": 1584522000000,
       "confirmed": 3838,
-      "recovered": 39,
+      "recovered": 40,
       "deaths": 13
     },
     "Repatriierte": {

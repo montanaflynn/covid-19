@@ -49,10 +49,10 @@
       "deaths": 0
     },
     "Australia": {
-      "updated": 1584532384000,
-      "confirmed": 537,
+      "updated": 1584533590000,
+      "confirmed": 568,
       "recovered": 23,
-      "deaths": 5
+      "deaths": 6
     },
     "Austria": {
       "updated": 1584502383000,
@@ -121,8 +121,8 @@
       "deaths": 0
     },
     "Bosnia and Herzegovina": {
-      "updated": 1584502383000,
-      "confirmed": 34,
+      "updated": 1584533589000,
+      "confirmed": 38,
       "recovered": 2,
       "deaths": 0
     },
@@ -181,9 +181,9 @@
       "deaths": 0
     },
     "China": {
-      "updated": 1584532383000,
+      "updated": 1584533589000,
       "confirmed": 81102,
-      "recovered": 69714,
+      "recovered": 69755,
       "deaths": 3241
     },
     "Colombia": {
@@ -218,7 +218,7 @@
     },
     "Denmark": {
       "updated": 1584527584000,
-      "confirmed": 1091,
+      "confirmed": 1092,
       "recovered": 1,
       "deaths": 4
     },
@@ -271,13 +271,13 @@
       "deaths": 0
     },
     "France": {
-      "updated": 1584526396000,
-      "confirmed": 7689,
+      "updated": 1584532384000,
+      "confirmed": 7728,
       "recovered": 12,
       "deaths": 148
     },
     "French Guiana": {
-      "updated": 1584369526000,
+      "updated": 1584365926000,
       "confirmed": 11,
       "recovered": 0,
       "deaths": 0
@@ -319,14 +319,14 @@
       "deaths": 5
     },
     "Greenland": {
-      "updated": 1584377586000,
+      "updated": 1584373986000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Guadeloupe": {
-      "updated": 1584526396000,
-      "confirmed": 27,
+      "updated": 1584438783000,
+      "confirmed": 18,
       "recovered": 0,
       "deaths": 0
     },
@@ -531,12 +531,6 @@
     "Mauritania": {
       "updated": 1584296419000,
       "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
-    "Mayotte": {
-      "updated": 1584499983000,
-      "confirmed": 3,
       "recovered": 0,
       "deaths": 0
     },
@@ -793,8 +787,8 @@
       "deaths": 0
     },
     "Sudan": {
-      "updated": 1584148412000,
-      "confirmed": 1,
+      "updated": 1584533589000,
+      "confirmed": 2,
       "recovered": 0,
       "deaths": 1
     },
@@ -895,8 +889,8 @@
       "deaths": 0
     },
     "Uzbekistan": {
-      "updated": 1584532384000,
-      "confirmed": 13,
+      "updated": 1584533589000,
+      "confirmed": 15,
       "recovered": 0,
       "deaths": 0
     },
@@ -1509,9 +1503,9 @@
       "deaths": 4
     },
     "Hubei (Wuhan)": {
-      "updated": 1584504796000,
+      "updated": 1584533589000,
       "confirmed": 67800,
-      "recovered": 56886,
+      "recovered": 56927,
       "deaths": 3122
     },
     "Hunan": {

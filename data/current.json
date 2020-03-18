@@ -31,8 +31,8 @@
       "deaths": 0
     },
     "Argentina": {
-      "updated": 1584460392000,
-      "confirmed": 68,
+      "updated": 1584502383000,
+      "confirmed": 79,
       "recovered": 3,
       "deaths": 2
     },
@@ -55,10 +55,10 @@
       "deaths": 5
     },
     "Austria": {
-      "updated": 1584459186000,
+      "updated": 1584502383000,
       "confirmed": 1332,
-      "recovered": 1,
-      "deaths": 3
+      "recovered": 8,
+      "deaths": 4
     },
     "Azerbaijan": {
       "updated": 1584445990000,
@@ -73,9 +73,9 @@
       "deaths": 0
     },
     "Bahrain": {
-      "updated": 1584414795000,
-      "confirmed": 228,
-      "recovered": 81,
+      "updated": 1584502383000,
+      "confirmed": 242,
+      "recovered": 88,
       "deaths": 1
     },
     "Bangladesh": {
@@ -121,8 +121,8 @@
       "deaths": 0
     },
     "Bosnia and Herzegovina": {
-      "updated": 1584460392000,
-      "confirmed": 26,
+      "updated": 1584502383000,
+      "confirmed": 34,
       "recovered": 2,
       "deaths": 0
     },
@@ -139,8 +139,8 @@
       "deaths": 0
     },
     "Bulgaria": {
-      "updated": 1584442383000,
-      "confirmed": 67,
+      "updated": 1584502383000,
+      "confirmed": 81,
       "recovered": 0,
       "deaths": 2
     },
@@ -163,10 +163,10 @@
       "deaths": 0
     },
     "Canada": {
-      "updated": 1584473583000,
-      "confirmed": 478,
+      "updated": 1584502383000,
+      "confirmed": 596,
       "recovered": 9,
-      "deaths": 5
+      "deaths": 8
     },
     "Central African Republic": {
       "updated": 1584329583000,
@@ -193,8 +193,8 @@
       "deaths": 0
     },
     "Costa Rica": {
-      "updated": 1584414795000,
-      "confirmed": 41,
+      "updated": 1584502383000,
+      "confirmed": 50,
       "recovered": 0,
       "deaths": 0
     },
@@ -1253,16 +1253,16 @@
   },
   "canada": {
     "Alberta": {
-      "updated": 1584414798000,
-      "confirmed": 74,
+      "updated": 1584502383000,
+      "confirmed": 97,
       "recovered": 0,
       "deaths": 0
     },
     "British Columbia": {
-      "updated": 1584385993000,
-      "confirmed": 103,
+      "updated": 1584502383000,
+      "confirmed": 186,
       "recovered": 4,
-      "deaths": 4
+      "deaths": 7
     },
     "Kreuzfahrtschiff \"Grand Princess\"": {
       "updated": 1584414798000,
@@ -1271,8 +1271,8 @@
       "deaths": 0
     },
     "Manitoba": {
-      "updated": 1584473583000,
-      "confirmed": 8,
+      "updated": 1584502383000,
+      "confirmed": 15,
       "recovered": 0,
       "deaths": 0
     },
@@ -1295,8 +1295,8 @@
       "deaths": 0
     },
     "Ontario": {
-      "updated": 1584463984000,
-      "confirmed": 185,
+      "updated": 1584502383000,
+      "confirmed": 190,
       "recovered": 5,
       "deaths": 1
     },

@@ -163,8 +163,8 @@
       "deaths": 0
     },
     "Canada": {
-      "updated": 1584532384000,
-      "confirmed": 598,
+      "updated": 1584552786000,
+      "confirmed": 629,
       "recovered": 9,
       "deaths": 8
     },
@@ -391,10 +391,10 @@
       "deaths": 0
     },
     "Italy": {
-      "updated": 1584469982000,
-      "confirmed": 31506,
-      "recovered": 2941,
-      "deaths": 2503
+      "updated": 1584552785000,
+      "confirmed": 35713,
+      "recovered": 4025,
+      "deaths": 2978
     },
     "Ivory Coast": {
       "updated": 1584531184000,
@@ -865,9 +865,9 @@
       "deaths": 72
     },
     "United States": {
-      "updated": 1584546789000,
-      "confirmed": 7275,
-      "recovered": 0,
+      "updated": 1584552786000,
+      "confirmed": 7274,
+      "recovered": 106,
       "deaths": 115
     },
     "Uruguay": {
@@ -1202,6 +1202,12 @@
       "recovered": 0,
       "deaths": 2
     },
+    "US": {
+      "updated": 1584552786000,
+      "confirmed": -1,
+      "recovered": 106,
+      "deaths": 0
+    },
     "Utah": {
       "updated": 1584478382000,
       "confirmed": 51,
@@ -1289,8 +1295,8 @@
       "deaths": 0
     },
     "Ontario": {
-      "updated": 1584502383000,
-      "confirmed": 190,
+      "updated": 1584552786000,
+      "confirmed": 221,
       "recovered": 5,
       "deaths": 1
     },

@@ -282,12 +282,6 @@
       "recovered": 12,
       "deaths": 148
     },
-    "French Guiana": {
-      "updated": 1584365926000,
-      "confirmed": 11,
-      "recovered": 0,
-      "deaths": 0
-    },
     "Gabon": {
       "updated": 1584192784000,
       "confirmed": 1,
@@ -308,7 +302,7 @@
     },
     "Germany": {
       "updated": 1584547200000,
-      "confirmed": 11372,
+      "confirmed": 11432,
       "recovered": 88,
       "deaths": 27
     },
@@ -323,18 +317,6 @@
       "confirmed": 387,
       "recovered": 8,
       "deaths": 5
-    },
-    "Greenland": {
-      "updated": 1584373986000,
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
-    "Guadeloupe": {
-      "updated": 1584438783000,
-      "confirmed": 18,
-      "recovered": 0,
-      "deaths": 0
     },
     "Guatemala": {
       "updated": 1584447196000,
@@ -878,13 +860,13 @@
     },
     "United Kingdom": {
       "updated": 1584543185000,
-      "confirmed": 2643,
+      "confirmed": 2642,
       "recovered": 67,
-      "deaths": 73
+      "deaths": 72
     },
     "United States": {
       "updated": 1584546789000,
-      "confirmed": 7277,
+      "confirmed": 7275,
       "recovered": 0,
       "deaths": 115
     },
@@ -1232,12 +1214,6 @@
       "recovered": 0,
       "deaths": 0
     },
-    "Virgin Islands": {
-      "updated": 1584474782000,
-      "confirmed": 2,
-      "recovered": 0,
-      "deaths": 0
-    },
     "Virginia": {
       "updated": 1584476002000,
       "confirmed": 67,
@@ -1357,8 +1333,8 @@
       "deaths": 0
     },
     "Brandenburg": {
-      "updated": 1584525600000,
-      "confirmed": 159,
+      "updated": 1584543600000,
+      "confirmed": 171,
       "recovered": 1,
       "deaths": 0
     },
@@ -1381,8 +1357,8 @@
       "deaths": 1
     },
     "Mecklenburg-Vorpommern": {
-      "updated": 1584460800000,
-      "confirmed": 69,
+      "updated": 1584547200000,
+      "confirmed": 100,
       "recovered": 0,
       "deaths": 0
     },
@@ -1423,8 +1399,8 @@
       "deaths": 0
     },
     "Sachsen-Anhalt": {
-      "updated": 1584536400000,
-      "confirmed": 116,
+      "updated": 1584547200000,
+      "confirmed": 133,
       "recovered": 0,
       "deaths": 0
     },

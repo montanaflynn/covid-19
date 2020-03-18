@@ -127,10 +127,10 @@
       "deaths": 0
     },
     "Brazil": {
-      "updated": 1584459186000,
-      "confirmed": 321,
+      "updated": 1584527584000,
+      "confirmed": 346,
       "recovered": 2,
-      "deaths": 1
+      "deaths": 2
     },
     "Brunei": {
       "updated": 1584460392000,
@@ -181,8 +181,8 @@
       "deaths": 0
     },
     "China": {
-      "updated": 1584523985000,
-      "confirmed": 81101,
+      "updated": 1584527584000,
+      "confirmed": 81102,
       "recovered": 69718,
       "deaths": 3241
     },
@@ -217,8 +217,8 @@
       "deaths": 0
     },
     "Denmark": {
-      "updated": 1584462784000,
-      "confirmed": 1024,
+      "updated": 1584527584000,
+      "confirmed": 1091,
       "recovered": 1,
       "deaths": 4
     },
@@ -247,8 +247,8 @@
       "deaths": 0
     },
     "Estonia": {
-      "updated": 1584441183000,
-      "confirmed": 225,
+      "updated": 1584527584000,
+      "confirmed": 258,
       "recovered": 1,
       "deaths": 0
     },
@@ -265,8 +265,8 @@
       "deaths": 0
     },
     "Finland": {
-      "updated": 1584448386000,
-      "confirmed": 321,
+      "updated": 1584527584000,
+      "confirmed": 333,
       "recovered": 10,
       "deaths": 0
     },
@@ -303,7 +303,7 @@
     "Germany": {
       "updated": 1584525600000,
       "confirmed": 9921,
-      "recovered": 73,
+      "recovered": 74,
       "deaths": 26
     },
     "Ghana": {
@@ -373,8 +373,8 @@
       "deaths": 3
     },
     "Indonesia": {
-      "updated": 1584441183000,
-      "confirmed": 172,
+      "updated": 1584527584000,
+      "confirmed": 228,
       "recovered": 8,
       "deaths": 5
     },
@@ -397,8 +397,8 @@
       "deaths": 2
     },
     "Israel": {
-      "updated": 1584478382000,
-      "confirmed": 337,
+      "updated": 1584527584000,
+      "confirmed": 427,
       "recovered": 11,
       "deaths": 0
     },
@@ -451,8 +451,8 @@
       "deaths": 0
     },
     "Kreuzfahrtschiffe und Sonstige": {
-      "updated": 1584377586000,
-      "confirmed": 743,
+      "updated": 1584527584000,
+      "confirmed": 759,
       "recovered": 325,
       "deaths": 7
     },
@@ -505,9 +505,9 @@
       "deaths": 1
     },
     "Malaysia": {
-      "updated": 1584459186000,
-      "confirmed": 673,
-      "recovered": 49,
+      "updated": 1584527584000,
+      "confirmed": 790,
+      "recovered": 60,
       "deaths": 2
     },
     "Maldives": {
@@ -619,8 +619,8 @@
       "deaths": 0
     },
     "Pakistan": {
-      "updated": 1584499983000,
-      "confirmed": 237,
+      "updated": 1584527584000,
+      "confirmed": 254,
       "recovered": 2,
       "deaths": 0
     },
@@ -655,8 +655,8 @@
       "deaths": 12
     },
     "Poland": {
-      "updated": 1584478382000,
-      "confirmed": 238,
+      "updated": 1584527584000,
+      "confirmed": 246,
       "recovered": 13,
       "deaths": 5
     },
@@ -679,8 +679,8 @@
       "deaths": 0
     },
     "Romania": {
-      "updated": 1584499983000,
-      "confirmed": 217,
+      "updated": 1584527584000,
+      "confirmed": 246,
       "recovered": 19,
       "deaths": 0
     },
@@ -781,8 +781,8 @@
       "deaths": 533
     },
     "Sri Lanka": {
-      "updated": 1584460392000,
-      "confirmed": 44,
+      "updated": 1584527584000,
+      "confirmed": 45,
       "recovered": 1,
       "deaths": 0
     },
@@ -841,8 +841,8 @@
       "deaths": 0
     },
     "Tschechien": {
-      "updated": 1584501192000,
-      "confirmed": 434,
+      "updated": 1584527584000,
+      "confirmed": 464,
       "recovered": 3,
       "deaths": 0
     },
@@ -878,7 +878,7 @@
     },
     "United States": {
       "updated": 1584510805000,
-      "confirmed": 6449,
+      "confirmed": 6447,
       "recovered": 17,
       "deaths": 114
     },
@@ -929,6 +929,12 @@
     "Alaska": {
       "updated": 1584510805000,
       "confirmed": 6,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Amerikanische Jungferninseln": {
+      "updated": 1584490393000,
+      "confirmed": 2,
       "recovered": 0,
       "deaths": 0
     },
@@ -1202,12 +1208,6 @@
       "recovered": 0,
       "deaths": 2
     },
-    "United States Virgin Islands": {
-      "updated": 1584490393000,
-      "confirmed": 2,
-      "recovered": 0,
-      "deaths": 0
-    },
     "Utah": {
       "updated": 1584478382000,
       "confirmed": 51,
@@ -1217,12 +1217,6 @@
     "Vermont": {
       "updated": 1584510805000,
       "confirmed": 17,
-      "recovered": 0,
-      "deaths": 0
-    },
-    "Virgin Islands": {
-      "updated": 1584478382000,
-      "confirmed": 2,
       "recovered": 0,
       "deaths": 0
     },
@@ -1329,7 +1323,7 @@
     "Baden-Württemberg": {
       "updated": 1584457200000,
       "confirmed": 1641,
-      "recovered": 7,
+      "recovered": 8,
       "deaths": 6
     },
     "Bayern": {
@@ -1545,8 +1539,8 @@
       "deaths": 1
     },
     "Macau": {
-      "updated": 1584508385000,
-      "confirmed": 14,
+      "updated": 1584527584000,
+      "confirmed": 15,
       "recovered": 10,
       "deaths": 0
     },

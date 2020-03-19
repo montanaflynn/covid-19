@@ -14,7 +14,7 @@ https://montanaflynn.github.io/covid-19/data/current.json
 
 ### Website
 
-If you want to see the current cases in the United States by State:
+If you want to see the current cases by country, state or province on a map:
 
 https://montanaflynn.github.io/covid-19
 
@@ -23,14 +23,14 @@ https://montanaflynn.github.io/covid-19
 ```
 go run *.go
 {
-  "countries": {
+  "global": {
     "Afghanistan": {
       "confirmed": 21,
       "recovered": 1,
       "deaths": 0
     },...
   },
-  "states": {
+  "usa": {
     "Alabama": {
       "confirmed": 29,
       "recovered": 0,

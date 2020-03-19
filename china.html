@@ -78,21 +78,8 @@
         provinceGeo.forEach(function(geo, i) {
           let provinceName = geo.properties.NAME_1;
 
-          if (provinceName === "Beijing") {
-            provinceName = "Peking (Beijing)"
-          } else if (provinceName === "Xinjiang Uygur") {
-            provinceName = "Xinjiang"
-          } else if (provinceName === "Hubei") {
-            provinceName = "Hubei (Wuhan)"
-          } else if (provinceName === "Nei Mongol") {
-            provinceName = "Innere Mongolei"
-          } else if (provinceName === "Ningxia Hui") {
-            provinceName = "Ningxia"
-          }
-
           if (provinceName in data.china) {
             provinceGeo[i].properties.name = provinceName
-            {{/* console.log(provinceName, data.china[provinceName].confirmed) */}}
             provinceGeo[i].properties.confirmed = data.china[provinceName].confirmed;
           } else {
             console.log(provinceName)

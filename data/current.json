@@ -246,6 +246,12 @@
       "recovered": 32,
       "deaths": 6
     },
+    "El Salvador": {
+      "updated": 1584606788000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Equatorial Guinea": {
       "updated": 1584541995000,
       "confirmed": 4,
@@ -267,6 +273,12 @@
     "Ethiopia": {
       "updated": 1584531184000,
       "confirmed": 6,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Fiji": {
+      "updated": 1584606788000,
+      "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
@@ -589,7 +601,7 @@
       "deaths": 0
     },
     "Nicaragua": {
-      "updated": 1584592398000,
+      "updated": 1584606788000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0

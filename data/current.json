@@ -315,7 +315,7 @@
     "Germany": {
       "updated": 1584644400000,
       "confirmed": 15311,
-      "recovered": 116,
+      "recovered": 117,
       "deaths": 44
     },
     "Ghana": {
@@ -883,8 +883,8 @@
       "deaths": 138
     },
     "United States": {
-      "updated": 1584643383000,
-      "confirmed": 11188,
+      "updated": 1584645198000,
+      "confirmed": 11224,
       "recovered": 0,
       "deaths": 157
     },
@@ -951,14 +951,14 @@
       "deaths": 0
     },
     "Arizona": {
-      "updated": 1584634418000,
-      "confirmed": 31,
+      "updated": 1584645198000,
+      "confirmed": 44,
       "recovered": 0,
       "deaths": 0
     },
     "Arkansas": {
-      "updated": 1584592398000,
-      "confirmed": 37,
+      "updated": 1584645198000,
+      "confirmed": 46,
       "recovered": 0,
       "deaths": 0
     },
@@ -1041,20 +1041,20 @@
       "deaths": 0
     },
     "Kansas": {
-      "updated": 1584585189000,
-      "confirmed": 22,
+      "updated": 1584645198000,
+      "confirmed": 25,
       "recovered": 0,
       "deaths": 1
     },
     "Kentucky": {
-      "updated": 1584585188000,
-      "confirmed": 35,
+      "updated": 1584645198000,
+      "confirmed": 37,
       "recovered": 0,
       "deaths": 1
     },
     "Kreuzfahrtschiff \"Grand Princess\"": {
-      "updated": 1584478382000,
-      "confirmed": 21,
+      "updated": 1584645198000,
+      "confirmed": 22,
       "recovered": 0,
       "deaths": 0
     },
@@ -1155,8 +1155,8 @@
       "deaths": 0
     },
     "North Dakota": {
-      "updated": 1584585189000,
-      "confirmed": 7,
+      "updated": 1584645198000,
+      "confirmed": 15,
       "recovered": 0,
       "deaths": 0
     },
@@ -1431,7 +1431,7 @@
     "Thüringen": {
       "updated": 1584630000000,
       "confirmed": 166,
-      "recovered": 1,
+      "recovered": 2,
       "deaths": 0
     }
   },

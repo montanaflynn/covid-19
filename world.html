@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="//d3js.org/queue.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v1.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script> 
+
+    <style type="text/css">
+      html, body {
+        margin: 0;
+      }
+
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+      }
+
+      h2 {
+        font-size: 2em;
+        font-weight: 700;
+        color: #f00;
+      }
+
+      p {
+        margin-top: 0;
+      }
+
+      a:visited {
+        color: #000;
+      }
+
+      path {
+        cursor: crosshair
+      }
+
+      .legend {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+      
+    <script type="text/javascript">
+      const w = 800;
+      const h = 583;
+
+      const topoJSON =
+        "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-10m.json";
+
+      const dataJSON =
+        "https://montanaflynn.github.io/covid-19/data/current.json";
+
+      var projection = d3.geoMercator()
+        .scale(w/Math.PI/2)  
+        .translate([w/2,w/2])
+
+      var paths = d3
+        .geoPath()
+        .projection(projection);
+
+      d3.select("body")
+        .append("div")
+        .attr("class", "container");
+
+      var targets = document.getElementsByClassName("container")
+      var spinner = new Spinner().spin(targets[0]);
+
+      function loaded(error, topo, data) {
+        if (error) throw error;
+        
+        spinner.stop();
+
+        const countryGeo = topo.objects.countries.geometries;
+
+        countryGeo.forEach(function(geo, i) {
+          let countryName = geo.properties.name;
+          if (countryName === "United States of America") {
+            countryName = "United States"
+          }
+          if (countryName in data.global) {
+            countryGeo[i].properties.confirmed = data.global[countryName].confirmed;
+          } else {
+            countryGeo[i].properties.confirmed = 0;
+          }
+        });
+
+        const values = d3.entries(topo.objects.countries.geometries).map(function(d) {
+          return d.value.properties.confirmed;
+        });
+
+        const totalCases = values.reduce(function getSum(total, num) {
+          return total + num;
+        });
+
+        const totalCasesHTML = "<h2>Worldwide Confirmed Cases: " + totalCases + "</h2>";
+
+        const minVal = d3.min(values);
+        const maxVal = d3.max(values);
+
+        const lowColor = "#f9f9f9";
+        const highColor = "#f00";
+
+        const color = d3
+          .scaleLinear()
+          .domain([minVal, maxVal])
+          .range([lowColor, highColor]);
+
+        var tooltip = d3
+          .select(".container")
+          .append("div")
+          .attr("class", "toolTip")
+          .html(totalCasesHTML);
+
+        const countries = topojson.feature(topo, topo.objects.countries);
+
+        const svg = d3
+          .select(".container")
+          .append("svg")
+          .attr("class", "")
+          .attr("width", w)
+          .attr("height", h)
+          .append("g")
+          .attr("class", "countries")
+          .selectAll("path")
+          .data(countries.features)
+          .enter()
+          .append("path")
+          .attr("stroke", "#000")
+          .attr("stroke-width", 0.5)
+          .attr("fill", function(d, i) {
+            return color(d.properties.confirmed);
+          })
+          .attr("d", paths)
+          .on("mouseover", function(d) {
+            var currentState = this;
+            d3.select(this).style("stroke-width", 1.5);
+            tooltip
+              .style("display", "inline-block")
+              .html(
+                "<h2>"+d.properties.name+" Confirmed Cases: " + d.properties.confirmed + "</h2>"
+              );
+          })
+          .on("mouseout", function(d) {
+            d3.select(this).style("stroke-width", 0.5);
+            tooltip.html(totalCasesHTML);
+          });
+
+        // add a legend
+          var legendDimensions = {
+            w: 40,
+            h: 300
+          };
+
+
+          var key = d3
+            .select(".container")
+            .append("svg")
+            .attr("width", legendDimensions.w)
+            .attr("height", legendDimensions.h)
+            .attr("class", "legend");
+
+          var legend = key
+            .append("defs")
+            .append("svg:linearGradient")
+            .attr("id", "gradient")
+            .attr("x1", "100%")
+            .attr("y1", "0%")
+            .attr("x2", "100%")
+            .attr("y2", "100%")
+            .attr("spreadMethod", "pad");
+
+          legend
+            .append("stop")
+            .attr("offset", "0%")
+            .attr("stop-color", highColor)
+            .attr("stop-opacity", 1);
+
+          legend
+            .append("stop")
+            .attr("offset", "100%")
+            .attr("stop-color", lowColor)
+            .attr("stop-opacity", 1);
+
+          key
+            .append("rect")
+            .attr("width", w)
+            .attr("height", h)
+            .style("fill", "url(#gradient)")
+            .attr("transform", "translate(0,10)");
+
+          var y = d3
+            .scaleLinear()
+            .range([legendDimensions.h, 0])
+            .domain([minVal, maxVal]);
+
+          var yAxis = d3.axisLeft(y).ticks(5);
+
+          key
+            .append("g")
+            .attr("class", "y axis")
+            .attr("transform", "translate(41,10)")
+            .call(yAxis);
+      }
+
+      d3.queue()
+        .defer(d3.json, topoJSON)
+        .defer(d3.json, dataJSON)
+        .await(loaded);
+
+    </script>
+  </body>
+</html>

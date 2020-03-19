@@ -1436,6 +1436,12 @@
       "recovered": 984,
       "deaths": 6
     },
+    "Beijing": {
+      "updated": 1584594790000,
+      "confirmed": 480,
+      "recovered": 380,
+      "deaths": 8
+    },
     "Chongqing": {
       "updated": 1584244384000,
       "confirmed": 576,
@@ -1502,7 +1508,7 @@
       "recovered": 95,
       "deaths": 4
     },
-    "Hubei (Wuhan)": {
+    "Hubei": {
       "updated": 1584581586000,
       "confirmed": 67800,
       "recovered": 57678,
@@ -1513,12 +1519,6 @@
       "confirmed": 1018,
       "recovered": 1014,
       "deaths": 4
-    },
-    "Innere Mongolei": {
-      "updated": 1584579782000,
-      "confirmed": 75,
-      "recovered": 74,
-      "deaths": 1
     },
     "Jiangsu": {
       "updated": 1584237182000,
@@ -1550,17 +1550,17 @@
       "recovered": 10,
       "deaths": 0
     },
+    "Nei Mongol": {
+      "updated": 1584579782000,
+      "confirmed": 75,
+      "recovered": 74,
+      "deaths": 1
+    },
     "Ningxia": {
       "updated": 1584369525000,
       "confirmed": 75,
       "recovered": 75,
       "deaths": 0
-    },
-    "Peking (Beijing)": {
-      "updated": 1584594790000,
-      "confirmed": 480,
-      "recovered": 380,
-      "deaths": 8
     },
     "Qinghai": {
       "updated": 1583893094000,
@@ -1610,7 +1610,7 @@
       "recovered": 1,
       "deaths": 0
     },
-    "Xinjiang": {
+    "Xinjiang Uygur": {
       "updated": 1583893094000,
       "confirmed": 76,
       "recovered": 73,

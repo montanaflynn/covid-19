@@ -7,8 +7,8 @@
       "deaths": 0
     },
     "Albania": {
-      "updated": 1584534783000,
-      "confirmed": 59,
+      "updated": 1584617610000,
+      "confirmed": 64,
       "recovered": 0,
       "deaths": 2
     },
@@ -69,6 +69,12 @@
     "Bahamas": {
       "updated": 1584329583000,
       "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Bahamas, The": {
+      "updated": 1584617619000,
+      "confirmed": 3,
       "recovered": 0,
       "deaths": 0
     },
@@ -145,8 +151,8 @@
       "deaths": 3
     },
     "Burkina Faso": {
-      "updated": 1584615183000,
-      "confirmed": 27,
+      "updated": 1584617610000,
+      "confirmed": 33,
       "recovered": 0,
       "deaths": 1
     },
@@ -218,7 +224,7 @@
     },
     "Denmark": {
       "updated": 1584615183000,
-      "confirmed": 1207,
+      "confirmed": 1206,
       "recovered": 1,
       "deaths": 6
     },
@@ -259,8 +265,8 @@
       "deaths": 0
     },
     "Estonia": {
-      "updated": 1584527584000,
-      "confirmed": 258,
+      "updated": 1584617609000,
+      "confirmed": 267,
       "recovered": 1,
       "deaths": 0
     },
@@ -289,8 +295,8 @@
       "deaths": 0
     },
     "France": {
-      "updated": 1584610384000,
-      "confirmed": 9102,
+      "updated": 1584617616000,
+      "confirmed": 9119,
       "recovered": 12,
       "deaths": 243
     },
@@ -319,8 +325,8 @@
       "deaths": 31
     },
     "Ghana": {
-      "updated": 1584473582000,
-      "confirmed": 7,
+      "updated": 1584617610000,
+      "confirmed": 9,
       "recovered": 0,
       "deaths": 0
     },
@@ -361,8 +367,8 @@
       "deaths": 1
     },
     "Iceland": {
-      "updated": 1584534782000,
-      "confirmed": 250,
+      "updated": 1584617609000,
+      "confirmed": 330,
       "recovered": 5,
       "deaths": 1
     },
@@ -379,10 +385,10 @@
       "deaths": 25
     },
     "Iran": {
-      "updated": 1584534782000,
-      "confirmed": 17361,
-      "recovered": 5389,
-      "deaths": 1135
+      "updated": 1584617609000,
+      "confirmed": 18407,
+      "recovered": 5710,
+      "deaths": 1284
     },
     "Iraq": {
       "updated": 1584534782000,
@@ -517,8 +523,8 @@
       "deaths": 0
     },
     "Malta": {
-      "updated": 1584585188000,
-      "confirmed": 48,
+      "updated": 1584617610000,
+      "confirmed": 53,
       "recovered": 2,
       "deaths": 0
     },
@@ -571,8 +577,8 @@
       "deaths": 0
     },
     "Morocco": {
-      "updated": 1584585188000,
-      "confirmed": 54,
+      "updated": 1584617610000,
+      "confirmed": 58,
       "recovered": 1,
       "deaths": 2
     },
@@ -589,10 +595,10 @@
       "deaths": 0
     },
     "Netherlands": {
-      "updated": 1584537195000,
+      "updated": 1584607983000,
       "confirmed": 2056,
       "recovered": 2,
-      "deaths": 58
+      "deaths": 59
     },
     "New Zealand": {
       "updated": 1584585188000,
@@ -619,8 +625,8 @@
       "deaths": 0
     },
     "Norway": {
-      "updated": 1584610384000,
-      "confirmed": 1601,
+      "updated": 1584617609000,
+      "confirmed": 1631,
       "recovered": 1,
       "deaths": 6
     },
@@ -631,8 +637,8 @@
       "deaths": 0
     },
     "Pakistan": {
-      "updated": 1584616398000,
-      "confirmed": 331,
+      "updated": 1584617609000,
+      "confirmed": 335,
       "recovered": 13,
       "deaths": 2
     },
@@ -679,15 +685,15 @@
       "deaths": 0
     },
     "Republic of the Congo": {
-      "updated": 1584477183000,
-      "confirmed": 0,
+      "updated": 1584369525000,
+      "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Romania": {
-      "updated": 1584550774000,
-      "confirmed": 260,
-      "recovered": 19,
+      "updated": 1584617609000,
+      "confirmed": 277,
+      "recovered": 25,
       "deaths": 0
     },
     "Russia": {
@@ -823,8 +829,8 @@
       "deaths": 1
     },
     "Tanzania": {
-      "updated": 1584531184000,
-      "confirmed": 3,
+      "updated": 1584617616000,
+      "confirmed": 6,
       "recovered": 0,
       "deaths": 0
     },
@@ -853,8 +859,8 @@
       "deaths": 0
     },
     "Tunisia": {
-      "updated": 1584534783000,
-      "confirmed": 29,
+      "updated": 1584617610000,
+      "confirmed": 39,
       "recovered": 0,
       "deaths": 0
     },
@@ -884,7 +890,7 @@
     },
     "United States": {
       "updated": 1584593582000,
-      "confirmed": 9355,
+      "confirmed": 9365,
       "recovered": 0,
       "deaths": 150
     },
@@ -1005,8 +1011,8 @@
       "deaths": 4
     },
     "Guam": {
-      "updated": 1584555273000,
-      "confirmed": 0,
+      "updated": 1584510805000,
+      "confirmed": 5,
       "recovered": 0,
       "deaths": 0
     },
@@ -1185,8 +1191,8 @@
       "deaths": 1
     },
     "Puerto Rico": {
-      "updated": 1584457994000,
-      "confirmed": 0,
+      "updated": 1584318131000,
+      "confirmed": 5,
       "recovered": 0,
       "deaths": 0
     },

@@ -181,9 +181,9 @@
       "deaths": 0
     },
     "China": {
-      "updated": 1584611600000,
-      "confirmed": 81155,
-      "recovered": 70530,
+      "updated": 1584612794000,
+      "confirmed": 81154,
+      "recovered": 70535,
       "deaths": 3249
     },
     "Colombia": {
@@ -367,16 +367,16 @@
       "deaths": 1
     },
     "India": {
-      "updated": 1584586412000,
-      "confirmed": 169,
-      "recovered": 14,
+      "updated": 1584612803000,
+      "confirmed": 176,
+      "recovered": 15,
       "deaths": 3
     },
     "Indonesia": {
-      "updated": 1584528782000,
-      "confirmed": 227,
+      "updated": 1584612796000,
+      "confirmed": 311,
       "recovered": 11,
-      "deaths": 19
+      "deaths": 25
     },
     "Iran": {
       "updated": 1584534782000,
@@ -421,9 +421,9 @@
       "deaths": 1
     },
     "Japan": {
-      "updated": 1584534782000,
-      "confirmed": 889,
-      "recovered": 144,
+      "updated": 1584612795000,
+      "confirmed": 924,
+      "recovered": 150,
       "deaths": 29
     },
     "Jordan": {
@@ -457,9 +457,9 @@
       "deaths": 7
     },
     "Kuwait": {
-      "updated": 1584528782000,
-      "confirmed": 142,
-      "recovered": 15,
+      "updated": 1584612803000,
+      "confirmed": 148,
+      "recovered": 18,
       "deaths": 0
     },
     "Kyrgyzstan": {
@@ -505,9 +505,9 @@
       "deaths": 2
     },
     "Malaysia": {
-      "updated": 1584527584000,
-      "confirmed": 790,
-      "recovered": 60,
+      "updated": 1584612795000,
+      "confirmed": 900,
+      "recovered": 75,
       "deaths": 2
     },
     "Maldives": {
@@ -661,8 +661,8 @@
       "deaths": 19
     },
     "Poland": {
-      "updated": 1584583997000,
-      "confirmed": 287,
+      "updated": 1584612795000,
+      "confirmed": 305,
       "recovered": 13,
       "deaths": 5
     },
@@ -691,10 +691,10 @@
       "deaths": 0
     },
     "Russia": {
-      "updated": 1584534782000,
+      "updated": 1584612803000,
       "confirmed": 147,
-      "recovered": 8,
-      "deaths": 0
+      "recovered": 9,
+      "deaths": 1
     },
     "Rwanda": {
       "updated": 1584531184000,
@@ -829,8 +829,8 @@
       "deaths": 0
     },
     "Thailand": {
-      "updated": 1584528782000,
-      "confirmed": 212,
+      "updated": 1584612796000,
+      "confirmed": 272,
       "recovered": 42,
       "deaths": 1
     },
@@ -847,8 +847,8 @@
       "deaths": 0
     },
     "Tschechien": {
-      "updated": 1584586412000,
-      "confirmed": 522,
+      "updated": 1584612795000,
+      "confirmed": 572,
       "recovered": 3,
       "deaths": 0
     },
@@ -1515,9 +1515,9 @@
       "deaths": 4
     },
     "Hubei": {
-      "updated": 1584581586000,
+      "updated": 1584612794000,
       "confirmed": 67800,
-      "recovered": 57678,
+      "recovered": 57682,
       "deaths": 3130
     },
     "Hunan": {
@@ -1599,9 +1599,9 @@
       "deaths": 0
     },
     "Sichuan": {
-      "updated": 1584609203000,
+      "updated": 1584612794000,
       "confirmed": 540,
-      "recovered": 535,
+      "recovered": 536,
       "deaths": 3
     },
     "Tianjin": {
@@ -1629,8 +1629,8 @@
       "deaths": 2
     },
     "Zhejiang": {
-      "updated": 1584602001000,
-      "confirmed": 1234,
+      "updated": 1584612794000,
+      "confirmed": 1233,
       "recovered": 1217,
       "deaths": 1
     }

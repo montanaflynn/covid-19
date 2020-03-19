@@ -98,13 +98,13 @@
         const minVal = d3.min(values);
         const maxVal = d3.max(values);
 
-        const lowColor = "#f9f9f9";
+        const lowColor = "#fee";
         const highColor = "#f00";
 
         const color = d3
           .scaleLinear()
-          .domain([minVal, maxVal])
-          .range([lowColor, highColor]);
+          .domain([0, 1, maxVal])
+          .range(["#fff", lowColor, highColor]);
 
         var tooltip = d3
           .select(".container")

@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  color: #f00;
+}
+
+p {
+  margin-top: 0;
+}
+
+a:visited {
+  color: #000;
+}
+
+path {
+  cursor: crosshair;
+}
+
+.legend {
+  display: none;
+}

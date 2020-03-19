@@ -1,0 +1,43 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px 10px 20px 20px;
+  background: white;
+  box-shadow: 5px 5px 23px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+iframe {
+  display: block;
+  padding: 160px 10px 20px 20px;
+}
+
+.github-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
+}

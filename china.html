@@ -2,44 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="//d3js.org/d3.v4.min.js"></script>
     <script src="//d3js.org/queue.v1.min.js"></script>
-    <script src="https://d3js.org/topojson.v2.min.js"></script>
-    <script src="https://d3js.org/d3-geo-projection.v1.min.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script> 
-
-    <style type="text/css">
-      html, body {
-        margin: 0;
-      }
-
-      body {
-        font-family: "Open Sans", sans-serif;
-        font-size: 16px;
-      }
-
-      h2 {
-        font-size: 2em;
-        font-weight: 700;
-        color: #f00;
-      }
-
-      p {
-        margin-top: 0;
-      }
-
-      a:visited {
-        color: #000;
-      }
-
-      path {
-        cursor: crosshair
-      }
-
-      .legend {
-        display: none;
-      }
-    </style>
+    <script src="//d3js.org/topojson.v2.min.js"></script>
+    <script src="//d3js.org/d3-geo-projection.v1.min.js"></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/spin.js/2.0.1/spin.min.js'></script> 
+    <script src='assets/map.js'></script> 
+    <link rel="stylesheet" type="text/css" href="assets/map.css">
   </head>
   <body>
   
@@ -57,165 +26,20 @@
         .center([110, 25]) 
         .scale([700]) 
         .translate([450,500]);
-      
-      const paths = d3.geoPath()
-        .projection(projection);
 
-      d3.select("body")
-        .append("div")
-        .attr("class", "container");
-
-      var targets = document.getElementsByClassName("container")
-      var spinner = new Spinner().spin(targets[0]);
-
-      function loaded(error, topo, data) {
-        if (error) throw error;
-        
-        spinner.stop();
-
-        const provinceGeo = topo.objects.CHN_adm1.geometries;
-
-        provinceGeo.forEach(function(geo, i) {
-          let provinceName = geo.properties.NAME_1;
-
-          if (provinceName === "Ningxia Hui") {
-            provinceName = "Ningxia"
-          } else if (provinceName === "Xizang") {
-            provinceName = "Tibet"
-          }
-
-          if (provinceName in data.china) {
-            provinceGeo[i].properties.name = provinceName
-            {{/* console.log(provinceName, data.china[provinceName].confirmed) */}}
-            provinceGeo[i].properties.confirmed = data.china[provinceName].confirmed;
-          } else {
-            console.log(provinceName)
-            provinceGeo[i].properties.confirmed = 0;
-          }
-        });
-
-        const values = d3.entries(topo.objects.CHN_adm1.geometries).map(function(d) {
-          return d.value.properties.confirmed;
-        });
-
-        const totalCases = values.reduce(function getSum(total, num) {
-          return total + num;
-        });
-
-        const totalCasesHTML = "<h2>China Confirmed Cases: " + totalCases + "</h2>";
-
-        const minVal = d3.min(values);
-        const maxVal = d3.max(values);
-
-        const lowColor = "#fee";
-        const highColor = "#f00";
-
-        const color = d3
-          .scaleLinear()
-          .domain([0, 1, maxVal])
-          .range(["#fff", lowColor, highColor]);
-
-        var tooltip = d3
-          .select(".container")
-          .append("div")
-          .attr("class", "toolTip")
-          .html(totalCasesHTML);
-
-        const provinces = topojson.feature(topo, topo.objects.CHN_adm1);
-        
-        const svg = d3
-          .select(".container")
-          .append("svg")
-          .attr("class", "china")
-          .attr("width", w)
-          .attr("height", h)
-          .append("g")
-          .attr("class", "provinces")
-          .selectAll("path")
-          .data(provinces.features)
-          .enter()
-          .append("path")
-          .attr("stroke", "#000")
-          .attr("stroke-width", 0.5)
-          .attr("fill", function(d, i) {
-            return color(d.properties.confirmed);
-          })
-          .attr("d", paths)
-          .on("mouseover", function(d) {
-            var currentState = this;
-            d3.select(this).style("stroke-width", 1.5);
-            tooltip
-              .html(
-                "<h2>"+d.properties.name+" Confirmed Cases: " + d.properties.confirmed + "</h2>"
-              );
-          })
-          .on("mouseout", function(d) {
-            d3.select(this).style("stroke-width", 0.5);
-            tooltip.html(totalCasesHTML);
-          });
-
-          // add a legend
-          var legendDimensions = {
-            w: 40,
-            h: 300
-          };
-
-
-          var key = d3
-            .select(".container")
-            .append("svg")
-            .attr("width", legendDimensions.w)
-            .attr("height", legendDimensions.h)
-            .attr("class", "legend");
-
-          var legend = key
-            .append("defs")
-            .append("svg:linearGradient")
-            .attr("id", "gradient")
-            .attr("x1", "100%")
-            .attr("y1", "0%")
-            .attr("x2", "100%")
-            .attr("y2", "100%")
-            .attr("spreadMethod", "pad");
-
-          legend
-            .append("stop")
-            .attr("offset", "0%")
-            .attr("stop-color", highColor)
-            .attr("stop-opacity", 1);
-
-          legend
-            .append("stop")
-            .attr("offset", "100%")
-            .attr("stop-color", lowColor)
-            .attr("stop-opacity", 1);
-
-          key
-            .append("rect")
-            .attr("width", w)
-            .attr("height", h)
-            .style("fill", "url(#gradient)")
-            .attr("transform", "translate(0,10)");
-
-          var y = d3
-            .scaleLinear()
-            .range([legendDimensions.h, 0])
-            .domain([minVal, maxVal]);
-
-          var yAxis = d3.axisLeft(y).ticks(5);
-
-          key
-            .append("g")
-            .attr("class", "y axis")
-            .attr("transform", "translate(41,10)")
-            .call(yAxis);
+      const opts = {
+        "mapName": "China",
+        "width": w,
+        "height": h,
+        "topojson": topoJSON,
+        "data": dataJSON,
+        "projection": projection,
+        "objectName":"CHN_adm1",
+        "dataName":"china",
+         "propertyName":"NAME_1"
       }
 
-      d3.queue()
-        .defer(d3.json, topoJSON)
-        .defer(d3.json, dataJSON)
-        .await(loaded);
-
+      makeMap(opts)
     </script>
   </body>
 </html>

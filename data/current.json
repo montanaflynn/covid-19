@@ -278,7 +278,7 @@
     },
     "France": {
       "updated": 1584556382000,
-      "confirmed": 9105,
+      "confirmed": 9052,
       "recovered": 12,
       "deaths": 148
     },
@@ -522,6 +522,12 @@
       "recovered": 0,
       "deaths": 0
     },
+    "Mauritius": {
+      "updated": 1584557583000,
+      "confirmed": 3,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Mexico": {
       "updated": 1584528782000,
       "confirmed": 93,
@@ -547,8 +553,8 @@
       "deaths": 0
     },
     "Montenegro": {
-      "updated": 1584480782000,
-      "confirmed": 2,
+      "updated": 1584557583000,
+      "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
@@ -572,7 +578,7 @@
     },
     "Netherlands": {
       "updated": 1584537195000,
-      "confirmed": 2054,
+      "confirmed": 2056,
       "recovered": 2,
       "deaths": 58
     },
@@ -610,12 +616,6 @@
       "updated": 1584558869000,
       "confirmed": 299,
       "recovered": 2,
-      "deaths": 0
-    },
-    "Palestine": {
-      "updated": 1583956382000,
-      "confirmed": 0,
-      "recovered": 0,
       "deaths": 0
     },
     "Panama": {
@@ -987,8 +987,8 @@
       "deaths": 3
     },
     "Guam": {
-      "updated": 1584510805000,
-      "confirmed": 5,
+      "updated": 1584555273000,
+      "confirmed": 0,
       "recovered": 0,
       "deaths": 0
     },
@@ -1167,8 +1167,8 @@
       "deaths": 0
     },
     "Puerto Rico": {
-      "updated": 1584318131000,
-      "confirmed": 5,
+      "updated": 1584457994000,
+      "confirmed": 0,
       "recovered": 0,
       "deaths": 0
     },
@@ -1221,8 +1221,8 @@
       "deaths": 0
     },
     "Virginia": {
-      "updated": 1584476002000,
-      "confirmed": 67,
+      "updated": 1584557583000,
+      "confirmed": 77,
       "recovered": 0,
       "deaths": 2
     },

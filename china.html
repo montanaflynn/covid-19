@@ -48,7 +48,7 @@
       const h = 600;
 
       const topoJSON =
-        "https://rawcdn.githack.com/deldersveld/topojson/52711da22b0014792586dc7636f5d0a52bebbdce/countries/china/china-provinces.json";
+        "https://raw.githubusercontent.com/deldersveld/topojson/master/countries/china/china-provinces.json";
 
       const dataJSON =
         "https://montanaflynn.github.io/covid-19/data/current.json";
@@ -78,8 +78,15 @@
         provinceGeo.forEach(function(geo, i) {
           let provinceName = geo.properties.NAME_1;
 
+          if (provinceName === "Ningxia Hui") {
+            provinceName = "Ningxia"
+          } else if (provinceName === "Xizang") {
+            provinceName = "Tibet"
+          }
+
           if (provinceName in data.china) {
             provinceGeo[i].properties.name = provinceName
+            {{/* console.log(provinceName, data.china[provinceName].confirmed) */}}
             provinceGeo[i].properties.confirmed = data.china[provinceName].confirmed;
           } else {
             console.log(provinceName)

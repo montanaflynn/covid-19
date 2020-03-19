@@ -49,10 +49,10 @@
       "deaths": 6
     },
     "Austria": {
-      "updated": 1584610384000,
-      "confirmed": 1843,
+      "updated": 1584629585000,
+      "confirmed": 2013,
       "recovered": 9,
-      "deaths": 5
+      "deaths": 6
     },
     "Azerbaijan": {
       "updated": 1584587602000,
@@ -217,7 +217,7 @@
       "deaths": 6
     },
     "Djibouti": {
-      "updated": 1584534783000,
+      "updated": 1584629586000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -241,7 +241,7 @@
       "deaths": 6
     },
     "El Salvador": {
-      "updated": 1584606788000,
+      "updated": 1584629586000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -271,7 +271,7 @@
       "deaths": 0
     },
     "Fiji": {
-      "updated": 1584606788000,
+      "updated": 1584629586000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -307,8 +307,8 @@
       "deaths": 0
     },
     "Germany": {
-      "updated": 1584626400000,
-      "confirmed": 13981,
+      "updated": 1584630000000,
+      "confirmed": 14033,
       "recovered": 115,
       "deaths": 42
     },
@@ -583,10 +583,10 @@
       "deaths": 0
     },
     "Netherlands": {
-      "updated": 1584607983000,
-      "confirmed": 2058,
+      "updated": 1584629586000,
+      "confirmed": 2467,
       "recovered": 2,
-      "deaths": 59
+      "deaths": 77
     },
     "New Zealand": {
       "updated": 1584585188000,
@@ -775,10 +775,10 @@
       "deaths": 91
     },
     "Spain": {
-      "updated": 1584615183000,
-      "confirmed": 15014,
-      "recovered": 1081,
-      "deaths": 640
+      "updated": 1584629585000,
+      "confirmed": 17395,
+      "recovered": 1107,
+      "deaths": 803
     },
     "Sri Lanka": {
       "updated": 1584615183000,
@@ -805,10 +805,10 @@
       "deaths": 10
     },
     "Switzerland": {
-      "updated": 1584583997000,
-      "confirmed": 3067,
+      "updated": 1584629585000,
+      "confirmed": 3888,
       "recovered": 15,
-      "deaths": 33
+      "deaths": 36
     },
     "Taiwan": {
       "updated": 1584600783000,
@@ -1423,8 +1423,8 @@
       "deaths": 0
     },
     "Thüringen": {
-      "updated": 1584529200000,
-      "confirmed": 114,
+      "updated": 1584630000000,
+      "confirmed": 166,
       "recovered": 1,
       "deaths": 0
     }

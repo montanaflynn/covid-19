@@ -186,6 +186,16 @@ func main() {
 			}
 
 			labelName := d.label
+			if labelName == "Peking (Beijing)" {
+				labelName = "Beijing"
+			} else if labelName == "Innere Mongolei" {
+				labelName = "Nei Mongol"
+			} else if labelName == "Hubei (Wuhan)" {
+				labelName = "Hubei"
+			} else if labelName == "Xinjiang" {
+				labelName = "Xinjiang Uygur"
+			}
+
 			c, ok := countMap[labelName]
 			if !ok {
 				countMap[labelName] = cases{d.updated, d.confirmed, d.recovered, d.deaths}

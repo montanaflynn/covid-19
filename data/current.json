@@ -157,13 +157,19 @@
       "deaths": 0
     },
     "Canada": {
-      "updated": 1584587606000,
-      "confirmed": 727,
+      "updated": 1584636184000,
+      "confirmed": 770,
       "recovered": 9,
       "deaths": 9
     },
     "Central African Republic": {
       "updated": 1584329583000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Chad": {
+      "updated": 1584636183000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -193,8 +199,8 @@
       "deaths": 1
     },
     "Croatia": {
-      "updated": 1584616413000,
-      "confirmed": 102,
+      "updated": 1584636183000,
+      "confirmed": 105,
       "recovered": 5,
       "deaths": 1
     },
@@ -541,8 +547,8 @@
       "deaths": 1
     },
     "Moldawien": {
-      "updated": 1584585188000,
-      "confirmed": 36,
+      "updated": 1584636183000,
+      "confirmed": 49,
       "recovered": 1,
       "deaths": 1
     },
@@ -607,8 +613,8 @@
       "deaths": 0
     },
     "Nordmazedonien": {
-      "updated": 1584585188000,
-      "confirmed": 42,
+      "updated": 1584636183000,
+      "confirmed": 48,
       "recovered": 1,
       "deaths": 0
     },
@@ -763,8 +769,8 @@
       "deaths": 0
     },
     "South Africa": {
-      "updated": 1584528782000,
-      "confirmed": 116,
+      "updated": 1584636183000,
+      "confirmed": 150,
       "recovered": 0,
       "deaths": 0
     },
@@ -853,10 +859,10 @@
       "deaths": 0
     },
     "Turkey": {
-      "updated": 1584579816000,
-      "confirmed": 191,
+      "updated": 1584636183000,
+      "confirmed": 192,
       "recovered": 0,
-      "deaths": 2
+      "deaths": 3
     },
     "Ukraine": {
       "updated": 1584579825000,
@@ -1301,8 +1307,8 @@
       "deaths": 0
     },
     "Ontario": {
-      "updated": 1584587606000,
-      "confirmed": 214,
+      "updated": 1584636184000,
+      "confirmed": 257,
       "recovered": 5,
       "deaths": 1
     },

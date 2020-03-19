@@ -181,9 +181,9 @@
       "deaths": 0
     },
     "China": {
-      "updated": 1584604403000,
+      "updated": 1584609203000,
       "confirmed": 81139,
-      "recovered": 70529,
+      "recovered": 70530,
       "deaths": 3249
     },
     "Colombia": {
@@ -315,7 +315,7 @@
     "Germany": {
       "updated": 1584608400000,
       "confirmed": 12351,
-      "recovered": 107,
+      "recovered": 115,
       "deaths": 31
     },
     "Ghana": {
@@ -884,8 +884,8 @@
     },
     "United States": {
       "updated": 1584593582000,
-      "confirmed": 9356,
-      "recovered": 106,
+      "confirmed": 9355,
+      "recovered": 0,
       "deaths": 150
     },
     "Uruguay": {
@@ -1220,12 +1220,6 @@
       "recovered": 0,
       "deaths": 3
     },
-    "US": {
-      "updated": 1584559983000,
-      "confirmed": 1,
-      "recovered": 106,
-      "deaths": 0
-    },
     "Utah": {
       "updated": 1584583997000,
       "confirmed": 66,
@@ -1393,9 +1387,9 @@
       "deaths": 0
     },
     "Nordrhein-Westfalen": {
-      "updated": 1584522000000,
+      "updated": 1584608400000,
       "confirmed": 4268,
-      "recovered": 67,
+      "recovered": 75,
       "deaths": 16
     },
     "Repatriierte": {
@@ -1605,9 +1599,9 @@
       "deaths": 0
     },
     "Sichuan": {
-      "updated": 1584604403000,
+      "updated": 1584609203000,
       "confirmed": 540,
-      "recovered": 534,
+      "recovered": 535,
       "deaths": 3
     },
     "Tianjin": {

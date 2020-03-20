@@ -121,8 +121,8 @@
       "deaths": 0
     },
     "Bosnia and Herzegovina": {
-      "updated": 1584719004000,
-      "confirmed": 69,
+      "updated": 1584736982000,
+      "confirmed": 89,
       "recovered": 2,
       "deaths": 0
     },
@@ -175,8 +175,8 @@
       "deaths": 0
     },
     "Central African Republic": {
-      "updated": 1584329583000,
-      "confirmed": 1,
+      "updated": 1584736983000,
+      "confirmed": 3,
       "recovered": 0,
       "deaths": 0
     },
@@ -211,8 +211,8 @@
       "deaths": 1
     },
     "Croatia": {
-      "updated": 1584715384000,
-      "confirmed": 113,
+      "updated": 1584736982000,
+      "confirmed": 128,
       "recovered": 5,
       "deaths": 1
     },
@@ -241,22 +241,22 @@
       "deaths": 0
     },
     "Dominican Republic": {
-      "updated": 1584586412000,
-      "confirmed": 34,
+      "updated": 1584736983000,
+      "confirmed": 72,
       "recovered": 0,
       "deaths": 2
     },
     "Ecuador": {
-      "updated": 1584672190000,
-      "confirmed": 260,
+      "updated": 1584736982000,
+      "confirmed": 367,
       "recovered": 0,
-      "deaths": 3
+      "deaths": 5
     },
     "Egypt": {
-      "updated": 1584672190000,
-      "confirmed": 256,
-      "recovered": 32,
-      "deaths": 7
+      "updated": 1584736982000,
+      "confirmed": 285,
+      "recovered": 39,
+      "deaths": 8
     },
     "El Salvador": {
       "updated": 1584629586000,
@@ -328,7 +328,7 @@
       "updated": 1584727200000,
       "confirmed": 19850,
       "recovered": 182,
-      "deaths": 67
+      "deaths": 68
     },
     "Ghana": {
       "updated": 1584719004000,
@@ -403,10 +403,10 @@
       "deaths": 1433
     },
     "Iraq": {
-      "updated": 1584672190000,
-      "confirmed": 192,
+      "updated": 1584736982000,
+      "confirmed": 208,
       "recovered": 49,
-      "deaths": 13
+      "deaths": 17
     },
     "Ireland": {
       "updated": 1584735196000,
@@ -445,8 +445,8 @@
       "deaths": 33
     },
     "Jordan": {
-      "updated": 1584641609000,
-      "confirmed": 69,
+      "updated": 1584736982000,
+      "confirmed": 85,
       "recovered": 1,
       "deaths": 0
     },
@@ -522,6 +522,12 @@
       "recovered": 0,
       "deaths": 4
     },
+    "Madagascar": {
+      "updated": 1584736983000,
+      "confirmed": 3,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Malaysia": {
       "updated": 1584727989000,
       "confirmed": 1030,
@@ -583,16 +589,16 @@
       "deaths": 0
     },
     "Montenegro": {
-      "updated": 1584670430000,
-      "confirmed": 13,
+      "updated": 1584736983000,
+      "confirmed": 14,
       "recovered": 0,
       "deaths": 0
     },
     "Morocco": {
-      "updated": 1584650582000,
-      "confirmed": 63,
+      "updated": 1584736982000,
+      "confirmed": 77,
       "recovered": 1,
-      "deaths": 2
+      "deaths": 3
     },
     "Namibia": {
       "updated": 1584648832000,
@@ -727,8 +733,8 @@
       "deaths": 1
     },
     "Rwanda": {
-      "updated": 1584531184000,
-      "confirmed": 8,
+      "updated": 1584736983000,
+      "confirmed": 17,
       "recovered": 0,
       "deaths": 0
     },
@@ -751,8 +757,8 @@
       "deaths": 14
     },
     "Saudi Arabia": {
-      "updated": 1584668583000,
-      "confirmed": 274,
+      "updated": 1584736982000,
+      "confirmed": 344,
       "recovered": 8,
       "deaths": 0
     },
@@ -763,10 +769,10 @@
       "deaths": 0
     },
     "Serbia": {
-      "updated": 1584715384000,
-      "confirmed": 118,
+      "updated": 1584736982000,
+      "confirmed": 135,
       "recovered": 1,
-      "deaths": 0
+      "deaths": 1
     },
     "Seychelles": {
       "updated": 1584719004000,
@@ -895,8 +901,8 @@
       "deaths": 4
     },
     "Ukraine": {
-      "updated": 1584668583000,
-      "confirmed": 26,
+      "updated": 1584736983000,
+      "confirmed": 29,
       "recovered": 0,
       "deaths": 3
     },
@@ -907,8 +913,8 @@
       "deaths": 0
     },
     "United Kingdom": {
-      "updated": 1584735198000,
-      "confirmed": 4011,
+      "updated": 1584736983000,
+      "confirmed": 4014,
       "recovered": 67,
       "deaths": 178
     },
@@ -943,8 +949,8 @@
       "deaths": 0
     },
     "Vietnam": {
-      "updated": 1584719004000,
-      "confirmed": 87,
+      "updated": 1584736982000,
+      "confirmed": 91,
       "recovered": 16,
       "deaths": 0
     },
@@ -1462,7 +1468,7 @@
       "updated": 1584723600000,
       "confirmed": 215,
       "recovered": 3,
-      "deaths": 0
+      "deaths": 1
     }
   },
   "china": {

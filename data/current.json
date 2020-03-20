@@ -13,14 +13,14 @@
       "deaths": 2
     },
     "Algeria": {
-      "updated": 1584634416000,
-      "confirmed": 87,
+      "updated": 1584673995000,
+      "confirmed": 90,
       "recovered": 32,
       "deaths": 9
     },
     "Andorra": {
-      "updated": 1584579820000,
-      "confirmed": 53,
+      "updated": 1584673995000,
+      "confirmed": 74,
       "recovered": 1,
       "deaths": 0
     },
@@ -157,10 +157,10 @@
       "deaths": 0
     },
     "Canada": {
-      "updated": 1584650583000,
-      "confirmed": 800,
+      "updated": 1584673998000,
+      "confirmed": 872,
       "recovered": 9,
-      "deaths": 9
+      "deaths": 12
     },
     "Central African Republic": {
       "updated": 1584329583000,
@@ -1271,20 +1271,20 @@
   },
   "canada": {
     "Alberta": {
-      "updated": 1584587606000,
-      "confirmed": 119,
+      "updated": 1584673998000,
+      "confirmed": 146,
       "recovered": 0,
-      "deaths": 0
+      "deaths": 1
     },
     "British Columbia": {
-      "updated": 1584587606000,
-      "confirmed": 231,
+      "updated": 1584673998000,
+      "confirmed": 271,
       "recovered": 4,
-      "deaths": 7
+      "deaths": 8
     },
     "Kreuzfahrtschiff \"Grand Princess\"": {
-      "updated": 1584532384000,
-      "confirmed": 9,
+      "updated": 1584673998000,
+      "confirmed": 10,
       "recovered": 0,
       "deaths": 0
     },
@@ -1313,10 +1313,10 @@
       "deaths": 0
     },
     "Ontario": {
-      "updated": 1584636184000,
+      "updated": 1584673998000,
       "confirmed": 257,
       "recovered": 5,
-      "deaths": 1
+      "deaths": 2
     },
     "Prince Edward Island": {
       "updated": 1584643383000,
@@ -1331,8 +1331,8 @@
       "deaths": 1
     },
     "Saskatchewan": {
-      "updated": 1584579831000,
-      "confirmed": 16,
+      "updated": 1584673998000,
+      "confirmed": 20,
       "recovered": 0,
       "deaths": 0
     }

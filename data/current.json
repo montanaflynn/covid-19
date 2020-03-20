@@ -24,6 +24,12 @@
       "recovered": 1,
       "deaths": 0
     },
+    "Angola": {
+      "updated": 1584699218000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Antigua and Barbuda": {
       "updated": 1584296419000,
       "confirmed": 1,
@@ -143,6 +149,12 @@
       "confirmed": 33,
       "recovered": 0,
       "deaths": 1
+    },
+    "Cabo Verde": {
+      "updated": 1584699219000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
     },
     "Cambodia": {
       "updated": 1584615183000,
@@ -289,10 +301,10 @@
       "deaths": 0
     },
     "France": {
-      "updated": 1584672190000,
-      "confirmed": 11086,
+      "updated": 1584699219000,
+      "confirmed": 10985,
       "recovered": 12,
-      "deaths": 372
+      "deaths": 371
     },
     "Gabon": {
       "updated": 1584192784000,
@@ -313,8 +325,8 @@
       "deaths": 0
     },
     "Germany": {
-      "updated": 1584694800000,
-      "confirmed": 16472,
+      "updated": 1584698400000,
+      "confirmed": 16628,
       "recovered": 117,
       "deaths": 44
     },
@@ -347,6 +359,12 @@
       "confirmed": 7,
       "recovered": 0,
       "deaths": 1
+    },
+    "Haiti": {
+      "updated": 1584699219000,
+      "confirmed": 2,
+      "recovered": 0,
+      "deaths": 0
     },
     "Honduras": {
       "updated": 1584615183000,
@@ -523,8 +541,8 @@
       "deaths": 0
     },
     "Martinique": {
-      "updated": 1584585188000,
-      "confirmed": 23,
+      "updated": 1584699217000,
+      "confirmed": 32,
       "recovered": 0,
       "deaths": 1
     },
@@ -883,8 +901,8 @@
       "deaths": 0
     },
     "United Kingdom": {
-      "updated": 1584648836000,
-      "confirmed": 2716,
+      "updated": 1584699218000,
+      "confirmed": 2717,
       "recovered": 67,
       "deaths": 138
     },
@@ -1393,8 +1411,8 @@
       "deaths": 0
     },
     "Nordrhein-Westfalen": {
-      "updated": 1584694800000,
-      "confirmed": 5622,
+      "updated": 1584698400000,
+      "confirmed": 5778,
       "recovered": 75,
       "deaths": 17
     },

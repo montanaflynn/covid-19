@@ -181,9 +181,9 @@
       "deaths": 0
     },
     "China": {
-      "updated": 1584661383000,
+      "updated": 1584663204000,
       "confirmed": 81156,
-      "recovered": 70535,
+      "recovered": 70545,
       "deaths": 3249
     },
     "Colombia": {
@@ -602,6 +602,12 @@
     },
     "Nicaragua": {
       "updated": 1584606788000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Niger": {
+      "updated": 1584663254000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -1461,9 +1467,9 @@
       "deaths": 1
     },
     "Gansu": {
-      "updated": 1584628388000,
+      "updated": 1584663204000,
       "confirmed": 134,
-      "recovered": 91,
+      "recovered": 98,
       "deaths": 2
     },
     "Guangdong": {
@@ -1509,9 +1515,9 @@
       "deaths": 22
     },
     "Hong Kong": {
-      "updated": 1584611600000,
+      "updated": 1584663204000,
       "confirmed": 208,
-      "recovered": 95,
+      "recovered": 98,
       "deaths": 4
     },
     "Hubei": {

@@ -150,12 +150,6 @@
       "recovered": 0,
       "deaths": 1
     },
-    "Cabo Verde": {
-      "updated": 1584699219000,
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0
-    },
     "Cambodia": {
       "updated": 1584615183000,
       "confirmed": 37,
@@ -169,10 +163,16 @@
       "deaths": 0
     },
     "Canada": {
-      "updated": 1584673998000,
-      "confirmed": 872,
+      "updated": 1584711783000,
+      "confirmed": 873,
       "recovered": 9,
       "deaths": 12
+    },
+    "Cape Verde": {
+      "updated": 1584699219000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
     },
     "Central African Republic": {
       "updated": 1584329583000,
@@ -328,7 +328,7 @@
       "updated": 1584709200000,
       "confirmed": 17655,
       "recovered": 182,
-      "deaths": 47
+      "deaths": 48
     },
     "Ghana": {
       "updated": 1584638004000,
@@ -1331,8 +1331,8 @@
       "deaths": 0
     },
     "Ontario": {
-      "updated": 1584673998000,
-      "confirmed": 257,
+      "updated": 1584711783000,
+      "confirmed": 258,
       "recovered": 5,
       "deaths": 2
     },
@@ -1396,7 +1396,7 @@
       "updated": 1584694800000,
       "confirmed": 813,
       "recovered": 3,
-      "deaths": 1
+      "deaths": 2
     },
     "Mecklenburg-Vorpommern": {
       "updated": 1584694800000,

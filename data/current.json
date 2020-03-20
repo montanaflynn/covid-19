@@ -229,8 +229,8 @@
       "deaths": 0
     },
     "Denmark": {
-      "updated": 1584717202000,
-      "confirmed": 1308,
+      "updated": 1584727992000,
+      "confirmed": 1337,
       "recovered": 1,
       "deaths": 9
     },
@@ -523,10 +523,10 @@
       "deaths": 4
     },
     "Malaysia": {
-      "updated": 1584719004000,
+      "updated": 1584727989000,
       "confirmed": 1030,
-      "recovered": 75,
-      "deaths": 2
+      "recovered": 87,
+      "deaths": 3
     },
     "Maldives": {
       "updated": 1584296418000,
@@ -607,10 +607,10 @@
       "deaths": 0
     },
     "Netherlands": {
-      "updated": 1584672190000,
-      "confirmed": 2468,
+      "updated": 1584727992000,
+      "confirmed": 3002,
       "recovered": 2,
-      "deaths": 77
+      "deaths": 107
     },
     "New Zealand": {
       "updated": 1584670430000,
@@ -643,8 +643,8 @@
       "deaths": 0
     },
     "Norway": {
-      "updated": 1584720790000,
-      "confirmed": 1895,
+      "updated": 1584727989000,
+      "confirmed": 1914,
       "recovered": 1,
       "deaths": 7
     },
@@ -665,6 +665,12 @@
       "confirmed": 137,
       "recovered": 0,
       "deaths": 1
+    },
+    "Papua-Neuguinea": {
+      "updated": 1584727992000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
     },
     "Paraguay": {
       "updated": 1584670430000,
@@ -835,10 +841,10 @@
       "deaths": 16
     },
     "Switzerland": {
-      "updated": 1584719004000,
-      "confirmed": 4840,
+      "updated": 1584727989000,
+      "confirmed": 5294,
       "recovered": 15,
-      "deaths": 51
+      "deaths": 54
     },
     "Taiwan": {
       "updated": 1584697383000,
@@ -907,8 +913,8 @@
       "deaths": 168
     },
     "United States": {
-      "updated": 1584722590000,
-      "confirmed": 14583,
+      "updated": 1584727992000,
+      "confirmed": 15970,
       "recovered": 0,
       "deaths": 210
     },
@@ -1167,8 +1173,8 @@
       "deaths": 0
     },
     "New York": {
-      "updated": 1584720805000,
-      "confirmed": 5715,
+      "updated": 1584727992000,
+      "confirmed": 7102,
       "recovered": 0,
       "deaths": 38
     },
@@ -1381,7 +1387,7 @@
       "deaths": 0
     },
     "Bremen": {
-      "updated": 1584694800000,
+      "updated": 1584727200000,
       "confirmed": 127,
       "recovered": 3,
       "deaths": 0

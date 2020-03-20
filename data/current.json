@@ -325,10 +325,10 @@
       "deaths": 0
     },
     "Germany": {
-      "updated": 1584723600000,
-      "confirmed": 19707,
+      "updated": 1584727200000,
+      "confirmed": 19713,
       "recovered": 182,
-      "deaths": 53
+      "deaths": 59
     },
     "Ghana": {
       "updated": 1584719004000,
@@ -421,10 +421,10 @@
       "deaths": 0
     },
     "Italy": {
-      "updated": 1584639783000,
-      "confirmed": 41035,
+      "updated": 1584726183000,
+      "confirmed": 47021,
       "recovered": 4440,
-      "deaths": 3405
+      "deaths": 4032
     },
     "Ivory Coast": {
       "updated": 1584579826000,
@@ -805,10 +805,10 @@
       "deaths": 94
     },
     "Spain": {
-      "updated": 1584717200000,
-      "confirmed": 19980,
+      "updated": 1584726183000,
+      "confirmed": 20410,
       "recovered": 1588,
-      "deaths": 1002
+      "deaths": 1043
     },
     "Sri Lanka": {
       "updated": 1584720791000,
@@ -1357,10 +1357,10 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1584723600000,
+      "updated": 1584727200000,
       "confirmed": 3665,
       "recovered": 14,
-      "deaths": 11
+      "deaths": 17
     },
     "Bayern": {
       "updated": 1584705600000,
@@ -1382,7 +1382,7 @@
     },
     "Bremen": {
       "updated": 1584694800000,
-      "confirmed": 121,
+      "confirmed": 127,
       "recovered": 3,
       "deaths": 0
     },

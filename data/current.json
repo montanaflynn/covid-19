@@ -325,10 +325,10 @@
       "deaths": 0
     },
     "Germany": {
-      "updated": 1584705600000,
-      "confirmed": 17374,
-      "recovered": 117,
-      "deaths": 45
+      "updated": 1584709200000,
+      "confirmed": 17655,
+      "recovered": 182,
+      "deaths": 47
     },
     "Ghana": {
       "updated": 1584638004000,
@@ -1359,13 +1359,13 @@
     "Baden-Württemberg": {
       "updated": 1584644400000,
       "confirmed": 2748,
-      "recovered": 8,
+      "recovered": 14,
       "deaths": 11
     },
     "Bayern": {
       "updated": 1584705600000,
       "confirmed": 3107,
-      "recovered": 14,
+      "recovered": 15,
       "deaths": 13
     },
     "Berlin": {
@@ -1405,15 +1405,15 @@
       "deaths": 0
     },
     "Niedersachsen": {
-      "updated": 1584626400000,
-      "confirmed": 981,
-      "recovered": 1,
+      "updated": 1584709200000,
+      "confirmed": 1262,
+      "recovered": 4,
       "deaths": 0
     },
     "Nordrhein-Westfalen": {
       "updated": 1584698400000,
       "confirmed": 5778,
-      "recovered": 75,
+      "recovered": 127,
       "deaths": 17
     },
     "Repatriierte": {
@@ -1426,7 +1426,7 @@
       "updated": 1584694800000,
       "confirmed": 801,
       "recovered": 1,
-      "deaths": 0
+      "deaths": 2
     },
     "Saarland": {
       "updated": 1584633600000,
@@ -1437,7 +1437,7 @@
     "Sachsen": {
       "updated": 1584694800000,
       "confirmed": 394,
-      "recovered": 0,
+      "recovered": 2,
       "deaths": 0
     },
     "Sachsen-Anhalt": {
@@ -1455,7 +1455,7 @@
     "Thüringen": {
       "updated": 1584691200000,
       "confirmed": 221,
-      "recovered": 2,
+      "recovered": 3,
       "deaths": 0
     }
   },

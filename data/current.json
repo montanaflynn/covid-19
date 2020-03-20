@@ -523,7 +523,7 @@
       "deaths": 4
     },
     "Madagascar": {
-      "updated": 1584736983000,
+      "updated": 1584742433000,
       "confirmed": 3,
       "recovered": 0,
       "deaths": 0
@@ -919,10 +919,10 @@
       "deaths": 178
     },
     "United States": {
-      "updated": 1584740583000,
-      "confirmed": 17352,
+      "updated": 1584742483000,
+      "confirmed": 18513,
       "recovered": 0,
-      "deaths": 224
+      "deaths": 227
     },
     "Uruguay": {
       "updated": 1584668583000,
@@ -957,6 +957,12 @@
     "Zambia": {
       "updated": 1584582786000,
       "confirmed": 2,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Zimbabwe": {
+      "updated": 1584742435000,
+      "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
@@ -999,8 +1005,8 @@
       "deaths": 0
     },
     "California": {
-      "updated": 1584731610000,
-      "confirmed": 1055,
+      "updated": 1584742483000,
+      "confirmed": 1144,
       "recovered": 0,
       "deaths": 19
     },
@@ -1179,10 +1185,10 @@
       "deaths": 0
     },
     "New York": {
-      "updated": 1584731610000,
-      "confirmed": 7245,
+      "updated": 1584742483000,
+      "confirmed": 8310,
       "recovered": 0,
-      "deaths": 39
+      "deaths": 42
     },
     "North Carolina": {
       "updated": 1584738811000,
@@ -1221,8 +1227,8 @@
       "deaths": 1
     },
     "Puerto Rico": {
-      "updated": 1584722590000,
-      "confirmed": 8,
+      "updated": 1584742435000,
+      "confirmed": 14,
       "recovered": 0,
       "deaths": 0
     },
@@ -1293,8 +1299,8 @@
       "deaths": 3
     },
     "Wyoming": {
-      "updated": 1584592398000,
-      "confirmed": 18,
+      "updated": 1584742483000,
+      "confirmed": 19,
       "recovered": 0,
       "deaths": 0
     }

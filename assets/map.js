@@ -43,6 +43,8 @@ function makeMap(opts) {
         locationName = "Ningxia";
       } else if (locationName === "Xizang") {
         locationName = "Tibet";
+      } else if (locationName === "United States of America") {
+        locationName = "United States";
       }
 
       if (locationName in data[opts.dataName]) {

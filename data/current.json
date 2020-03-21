@@ -163,10 +163,10 @@
       "deaths": 0
     },
     "Canada": {
-      "updated": 1584812583000,
-      "confirmed": 1137,
+      "updated": 1584825210000,
+      "confirmed": 1278,
       "recovered": 10,
-      "deaths": 13
+      "deaths": 19
     },
     "Cape Verde": {
       "updated": 1584803626000,
@@ -270,6 +270,12 @@
       "recovered": 0,
       "deaths": 0
     },
+    "Eritrea": {
+      "updated": 1584825210000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Estonia": {
       "updated": 1584792799000,
       "confirmed": 306,
@@ -301,9 +307,9 @@
       "deaths": 1
     },
     "France": {
-      "updated": 1584823382000,
-      "confirmed": 14428,
-      "recovered": 12,
+      "updated": 1584825210000,
+      "confirmed": 14431,
+      "recovered": 18,
       "deaths": 562
     },
     "Gabon": {
@@ -343,8 +349,8 @@
       "deaths": 13
     },
     "Guatemala": {
-      "updated": 1584812583000,
-      "confirmed": 13,
+      "updated": 1584825194000,
+      "confirmed": 17,
       "recovered": 0,
       "deaths": 1
     },
@@ -907,9 +913,9 @@
       "deaths": 9
     },
     "Ukraine": {
-      "updated": 1584754983000,
-      "confirmed": 41,
-      "recovered": 0,
+      "updated": 1584825190000,
+      "confirmed": 47,
+      "recovered": 1,
       "deaths": 3
     },
     "United Arab Emirates": {
@@ -919,8 +925,8 @@
       "deaths": 2
     },
     "United Kingdom": {
-      "updated": 1584823383000,
-      "confirmed": 5049,
+      "updated": 1584825209000,
+      "confirmed": 5067,
       "recovered": 67,
       "deaths": 234
     },
@@ -937,8 +943,8 @@
       "deaths": 0
     },
     "Uzbekistan": {
-      "updated": 1584794588000,
-      "confirmed": 37,
+      "updated": 1584825190000,
+      "confirmed": 43,
       "recovered": 0,
       "deaths": 0
     },
@@ -1319,10 +1325,10 @@
       "deaths": 1
     },
     "British Columbia": {
-      "updated": 1584812583000,
-      "confirmed": 348,
+      "updated": 1584825210000,
+      "confirmed": 424,
       "recovered": 4,
-      "deaths": 9
+      "deaths": 10
     },
     "Kreuzfahrtschiff \"Grand Princess\"": {
       "updated": 1584673998000,
@@ -1337,28 +1343,34 @@
       "deaths": 0
     },
     "New Brunswick": {
-      "updated": 1584556383000,
-      "confirmed": 11,
+      "updated": 1584825210000,
+      "confirmed": 17,
       "recovered": 0,
       "deaths": 0
     },
     "Newfoundland and Labrador": {
-      "updated": 1584738809000,
-      "confirmed": 4,
+      "updated": 1584825209000,
+      "confirmed": 6,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Northwest Territories": {
+      "updated": 1584825210000,
+      "confirmed": 1,
       "recovered": 0,
       "deaths": 0
     },
     "Nova Scotia": {
-      "updated": 1584738809000,
-      "confirmed": 15,
+      "updated": 1584825210000,
+      "confirmed": 21,
       "recovered": 0,
       "deaths": 0
     },
     "Ontario": {
-      "updated": 1584812583000,
-      "confirmed": 369,
+      "updated": 1584825210000,
+      "confirmed": 377,
       "recovered": 6,
-      "deaths": 2
+      "deaths": 3
     },
     "Prince Edward Island": {
       "updated": 1584643383000,
@@ -1367,10 +1379,10 @@
       "deaths": 0
     },
     "Quebec": {
-      "updated": 1584738809000,
-      "confirmed": 139,
+      "updated": 1584825210000,
+      "confirmed": 181,
       "recovered": 0,
-      "deaths": 1
+      "deaths": 5
     },
     "Saskatchewan": {
       "updated": 1584758583000,

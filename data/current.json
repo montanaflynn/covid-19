@@ -193,10 +193,10 @@
       "deaths": 0
     },
     "China": {
-      "updated": 1584697383000,
+      "updated": 1584749588000,
       "confirmed": 81250,
-      "recovered": 71266,
-      "deaths": 3253
+      "recovered": 71826,
+      "deaths": 3259
     },
     "Colombia": {
       "updated": 1584713588000,
@@ -853,9 +853,9 @@
       "deaths": 54
     },
     "Taiwan": {
-      "updated": 1584697383000,
+      "updated": 1584749588000,
       "confirmed": 135,
-      "recovered": 26,
+      "recovered": 28,
       "deaths": 2
     },
     "Tanzania": {
@@ -919,10 +919,10 @@
       "deaths": 178
     },
     "United States": {
-      "updated": 1584747783000,
-      "confirmed": 19051,
+      "updated": 1584749605000,
+      "confirmed": 19235,
       "recovered": 0,
-      "deaths": 244
+      "deaths": 249
     },
     "Uruguay": {
       "updated": 1584668583000,
@@ -975,8 +975,8 @@
   },
   "usa": {
     "Alabama": {
-      "updated": 1584740583000,
-      "confirmed": 83,
+      "updated": 1584749604000,
+      "confirmed": 106,
       "recovered": 0,
       "deaths": 0
     },
@@ -1005,8 +1005,8 @@
       "deaths": 0
     },
     "California": {
-      "updated": 1584747783000,
-      "confirmed": 1177,
+      "updated": 1584749605000,
+      "confirmed": 1185,
       "recovered": 0,
       "deaths": 23
     },
@@ -1071,10 +1071,10 @@
       "deaths": 5
     },
     "Indiana": {
-      "updated": 1584740583000,
+      "updated": 1584749605000,
       "confirmed": 86,
       "recovered": 0,
-      "deaths": 2
+      "deaths": 3
     },
     "Iowa": {
       "updated": 1584733383000,
@@ -1101,8 +1101,8 @@
       "deaths": 0
     },
     "Louisiana": {
-      "updated": 1584747783000,
-      "confirmed": 538,
+      "updated": 1584749605000,
+      "confirmed": 537,
       "recovered": 0,
       "deaths": 14
     },
@@ -1143,14 +1143,14 @@
       "deaths": 1
     },
     "Missouri": {
-      "updated": 1584740583000,
-      "confirmed": 53,
+      "updated": 1584749605000,
+      "confirmed": 58,
       "recovered": 0,
       "deaths": 2
     },
     "Montana": {
-      "updated": 1584722590000,
-      "confirmed": 15,
+      "updated": 1584749604000,
+      "confirmed": 17,
       "recovered": 0,
       "deaths": 0
     },
@@ -1167,8 +1167,8 @@
       "deaths": 1
     },
     "New Hampshire": {
-      "updated": 1584661384000,
-      "confirmed": 44,
+      "updated": 1584749602000,
+      "confirmed": 55,
       "recovered": 0,
       "deaths": 0
     },
@@ -1185,20 +1185,20 @@
       "deaths": 0
     },
     "New York": {
-      "updated": 1584742483000,
-      "confirmed": 8310,
+      "updated": 1584749605000,
+      "confirmed": 8398,
       "recovered": 0,
-      "deaths": 42
+      "deaths": 46
     },
     "North Carolina": {
-      "updated": 1584747783000,
-      "confirmed": 172,
+      "updated": 1584749605000,
+      "confirmed": 176,
       "recovered": 0,
       "deaths": 0
     },
     "North Dakota": {
-      "updated": 1584672190000,
-      "confirmed": 19,
+      "updated": 1584749604000,
+      "confirmed": 26,
       "recovered": 0,
       "deaths": 0
     },
@@ -1263,8 +1263,8 @@
       "deaths": 5
     },
     "Utah": {
-      "updated": 1584720803000,
-      "confirmed": 78,
+      "updated": 1584749603000,
+      "confirmed": 112,
       "recovered": 0,
       "deaths": 0
     },
@@ -1293,8 +1293,8 @@
       "deaths": 0
     },
     "Wisconsin": {
-      "updated": 1584738809000,
-      "confirmed": 207,
+      "updated": 1584749604000,
+      "confirmed": 210,
       "recovered": 0,
       "deaths": 3
     },
@@ -1557,10 +1557,10 @@
       "deaths": 4
     },
     "Hubei": {
-      "updated": 1584690182000,
+      "updated": 1584749588000,
       "confirmed": 67800,
-      "recovered": 58382,
-      "deaths": 3133
+      "recovered": 58942,
+      "deaths": 3139
     },
     "Hunan": {
       "updated": 1584174783000,

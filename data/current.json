@@ -25,7 +25,7 @@
       "deaths": 0
     },
     "Angola": {
-      "updated": 1584794588000,
+      "updated": 1584801784000,
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0
@@ -55,10 +55,10 @@
       "deaths": 7
     },
     "Austria": {
-      "updated": 1584789192000,
-      "confirmed": 2664,
+      "updated": 1584801783000,
+      "confirmed": 2814,
       "recovered": 9,
-      "deaths": 7
+      "deaths": 8
     },
     "Azerbaijan": {
       "updated": 1584634416000,
@@ -187,8 +187,8 @@
       "deaths": 0
     },
     "Chile": {
-      "updated": 1584735197000,
-      "confirmed": 434,
+      "updated": 1584801783000,
+      "confirmed": 537,
       "recovered": 6,
       "deaths": 0
     },
@@ -295,8 +295,8 @@
       "deaths": 0
     },
     "Finland": {
-      "updated": 1584790986000,
-      "confirmed": 503,
+      "updated": 1584801783000,
+      "confirmed": 521,
       "recovered": 10,
       "deaths": 0
     },
@@ -328,7 +328,7 @@
       "updated": 1584799200000,
       "confirmed": 21654,
       "recovered": 211,
-      "deaths": 73
+      "deaths": 75
     },
     "Ghana": {
       "updated": 1584794588000,
@@ -361,7 +361,7 @@
       "deaths": 1
     },
     "Haiti": {
-      "updated": 1584699219000,
+      "updated": 1584801784000,
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0
@@ -613,10 +613,10 @@
       "deaths": 0
     },
     "Netherlands": {
-      "updated": 1584738810000,
-      "confirmed": 3003,
+      "updated": 1584801784000,
+      "confirmed": 3640,
       "recovered": 2,
-      "deaths": 107
+      "deaths": 137
     },
     "New Zealand": {
       "updated": 1584756812000,
@@ -660,9 +660,15 @@
       "recovered": 12,
       "deaths": 0
     },
+    "Osttimor": {
+      "updated": 1584801784000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Pakistan": {
-      "updated": 1584790986000,
-      "confirmed": 534,
+      "updated": 1584801783000,
+      "confirmed": 666,
       "recovered": 13,
       "deaths": 3
     },
@@ -697,8 +703,8 @@
       "deaths": 19
     },
     "Poland": {
-      "updated": 1584792799000,
-      "confirmed": 439,
+      "updated": 1584801783000,
+      "confirmed": 452,
       "recovered": 1,
       "deaths": 5
     },
@@ -727,8 +733,8 @@
       "deaths": 0
     },
     "Russia": {
-      "updated": 1584754983000,
-      "confirmed": 253,
+      "updated": 1584801783000,
+      "confirmed": 306,
       "recovered": 12,
       "deaths": 1
     },
@@ -757,9 +763,9 @@
       "deaths": 14
     },
     "Saudi Arabia": {
-      "updated": 1584736982000,
-      "confirmed": 344,
-      "recovered": 8,
+      "updated": 1584801783000,
+      "confirmed": 392,
+      "recovered": 16,
       "deaths": 0
     },
     "Senegal": {
@@ -793,8 +799,8 @@
       "deaths": 1
     },
     "Slovenia": {
-      "updated": 1584719004000,
-      "confirmed": 341,
+      "updated": 1584801783000,
+      "confirmed": 383,
       "recovered": 0,
       "deaths": 1
     },
@@ -841,10 +847,10 @@
       "deaths": 0
     },
     "Sweden": {
-      "updated": 1584790986000,
-      "confirmed": 1657,
+      "updated": 1584801783000,
+      "confirmed": 1763,
       "recovered": 16,
-      "deaths": 16
+      "deaths": 20
     },
     "Switzerland": {
       "updated": 1584796410000,
@@ -1426,7 +1432,7 @@
       "updated": 1584795600000,
       "confirmed": 1452,
       "recovered": 4,
-      "deaths": 0
+      "deaths": 2
     },
     "Nordrhein-Westfalen": {
       "updated": 1584788400000,

@@ -193,8 +193,8 @@
       "deaths": 1
     },
     "China": {
-      "updated": 1584875595000,
-      "confirmed": 81394,
+      "updated": 1584884585000,
+      "confirmed": 81395,
       "recovered": 72361,
       "deaths": 3265
     },
@@ -1617,8 +1617,8 @@
       "deaths": 2
     },
     "Macau": {
-      "updated": 1584852183000,
-      "confirmed": 19,
+      "updated": 1584884585000,
+      "confirmed": 20,
       "recovered": 10,
       "deaths": 0
     },
@@ -1775,6 +1775,12 @@
       "deaths": 0
     },
     "Thừa Thiên Huế": {
+      "updated": 0,
+      "confirmed": 2,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Trà Vinh": {
       "updated": 0,
       "confirmed": 2,
       "recovered": 0,

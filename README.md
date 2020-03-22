@@ -1,4 +1,4 @@
-# Covid-19 Data ![](https://github.com/montanaflynn/covid-19/workflows/Update%20Data/badge.svg)
+# Covid-19 Data [![](https://github.com/montanaflynn/covid-19/workflows/Update/badge.svg)](https://github.com/montanaflynn/covid-19/actions)
 
 Current covid-19 data segmented into countries and states including `confirmed`, `recovered` and `deaths`.
 

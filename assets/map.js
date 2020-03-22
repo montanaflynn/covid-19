@@ -52,6 +52,7 @@ function makeMap(opts) {
         geometries[i].properties.confirmed =
           data[opts.dataName][locationName].confirmed;
       } else {
+        geometries[i].properties.name = locationName;
         geometries[i].properties.confirmed = 0;
       }
     });

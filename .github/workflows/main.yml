@@ -1,4 +1,4 @@
-name: CI
+name: Update Data
 
 on:
   push:
@@ -9,8 +9,7 @@ on:
     - cron: "*/15 * * * *"
 
 jobs:
-  build:
-    name: Update Data
+  update:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'skip action')"
     steps:

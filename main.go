@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"strconv"
@@ -14,8 +15,9 @@ import (
 )
 
 var (
-	baseURL  = "https://interaktiv.morgenpost.de"
-	endpoint = "/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv"
+	baseURL    = "https://interaktiv.morgenpost.de"
+	endpoint   = "/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv"
+	vietnamAPI = "https://maps.vnpost.vn/app/api/democoronas/"
 )
 
 type datum struct {
@@ -46,9 +48,11 @@ type results struct {
 	Canada  map[string]cases `json:"canada"`
 	Germany map[string]cases `json:"germany"`
 	China   map[string]cases `json:"china"`
+	Vietnam map[string]cases `json:"vietnam"`
 }
 
 func main() {
+
 	res, err := http.Get(fmt.Sprintf("%s%s", baseURL, endpoint))
 	if err != nil {
 		log.Fatal(err)
@@ -212,12 +216,51 @@ func main() {
 		}
 	}
 
+	// get vietnam province data
+	res, err = http.Get(vietnamAPI)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	defer res.Body.Close()
+	resBody, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	vietnamData := []vietnamDataSchema{}
+
+	err = json.Unmarshal(resBody, &vietnamData)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	vietnamCounts := make(map[string]cases)
+
+	for _, d := range vietnamData {
+		c, ok := vietnamCounts[d.Address]
+		if !ok {
+			vietnamCounts[d.Address] = cases{0, d.Number, d.Recovered, 0}
+		} else {
+			updatedConfirmed := c.Confirmed + d.Number
+			updatedRecovered := c.Recovered + d.Recovered
+			updatedDeaths := c.Deaths + 0
+			updated := 0
+			if c.Updated > 0 {
+				updated = c.Updated
+			}
+			vietnamCounts[d.Address] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths}
+		}
+
+	}
+
 	output := results{
 		Global:  countryCounts,
 		USA:     usaCounts,
 		Canada:  canadaCounts,
 		Germany: germanyCounts,
 		China:   chinaCounts,
+		Vietnam: vietnamCounts,
 	}
 	jsonBytes, err := json.MarshalIndent(output, "", "  ")
 	if err != nil {
@@ -225,6 +268,18 @@ func main() {
 	}
 
 	fmt.Printf("%s\n", jsonBytes)
-
 	return
+}
+
+type vietnamDataSchema struct {
+	Recovered int     `json:"recovered"`
+	Doubt     int     `json:"doubt"`
+	Code      string  `json:"code"`
+	Lat       float64 `json:"Lat"`
+	Number    int     `json:"number"`
+	Date      string  `json:"date"`
+	Lng       float64 `json:"Lng"`
+	ID        int     `json:"id"`
+	Address   string  `json:"address"`
+	Deaths    int     `json:"deaths"`
 }

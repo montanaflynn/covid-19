@@ -606,6 +606,12 @@
       "recovered": 3,
       "deaths": 3
     },
+    "Mozambique": {
+      "updated": 1584916983000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Namibia": {
       "updated": 1584648832000,
       "confirmed": 3,
@@ -864,6 +870,12 @@
       "recovered": 131,
       "deaths": 85
     },
+    "Syria": {
+      "updated": 1584916983000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
     "Taiwan": {
       "updated": 1584864811000,
       "confirmed": 169,
@@ -901,16 +913,16 @@
       "deaths": 1
     },
     "Tunisia": {
-      "updated": 1584888199000,
+      "updated": 1584916982000,
       "confirmed": 75,
-      "recovered": 0,
+      "recovered": 1,
       "deaths": 3
     },
     "Turkey": {
-      "updated": 1584841382000,
-      "confirmed": 947,
+      "updated": 1584916982000,
+      "confirmed": 1236,
       "recovered": 0,
-      "deaths": 21
+      "deaths": 30
     },
     "Uganda": {
       "updated": 1584841383000,
@@ -919,8 +931,8 @@
       "deaths": 0
     },
     "Ukraine": {
-      "updated": 1584825190000,
-      "confirmed": 47,
+      "updated": 1584916982000,
+      "confirmed": 73,
       "recovered": 1,
       "deaths": 3
     },
@@ -931,16 +943,16 @@
       "deaths": 2
     },
     "United Kingdom": {
-      "updated": 1584886388000,
-      "confirmed": 5071,
+      "updated": 1584916983000,
+      "confirmed": 5736,
       "recovered": 67,
-      "deaths": 234
+      "deaths": 282
     },
     "United States": {
-      "updated": 1584915212000,
-      "confirmed": 32667,
+      "updated": 1584916983000,
+      "confirmed": 33023,
       "recovered": 0,
-      "deaths": 409
+      "deaths": 416
     },
     "Uruguay": {
       "updated": 1584875600000,
@@ -1047,10 +1059,10 @@
       "deaths": 0
     },
     "District of Columbia": {
-      "updated": 1584900831000,
+      "updated": 1584916983000,
       "confirmed": 102,
       "recovered": 0,
-      "deaths": 1
+      "deaths": 2
     },
     "Florida": {
       "updated": 1584898986000,
@@ -1101,8 +1113,8 @@
       "deaths": 0
     },
     "Kansas": {
-      "updated": 1584890043000,
-      "confirmed": 58,
+      "updated": 1584916983000,
+      "confirmed": 64,
       "recovered": 0,
       "deaths": 2
     },
@@ -1137,10 +1149,10 @@
       "deaths": 3
     },
     "Massachusetts": {
-      "updated": 1584890038000,
-      "confirmed": 529,
+      "updated": 1584916983000,
+      "confirmed": 646,
       "recovered": 0,
-      "deaths": 2
+      "deaths": 5
     },
     "Michigan": {
       "updated": 1584911600000,
@@ -1209,8 +1221,8 @@
       "deaths": 117
     },
     "North Carolina": {
-      "updated": 1584909783000,
-      "confirmed": 300,
+      "updated": 1584916983000,
+      "confirmed": 302,
       "recovered": 0,
       "deaths": 0
     },
@@ -1221,8 +1233,8 @@
       "deaths": 0
     },
     "Ohio": {
-      "updated": 1584906183000,
-      "confirmed": 352,
+      "updated": 1584916983000,
+      "confirmed": 355,
       "recovered": 0,
       "deaths": 3
     },
@@ -1239,8 +1251,8 @@
       "deaths": 4
     },
     "Pennsylvania": {
-      "updated": 1584898986000,
-      "confirmed": 481,
+      "updated": 1584916983000,
+      "confirmed": 509,
       "recovered": 0,
       "deaths": 3
     },
@@ -1257,8 +1269,8 @@
       "deaths": 0
     },
     "South Carolina": {
-      "updated": 1584844983000,
-      "confirmed": 174,
+      "updated": 1584916983000,
+      "confirmed": 196,
       "recovered": 0,
       "deaths": 3
     },
@@ -1269,20 +1281,20 @@
       "deaths": 1
     },
     "Tennessee": {
-      "updated": 1584909783000,
-      "confirmed": 376,
+      "updated": 1584916983000,
+      "confirmed": 505,
       "recovered": 0,
       "deaths": 2
     },
     "Texas": {
-      "updated": 1584909783000,
-      "confirmed": 618,
+      "updated": 1584916983000,
+      "confirmed": 627,
       "recovered": 0,
       "deaths": 6
     },
     "Utah": {
-      "updated": 1584909783000,
-      "confirmed": 141,
+      "updated": 1584916983000,
+      "confirmed": 181,
       "recovered": 0,
       "deaths": 1
     },
@@ -1293,10 +1305,10 @@
       "deaths": 2
     },
     "Virginia": {
-      "updated": 1584898986000,
+      "updated": 1584916983000,
       "confirmed": 221,
       "recovered": 0,
-      "deaths": 3
+      "deaths": 6
     },
     "Washington": {
       "updated": 1584830584000,

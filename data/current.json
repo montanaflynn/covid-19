@@ -13,9 +13,9 @@
       "deaths": 2
     },
     "Algeria": {
-      "updated": 1584812583000,
+      "updated": 1584844983000,
       "confirmed": 139,
-      "recovered": 32,
+      "recovered": 65,
       "deaths": 15
     },
     "Andorra": {
@@ -55,8 +55,8 @@
       "deaths": 7
     },
     "Austria": {
-      "updated": 1584801783000,
-      "confirmed": 2814,
+      "updated": 1584844983000,
+      "confirmed": 3021,
       "recovered": 9,
       "deaths": 8
     },
@@ -73,8 +73,8 @@
       "deaths": 0
     },
     "Bahrain": {
-      "updated": 1584812583000,
-      "confirmed": 305,
+      "updated": 1584844983000,
+      "confirmed": 310,
       "recovered": 125,
       "deaths": 1
     },
@@ -163,8 +163,8 @@
       "deaths": 0
     },
     "Canada": {
-      "updated": 1584825210000,
-      "confirmed": 1278,
+      "updated": 1584844983000,
+      "confirmed": 1328,
       "recovered": 10,
       "deaths": 19
     },
@@ -193,9 +193,9 @@
       "deaths": 1
     },
     "China": {
-      "updated": 1584843193000,
-      "confirmed": 81334,
-      "recovered": 72350,
+      "updated": 1584844982000,
+      "confirmed": 81345,
+      "recovered": 72354,
       "deaths": 3265
     },
     "Colombia": {
@@ -937,10 +937,10 @@
       "deaths": 234
     },
     "United States": {
-      "updated": 1584843203000,
-      "confirmed": 26088,
+      "updated": 1584844983000,
+      "confirmed": 26524,
       "recovered": 0,
-      "deaths": 323
+      "deaths": 336
     },
     "Uruguay": {
       "updated": 1584792799000,
@@ -1029,14 +1029,14 @@
       "deaths": 25
     },
     "Colorado": {
-      "updated": 1584832398000,
-      "confirmed": 390,
+      "updated": 1584844983000,
+      "confirmed": 475,
       "recovered": 0,
-      "deaths": 4
+      "deaths": 6
     },
     "Connecticut": {
-      "updated": 1584758583000,
-      "confirmed": 194,
+      "updated": 1584844983000,
+      "confirmed": 223,
       "recovered": 0,
       "deaths": 4
     },
@@ -1053,16 +1053,16 @@
       "deaths": 1
     },
     "Florida": {
-      "updated": 1584832398000,
-      "confirmed": 659,
+      "updated": 1584844983000,
+      "confirmed": 763,
       "recovered": 0,
       "deaths": 13
     },
     "Georgia": {
-      "updated": 1584812583000,
-      "confirmed": 507,
+      "updated": 1584844983000,
+      "confirmed": 555,
       "recovered": 0,
-      "deaths": 14
+      "deaths": 20
     },
     "Guam": {
       "updated": 1584812583000,
@@ -1119,10 +1119,10 @@
       "deaths": 0
     },
     "Louisiana": {
-      "updated": 1584805385000,
-      "confirmed": 585,
+      "updated": 1584844983000,
+      "confirmed": 763,
       "recovered": 0,
-      "deaths": 16
+      "deaths": 20
     },
     "Maine": {
       "updated": 1584832398000,
@@ -1137,20 +1137,20 @@
       "deaths": 2
     },
     "Massachusetts": {
-      "updated": 1584832398000,
-      "confirmed": 525,
+      "updated": 1584844983000,
+      "confirmed": 529,
       "recovered": 0,
       "deaths": 1
     },
     "Michigan": {
-      "updated": 1584830584000,
-      "confirmed": 788,
+      "updated": 1584844983000,
+      "confirmed": 789,
       "recovered": 0,
-      "deaths": 5
+      "deaths": 6
     },
     "Minnesota": {
-      "updated": 1584819783000,
-      "confirmed": 138,
+      "updated": 1584844983000,
+      "confirmed": 137,
       "recovered": 0,
       "deaths": 1
     },
@@ -1179,8 +1179,8 @@
       "deaths": 0
     },
     "Nevada": {
-      "updated": 1584758583000,
-      "confirmed": 161,
+      "updated": 1584844983000,
+      "confirmed": 154,
       "recovered": 0,
       "deaths": 2
     },
@@ -1209,8 +1209,8 @@
       "deaths": 75
     },
     "North Carolina": {
-      "updated": 1584832398000,
-      "confirmed": 253,
+      "updated": 1584844983000,
+      "confirmed": 257,
       "recovered": 0,
       "deaths": 0
     },
@@ -1233,14 +1233,14 @@
       "deaths": 1
     },
     "Oregon": {
-      "updated": 1584832398000,
-      "confirmed": 114,
+      "updated": 1584844983000,
+      "confirmed": 137,
       "recovered": 0,
       "deaths": 5
     },
     "Pennsylvania": {
-      "updated": 1584832397000,
-      "confirmed": 396,
+      "updated": 1584844983000,
+      "confirmed": 399,
       "recovered": 0,
       "deaths": 2
     },
@@ -1257,8 +1257,8 @@
       "deaths": 0
     },
     "South Carolina": {
-      "updated": 1584832397000,
-      "confirmed": 171,
+      "updated": 1584844983000,
+      "confirmed": 174,
       "recovered": 0,
       "deaths": 3
     },
@@ -1275,8 +1275,8 @@
       "deaths": 1
     },
     "Texas": {
-      "updated": 1584832397000,
-      "confirmed": 581,
+      "updated": 1584844983000,
+      "confirmed": 543,
       "recovered": 0,
       "deaths": 5
     },
@@ -1325,8 +1325,8 @@
   },
   "canada": {
     "Alberta": {
-      "updated": 1584758583000,
-      "confirmed": 195,
+      "updated": 1584844983000,
+      "confirmed": 226,
       "recovered": 0,
       "deaths": 1
     },
@@ -1343,8 +1343,8 @@
       "deaths": 0
     },
     "Manitoba": {
-      "updated": 1584812583000,
-      "confirmed": 18,
+      "updated": 1584844983000,
+      "confirmed": 19,
       "recovered": 0,
       "deaths": 0
     },
@@ -1391,8 +1391,8 @@
       "deaths": 5
     },
     "Saskatchewan": {
-      "updated": 1584758583000,
-      "confirmed": 26,
+      "updated": 1584844983000,
+      "confirmed": 44,
       "recovered": 0,
       "deaths": 0
     }
@@ -1533,9 +1533,9 @@
       "deaths": 2
     },
     "Guangdong": {
-      "updated": 1584794588000,
-      "confirmed": 1400,
-      "recovered": 1325,
+      "updated": 1584844982000,
+      "confirmed": 1407,
+      "recovered": 1329,
       "deaths": 8
     },
     "Guangxi": {
@@ -1593,14 +1593,14 @@
       "deaths": 4
     },
     "Jiangsu": {
-      "updated": 1584237182000,
-      "confirmed": 631,
+      "updated": 1584844982000,
+      "confirmed": 633,
       "recovered": 631,
       "deaths": 0
     },
     "Jiangxi": {
-      "updated": 1583979184000,
-      "confirmed": 935,
+      "updated": 1584844982000,
+      "confirmed": 936,
       "recovered": 934,
       "deaths": 1
     },
@@ -1695,8 +1695,8 @@
       "deaths": 2
     },
     "Zhejiang": {
-      "updated": 1584762183000,
-      "confirmed": 1236,
+      "updated": 1584844982000,
+      "confirmed": 1237,
       "recovered": 1219,
       "deaths": 1
     }

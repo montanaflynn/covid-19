@@ -1,10 +1,10 @@
 {
   "global": {
     "Afghanistan": {
-      "updated": 1584890033000,
-      "confirmed": 34,
+      "updated": 1584920583000,
+      "confirmed": 40,
       "recovered": 1,
-      "deaths": 0
+      "deaths": 1
     },
     "Albania": {
       "updated": 1584888199000,
@@ -43,8 +43,8 @@
       "deaths": 4
     },
     "Armenia": {
-      "updated": 1584875600000,
-      "confirmed": 190,
+      "updated": 1584920583000,
+      "confirmed": 194,
       "recovered": 2,
       "deaths": 0
     },
@@ -55,10 +55,10 @@
       "deaths": 7
     },
     "Austria": {
-      "updated": 1584893591000,
+      "updated": 1584920582000,
       "confirmed": 3244,
-      "recovered": 16,
-      "deaths": 9
+      "recovered": 9,
+      "deaths": 16
     },
     "Azerbaijan": {
       "updated": 1584888199000,
@@ -121,16 +121,16 @@
       "deaths": 0
     },
     "Bosnia and Herzegovina": {
-      "updated": 1584812583000,
-      "confirmed": 93,
+      "updated": 1584920583000,
+      "confirmed": 126,
       "recovered": 2,
       "deaths": 1
     },
     "Brazil": {
-      "updated": 1584893591000,
-      "confirmed": 1209,
+      "updated": 1584920582000,
+      "confirmed": 1593,
       "recovered": 2,
-      "deaths": 18
+      "deaths": 25
     },
     "Brunei": {
       "updated": 1584895387000,
@@ -139,8 +139,8 @@
       "deaths": 0
     },
     "Bulgaria": {
-      "updated": 1584895387000,
-      "confirmed": 185,
+      "updated": 1584920583000,
+      "confirmed": 187,
       "recovered": 3,
       "deaths": 3
     },
@@ -163,10 +163,10 @@
       "deaths": 0
     },
     "Canada": {
-      "updated": 1584895387000,
-      "confirmed": 1378,
+      "updated": 1584920583000,
+      "confirmed": 1465,
       "recovered": 10,
-      "deaths": 19
+      "deaths": 21
     },
     "Cape Verde": {
       "updated": 1584803626000,
@@ -205,8 +205,8 @@
       "deaths": 2
     },
     "Costa Rica": {
-      "updated": 1584823382000,
-      "confirmed": 117,
+      "updated": 1584920583000,
+      "confirmed": 134,
       "recovered": 2,
       "deaths": 2
     },
@@ -217,8 +217,8 @@
       "deaths": 1
     },
     "Cuba": {
-      "updated": 1584756812000,
-      "confirmed": 21,
+      "updated": 1584920583000,
+      "confirmed": 35,
       "recovered": 0,
       "deaths": 1
     },
@@ -229,13 +229,19 @@
       "deaths": 1
     },
     "Denmark": {
-      "updated": 1584890032000,
-      "confirmed": 1512,
+      "updated": 1584920583000,
+      "confirmed": 1514,
       "recovered": 1,
       "deaths": 13
     },
     "Djibouti": {
       "updated": 1584629586000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Dominica": {
+      "updated": 1584920583000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0
@@ -247,16 +253,16 @@
       "deaths": 3
     },
     "Ecuador": {
-      "updated": 1584843193000,
-      "confirmed": 532,
+      "updated": 1584920583000,
+      "confirmed": 789,
       "recovered": 3,
-      "deaths": 7
+      "deaths": 14
     },
     "Egypt": {
-      "updated": 1584843193000,
-      "confirmed": 294,
-      "recovered": 42,
-      "deaths": 10
+      "updated": 1584920583000,
+      "confirmed": 327,
+      "recovered": 56,
+      "deaths": 14
     },
     "El Salvador": {
       "updated": 1584794588000,
@@ -307,10 +313,10 @@
       "deaths": 1
     },
     "France": {
-      "updated": 1584909782000,
-      "confirmed": 14617,
+      "updated": 1584920582000,
+      "confirmed": 16176,
       "recovered": 2206,
-      "deaths": 562
+      "deaths": 674
     },
     "Gabon": {
       "updated": 1584843198000,
@@ -337,8 +343,8 @@
       "deaths": 94
     },
     "Ghana": {
-      "updated": 1584843198000,
-      "confirmed": 21,
+      "updated": 1584920583000,
+      "confirmed": 24,
       "recovered": 0,
       "deaths": 1
     },
@@ -347,6 +353,12 @@
       "confirmed": 624,
       "recovered": 19,
       "deaths": 15
+    },
+    "Grenada": {
+      "updated": 1584920583000,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0
     },
     "Guatemala": {
       "updated": 1584918800000,
@@ -907,8 +919,8 @@
       "deaths": 0
     },
     "Tschechien": {
-      "updated": 1584913382000,
-      "confirmed": 1047,
+      "updated": 1584920582000,
+      "confirmed": 1120,
       "recovered": 6,
       "deaths": 1
     },
@@ -943,8 +955,8 @@
       "deaths": 2
     },
     "United Kingdom": {
-      "updated": 1584916983000,
-      "confirmed": 5736,
+      "updated": 1584920583000,
+      "confirmed": 5741,
       "recovered": 67,
       "deaths": 282
     },
@@ -1337,8 +1349,8 @@
   },
   "canada": {
     "Alberta": {
-      "updated": 1584844983000,
-      "confirmed": 226,
+      "updated": 1584920583000,
+      "confirmed": 259,
       "recovered": 0,
       "deaths": 1
     },
@@ -1379,16 +1391,16 @@
       "deaths": 0
     },
     "Nova Scotia": {
-      "updated": 1584825210000,
-      "confirmed": 21,
+      "updated": 1584920583000,
+      "confirmed": 28,
       "recovered": 0,
       "deaths": 0
     },
     "Ontario": {
-      "updated": 1584895387000,
-      "confirmed": 424,
+      "updated": 1584920583000,
+      "confirmed": 425,
       "recovered": 6,
-      "deaths": 3
+      "deaths": 5
     },
     "Prince Edward Island": {
       "updated": 1584643383000,
@@ -1397,14 +1409,14 @@
       "deaths": 0
     },
     "Quebec": {
-      "updated": 1584825210000,
-      "confirmed": 181,
+      "updated": 1584920583000,
+      "confirmed": 219,
       "recovered": 0,
       "deaths": 5
     },
     "Saskatchewan": {
-      "updated": 1584844983000,
-      "confirmed": 44,
+      "updated": 1584920583000,
+      "confirmed": 52,
       "recovered": 0,
       "deaths": 0
     }

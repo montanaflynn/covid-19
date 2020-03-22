@@ -45,6 +45,8 @@ function makeMap(opts) {
         locationName = "Tibet";
       } else if (locationName === "United States of America") {
         locationName = "United States";
+      } else if (locationName === "Thành phố Hồ Chí Minh") {
+        locationName = "Hồ Chí Minh";
       }
 
       if (locationName in data[opts.dataName]) {
@@ -140,8 +142,6 @@ function makeMap(opts) {
   } else {
     mapjson = opts.geojson;
   }
-
-  console.log(mapjson);
 
   d3.queue()
     .defer(d3.json, mapjson)

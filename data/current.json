@@ -332,7 +332,7 @@
     },
     "Germany": {
       "updated": 1584903600000,
-      "confirmed": 24854,
+      "confirmed": 24875,
       "recovered": 268,
       "deaths": 94
     },
@@ -937,10 +937,10 @@
       "deaths": 234
     },
     "United States": {
-      "updated": 1584909783000,
-      "confirmed": 32590,
+      "updated": 1584911600000,
+      "confirmed": 32594,
       "recovered": 0,
-      "deaths": 404
+      "deaths": 402
     },
     "Uruguay": {
       "updated": 1584875600000,
@@ -1023,8 +1023,8 @@
       "deaths": 0
     },
     "California": {
-      "updated": 1584909783000,
-      "confirmed": 1560,
+      "updated": 1584911600000,
+      "confirmed": 1585,
       "recovered": 0,
       "deaths": 29
     },
@@ -1143,10 +1143,10 @@
       "deaths": 2
     },
     "Michigan": {
-      "updated": 1584909783000,
-      "confirmed": 1058,
+      "updated": 1584911600000,
+      "confirmed": 1037,
       "recovered": 0,
-      "deaths": 11
+      "deaths": 9
     },
     "Minnesota": {
       "updated": 1584900831000,
@@ -1495,8 +1495,8 @@
       "deaths": 1
     },
     "Thüringen": {
-      "updated": 1584878400000,
-      "confirmed": 307,
+      "updated": 1584889200000,
+      "confirmed": 328,
       "recovered": 27,
       "deaths": 1
     }

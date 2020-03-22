@@ -19,10 +19,10 @@
       "deaths": 15
     },
     "Andorra": {
-      "updated": 1584803625000,
+      "updated": 1584886386000,
       "confirmed": 88,
       "recovered": 1,
-      "deaths": 0
+      "deaths": 1
     },
     "Angola": {
       "updated": 1584801784000,
@@ -49,9 +49,9 @@
       "deaths": 0
     },
     "Australia": {
-      "updated": 1584796415000,
-      "confirmed": 1071,
-      "recovered": 26,
+      "updated": 1584886390000,
+      "confirmed": 1314,
+      "recovered": 88,
       "deaths": 7
     },
     "Austria": {
@@ -97,10 +97,10 @@
       "deaths": 0
     },
     "Belgium": {
-      "updated": 1584789192000,
-      "confirmed": 2815,
+      "updated": 1584886386000,
+      "confirmed": 3401,
       "recovered": 263,
-      "deaths": 67
+      "deaths": 75
     },
     "Benin": {
       "updated": 1584540836000,
@@ -193,9 +193,9 @@
       "deaths": 1
     },
     "China": {
-      "updated": 1584884585000,
-      "confirmed": 81395,
-      "recovered": 72361,
+      "updated": 1584886386000,
+      "confirmed": 81397,
+      "recovered": 72362,
       "deaths": 3265
     },
     "Colombia": {
@@ -403,10 +403,10 @@
       "deaths": 38
     },
     "Iran": {
-      "updated": 1584789192000,
-      "confirmed": 20610,
-      "recovered": 7635,
-      "deaths": 1556
+      "updated": 1584886386000,
+      "confirmed": 21638,
+      "recovered": 7931,
+      "deaths": 1685
     },
     "Iraq": {
       "updated": 1584812583000,
@@ -613,16 +613,16 @@
       "deaths": 0
     },
     "Nepal": {
-      "updated": 1584138123000,
-      "confirmed": 1,
+      "updated": 1584886388000,
+      "confirmed": 2,
       "recovered": 1,
       "deaths": 0
     },
     "Netherlands": {
-      "updated": 1584877383000,
-      "confirmed": 3643,
+      "updated": 1584886390000,
+      "confirmed": 4216,
       "recovered": 2,
-      "deaths": 137
+      "deaths": 180
     },
     "New Zealand": {
       "updated": 1584875601000,
@@ -637,8 +637,8 @@
       "deaths": 0
     },
     "Niger": {
-      "updated": 1584670432000,
-      "confirmed": 1,
+      "updated": 1584886388000,
+      "confirmed": 2,
       "recovered": 0,
       "deaths": 0
     },
@@ -715,10 +715,10 @@
       "deaths": 5
     },
     "Portugal": {
-      "updated": 1584796410000,
-      "confirmed": 1280,
+      "updated": 1584886386000,
+      "confirmed": 1600,
       "recovered": 5,
-      "deaths": 12
+      "deaths": 14
     },
     "Qatar": {
       "updated": 1584823382000,
@@ -859,8 +859,8 @@
       "deaths": 20
     },
     "Switzerland": {
-      "updated": 1584841382000,
-      "confirmed": 6652,
+      "updated": 1584886386000,
+      "confirmed": 7104,
       "recovered": 131,
       "deaths": 80
     },
@@ -931,8 +931,8 @@
       "deaths": 2
     },
     "United Kingdom": {
-      "updated": 1584825209000,
-      "confirmed": 5067,
+      "updated": 1584886388000,
+      "confirmed": 5071,
       "recovered": 67,
       "deaths": 234
     },
@@ -973,8 +973,8 @@
       "deaths": 0
     },
     "Zambia": {
-      "updated": 1584582786000,
-      "confirmed": 2,
+      "updated": 1584886388000,
+      "confirmed": 3,
       "recovered": 0,
       "deaths": 0
     },
@@ -1527,9 +1527,9 @@
       "deaths": 1
     },
     "Gansu": {
-      "updated": 1584760393000,
-      "confirmed": 134,
-      "recovered": 113,
+      "updated": 1584886386000,
+      "confirmed": 136,
+      "recovered": 114,
       "deaths": 2
     },
     "Guangdong": {

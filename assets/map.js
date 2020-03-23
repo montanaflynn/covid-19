@@ -86,8 +86,16 @@ function makeMap(opts) {
       return total + num;
     });
 
-    const totalCasesHTML =
-      "<h2>" + opts.mapName + " Active Cases: " + totalCases + "</h2>";
+    let selectedDataName =
+      selectedData.charAt(0).toUpperCase() + selectedData.slice(1);
+
+    if (selectedData !== "deaths") {
+      selectedDataName = `${selectedDataName} Cases`;
+    }
+
+    const totalCasesHTML = `<h2> ${
+      opts.mapName
+    } ${selectedDataName}: ${totalCases.toLocaleString()} </h2>`;
 
     const minVal = d3.min(values);
     const maxVal = d3.max(values);
@@ -133,11 +141,9 @@ function makeMap(opts) {
         var currentState = this;
         d3.select(this).style("stroke-width", 1.5);
         tooltip.html(
-          "<h2>" +
-            d.properties.name +
-            " Active Cases: " +
-            d.properties[selectedData] +
-            "</h2>"
+          `<h2> ${d.properties.name} ${selectedDataName}: ${d.properties[
+            selectedData
+          ].toLocaleString()} </h2>`
         );
       })
       .on("mouseout", function(d) {
@@ -211,7 +217,7 @@ function makeMap(opts) {
       .enter()
       .append("td")
       .text(function(d) {
-        return d.value;
+        return d.value.toLocaleString();
       });
   }
 

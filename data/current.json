@@ -395,9 +395,9 @@
     "Germany": {
       "updated": 1584957600000,
       "confirmed": 26222,
-      "recovered": 268,
+      "recovered": 423,
       "deaths": 111,
-      "active": 25843
+      "active": 25688
     },
     "Ghana": {
       "updated": 1584962167000,
@@ -1661,9 +1661,9 @@
     "Baden-Württemberg": {
       "updated": 1584885600000,
       "confirmed": 4300,
-      "recovered": 29,
+      "recovered": 130,
       "deaths": 27,
-      "active": 4244
+      "active": 4143
     },
     "Bayern": {
       "updated": 1584954000000,
@@ -1710,23 +1710,23 @@
     "Mecklenburg-Vorpommern": {
       "updated": 1584885600000,
       "confirmed": 187,
-      "recovered": 0,
+      "recovered": 4,
       "deaths": 0,
-      "active": 187
+      "active": 183
     },
     "Niedersachsen": {
       "updated": 1584882000000,
       "confirmed": 1586,
-      "recovered": 6,
+      "recovered": 28,
       "deaths": 4,
-      "active": 1576
+      "active": 1554
     },
     "Nordrhein-Westfalen": {
       "updated": 1584954000000,
       "confirmed": 8028,
-      "recovered": 163,
+      "recovered": 187,
       "deaths": 41,
-      "active": 7824
+      "active": 7800
     },
     "Repatriierte": {
       "updated": 1584774000000,
@@ -1738,9 +1738,9 @@
     "Rheinland-Pfalz": {
       "updated": 1584954000000,
       "confirmed": 1177,
-      "recovered": 1,
+      "recovered": 5,
       "deaths": 2,
-      "active": 1174
+      "active": 1170
     },
     "Saarland": {
       "updated": 1584889200000,

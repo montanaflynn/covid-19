@@ -21,6 +21,10 @@ function makeMap(opts) {
 
   const paths = d3.geoPath().projection(opts.projection);
 
+  d3.select("body")
+    .append("div")
+    .attr("class", "container");
+
   var targets = document.getElementsByClassName("container");
   var spinner = new Spinner().spin(targets[0]);
 
@@ -28,10 +32,6 @@ function makeMap(opts) {
     if (error) throw error;
 
     spinner.stop();
-
-    d3.select("body")
-      .append("div")
-      .attr("class", "container");
 
     let geometries;
 
@@ -166,16 +166,15 @@ function makeMap(opts) {
       }
     }
 
-    console.log(sortData);
     if (sortDirection === "asc") {
       rows.sort((a, b) => (a[sortData] > b[sortData] ? 1 : -1));
     } else {
       rows.sort((a, b) => (a[sortData] < b[sortData] ? 1 : -1));
     }
 
-    var table = d3.select(".container").append("table"),
-      thead = table.append("thead"),
-      tbody = table.append("tbody");
+    var table = d3.select(".container").append("table");
+    var thead = table.append("thead");
+    var tbody = table.append("tbody");
 
     thead
       .append("tr")
@@ -197,12 +196,16 @@ function makeMap(opts) {
         } else {
           sortDirection = "asc";
         }
-        d3.select(".container").remove();
+
+        d3.select(".container")
+          .selectAll("*")
+          .remove();
+
         loaded(error, mapdata, data);
       });
 
     var rows = tbody
-      .selectAll("tr")
+      .selectAll()
       .data(rows)
       .enter()
       .append("tr");

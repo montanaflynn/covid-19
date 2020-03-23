@@ -10,7 +10,7 @@ header {
   left: 0;
   padding: 20px 10px 20px 20px;
   background: white;
-  box-shadow: 5px 5px 23px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 23px rgba(0, 0, 0, 0.1);
 }
 
 h1 {

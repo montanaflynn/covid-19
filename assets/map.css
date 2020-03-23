@@ -49,3 +49,7 @@ table th {
 table td {
   padding: 0 10px 0 0;
 }
+
+table tr:nth-child(even) {
+  background-color: #f4f4f4;
+}

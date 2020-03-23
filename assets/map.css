@@ -29,3 +29,15 @@ path {
 .legend {
   display: none;
 }
+
+svg {
+  float: left;
+}
+
+table {
+  float: left;
+  margin-left: 50px;
+  display: block;
+  height: 500px;
+  overflow-y: scroll;
+}

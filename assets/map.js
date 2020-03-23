@@ -50,12 +50,14 @@ function makeMap(opts) {
       }
 
       if (locationName in data[opts.dataName]) {
+        const d = data[opts.dataName][locationName];
         geometries[i].properties.name = locationName;
-        geometries[i].properties.confirmed =
-          data[opts.dataName][locationName].confirmed;
+        geometries[i].properties.confirmed = d.confirmed;
+        geometries[i].properties.active = d.active;
       } else {
         geometries[i].properties.name = locationName;
         geometries[i].properties.confirmed = 0;
+        geometries[i].properties.active = 0;
       }
     });
 
@@ -64,11 +66,11 @@ function makeMap(opts) {
       values = d3
         .entries(mapdata.objects[opts.objectName].geometries)
         .map(function(d) {
-          return d.value.properties.confirmed;
+          return d.value.properties.active;
         });
     } else {
       values = d3.entries(mapdata.features).map(function(d) {
-        return d.value.properties.confirmed;
+        return d.value.properties.active;
       });
     }
 
@@ -77,7 +79,7 @@ function makeMap(opts) {
     });
 
     const totalCasesHTML =
-      "<h2>" + opts.mapName + " Confirmed Cases: " + totalCases + "</h2>";
+      "<h2>" + opts.mapName + " Active Cases: " + totalCases + "</h2>";
 
     const minVal = d3.min(values);
     const maxVal = d3.max(values);
@@ -116,7 +118,7 @@ function makeMap(opts) {
       .attr("stroke", "#000")
       .attr("stroke-width", 0.5)
       .attr("fill", function(d, i) {
-        return color(d.properties.confirmed);
+        return color(d.properties.active);
       })
       .attr("d", paths)
       .on("mouseover", function(d) {
@@ -125,14 +127,67 @@ function makeMap(opts) {
         tooltip.html(
           "<h2>" +
             d.properties.name +
-            " Confirmed Cases: " +
-            d.properties.confirmed +
+            " Active Cases: " +
+            d.properties.active +
             "</h2>"
         );
       })
       .on("mouseout", function(d) {
         d3.select(this).style("stroke-width", 0.5);
         tooltip.html(totalCasesHTML);
+      });
+
+    const columns = ["Region", "Confirmed", "Recovered", "Deaths", "Active"];
+    var rows = [];
+    for (const key in data[opts.dataName]) {
+      if (data[opts.dataName].hasOwnProperty(key)) {
+        const d = data[opts.dataName][key];
+        rows.push({
+          Region: key.replace("Kreuzfahrtschiff", "Cruiseship"),
+          Confirmed: d.confirmed,
+          Recovered: d.recovered,
+          Deaths: d.deaths,
+          Active: d.active
+        });
+      }
+    }
+
+    rows.sort((a, b) => (a.Active < b.Active ? 1 : -1));
+
+    console.log(rows);
+
+    var table = d3.select(".container").append("table"),
+      thead = table.append("thead"),
+      tbody = table.append("tbody");
+
+    thead
+      .append("tr")
+      .selectAll("th")
+      .data(columns)
+      .enter()
+      .append("th")
+      .attr("align", "left")
+      .text(function(column) {
+        return column;
+      });
+
+    var rows = tbody
+      .selectAll("tr")
+      .data(rows)
+      .enter()
+      .append("tr");
+
+    var cells = rows
+      .selectAll("td")
+      .data(function(row) {
+        return columns.map(function(column) {
+          return { value: row[column] };
+        });
+      })
+      .enter()
+      .append("td")
+      .text(function(d) {
+        return d.value;
       });
   }
 

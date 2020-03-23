@@ -11,7 +11,6 @@ body {
 h2 {
   font-size: 2em;
   font-weight: 700;
-  color: #f00;
 }
 
 p {
@@ -26,17 +25,13 @@ path {
   cursor: crosshair;
 }
 
-.legend {
-  display: none;
-}
-
 svg {
   float: left;
+  margin: -70px 0px 0px 10px;
 }
 
 table {
   float: left;
-  margin-left: 50px;
   display: block;
   height: 500px;
   overflow-y: scroll;

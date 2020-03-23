@@ -1,6 +1,6 @@
-# Covid-19 Data [![](https://github.com/montanaflynn/covid-19/workflows/Update/badge.svg)](https://github.com/montanaflynn/covid-19/actions)
+# Covid-19 [![](https://github.com/montanaflynn/covid-19/workflows/Update/badge.svg)](https://github.com/montanaflynn/covid-19/actions)
 
-Current covid-19 data segmented into countries and states including `confirmed`, `recovered` and `deaths`.
+Current covid-19 `confirmed`, `recovered`, `deaths` and `active` case counts by region.
 
 ## Website
 
@@ -10,7 +10,7 @@ https://montanaflynn.github.io/covid-19
 
 ## Data JSON
 
-If you just want the current data in `JSON` format it's available here:
+If you want the current data in `JSON` format it's available here:
 
 https://montanaflynn.github.io/covid-19/data/current.json
 
@@ -26,7 +26,11 @@ A [GitHub action](https://github.com/montanaflynn/covid-19/blob/master/.github/w
 
 The [JSON file](https://montanaflynn.github.io/covid-19/data/current.json) and [website](https://montanaflynn.github.io/covid-19) are both hosted on GitHub so there is no running costs associated with this project.
 
-The website maps and tables are constructed using [map.js](https://github.com/montanaflynn/covid-19/blob/master/assets/map.js).
+The website maps and tables are rendered in the browser using [map.js](https://github.com/montanaflynn/covid-19/blob/master/assets/map.js).
+
+## Screenshot
+
+![](https://i.imgur.com/YkQ39E7.png)
 
 ## TODO
 

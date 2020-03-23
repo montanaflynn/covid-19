@@ -45,3 +45,7 @@ table {
 table th {
   cursor: pointer;
 }
+
+table td {
+  padding: 0 10px 0 0;
+}

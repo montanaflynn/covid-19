@@ -40,6 +40,7 @@ type cases struct {
 	Confirmed int `json:"confirmed"`
 	Recovered int `json:"recovered"`
 	Deaths    int `json:"deaths"`
+	Active    int `json:"active"`
 }
 
 type results struct {
@@ -163,16 +164,18 @@ func main() {
 
 		c, ok := countryCounts[countryName]
 		if !ok {
-			countryCounts[countryName] = cases{d.updated, d.confirmed, d.recovered, d.deaths}
+			active := d.confirmed - d.recovered - d.deaths
+			countryCounts[countryName] = cases{d.updated, d.confirmed, d.recovered, d.deaths, active}
 		} else {
 			updatedConfirmed := c.Confirmed + d.confirmed
 			updatedRecovered := c.Recovered + d.recovered
 			updatedDeaths := c.Deaths + d.deaths
+			updatedActive := c.Active + (d.confirmed - d.recovered - d.deaths)
 			updated := d.updated
 			if c.Updated > d.updated {
 				updated = c.Updated
 			}
-			countryCounts[countryName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths}
+			countryCounts[countryName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
 		}
 
 		if countryName == "United States" || countryName == "Canada" || countryName == "Germany" || countryName == "China" {
@@ -202,16 +205,18 @@ func main() {
 
 			c, ok := countMap[labelName]
 			if !ok {
-				countMap[labelName] = cases{d.updated, d.confirmed, d.recovered, d.deaths}
+				active := d.confirmed - d.recovered - d.deaths
+				countMap[labelName] = cases{d.updated, d.confirmed, d.recovered, d.deaths, active}
 			} else {
 				updatedConfirmed := c.Confirmed + d.confirmed
 				updatedRecovered := c.Recovered + d.recovered
 				updatedDeaths := c.Deaths + d.deaths
+				updatedActive := c.Active + (d.confirmed - d.recovered - d.deaths)
 				updated := d.updated
 				if c.Updated > d.updated {
 					updated = c.Updated
 				}
-				countMap[labelName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths}
+				countMap[labelName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
 			}
 		}
 	}
@@ -240,18 +245,19 @@ func main() {
 	for _, d := range vietnamData {
 		c, ok := vietnamCounts[d.Address]
 		if !ok {
-			vietnamCounts[d.Address] = cases{0, d.Number, d.Recovered, 0}
+			active := d.Number - d.Recovered
+			vietnamCounts[d.Address] = cases{0, d.Number, d.Recovered, 0, active}
 		} else {
 			updatedConfirmed := c.Confirmed + d.Number
 			updatedRecovered := c.Recovered + d.Recovered
 			updatedDeaths := c.Deaths + 0
+			updatedActive := c.Active + (d.Number - d.Recovered)
 			updated := 0
 			if c.Updated > 0 {
 				updated = c.Updated
 			}
-			vietnamCounts[d.Address] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths}
+			vietnamCounts[d.Address] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
 		}
-
 	}
 
 	output := results{

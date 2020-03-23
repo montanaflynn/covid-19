@@ -198,10 +198,10 @@
     },
     "Canada": {
       "updated": 1584989679000,
-      "confirmed": 2017,
+      "confirmed": 2004,
       "recovered": 0,
       "deaths": 24,
-      "active": 1993
+      "active": 1980
     },
     "Cape Verde": {
       "updated": 1584989464000,
@@ -568,11 +568,11 @@
       "active": 16
     },
     "Kreuzfahrtschiffe und Sonstige": {
-      "updated": 1584989679000,
-      "confirmed": 761,
-      "recovered": 567,
-      "deaths": 9,
-      "active": 185
+      "updated": 1584989477000,
+      "confirmed": 49,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 49
     },
     "Kuwait": {
       "updated": 1584989464000,
@@ -1115,10 +1115,10 @@
     },
     "United States": {
       "updated": 1584989477000,
-      "confirmed": 41659,
+      "confirmed": 41655,
       "recovered": 0,
       "deaths": 573,
-      "active": 41086
+      "active": 41082
     },
     "Uruguay": {
       "updated": 1584989464000,
@@ -1192,7 +1192,7 @@
       "deaths": 0,
       "active": 30
     },
-    "American Samoa": {
+    "Amerikanisch-Samoa": {
       "updated": 1584989477000,
       "confirmed": 0,
       "recovered": 0,
@@ -1451,7 +1451,7 @@
       "deaths": 0,
       "active": 30
     },
-    "Northern Mariana Islands": {
+    "Nördliche Marianen": {
       "updated": 1584989477000,
       "confirmed": 0,
       "recovered": 0,
@@ -1570,13 +1570,6 @@
       "deaths": 5,
       "active": 398
     },
-    "Wuhan Evacuee": {
-      "updated": 1584989477000,
-      "confirmed": 4,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 4
-    },
     "Wyoming": {
       "updated": 1584989477000,
       "confirmed": 26,
@@ -1600,13 +1593,6 @@
       "deaths": 13,
       "active": 459
     },
-    "Cruiseship \"Grand Princess\"": {
-      "updated": 1584989679000,
-      "confirmed": 13,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 13
-    },
     "Manitoba": {
       "updated": 1584989679000,
       "confirmed": 20,
@@ -1614,19 +1600,19 @@
       "deaths": 0,
       "active": 20
     },
+    "Neufundland und Labrador": {
+      "updated": 1584989679000,
+      "confirmed": 9,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 9
+    },
     "New Brunswick": {
       "updated": 1584989679000,
       "confirmed": 17,
       "recovered": 0,
       "deaths": 0,
       "active": 17
-    },
-    "Newfoundland and Labrador": {
-      "updated": 1584989679000,
-      "confirmed": 9,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 9
     },
     "Nova Scotia": {
       "updated": 1584989679000,
@@ -1649,7 +1635,7 @@
       "deaths": 0,
       "active": 3
     },
-    "Quebec": {
+    "Québec": {
       "updated": 1584989679000,
       "confirmed": 628,
       "recovered": 0,

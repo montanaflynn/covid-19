@@ -41,7 +41,7 @@ function makeMap(opts) {
       if (data[opts.dataName].hasOwnProperty(key)) {
         const d = data[opts.dataName][key];
         rows.push({
-          region: key.replace("Kreuzfahrtschiff", "Cruiseship"),
+          region: key,
           confirmed: d.confirmed,
           recovered: d.recovered,
           deaths: d.deaths,

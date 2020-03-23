@@ -9,6 +9,7 @@ import (
 	"log"
 	"net/http"
 	"strconv"
+	"strings"
 	"time"
 
 	"github.com/montanaflynn/gountries"
@@ -202,6 +203,8 @@ func main() {
 			} else if labelName == "Xinjiang" {
 				labelName = "Xinjiang Uygur"
 			}
+
+			labelName = strings.Replace(labelName, "Kreuzfahrtschiff", "Cruiseship", -1)
 
 			c, ok := countMap[labelName]
 			if !ok {

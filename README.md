@@ -30,7 +30,7 @@ The website maps and tables are rendered in the browser using [map.js](https://g
 
 ## Screenshot
 
-![](https://i.imgur.com/YkQ39E7.png)
+[![](https://i.imgur.com/Q51aIuW.png)](https://montanaflynn.github.io/covid-19/)
 
 ## TODO
 

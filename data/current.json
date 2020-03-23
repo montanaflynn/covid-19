@@ -1234,6 +1234,13 @@
       "deaths": 8,
       "active": 319
     },
+    "Cruiseship \"Grand Princess\"": {
+      "updated": 1584962176000,
+      "confirmed": 28,
+      "recovered": 0,
+      "deaths": 1,
+      "active": 27
+    },
     "Delaware": {
       "updated": 1584962176000,
       "confirmed": 56,
@@ -1317,13 +1324,6 @@
       "recovered": 0,
       "deaths": 3,
       "active": 100
-    },
-    "Kreuzfahrtschiff \"Grand Princess\"": {
-      "updated": 1584962176000,
-      "confirmed": 28,
-      "recovered": 0,
-      "deaths": 1,
-      "active": 27
     },
     "Louisiana": {
       "updated": 1584962176000,
@@ -1593,7 +1593,7 @@
       "deaths": 10,
       "active": 414
     },
-    "Kreuzfahrtschiff \"Grand Princess\"": {
+    "Cruiseship \"Grand Princess\"": {
       "updated": 1584962379000,
       "confirmed": 13,
       "recovered": 0,

@@ -15,11 +15,11 @@ function makeMap(opts) {
     throw "missing topojson or geojson";
   }
 
-  const paths = d3.geoPath().projection(opts.projection);
+  var selectedData = opts.selectedData || "active";
+  var sortData = opts.sortData || "active";
+  var sortDirection = opts.sortDirection || "desc";
 
-  d3.select("body")
-    .append("div")
-    .attr("class", "container");
+  const paths = d3.geoPath().projection(opts.projection);
 
   var targets = document.getElementsByClassName("container");
   var spinner = new Spinner().spin(targets[0]);
@@ -28,6 +28,10 @@ function makeMap(opts) {
     if (error) throw error;
 
     spinner.stop();
+
+    d3.select("body")
+      .append("div")
+      .attr("class", "container");
 
     let geometries;
 
@@ -53,10 +57,14 @@ function makeMap(opts) {
         const d = data[opts.dataName][locationName];
         geometries[i].properties.name = locationName;
         geometries[i].properties.confirmed = d.confirmed;
+        geometries[i].properties.recovered = d.recovered;
+        geometries[i].properties.deaths = d.deaths;
         geometries[i].properties.active = d.active;
       } else {
         geometries[i].properties.name = locationName;
         geometries[i].properties.confirmed = 0;
+        geometries[i].properties.recovered = 0;
+        geometries[i].properties.deaths = 0;
         geometries[i].properties.active = 0;
       }
     });
@@ -66,11 +74,11 @@ function makeMap(opts) {
       values = d3
         .entries(mapdata.objects[opts.objectName].geometries)
         .map(function(d) {
-          return d.value.properties.active;
+          return d.value.properties[selectedData];
         });
     } else {
       values = d3.entries(mapdata.features).map(function(d) {
-        return d.value.properties.active;
+        return d.value.properties[selectedData];
       });
     }
 
@@ -90,7 +98,7 @@ function makeMap(opts) {
     const color = d3
       .scaleSqrt()
       .domain([0, 1, maxVal])
-      .range(["#fff", lowColor, highColor]);
+      .range(["green", lowColor, highColor]);
 
     var tooltip = d3
       .select(".container")
@@ -118,7 +126,7 @@ function makeMap(opts) {
       .attr("stroke", "#000")
       .attr("stroke-width", 0.5)
       .attr("fill", function(d, i) {
-        return color(d.properties.active);
+        return color(d.properties[selectedData]);
       })
       .attr("d", paths)
       .on("mouseover", function(d) {
@@ -128,7 +136,7 @@ function makeMap(opts) {
           "<h2>" +
             d.properties.name +
             " Active Cases: " +
-            d.properties.active +
+            d.properties[selectedData] +
             "</h2>"
         );
       })
@@ -137,24 +145,27 @@ function makeMap(opts) {
         tooltip.html(totalCasesHTML);
       });
 
-    const columns = ["Region", "Confirmed", "Recovered", "Deaths", "Active"];
+    const columns = ["region", "confirmed", "recovered", "deaths", "active"];
     var rows = [];
     for (const key in data[opts.dataName]) {
       if (data[opts.dataName].hasOwnProperty(key)) {
         const d = data[opts.dataName][key];
         rows.push({
-          Region: key.replace("Kreuzfahrtschiff", "Cruiseship"),
-          Confirmed: d.confirmed,
-          Recovered: d.recovered,
-          Deaths: d.deaths,
-          Active: d.active
+          region: key.replace("Kreuzfahrtschiff", "Cruiseship"),
+          confirmed: d.confirmed,
+          recovered: d.recovered,
+          deaths: d.deaths,
+          active: d.active
         });
       }
     }
 
-    rows.sort((a, b) => (a.Active < b.Active ? 1 : -1));
-
-    console.log(rows);
+    console.log(sortData);
+    if (sortDirection === "asc") {
+      rows.sort((a, b) => (a[sortData] > b[sortData] ? 1 : -1));
+    } else {
+      rows.sort((a, b) => (a[sortData] < b[sortData] ? 1 : -1));
+    }
 
     var table = d3.select(".container").append("table"),
       thead = table.append("thead"),
@@ -168,7 +179,20 @@ function makeMap(opts) {
       .append("th")
       .attr("align", "left")
       .text(function(column) {
-        return column;
+        return column.charAt(0).toUpperCase() + column.slice(1);
+      })
+      .on("click", function(d) {
+        if (d !== "region") {
+          selectedData = d;
+        }
+        sortData = d;
+        if (sortDirection === "asc") {
+          sortDirection = "desc";
+        } else {
+          sortDirection = "asc";
+        }
+        d3.select(".container").remove();
+        loaded(error, mapdata, data);
       });
 
     var rows = tbody

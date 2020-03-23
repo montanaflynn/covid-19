@@ -183,19 +183,37 @@ function makeMap(opts) {
       .enter()
       .append("th")
       .attr("align", "left")
-      .text(function(column) {
-        return column.charAt(0).toUpperCase() + column.slice(1);
+      .html(function(column) {
+        let selected = "";
+        let arrow = "";
+
+        if (column === sortData) {
+          if (sortDirection === "asc") {
+            arrow = "&#x25B2;";
+          } else {
+            arrow = "&#x25BC;";
+          }
+        }
+
+        if (column === selectedData) {
+          selected = "&#x2605;";
+        }
+
+        return `${column.charAt(0).toUpperCase() +
+          column.slice(1)} ${selected} ${arrow}`;
       })
       .on("click", function(d) {
+        if (sortDirection === "asc" && sortData === d) {
+          sortDirection = "desc";
+        } else if (sortData === d) {
+          sortDirection = "asc";
+        }
+
         if (d !== "region") {
           selectedData = d;
         }
+
         sortData = d;
-        if (sortDirection === "asc") {
-          sortDirection = "desc";
-        } else {
-          sortDirection = "asc";
-        }
 
         d3.select(".container")
           .selectAll("*")

@@ -393,11 +393,11 @@
       "active": 51
     },
     "Germany": {
-      "updated": 1584950400000,
-      "confirmed": 25341,
+      "updated": 1584954000000,
+      "confirmed": 26161,
       "recovered": 268,
-      "deaths": 98,
-      "active": 24975
+      "deaths": 106,
+      "active": 25787
     },
     "Ghana": {
       "updated": 1584954231000,
@@ -1666,18 +1666,18 @@
       "active": 4248
     },
     "Bayern": {
-      "updated": 1584882000000,
+      "updated": 1584954000000,
       "confirmed": 4892,
       "recovered": 21,
       "deaths": 26,
       "active": 4845
     },
     "Berlin": {
-      "updated": 1584903600000,
-      "confirmed": 1071,
+      "updated": 1584954000000,
+      "confirmed": 1077,
       "recovered": 6,
-      "deaths": 1,
-      "active": 1064
+      "deaths": 2,
+      "active": 1069
     },
     "Brandenburg": {
       "updated": 1584885600000,
@@ -1687,25 +1687,25 @@
       "active": 351
     },
     "Bremen": {
-      "updated": 1584892800000,
+      "updated": 1584950400000,
       "confirmed": 173,
       "recovered": 3,
       "deaths": 0,
       "active": 170
     },
     "Hamburg": {
-      "updated": 1584889200000,
-      "confirmed": 887,
+      "updated": 1584954000000,
+      "confirmed": 943,
       "recovered": 1,
       "deaths": 1,
-      "active": 885
+      "active": 941
     },
     "Hessen": {
-      "updated": 1584896400000,
-      "confirmed": 1267,
+      "updated": 1584954000000,
+      "confirmed": 1347,
       "recovered": 6,
       "deaths": 3,
-      "active": 1258
+      "active": 1338
     },
     "Mecklenburg-Vorpommern": {
       "updated": 1584885600000,
@@ -1722,11 +1722,11 @@
       "active": 1576
     },
     "Nordrhein-Westfalen": {
-      "updated": 1584871200000,
-      "confirmed": 7361,
+      "updated": 1584954000000,
+      "confirmed": 8011,
       "recovered": 163,
-      "deaths": 33,
-      "active": 7165
+      "deaths": 40,
+      "active": 7808
     },
     "Repatriierte": {
       "updated": 1584774000000,
@@ -1736,11 +1736,11 @@
       "active": 0
     },
     "Rheinland-Pfalz": {
-      "updated": 1584874800000,
-      "confirmed": 1149,
+      "updated": 1584954000000,
+      "confirmed": 1177,
       "recovered": 1,
       "deaths": 2,
-      "active": 1146
+      "active": 1174
     },
     "Saarland": {
       "updated": 1584889200000,

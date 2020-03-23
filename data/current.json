@@ -193,9 +193,9 @@
       "deaths": 1
     },
     "China": {
-      "updated": 1584933188000,
+      "updated": 1584934988000,
       "confirmed": 81435,
-      "recovered": 72813,
+      "recovered": 72814,
       "deaths": 3274
     },
     "Colombia": {
@@ -1677,9 +1677,9 @@
       "deaths": 7
     },
     "Shanghai": {
-      "updated": 1584922390000,
+      "updated": 1584934988000,
       "confirmed": 404,
-      "recovered": 328,
+      "recovered": 329,
       "deaths": 4
     },
     "Shanxi": {
@@ -1740,7 +1740,13 @@
     },
     "Hà Nội": {
       "updated": 0,
-      "confirmed": 37,
+      "confirmed": 38,
+      "recovered": 0,
+      "deaths": 0
+    },
+    "Hưng Yên": {
+      "updated": 0,
+      "confirmed": 2,
       "recovered": 0,
       "deaths": 0
     },

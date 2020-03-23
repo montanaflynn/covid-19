@@ -400,11 +400,11 @@
       "active": 53
     },
     "Germany": {
-      "updated": 1584982800000,
+      "updated": 1584986400000,
       "confirmed": 28914,
-      "recovered": 453,
+      "recovered": 2820,
       "deaths": 118,
-      "active": 28343
+      "active": 25976
     },
     "Ghana": {
       "updated": 1584985485000,
@@ -1769,6 +1769,13 @@
       "recovered": 1,
       "deaths": 1,
       "active": 465
+    },
+    "Sonstige": {
+      "updated": 1584986400000,
+      "confirmed": 0,
+      "recovered": 2367,
+      "deaths": 0,
+      "active": -2367
     },
     "Thüringen": {
       "updated": 1584982800000,

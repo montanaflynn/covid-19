@@ -17,6 +17,7 @@ function makeMap(opts) {
   var selectedData = opts.selectedData || "active";
   var sortData = opts.sortData || "active";
   var sortDirection = opts.sortDirection || "desc";
+  var searchFilters = {};
 
   const paths = d3.geoPath().projection(opts.projection);
 
@@ -79,7 +80,29 @@ function makeMap(opts) {
 
     var table = d3.select(".container").append("table");
     var thead = table.append("thead");
-    var tbody = table.append("tbody");
+
+    thead
+      .append("tr")
+      .selectAll("th")
+      .data(columns)
+      .enter()
+      .append("td")
+      .attr("class", "no-padding")
+      .append("input")
+      .attr("value", function(column) {
+        if (column in searchFilters) {
+          return searchFilters[column];
+        } else {
+          return "";
+        }
+      })
+      .attr("id", function(column) {
+        return column;
+      })
+      .on("keyup", function(column) {
+        searchFilters[column] = d3.select(d3.event.target).property("value");
+        loadRows(table, rows);
+      });
 
     thead
       .append("tr")
@@ -127,24 +150,50 @@ function makeMap(opts) {
         loaded(error, mapdata, data);
       });
 
-    var rows = tbody
-      .selectAll()
-      .data(rows)
-      .enter()
-      .append("tr");
+    loadRows(table, rows);
 
-    var cells = rows
-      .selectAll("td")
-      .data(function(row) {
-        return columns.map(function(column) {
-          return { value: row[column] };
+    function loadRows(table, rows) {
+      table.selectAll("tbody").remove();
+      var tbody = table.append("tbody");
+      var rows = tbody
+        .selectAll()
+        .data(rows)
+        .data(
+          rows.filter(function(row) {
+            for (const column in searchFilters) {
+              const filter = searchFilters[column];
+              const columnValue = row[column];
+
+              if (columnValue.substring) {
+                if (!columnValue.toLowerCase().includes(filter.toLowerCase())) {
+                  return false;
+                }
+              } else {
+                // do other thing
+                if (parseInt(filter) > columnValue) {
+                  return false;
+                }
+              }
+            }
+            return true;
+          })
+        )
+        .enter()
+        .append("tr");
+
+      var cells = rows
+        .selectAll("td")
+        .data(function(row) {
+          return columns.map(function(column) {
+            return { value: row[column] };
+          });
+        })
+        .enter()
+        .append("td")
+        .text(function(d) {
+          return d.value.toLocaleString();
         });
-      })
-      .enter()
-      .append("td")
-      .text(function(d) {
-        return d.value.toLocaleString();
-      });
+    }
 
     let geometries;
 

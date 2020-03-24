@@ -11,6 +11,7 @@ body {
 h2 {
   font-size: 2em;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 p {
@@ -43,6 +44,15 @@ table th {
 
 table td {
   padding: 0 10px 0 0;
+}
+
+table td.no-padding {
+  padding: 0;
+}
+
+table td.no-padding input {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 table tr:nth-child(even) {

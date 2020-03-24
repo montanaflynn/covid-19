@@ -408,10 +408,10 @@
     },
     "Germany": {
       "updated": 1585062000000,
-      "confirmed": 31712,
+      "confirmed": 31730,
       "recovered": 3135,
-      "deaths": 142,
-      "active": 28435
+      "deaths": 143,
+      "active": 28452
     },
     "Ghana": {
       "updated": 1585061840000,
@@ -1708,18 +1708,18 @@
       "active": 1609
     },
     "Mecklenburg-Vorpommern": {
-      "updated": 1584982800000,
-      "confirmed": 201,
+      "updated": 1585062000000,
+      "confirmed": 219,
       "recovered": 4,
       "deaths": 0,
-      "active": 197
+      "active": 215
     },
     "Niedersachsen": {
-      "updated": 1584979200000,
+      "updated": 1585062000000,
       "confirmed": 2071,
       "recovered": 53,
-      "deaths": 6,
-      "active": 2012
+      "deaths": 7,
+      "active": 2011
     },
     "Nordrhein-Westfalen": {
       "updated": 1585062000000,
@@ -2026,6 +2026,13 @@
       "deaths": 0,
       "active": 9
     },
+    "Bắc Giang": {
+      "updated": 0,
+      "confirmed": 3,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 3
+    },
     "Bắc Ninh": {
       "updated": 0,
       "confirmed": 1,
@@ -2042,10 +2049,10 @@
     },
     "Hà Nội": {
       "updated": 0,
-      "confirmed": 38,
+      "confirmed": 40,
       "recovered": 0,
       "deaths": 0,
-      "active": 38
+      "active": 40
     },
     "Hưng Yên": {
       "updated": 0,
@@ -2063,10 +2070,10 @@
     },
     "Hồ Chí Minh": {
       "updated": 0,
-      "confirmed": 30,
+      "confirmed": 34,
       "recovered": 3,
       "deaths": 0,
-      "active": 27
+      "active": 31
     },
     "Khánh Hòa": {
       "updated": 0,
@@ -2074,6 +2081,13 @@
       "recovered": 1,
       "deaths": 0,
       "active": 0
+    },
+    "Lai Châu": {
+      "updated": 0,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 1
     },
     "Long An": {
       "updated": 0,
@@ -2119,10 +2133,10 @@
     },
     "Thanh Hóa": {
       "updated": 0,
-      "confirmed": 1,
+      "confirmed": 2,
       "recovered": 1,
       "deaths": 0,
-      "active": 0
+      "active": 1
     },
     "Thừa Thiên Huế": {
       "updated": 0,

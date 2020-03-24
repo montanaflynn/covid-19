@@ -407,11 +407,11 @@
       "active": 58
     },
     "Germany": {
-      "updated": 1585065600000,
-      "confirmed": 31941,
-      "recovered": 3135,
-      "deaths": 146,
-      "active": 28660
+      "updated": 1585069200000,
+      "confirmed": 31991,
+      "recovered": 3133,
+      "deaths": 148,
+      "active": 28710
     },
     "Ghana": {
       "updated": 1585061840000,
@@ -1736,11 +1736,11 @@
       "active": 1470
     },
     "Saarland": {
-      "updated": 1584982800000,
-      "confirmed": 383,
-      "recovered": 2,
-      "deaths": 1,
-      "active": 380
+      "updated": 1585069200000,
+      "confirmed": 433,
+      "recovered": 14,
+      "deaths": 3,
+      "active": 416
     },
     "Sachsen": {
       "updated": 1585065600000,
@@ -1773,9 +1773,9 @@
     "nicht zugeordnet": {
       "updated": 1584986400000,
       "confirmed": 0,
-      "recovered": 2386,
+      "recovered": 2372,
       "deaths": 0,
-      "active": -2386
+      "active": -2372
     }
   },
   "china": {

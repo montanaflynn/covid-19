@@ -259,6 +259,13 @@
       "deaths": 1,
       "active": 309
     },
+    "Cruiseship and others": {
+      "updated": 1585029916000,
+      "confirmed": 49,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 49
+    },
     "Cuba": {
       "updated": 1585029903000,
       "confirmed": 40,
@@ -567,13 +574,6 @@
       "deaths": 0,
       "active": 16
     },
-    "Kreuzfahrtschiffe und Sonstige": {
-      "updated": 1585029916000,
-      "confirmed": 49,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 49
-    },
     "Kuwait": {
       "updated": 1585029903000,
       "confirmed": 189,
@@ -630,6 +630,13 @@
       "deaths": 8,
       "active": 861
     },
+    "Macedonia": {
+      "updated": 1585029903000,
+      "confirmed": 136,
+      "recovered": 1,
+      "deaths": 2,
+      "active": 133
+    },
     "Madagascar": {
       "updated": 1585029903000,
       "confirmed": 17,
@@ -679,7 +686,7 @@
       "deaths": 4,
       "active": 359
     },
-    "Moldawien": {
+    "Moldova": {
       "updated": 1585029903000,
       "confirmed": 109,
       "recovered": 2,
@@ -770,13 +777,6 @@
       "deaths": 1,
       "active": 37
     },
-    "Nordmazedonien": {
-      "updated": 1585029903000,
-      "confirmed": 136,
-      "recovered": 1,
-      "deaths": 2,
-      "active": 133
-    },
     "Norway": {
       "updated": 1585029903000,
       "confirmed": 2625,
@@ -812,7 +812,7 @@
       "deaths": 6,
       "active": 338
     },
-    "Papua-Neuguinea": {
+    "Papua New Guinea": {
       "updated": 1585029903000,
       "confirmed": 1,
       "recovered": 0,

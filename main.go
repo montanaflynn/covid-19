@@ -147,7 +147,20 @@ func main() {
 
 	for _, d := range data {
 
+		labelName := d.label
+		labelName = strings.Replace(labelName, "Peking (Beijing)", "Beijing", -1)
+		labelName = strings.Replace(labelName, "Innere Mongolei", "Nei Mongol", -1)
+		labelName = strings.Replace(labelName, "Hubei (Wuhan)", "Hubei", -1)
+		labelName = strings.Replace(labelName, "Xinjiang", "Xinjiang Uygur", -1)
+		labelName = strings.Replace(labelName, "Amerikanische Jungferninseln", "U.S. Virgin Islands", -1)
+		labelName = strings.Replace(labelName, "Nördliche Marianen", "Northern Mariana Islands", -1)
+		labelName = strings.Replace(labelName, "Amerikanisch-Samoa", "American Samoa", -1)
+		labelName = strings.Replace(labelName, "Neufundland und Labrador", "Newfoundland and Labrador", -1)
+		labelName = strings.Replace(labelName, "Kreuzfahrtschiffe", "Cruiseship", -1)
+		labelName = strings.Replace(labelName, "Kreuzfahrtschiff", "Cruiseship", -1)
+
 		countryName := d.parent
+		countryName = strings.Replace(countryName, "Kreuzfahrtschiffe und Sonstige", "Cruiseship and others", -1)
 
 		country, err := query.FindCountryByAlpha(countries[d.parent])
 		if err == nil {
@@ -155,9 +168,9 @@ func main() {
 		}
 
 		if d.parent == "global" {
-			countryName = d.label
+			countryName = labelName
 
-			country, err := query.FindCountryByAlpha(countries[d.label])
+			country, err := query.FindCountryByAlpha(countries[labelName])
 			if err == nil {
 				countryName = country.Name.Common
 			}
@@ -192,36 +205,6 @@ func main() {
 			case "China":
 				countMap = chinaCounts
 			}
-
-			labelName := d.label
-			if labelName == "Peking (Beijing)" {
-				labelName = "Beijing"
-			} else if labelName == "Innere Mongolei" {
-				labelName = "Nei Mongol"
-			} else if labelName == "Hubei (Wuhan)" {
-				labelName = "Hubei"
-			} else if labelName == "Xinjiang" {
-				labelName = "Xinjiang Uygur"
-			} else if labelName == "Amerikanische Jungferninseln" {
-				labelName = "U.S. Virgin Islands"
-			} else if labelName == "Nördliche Marianen" {
-				labelName = "Northern Mariana Islands"
-			} else if labelName == "Amerikanisch-Samoa" {
-				labelName = "American Samoa"
-			} else if labelName == "Nordmazedonien" {
-				labelName = "North Macedonia"
-			} else if labelName == "Moldawien" {
-				labelName = "Moldova"
-			} else if labelName == "Moldawien" {
-				labelName = "Moldova"
-			} else if labelName == "Papua-Neuguinea" {
-				labelName = "Papua New Guinea"
-			} else if labelName == "Neufundland und Labrador" {
-				labelName = "Newfoundland and Labrador"
-			}
-
-			labelName = strings.Replace(labelName, "Kreuzfahrtschiffe", "Cruiseship", -1)
-			labelName = strings.Replace(labelName, "Kreuzfahrtschiff", "Cruiseship", -1)
 
 			c, ok := countMap[labelName]
 			if !ok {

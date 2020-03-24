@@ -202,8 +202,25 @@ func main() {
 				labelName = "Hubei"
 			} else if labelName == "Xinjiang" {
 				labelName = "Xinjiang Uygur"
+			} else if labelName == "Amerikanische Jungferninseln" {
+				labelName = "U.S. Virgin Islands"
+			} else if labelName == "Nördliche Marianen" {
+				labelName = "Northern Mariana Islands"
+			} else if labelName == "Amerikanisch-Samoa" {
+				labelName = "American Samoa"
+			} else if labelName == "Nordmazedonien" {
+				labelName = "North Macedonia"
+			} else if labelName == "Moldawien" {
+				labelName = "Moldova"
+			} else if labelName == "Moldawien" {
+				labelName = "Moldova"
+			} else if labelName == "Papua-Neuguinea" {
+				labelName = "Papua New Guinea"
+			} else if labelName == "Neufundland und Labrador" {
+				labelName = "Newfoundland and Labrador"
 			}
 
+			labelName = strings.Replace(labelName, "Kreuzfahrtschiffe", "Cruiseship", -1)
 			labelName = strings.Replace(labelName, "Kreuzfahrtschiff", "Cruiseship", -1)
 
 			c, ok := countMap[labelName]

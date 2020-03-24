@@ -408,10 +408,10 @@
     },
     "Germany": {
       "updated": 1585040400000,
-      "confirmed": 29560,
-      "recovered": 453,
-      "deaths": 126,
-      "active": 28981
+      "confirmed": 30081,
+      "recovered": 2839,
+      "deaths": 130,
+      "active": 27112
     },
     "Ghana": {
       "updated": 1585037886000,
@@ -1716,10 +1716,10 @@
     },
     "Nordrhein-Westfalen": {
       "updated": 1584954000000,
-      "confirmed": 8224,
+      "confirmed": 8745,
       "recovered": 187,
-      "deaths": 41,
-      "active": 7996
+      "deaths": 45,
+      "active": 8513
     },
     "Rheinland-Pfalz": {
       "updated": 1585040400000,
@@ -1755,6 +1755,13 @@
       "recovered": 1,
       "deaths": 1,
       "active": 485
+    },
+    "Sonstige": {
+      "updated": 1584986400000,
+      "confirmed": 0,
+      "recovered": 2386,
+      "deaths": 0,
+      "active": -2386
     },
     "Thüringen": {
       "updated": 1584982800000,

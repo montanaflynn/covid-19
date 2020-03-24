@@ -408,10 +408,10 @@
     },
     "Germany": {
       "updated": 1585069200000,
-      "confirmed": 32035,
+      "confirmed": 32077,
       "recovered": 3133,
-      "deaths": 150,
-      "active": 28752
+      "deaths": 155,
+      "active": 28789
     },
     "Ghana": {
       "updated": 1585065845000,
@@ -1662,8 +1662,8 @@
       "updated": 1585040400000,
       "confirmed": 5348,
       "recovered": 141,
-      "deaths": 31,
-      "active": 5176
+      "deaths": 36,
+      "active": 5171
     },
     "Bayern": {
       "updated": 1585058400000,
@@ -1697,8 +1697,8 @@
       "updated": 1585051200000,
       "confirmed": 1237,
       "recovered": 1,
-      "deaths": 2,
-      "active": 1234
+      "deaths": 1,
+      "active": 1235
     },
     "Hessen": {
       "updated": 1585065600000,
@@ -1760,15 +1760,15 @@
       "updated": 1585040400000,
       "confirmed": 544,
       "recovered": 1,
-      "deaths": 1,
-      "active": 542
+      "deaths": 2,
+      "active": 541
     },
     "Thüringen": {
-      "updated": 1584982800000,
-      "confirmed": 390,
+      "updated": 1585069200000,
+      "confirmed": 432,
       "recovered": 52,
       "deaths": 1,
-      "active": 337
+      "active": 379
     },
     "nicht zugeordnet": {
       "updated": 1584986400000,

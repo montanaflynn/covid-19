@@ -1763,19 +1763,19 @@
       "deaths": 1,
       "active": 542
     },
-    "Sonstige": {
-      "updated": 1584986400000,
-      "confirmed": 0,
-      "recovered": 2386,
-      "deaths": 0,
-      "active": -2386
-    },
     "Thüringen": {
       "updated": 1584982800000,
       "confirmed": 390,
       "recovered": 52,
       "deaths": 1,
       "active": 337
+    },
+    "nicht zugeordnet": {
+      "updated": 1584986400000,
+      "confirmed": 0,
+      "recovered": 2386,
+      "deaths": 0,
+      "active": -2386
     }
   },
   "china": {

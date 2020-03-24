@@ -1,15 +1,14 @@
 // const opts = {
-//     "mapName": "China",
-//     "width": w,
-//     "height": h,
-//     "topojson": topoJSON,
-//     "geojson": null,
-//     "data": dataJSON,
-//     "projection": projection,
-//     "objectName":"CHN_adm1",
-//     "dataName":"china",
-//      "propertyName":"NAME_1"
-//   }
+//   mapName: "Worldwide",
+//   topojson: topoJSON,
+//   projection: projection,
+//   objectName: "countries",
+//   propertyName: "name",
+//   data: dataJSON,
+//   dataName: "global",
+//   width: 800,
+//   height: 600
+// };
 function makeMap(opts) {
   if (!("topojson" in opts) && !("geojson" in opts)) {
     throw "missing topojson or geojson";

@@ -409,9 +409,9 @@
     "Germany": {
       "updated": 1585069200000,
       "confirmed": 32781,
-      "recovered": 3133,
+      "recovered": 3243,
       "deaths": 156,
-      "active": 29492
+      "active": 29382
     },
     "Ghana": {
       "updated": 1585069822000,
@@ -1661,9 +1661,9 @@
     "Baden-Württemberg": {
       "updated": 1585069200000,
       "confirmed": 6043,
-      "recovered": 141,
+      "recovered": 143,
       "deaths": 37,
-      "active": 5865
+      "active": 5863
     },
     "Bayern": {
       "updated": 1585058400000,
@@ -1717,23 +1717,23 @@
     "Niedersachsen": {
       "updated": 1585062000000,
       "confirmed": 2071,
-      "recovered": 53,
+      "recovered": 54,
       "deaths": 8,
-      "active": 2010
+      "active": 2009
     },
     "Nordrhein-Westfalen": {
       "updated": 1585062000000,
       "confirmed": 9087,
-      "recovered": 418,
+      "recovered": 522,
       "deaths": 54,
-      "active": 8615
+      "active": 8511
     },
     "Rheinland-Pfalz": {
       "updated": 1585058400000,
       "confirmed": 1480,
-      "recovered": 5,
+      "recovered": 6,
       "deaths": 5,
-      "active": 1470
+      "active": 1469
     },
     "Saarland": {
       "updated": 1585069200000,
@@ -1745,23 +1745,23 @@
     "Sachsen": {
       "updated": 1585065600000,
       "confirmed": 1018,
-      "recovered": 12,
+      "recovered": 14,
       "deaths": 6,
-      "active": 1000
+      "active": 998
     },
     "Sachsen-Anhalt": {
       "updated": 1585065600000,
       "confirmed": 377,
-      "recovered": 0,
+      "recovered": 1,
       "deaths": 1,
-      "active": 376
+      "active": 375
     },
     "Schleswig-Holstein": {
       "updated": 1585040400000,
       "confirmed": 544,
-      "recovered": 1,
+      "recovered": 2,
       "deaths": 2,
-      "active": 541
+      "active": 540
     },
     "Thüringen": {
       "updated": 1585069200000,
@@ -1773,9 +1773,9 @@
     "nicht zugeordnet": {
       "updated": 1584986400000,
       "confirmed": 0,
-      "recovered": 2372,
+      "recovered": 2370,
       "deaths": 0,
-      "active": -2372
+      "active": -2370
     }
   },
   "china": {

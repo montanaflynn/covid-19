@@ -1192,19 +1192,12 @@
       "deaths": 0,
       "active": 34
     },
-    "Amerikanisch-Samoa": {
+    "American Samoa": {
       "updated": 1585025916000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
-    },
-    "Amerikanische Jungferninseln": {
-      "updated": 1585025916000,
-      "confirmed": 17,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 17
     },
     "Arizona": {
       "updated": 1585025916000,
@@ -1451,7 +1444,7 @@
       "deaths": 0,
       "active": 33
     },
-    "Nördliche Marianen": {
+    "Northern Mariana Islands": {
       "updated": 1585025916000,
       "confirmed": 0,
       "recovered": 0,
@@ -1528,6 +1521,13 @@
       "deaths": 9,
       "active": 790
     },
+    "U.S. Virgin Islands": {
+      "updated": 1585025916000,
+      "confirmed": 17,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 17
+    },
     "Utah": {
       "updated": 1585025916000,
       "confirmed": 257,
@@ -1600,19 +1600,19 @@
       "deaths": 0,
       "active": 20
     },
-    "Neufundland und Labrador": {
-      "updated": 1585026140000,
-      "confirmed": 24,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 24
-    },
     "New Brunswick": {
       "updated": 1585026140000,
       "confirmed": 17,
       "recovered": 0,
       "deaths": 0,
       "active": 17
+    },
+    "Newfoundland and Labrador": {
+      "updated": 1585026140000,
+      "confirmed": 24,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 24
     },
     "Nova Scotia": {
       "updated": 1585026140000,

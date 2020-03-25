@@ -409,9 +409,9 @@
     "Germany": {
       "updated": 1585130400000,
       "confirmed": 34009,
-      "recovered": 3550,
+      "recovered": 3535,
       "deaths": 172,
-      "active": 30287
+      "active": 30302
     },
     "Ghana": {
       "updated": 1585131431000,
@@ -1675,9 +1675,9 @@
     "Bayern": {
       "updated": 1585123200000,
       "confirmed": 6558,
-      "recovered": 41,
+      "recovered": 47,
       "deaths": 37,
-      "active": 6480
+      "active": 6474
     },
     "Berlin": {
       "updated": 1585123200000,
@@ -1710,23 +1710,23 @@
     "Hessen": {
       "updated": 1585123200000,
       "confirmed": 1754,
-      "recovered": 6,
+      "recovered": 19,
       "deaths": 4,
-      "active": 1744
+      "active": 1731
     },
     "Mecklenburg-Vorpommern": {
       "updated": 1585062000000,
       "confirmed": 219,
-      "recovered": 4,
+      "recovered": 5,
       "deaths": 0,
-      "active": 215
+      "active": 214
     },
     "Niedersachsen": {
       "updated": 1585123200000,
       "confirmed": 2140,
-      "recovered": 56,
+      "recovered": 83,
       "deaths": 8,
-      "active": 2076
+      "active": 2049
     },
     "Nordrhein-Westfalen": {
       "updated": 1585126800000,
@@ -1759,9 +1759,9 @@
     "Sachsen-Anhalt": {
       "updated": 1585130400000,
       "confirmed": 400,
-      "recovered": 1,
+      "recovered": 2,
       "deaths": 1,
-      "active": 398
+      "active": 397
     },
     "Schleswig-Holstein": {
       "updated": 1585130400000,
@@ -1773,16 +1773,16 @@
     "Thüringen": {
       "updated": 1585083600000,
       "confirmed": 437,
-      "recovered": 52,
+      "recovered": 59,
       "deaths": 1,
-      "active": 384
+      "active": 377
     },
     "nicht zugeordnet": {
       "updated": 1584986400000,
       "confirmed": 0,
-      "recovered": 2370,
+      "recovered": 2300,
       "deaths": 0,
-      "active": -2370
+      "active": -2300
     }
   },
   "china": {

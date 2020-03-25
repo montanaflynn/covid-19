@@ -408,10 +408,10 @@
     },
     "Germany": {
       "updated": 1585155600000,
-      "confirmed": 35883,
+      "confirmed": 37066,
       "recovered": 3547,
-      "deaths": 186,
-      "active": 32150
+      "deaths": 205,
+      "active": 33314
     },
     "Ghana": {
       "updated": 1585156106000,
@@ -1680,11 +1680,11 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1585123200000,
-      "confirmed": 6069,
+      "updated": 1585155600000,
+      "confirmed": 7252,
       "recovered": 186,
-      "deaths": 37,
-      "active": 5846
+      "deaths": 56,
+      "active": 7010
     },
     "Bayern": {
       "updated": 1585141200000,

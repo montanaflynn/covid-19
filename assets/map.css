@@ -44,6 +44,11 @@ table th {
 
 table td {
   padding: 0 10px 0 0;
+  width: 100px;
+}
+
+table td:first-child {
+  width: 200px;
 }
 
 table td.no-padding {

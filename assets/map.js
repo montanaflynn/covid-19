@@ -27,8 +27,7 @@ function makeMap(opts) {
     .attr("class", "container")
     .attr("id", opts.id);
 
-  var targets = document.getElementsByClassName("container");
-  var spinner = new Spinner().spin(targets[0]);
+  var spinner = new Spinner().spin(map.node());
 
   function loaded(error, mapdata, data) {
     if (error) throw error;
@@ -96,9 +95,6 @@ function makeMap(opts) {
         } else {
           return "";
         }
-      })
-      .attr("id", function(column) {
-        return column;
       })
       .on("keyup", function(column) {
         searchFilters[column] = d3.select(d3.event.target).property("value");
@@ -287,8 +283,180 @@ function makeMap(opts) {
     mapjson = opts.geojson;
   }
 
-  d3.queue()
-    .defer(d3.json, mapjson)
-    .defer(d3.json, opts.data)
-    .await(loaded);
+  var jsonFiles = [d3.json(mapjson), d3.json(opts.data)];
+
+  return new Promise((resolve, reject) => {
+    Promise.all(jsonFiles)
+      .then(function(values) {
+        loaded(null, values[0], values[1]);
+      })
+      .then(function() {
+        return resolve();
+      })
+      .catch(function(err) {
+        return reject(err);
+      });
+  });
 }
+
+function worldMap() {
+  const w = 800;
+  const h = 583;
+
+  const projection = d3
+    .geoMercator()
+    .scale(w / Math.PI / 2)
+    .translate([w / 2, w / 2]);
+
+  return makeMap({
+    mapName: "Worldwide",
+    id: "world",
+    width: w,
+    height: h,
+    topojson: "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
+    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    projection: projection,
+    objectName: "countries",
+    dataName: "global",
+    propertyName: "name"
+  });
+}
+
+function usaMap() {
+  const w = 800;
+  const h = 600;
+
+  const projection = d3
+    .geoAlbersUsa()
+    .translate([w / 2, h / 2])
+    .scale([1000]);
+
+  return makeMap({
+    mapName: "United States",
+    id: "usa",
+    width: w,
+    height: h,
+    topojson: "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json",
+    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    projection: projection,
+    objectName: "states",
+    dataName: "usa",
+    propertyName: "name"
+  });
+}
+
+function canadaMap() {
+  const w = 800;
+  const h = 600;
+
+  const projection = d3
+    .geoAzimuthalEqualArea()
+    .rotate([100, -45])
+    .center([5, 20])
+    .scale(w)
+    .translate([w / 2, h / 2]);
+
+  return makeMap({
+    mapName: "Canada",
+    id: "canada",
+    width: w,
+    height: h,
+    topojson:
+      "https://gistcdn.githack.com/montanaflynn/32f882ec77b0dd15bced6a28fad80028/raw/13f1fb4d257ca2f11dd441003ce578a46ec5097f/canada-provinces.topo.json",
+    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    projection: projection,
+    objectName: "provinces",
+    dataName: "canada",
+    propertyName: "name"
+  });
+}
+
+function germanyMap() {
+  const w = 800;
+  const h = 600;
+
+  var projection = d3
+    .geoMercator()
+    .center([10.5, 51.35])
+    .scale(2000)
+    .translate([w / 2, h / 2]);
+
+  return makeMap({
+    mapName: "Germany",
+    id: "germany",
+    width: w,
+    height: h,
+    geojson:
+      "https://raw.githubusercontent.com/isellsoap/deutschlandGeoJSON/master/2_bundeslaender/4_niedrig.geojson",
+    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    projection: projection,
+    objectName: "DEU_adm2",
+    dataName: "germany",
+    propertyName: "NAME_1"
+  });
+}
+
+function chinaMap() {
+  const w = 800;
+  const h = 600;
+
+  const projection = d3
+    .geoMercator()
+    .center([110, 25])
+    .scale([700])
+    .translate([450, 500]);
+
+  return makeMap({
+    mapName: "China",
+    id: "china",
+    width: w,
+    height: h,
+    topojson:
+      "https://raw.githubusercontent.com/deldersveld/topojson/master/countries/china/china-provinces.json",
+    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    projection: projection,
+    objectName: "CHN_adm1",
+    dataName: "china",
+    propertyName: "NAME_1"
+  });
+}
+
+function vietnamMap() {
+  const w = 800;
+  const h = 600;
+
+  var projection = d3
+    .geoMercator()
+    .center([108.5, 14.35])
+    .scale(2200)
+    .translate([w / 2, h / 2 + 70]);
+
+  return makeMap({
+    mapName: "Vietnam",
+    id: "vietnam",
+    width: w,
+    height: h,
+    topojson:
+      "https://raw.githubusercontent.com/kcjpop/vietnam-topojson/master/adm2/adm2.json",
+    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    projection: projection,
+    objectName: "adm2",
+    dataName: "vietnam",
+    propertyName: "name_vi"
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  var promises = [
+    worldMap(),
+    usaMap(),
+    canadaMap(),
+    germanyMap(),
+    chinaMap(),
+    vietnamMap()
+  ];
+
+  Promise.all(promises).catch(function(err) {
+    throw err;
+  });
+});

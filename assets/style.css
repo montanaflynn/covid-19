@@ -4,6 +4,7 @@ body {
 }
 
 header {
+  z-index: 100;
   width: 100%;
   position: fixed;
   top: 0;
@@ -38,6 +39,7 @@ a:visited {
 }
 
 .container {
+  position: relative;
   display: block;
   padding: 160px 10px 20px 20px;
   width: 100%;

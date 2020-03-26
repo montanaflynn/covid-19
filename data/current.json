@@ -2075,12 +2075,26 @@
       "deaths": 0,
       "active": 1
     },
-    "Hà Nội": {
+    "Cần Thơ": {
       "updated": 0,
-      "confirmed": 46,
+      "confirmed": 1,
       "recovered": 0,
       "deaths": 0,
-      "active": 46
+      "active": 1
+    },
+    "Hà Nội": {
+      "updated": 0,
+      "confirmed": 48,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 48
+    },
+    "Hà Tĩnh": {
+      "updated": 0,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 1
     },
     "Hưng Yên": {
       "updated": 0,
@@ -2098,10 +2112,10 @@
     },
     "Hồ Chí Minh": {
       "updated": 0,
-      "confirmed": 34,
+      "confirmed": 36,
       "recovered": 3,
       "deaths": 0,
-      "active": 31
+      "active": 33
     },
     "Khánh Hòa": {
       "updated": 0,
@@ -2175,10 +2189,10 @@
     },
     "Trà Vinh": {
       "updated": 0,
-      "confirmed": 2,
+      "confirmed": 3,
       "recovered": 0,
       "deaths": 0,
-      "active": 2
+      "active": 3
     },
     "Vĩnh Phúc": {
       "updated": 0,

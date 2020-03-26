@@ -409,9 +409,9 @@
     "Germany": {
       "updated": 1585231200000,
       "confirmed": 40585,
-      "recovered": 3959,
+      "recovered": 5669,
       "deaths": 229,
-      "active": 36397
+      "active": 34687
     },
     "Ghana": {
       "updated": 1585231064000,
@@ -1829,9 +1829,9 @@
     "nicht zugeordnet": {
       "updated": 1584986400000,
       "confirmed": 0,
-      "recovered": 2290,
+      "recovered": 4000,
       "deaths": 0,
-      "active": -2290
+      "active": -4000
     }
   },
   "china": {

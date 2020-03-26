@@ -408,10 +408,10 @@
     },
     "Germany": {
       "updated": 1585234800000,
-      "confirmed": 41445,
-      "recovered": 5669,
-      "deaths": 236,
-      "active": 35540
+      "confirmed": 41519,
+      "recovered": 5673,
+      "deaths": 239,
+      "active": 35607
     },
     "Ghana": {
       "updated": 1585235146000,
@@ -1771,11 +1771,11 @@
       "active": 240
     },
     "Niedersachsen": {
-      "updated": 1585234800000,
+      "updated": 1585227600000,
       "confirmed": 2726,
       "recovered": 234,
-      "deaths": 8,
-      "active": 2484
+      "deaths": 10,
+      "active": 2482
     },
     "Nordrhein-Westfalen": {
       "updated": 1585234800000,
@@ -1792,11 +1792,11 @@
       "active": 1858
     },
     "Saarland": {
-      "updated": 1585155600000,
-      "confirmed": 466,
-      "recovered": 21,
+      "updated": 1585234800000,
+      "confirmed": 540,
+      "recovered": 25,
       "deaths": 3,
-      "active": 442
+      "active": 512
     },
     "Sachsen": {
       "updated": 1585126800000,
@@ -1809,8 +1809,8 @@
       "updated": 1585234800000,
       "confirmed": 500,
       "recovered": 21,
-      "deaths": 1,
-      "active": 478
+      "deaths": 2,
+      "active": 477
     },
     "Schleswig-Holstein": {
       "updated": 1585216800000,

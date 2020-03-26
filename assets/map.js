@@ -21,9 +21,11 @@ function makeMap(opts) {
 
   const paths = d3.geoPath().projection(opts.projection);
 
-  d3.select("body")
+  const map = d3
+    .select("body")
     .append("div")
-    .attr("class", "container");
+    .attr("class", "container")
+    .attr("id", opts.id);
 
   var targets = document.getElementsByClassName("container");
   var spinner = new Spinner().spin(targets[0]);
@@ -72,13 +74,12 @@ function makeMap(opts) {
       opts.mapName
     } ${selectedDataName}: ${totalCases.toLocaleString()} </h2>`;
 
-    var tooltip = d3
-      .select(".container")
+    var tooltip = map
       .append("div")
       .attr("class", "toolTip")
       .html(totalCasesHTML);
 
-    var table = d3.select(".container").append("table");
+    var table = map.append("table");
     var thead = table.append("thead");
 
     thead
@@ -143,9 +144,7 @@ function makeMap(opts) {
 
         sortData = d;
 
-        d3.select(".container")
-          .selectAll("*")
-          .remove();
+        map.selectAll("*").remove();
 
         loaded(error, mapdata, data);
       });
@@ -213,6 +212,8 @@ function makeMap(opts) {
         locationName = "United States";
       } else if (locationName === "Thành phố Hồ Chí Minh") {
         locationName = "Hồ Chí Minh";
+      } else if (locationName === "Quebec") {
+        locationName = "Québec";
       }
 
       if (locationName in data[opts.dataName]) {
@@ -249,8 +250,7 @@ function makeMap(opts) {
       pathData = mapdata;
     }
 
-    const svg = d3
-      .select(".container")
+    const svg = map
       .append("svg")
       .attr("width", opts.width)
       .attr("height", opts.height)

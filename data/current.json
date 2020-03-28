@@ -414,11 +414,11 @@
       "active": 71
     },
     "Germany": {
-      "updated": 1585411200000,
-      "confirmed": 52867,
+      "updated": 1585414800000,
+      "confirmed": 53920,
       "recovered": 8481,
-      "deaths": 379,
-      "active": 44007
+      "deaths": 396,
+      "active": 45043
     },
     "Ghana": {
       "updated": 1585412136000,
@@ -1722,11 +1722,11 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1585386000000,
-      "confirmed": 9781,
+      "updated": 1585407600000,
+      "confirmed": 10819,
       "recovered": 552,
-      "deaths": 101,
-      "active": 9128
+      "deaths": 118,
+      "active": 10149
     },
     "Bayern": {
       "updated": 1585400400000,
@@ -1750,11 +1750,11 @@
       "active": 701
     },
     "Bremen": {
-      "updated": 1585335600000,
-      "confirmed": 263,
+      "updated": 1585414800000,
+      "confirmed": 278,
       "recovered": 53,
       "deaths": 2,
-      "active": 208
+      "active": 223
     },
     "Hamburg": {
       "updated": 1585404000000,

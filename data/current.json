@@ -415,10 +415,10 @@
     },
     "Germany": {
       "updated": 1585386000000,
-      "confirmed": 49160,
+      "confirmed": 40409,
       "recovered": 7632,
-      "deaths": 350,
-      "active": 41178
+      "deaths": 343,
+      "active": 32434
     },
     "Ghana": {
       "updated": 1585383718000,
@@ -1722,25 +1722,25 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1585328400000,
-      "confirmed": 9729,
+      "updated": 1585386000000,
+      "confirmed": 9781,
       "recovered": 366,
       "deaths": 101,
-      "active": 9262
+      "active": 9314
     },
     "Bayern": {
-      "updated": 1585306800000,
-      "confirmed": 10180,
+      "updated": 1585386000000,
+      "confirmed": 1150,
       "recovered": 208,
-      "deaths": 59,
-      "active": 9913
+      "deaths": 77,
+      "active": 865
     },
     "Berlin": {
-      "updated": 1585335600000,
-      "confirmed": 2152,
+      "updated": 1585386000000,
+      "confirmed": 2161,
       "recovered": 645,
       "deaths": 8,
-      "active": 1499
+      "active": 1508
     },
     "Brandenburg": {
       "updated": 1585386000000,
@@ -1757,18 +1757,18 @@
       "active": 208
     },
     "Hamburg": {
-      "updated": 1585314000000,
-      "confirmed": 1759,
+      "updated": 1585386000000,
+      "confirmed": 1765,
       "recovered": 1,
       "deaths": 2,
-      "active": 1756
+      "active": 1762
     },
     "Hessen": {
       "updated": 1585314000000,
-      "confirmed": 2392,
+      "confirmed": 2604,
       "recovered": 77,
-      "deaths": 7,
-      "active": 2308
+      "deaths": 9,
+      "active": 2518
     },
     "Mecklenburg-Vorpommern": {
       "updated": 1585328400000,
@@ -1816,8 +1816,8 @@
       "updated": 1585321200000,
       "confirmed": 561,
       "recovered": 22,
-      "deaths": 29,
-      "active": 510
+      "deaths": 2,
+      "active": 537
     },
     "Schleswig-Holstein": {
       "updated": 1585382400000,

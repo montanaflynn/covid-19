@@ -1778,11 +1778,11 @@
       "active": 340
     },
     "Niedersachsen": {
-      "updated": 1585479600000,
-      "confirmed": 3786,
+      "updated": 1585566000000,
+      "confirmed": 4026,
       "recovered": 525,
-      "deaths": 27,
-      "active": 3234
+      "deaths": 33,
+      "active": 3468
     },
     "Nordrhein-Westfalen": {
       "updated": 1585555200000,
@@ -1835,10 +1835,10 @@
     },
     "nicht zugeordnet": {
       "updated": 1585328400000,
-      "confirmed": 1503,
+      "confirmed": 1263,
       "recovered": 4700,
-      "deaths": 39,
-      "active": -3236
+      "deaths": 33,
+      "active": -3470
     }
   },
   "china": {

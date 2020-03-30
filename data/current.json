@@ -414,11 +414,11 @@
       "active": 80
     },
     "Germany": {
-      "updated": 1585548000000,
-      "confirmed": 62448,
+      "updated": 1585555200000,
+      "confirmed": 63037,
       "recovered": 10534,
-      "deaths": 541,
-      "active": 51373
+      "deaths": 544,
+      "active": 51959
     },
     "Ghana": {
       "updated": 1585554491000,
@@ -1743,7 +1743,7 @@
       "active": 1608
     },
     "Brandenburg": {
-      "updated": 1585497600000,
+      "updated": 1585555200000,
       "confirmed": 846,
       "recovered": 63,
       "deaths": 4,
@@ -1786,10 +1786,10 @@
     },
     "Nordrhein-Westfalen": {
       "updated": 1585472400000,
-      "confirmed": 13630,
+      "confirmed": 14219,
       "recovered": 2084,
-      "deaths": 110,
-      "active": 11436
+      "deaths": 125,
+      "active": 12010
     },
     "Rheinland-Pfalz": {
       "updated": 1585548000000,
@@ -1837,8 +1837,8 @@
       "updated": 1585328400000,
       "confirmed": 2819,
       "recovered": 4700,
-      "deaths": 64,
-      "active": -1945
+      "deaths": 52,
+      "active": -1933
     }
   },
   "china": {

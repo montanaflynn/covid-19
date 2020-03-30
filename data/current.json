@@ -414,7 +414,7 @@
       "active": 80
     },
     "Germany": {
-      "updated": 1585569600000,
+      "updated": 1585573200000,
       "confirmed": 62435,
       "recovered": 10534,
       "deaths": 541,
@@ -1757,18 +1757,18 @@
       "active": 235
     },
     "Hamburg": {
-      "updated": 1585548000000,
-      "confirmed": 2078,
+      "updated": 1585573200000,
+      "confirmed": 2214,
       "recovered": 1,
       "deaths": 5,
-      "active": 2072
+      "active": 2208
     },
     "Hessen": {
-      "updated": 1585548000000,
-      "confirmed": 3091,
+      "updated": 1585573200000,
+      "confirmed": 3100,
       "recovered": 196,
-      "deaths": 13,
-      "active": 2882
+      "deaths": 14,
+      "active": 2890
     },
     "Mecklenburg-Vorpommern": {
       "updated": 1585494000000,
@@ -1835,10 +1835,10 @@
     },
     "nicht zugeordnet": {
       "updated": 1585328400000,
-      "confirmed": 1648,
+      "confirmed": 1503,
       "recovered": 4700,
-      "deaths": 40,
-      "active": -3092
+      "deaths": 39,
+      "active": -3236
     }
   },
   "china": {

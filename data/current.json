@@ -1806,18 +1806,18 @@
       "active": 672
     },
     "Sachsen": {
-      "updated": 1585486800000,
-      "confirmed": 1816,
+      "updated": 1585569600000,
+      "confirmed": 1930,
       "recovered": 32,
-      "deaths": 10,
-      "active": 1774
+      "deaths": 11,
+      "active": 1887
     },
     "Sachsen-Anhalt": {
-      "updated": 1585558800000,
-      "confirmed": 654,
+      "updated": 1585576800000,
+      "confirmed": 682,
       "recovered": 22,
-      "deaths": 4,
-      "active": 628
+      "deaths": 6,
+      "active": 654
     },
     "Schleswig-Holstein": {
       "updated": 1585548000000,
@@ -1835,10 +1835,10 @@
     },
     "nicht zugeordnet": {
       "updated": 1585328400000,
-      "confirmed": 2524,
+      "confirmed": 2382,
       "recovered": 4700,
-      "deaths": 47,
-      "active": -2223
+      "deaths": 44,
+      "active": -2362
     }
   },
   "china": {

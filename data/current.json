@@ -416,9 +416,9 @@
     "Germany": {
       "updated": 1585584000000,
       "confirmed": 63929,
-      "recovered": 10552,
+      "recovered": 10762,
       "deaths": 560,
-      "active": 52817
+      "active": 52607
     },
     "Ghana": {
       "updated": 1585583267000,
@@ -1736,18 +1736,18 @@
       "active": 13667
     },
     "Berlin": {
-      "updated": 1585548000000,
-      "confirmed": 2464,
-      "recovered": 845,
-      "deaths": 11,
-      "active": 1608
+      "updated": 1585584000000,
+      "confirmed": 2581,
+      "recovered": 1055,
+      "deaths": 13,
+      "active": 1513
     },
     "Brandenburg": {
       "updated": 1585555200000,
-      "confirmed": 846,
+      "confirmed": 894,
       "recovered": 63,
       "deaths": 4,
-      "active": 779
+      "active": 827
     },
     "Bremen": {
       "updated": 1585584000000,
@@ -1835,10 +1835,10 @@
     },
     "nicht zugeordnet": {
       "updated": 1585328400000,
-      "confirmed": 2273,
+      "confirmed": 2108,
       "recovered": 4700,
-      "deaths": 40,
-      "active": -2467
+      "deaths": 38,
+      "active": -2630
     }
   },
   "china": {

@@ -421,7 +421,7 @@
       "active": 87
     },
     "Germany": {
-      "updated": 1585638000000,
+      "updated": 1585641600000,
       "confirmed": 66885,
       "recovered": 15824,
       "deaths": 645,
@@ -1778,11 +1778,11 @@
       "active": 2913
     },
     "Mecklenburg-Vorpommern": {
-      "updated": 1585576800000,
+      "updated": 1585641600000,
       "confirmed": 366,
       "recovered": 42,
-      "deaths": 1,
-      "active": 323
+      "deaths": 3,
+      "active": 321
     },
     "Niedersachsen": {
       "updated": 1585638000000,
@@ -1844,8 +1844,8 @@
       "updated": 1585605600000,
       "confirmed": 3544,
       "recovered": 7400,
-      "deaths": 4,
-      "active": -3860
+      "deaths": 2,
+      "active": -3858
     }
   },
   "china": {

@@ -421,7 +421,7 @@
       "active": 83
     },
     "Germany": {
-      "updated": 1585609200000,
+      "updated": 1585638000000,
       "confirmed": 66885,
       "recovered": 13500,
       "deaths": 645,
@@ -1729,18 +1729,18 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1585587600000,
-      "confirmed": 12257,
+      "updated": 1585638000000,
+      "confirmed": 12334,
       "recovered": 1058,
       "deaths": 185,
-      "active": 11014
+      "active": 11091
     },
     "Bayern": {
-      "updated": 1585569600000,
-      "confirmed": 14437,
+      "updated": 1585638000000,
+      "confirmed": 14810,
       "recovered": 637,
       "deaths": 170,
-      "active": 13630
+      "active": 14003
     },
     "Berlin": {
       "updated": 1585584000000,
@@ -1842,10 +1842,10 @@
     },
     "nicht zugeordnet": {
       "updated": 1585605600000,
-      "confirmed": 4343,
+      "confirmed": 3893,
       "recovered": 7438,
       "deaths": 11,
-      "active": -3106
+      "active": -3556
     }
   },
   "china": {

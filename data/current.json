@@ -424,8 +424,8 @@
       "updated": 1585656000000,
       "confirmed": 67051,
       "recovered": 15823,
-      "deaths": 682,
-      "active": 50546
+      "deaths": 684,
+      "active": 50544
     },
     "Ghana": {
       "updated": 1585654640000,
@@ -1771,11 +1771,11 @@
       "active": 1531
     },
     "Hessen": {
-      "updated": 1585638000000,
-      "confirmed": 3283,
+      "updated": 1585656000000,
+      "confirmed": 3301,
       "recovered": 353,
-      "deaths": 17,
-      "active": 2913
+      "deaths": 18,
+      "active": 2930
     },
     "Mecklenburg-Vorpommern": {
       "updated": 1585641600000,
@@ -1813,11 +1813,11 @@
       "active": 733
     },
     "Sachsen": {
-      "updated": 1585638000000,
-      "confirmed": 1930,
+      "updated": 1585656000000,
+      "confirmed": 2084,
       "recovered": 33,
-      "deaths": 12,
-      "active": 1885
+      "deaths": 13,
+      "active": 2038
     },
     "Sachsen-Anhalt": {
       "updated": 1585645200000,
@@ -1842,10 +1842,10 @@
     },
     "nicht zugeordnet": {
       "updated": 1585605600000,
-      "confirmed": 1857,
+      "confirmed": 1685,
       "recovered": 6650,
       "deaths": 0,
-      "active": -4793
+      "active": -4965
     }
   },
   "china": {

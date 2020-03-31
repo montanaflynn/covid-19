@@ -423,9 +423,9 @@
     "Germany": {
       "updated": 1585656000000,
       "confirmed": 67051,
-      "recovered": 15824,
+      "recovered": 15823,
       "deaths": 682,
-      "active": 50545
+      "active": 50546
     },
     "Ghana": {
       "updated": 1585654640000,
@@ -1766,9 +1766,9 @@
     "Hamburg": {
       "updated": 1585648800000,
       "confirmed": 2290,
-      "recovered": 1,
+      "recovered": 750,
       "deaths": 9,
-      "active": 2280
+      "active": 1531
     },
     "Hessen": {
       "updated": 1585638000000,
@@ -1843,9 +1843,9 @@
     "nicht zugeordnet": {
       "updated": 1585605600000,
       "confirmed": 1857,
-      "recovered": 7400,
+      "recovered": 6650,
       "deaths": 0,
-      "active": -5543
+      "active": -4793
     }
   },
   "china": {

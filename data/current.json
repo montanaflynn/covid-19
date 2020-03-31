@@ -421,7 +421,7 @@
       "active": 87
     },
     "Germany": {
-      "updated": 1585641600000,
+      "updated": 1585645200000,
       "confirmed": 67051,
       "recovered": 15824,
       "deaths": 650,
@@ -1750,11 +1750,11 @@
       "active": 1513
     },
     "Brandenburg": {
-      "updated": 1585587600000,
-      "confirmed": 894,
+      "updated": 1585645200000,
+      "confirmed": 933,
       "recovered": 77,
       "deaths": 7,
-      "active": 810
+      "active": 849
     },
     "Bremen": {
       "updated": 1585584000000,
@@ -1842,10 +1842,10 @@
     },
     "nicht zugeordnet": {
       "updated": 1585605600000,
-      "confirmed": 3221,
+      "confirmed": 3182,
       "recovered": 7400,
       "deaths": 0,
-      "active": -4179
+      "active": -4218
     }
   },
   "china": {

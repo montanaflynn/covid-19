@@ -1792,11 +1792,11 @@
       "active": 3303
     },
     "Nordrhein-Westfalen": {
-      "updated": 1585576800000,
-      "confirmed": 14442,
+      "updated": 1585641600000,
+      "confirmed": 14931,
       "recovered": 3381,
-      "deaths": 138,
-      "active": 10923
+      "deaths": 145,
+      "active": 11405
     },
     "Rheinland-Pfalz": {
       "updated": 1585638000000,
@@ -1842,10 +1842,10 @@
     },
     "nicht zugeordnet": {
       "updated": 1585605600000,
-      "confirmed": 3710,
+      "confirmed": 3221,
       "recovered": 7400,
-      "deaths": 7,
-      "active": -3697
+      "deaths": 0,
+      "active": -4179
     }
   },
   "china": {

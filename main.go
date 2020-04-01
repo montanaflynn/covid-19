@@ -55,6 +55,8 @@ type results struct {
 
 func main() {
 
+	log.SetFlags(log.Llongfile)
+
 	res, err := http.Get(fmt.Sprintf("%s%s", baseURL, endpoint))
 	if err != nil {
 		log.Fatal(err)
@@ -82,10 +84,11 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		// fmt.Printf("%+v\n", record)
+
 		updated, err := strconv.Atoi(record[2])
 		if err != nil {
-			log.Fatal(err)
+			log.Printf("%s\n%s\n", err, record)
+			continue
 		}
 
 		date := time.Unix(int64(updated), 0)

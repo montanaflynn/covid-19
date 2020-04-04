@@ -145,6 +145,8 @@ func main() {
 		}
 
 		if d.parent == "global" {
+			countryName = strings.Replace(countryName, "USA", "United States", -1)
+
 			c, ok := countryCounts[countryName]
 			if !ok {
 				active := d.confirmed - d.recovered - d.deaths

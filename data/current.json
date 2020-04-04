@@ -1162,13 +1162,6 @@
       "deaths": 425,
       "active": 20012
     },
-    "USA": {
-      "updated": 1585977904132,
-      "confirmed": 277305,
-      "recovered": 9863,
-      "deaths": 7134,
-      "active": 260308
-    },
     "Uganda": {
       "updated": 1585977904123,
       "confirmed": 48,
@@ -1196,6 +1189,13 @@
       "recovered": 135,
       "deaths": 3605,
       "active": 34428
+    },
+    "United States": {
+      "updated": 1585977904132,
+      "confirmed": 277305,
+      "recovered": 9863,
+      "deaths": 7134,
+      "active": 260308
     },
     "Uruguay": {
       "updated": 1585977904123,
@@ -1597,13 +1597,6 @@
       "recovered": 0,
       "deaths": 104,
       "active": 5921
-    },
-    "USA": {
-      "updated": 1585977904132,
-      "confirmed": 277305,
-      "recovered": 9863,
-      "deaths": 7134,
-      "active": 260308
     },
     "Utah": {
       "updated": 1585977904129,

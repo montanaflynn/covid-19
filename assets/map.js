@@ -306,6 +306,14 @@ function makeMap(opts) {
   });
 }
 
+function getDataURL() {
+  if (location.hostname === "localhost" || location.hostname === "127.0.0.1") {
+    return "data/current.json";
+  }
+
+  return "https://montanaflynn.github.io/covid-19/data/current.json";
+}
+
 function worldMap() {
   const w = 800;
   const h = 583;
@@ -321,7 +329,7 @@ function worldMap() {
     width: w,
     height: h,
     topojson: "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json",
-    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    data: getDataURL(),
     projection: projection,
     objectName: "countries",
     dataName: "global",
@@ -344,7 +352,7 @@ function usaMap() {
     width: w,
     height: h,
     topojson: "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json",
-    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    data: getDataURL(),
     projection: projection,
     objectName: "states",
     dataName: "usa",
@@ -370,7 +378,7 @@ function canadaMap() {
     height: h,
     topojson:
       "https://gistcdn.githack.com/montanaflynn/32f882ec77b0dd15bced6a28fad80028/raw/13f1fb4d257ca2f11dd441003ce578a46ec5097f/canada-provinces.topo.json",
-    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    data: getDataURL(),
     projection: projection,
     objectName: "provinces",
     dataName: "canada",
@@ -395,7 +403,7 @@ function germanyMap() {
     height: h,
     geojson:
       "https://raw.githubusercontent.com/isellsoap/deutschlandGeoJSON/master/2_bundeslaender/4_niedrig.geojson",
-    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    data: getDataURL(),
     projection: projection,
     objectName: "DEU_adm2",
     dataName: "germany",
@@ -420,7 +428,7 @@ function chinaMap() {
     height: h,
     topojson:
       "https://raw.githubusercontent.com/deldersveld/topojson/master/countries/china/china-provinces.json",
-    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    data: getDataURL(),
     projection: projection,
     objectName: "CHN_adm1",
     dataName: "china",
@@ -445,7 +453,7 @@ function vietnamMap() {
     height: h,
     topojson:
       "https://raw.githubusercontent.com/kcjpop/vietnam-topojson/master/adm2/adm2.json",
-    data: "https://montanaflynn.github.io/covid-19/data/current.json",
+    data: getDataURL(),
     projection: projection,
     objectName: "adm2",
     dataName: "vietnam",

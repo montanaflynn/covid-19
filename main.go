@@ -11,13 +11,11 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	"github.com/montanaflynn/gountries"
 )
 
 var (
-	baseURL    = "https://interaktiv.morgenpost.de"
-	endpoint   = "/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv"
+	baseURL    = "https://funkeinteraktiv.b-cdn.net"
+	endpoint   = "/current.v4.csv"
 	vietnamAPI = "https://maps.vnpost.vn/app/api/democoronas/"
 )
 
@@ -29,8 +27,6 @@ type datum struct {
 	confirmed int
 	recovered int
 	deaths    int
-	lon       float64
-	lat       float64
 	source    string
 	sourceURL string
 	scraper   string
@@ -57,7 +53,7 @@ func main() {
 
 	log.SetFlags(log.Llongfile)
 
-	res, err := http.Get(fmt.Sprintf("%s%s", baseURL, endpoint))
+	res, err := http.Get(fmt.Sprintf("%s%s?t=%d", baseURL, endpoint, time.Now().Unix()))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -85,7 +81,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		updated, err := strconv.Atoi(record[2])
+		updated, err := strconv.Atoi(record[11])
 		if err != nil {
 			log.Printf("%s\n%s\n", err, record)
 			continue
@@ -93,49 +89,38 @@ func main() {
 
 		date := time.Unix(int64(updated), 0)
 
-		confirmed, err := strconv.Atoi(record[4])
+		confirmed, err := strconv.Atoi(record[12])
 		if err != nil {
 			log.Fatal(err)
 		}
-		recovered, err := strconv.Atoi(record[5])
+		recovered, err := strconv.Atoi(record[13])
 		if err != nil {
 			log.Fatal(err)
 		}
-		deaths, err := strconv.Atoi(record[6])
+		deaths, err := strconv.Atoi(record[14])
 		if err != nil {
 			log.Fatal(err)
 		}
 
+		parent := record[5]
+		if parent == "null" {
+			parent = "global"
+		}
+
+		label := record[4]
+
 		d := datum{
-			parent:    record[0],
-			label:     record[1],
+			parent:    parent,
+			label:     label,
 			updated:   updated,
 			date:      date,
 			confirmed: confirmed,
 			recovered: recovered,
 			deaths:    deaths,
-			source:    record[9],
-			sourceURL: record[10],
-			scraper:   record[11],
+			source:    record[15],
+			sourceURL: record[16],
+			scraper:   record[17],
 		}
-
-		if record[7] != "null" {
-			lon, err := strconv.ParseFloat(record[7], 64)
-			if err != nil {
-				log.Fatal(err)
-			}
-			d.lon = lon
-		}
-
-		if record[8] != "null" {
-			lat, err := strconv.ParseFloat(record[8], 64)
-			if err != nil {
-				log.Fatal(err)
-			}
-			d.lat = lat
-		}
-
-		// fmt.Printf("%+v", d)
 
 		data = append(data, d)
 	}
@@ -146,8 +131,6 @@ func main() {
 	germanyCounts := make(map[string]cases)
 	canadaCounts := make(map[string]cases)
 
-	query := gountries.New()
-
 	for _, d := range data {
 
 		labelName := d.label
@@ -155,51 +138,35 @@ func main() {
 		labelName = strings.Replace(labelName, "Innere Mongolei", "Nei Mongol", -1)
 		labelName = strings.Replace(labelName, "Hubei (Wuhan)", "Hubei", -1)
 		labelName = strings.Replace(labelName, "Xinjiang", "Xinjiang Uygur", -1)
-		labelName = strings.Replace(labelName, "Amerikanische Jungferninseln", "U.S. Virgin Islands", -1)
-		labelName = strings.Replace(labelName, "Nördliche Marianen", "Northern Mariana Islands", -1)
-		labelName = strings.Replace(labelName, "Amerikanisch-Samoa", "American Samoa", -1)
-		labelName = strings.Replace(labelName, "Neufundland und Labrador", "Newfoundland and Labrador", -1)
-		labelName = strings.Replace(labelName, "Kreuzfahrtschiffe", "Cruiseship", -1)
-		labelName = strings.Replace(labelName, "Kreuzfahrtschiff", "Cruiseship", -1)
 
 		countryName := d.parent
-		countryName = strings.Replace(countryName, "Kreuzfahrtschiffe und Sonstige", "Cruiseship and others", -1)
-
-		country, err := query.FindCountryByAlpha(countries[d.parent])
-		if err == nil {
-			countryName = country.Name.Common
+		if d.parent == "global" {
+			countryName = d.label
 		}
 
 		if d.parent == "global" {
-			countryName = labelName
-
-			country, err := query.FindCountryByAlpha(countries[labelName])
-			if err == nil {
-				countryName = country.Name.Common
+			c, ok := countryCounts[countryName]
+			if !ok {
+				active := d.confirmed - d.recovered - d.deaths
+				countryCounts[countryName] = cases{d.updated, d.confirmed, d.recovered, d.deaths, active}
+			} else {
+				updatedConfirmed := c.Confirmed + d.confirmed
+				updatedRecovered := c.Recovered + d.recovered
+				updatedDeaths := c.Deaths + d.deaths
+				updatedActive := c.Active + (d.confirmed - d.recovered - d.deaths)
+				updated := d.updated
+				if c.Updated > d.updated {
+					updated = c.Updated
+				}
+				countryCounts[countryName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
 			}
+
 		}
 
-		c, ok := countryCounts[countryName]
-		if !ok {
-			active := d.confirmed - d.recovered - d.deaths
-			countryCounts[countryName] = cases{d.updated, d.confirmed, d.recovered, d.deaths, active}
-		} else {
-			updatedConfirmed := c.Confirmed + d.confirmed
-			updatedRecovered := c.Recovered + d.recovered
-			updatedDeaths := c.Deaths + d.deaths
-			updatedActive := c.Active + (d.confirmed - d.recovered - d.deaths)
-			updated := d.updated
-			if c.Updated > d.updated {
-				updated = c.Updated
-			}
-			countryCounts[countryName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
-		}
-
-		if countryName == "United States" || countryName == "Canada" || countryName == "Germany" || countryName == "China" {
-
+		if countryName == "USA" || countryName == "Canada" || countryName == "Germany" || countryName == "China" {
 			countMap := map[string]cases{}
 			switch countryName {
-			case "United States":
+			case "USA":
 				countMap = usaCounts
 			case "Canada":
 				countMap = canadaCounts

@@ -149,6 +149,7 @@ func main() {
 
 		if d.parent == "global" {
 			countryName = strings.Replace(countryName, "USA", "United States", -1)
+			countryName = strings.Replace(countryName, "Austia", "Austria", -1)
 
 			c, ok := countryCounts[countryName]
 			if !ok {

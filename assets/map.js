@@ -46,7 +46,7 @@ function makeMap(opts) {
           confirmed: d.confirmed,
           recovered: d.recovered,
           deaths: d.deaths,
-          active: d.active
+          active: d.active,
         });
         values.push(d[selectedData]);
       }
@@ -89,14 +89,14 @@ function makeMap(opts) {
       .append("td")
       .attr("class", "no-padding")
       .append("input")
-      .attr("value", function(column) {
+      .attr("value", function (column) {
         if (column in searchFilters) {
           return searchFilters[column];
         } else {
           return "";
         }
       })
-      .on("keyup", function(column) {
+      .on("keyup", function (column) {
         searchFilters[column] = d3.select(d3.event.target).property("value");
         loadRows(table, rows);
       });
@@ -108,7 +108,7 @@ function makeMap(opts) {
       .enter()
       .append("th")
       .attr("align", "left")
-      .html(function(column) {
+      .html(function (column) {
         let selected = "";
         let arrow = "";
 
@@ -124,10 +124,11 @@ function makeMap(opts) {
           selected = "&#x2605;";
         }
 
-        return `${column.charAt(0).toUpperCase() +
-          column.slice(1)} ${selected} ${arrow}`;
+        return `${
+          column.charAt(0).toUpperCase() + column.slice(1)
+        } ${selected} ${arrow}`;
       })
-      .on("click", function(d) {
+      .on("click", function (d) {
         if (sortDirection === "asc" && sortData === d) {
           sortDirection = "desc";
         } else if (sortData === d) {
@@ -154,7 +155,7 @@ function makeMap(opts) {
         .selectAll()
         .data(rows)
         .data(
-          rows.filter(function(row) {
+          rows.filter(function (row) {
             for (const column in searchFilters) {
               const filter = searchFilters[column];
               const columnValue = row[column];
@@ -178,14 +179,14 @@ function makeMap(opts) {
 
       var cells = rows
         .selectAll("td")
-        .data(function(row) {
-          return columns.map(function(column) {
+        .data(function (row) {
+          return columns.map(function (column) {
             return { value: row[column] };
           });
         })
         .enter()
         .append("td")
-        .text(function(d) {
+        .text(function (d) {
           return d.value.toLocaleString();
         });
     }
@@ -198,7 +199,7 @@ function makeMap(opts) {
       geometries = mapdata.features;
     }
 
-    geometries.forEach(function(geo, i) {
+    geometries.forEach(function (geo, i) {
       let locationName = geo.properties[opts.propertyName];
       if (locationName === "Ningxia Hui") {
         locationName = "Ningxia";
@@ -210,6 +211,10 @@ function makeMap(opts) {
         locationName = "Hồ Chí Minh";
       } else if (locationName === "Quebec") {
         locationName = "Québec";
+      } else if (locationName === "Bosnia and Herz.") {
+        locationName = "Bosnia and Herzegovina";
+      } else if (locationName === "Macedonia") {
+        locationName = "North Macedonia";
       }
 
       if (locationName in data[opts.dataName]) {
@@ -257,11 +262,11 @@ function makeMap(opts) {
       .append("path")
       .attr("stroke", "#000")
       .attr("stroke-width", 0.5)
-      .attr("fill", function(d, i) {
+      .attr("fill", function (d, i) {
         return color(d.properties[selectedData]);
       })
       .attr("d", paths)
-      .on("mouseover", function(d) {
+      .on("mouseover", function (d) {
         var currentState = this;
         d3.select(this).style("stroke-width", 1.5);
         tooltip.html(
@@ -270,7 +275,7 @@ function makeMap(opts) {
           ].toLocaleString()} </h2>`
         );
       })
-      .on("mouseout", function(d) {
+      .on("mouseout", function (d) {
         d3.select(this).style("stroke-width", 0.5);
         tooltip.html(totalCasesHTML);
       });
@@ -287,13 +292,13 @@ function makeMap(opts) {
 
   return new Promise((resolve, reject) => {
     Promise.all(jsonFiles)
-      .then(function(values) {
+      .then(function (values) {
         loaded(null, values[0], values[1]);
       })
-      .then(function() {
+      .then(function () {
         return resolve();
       })
-      .catch(function(err) {
+      .catch(function (err) {
         return reject(err);
       });
   });
@@ -318,7 +323,7 @@ function worldMap() {
     projection: projection,
     objectName: "countries",
     dataName: "global",
-    propertyName: "name"
+    propertyName: "name",
   });
 }
 
@@ -341,7 +346,7 @@ function usaMap() {
     projection: projection,
     objectName: "states",
     dataName: "usa",
-    propertyName: "name"
+    propertyName: "name",
   });
 }
 
@@ -367,7 +372,7 @@ function canadaMap() {
     projection: projection,
     objectName: "provinces",
     dataName: "canada",
-    propertyName: "name"
+    propertyName: "name",
   });
 }
 
@@ -392,7 +397,7 @@ function germanyMap() {
     projection: projection,
     objectName: "DEU_adm2",
     dataName: "germany",
-    propertyName: "NAME_1"
+    propertyName: "NAME_1",
   });
 }
 
@@ -417,7 +422,7 @@ function chinaMap() {
     projection: projection,
     objectName: "CHN_adm1",
     dataName: "china",
-    propertyName: "NAME_1"
+    propertyName: "NAME_1",
   });
 }
 
@@ -442,21 +447,21 @@ function vietnamMap() {
     projection: projection,
     objectName: "adm2",
     dataName: "vietnam",
-    propertyName: "name_vi"
+    propertyName: "name_vi",
   });
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   var promises = [
     worldMap(),
     usaMap(),
     canadaMap(),
     germanyMap(),
     chinaMap(),
-    vietnamMap()
+    vietnamMap(),
   ];
 
-  Promise.all(promises).catch(function(err) {
+  Promise.all(promises).catch(function (err) {
     throw err;
   });
 });

@@ -205,6 +205,8 @@ function makeMap(opts) {
         locationName = "Ningxia";
       } else if (locationName === "Xizang") {
         locationName = "Tibet";
+      } else if (locationName === "Nei Mongol") {
+        locationName = "Inner Mongolia";
       } else if (locationName === "United States of America") {
         locationName = "United States";
       } else if (locationName === "Thành phố Hồ Chí Minh") {

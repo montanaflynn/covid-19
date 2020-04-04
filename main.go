@@ -116,6 +116,10 @@ func main() {
 			label = record[2]
 		}
 
+		if parent == "Canada" && label == "Recovered" {
+			continue
+		}
+
 		d := datum{
 			parent:    parent,
 			label:     label,
@@ -171,9 +175,7 @@ func main() {
 				countryCounts[countryName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
 			}
 
-		}
-
-		if countryName == "USA" || countryName == "Canada" || countryName == "Germany" || countryName == "China" {
+		} else if countryName == "USA" || countryName == "Canada" || countryName == "Germany" || countryName == "China" {
 			countMap := map[string]cases{}
 			switch countryName {
 			case "USA":

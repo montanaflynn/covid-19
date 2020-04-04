@@ -435,7 +435,7 @@
       "active": 127
     },
     "Germany": {
-      "updated": 1585993804463,
+      "updated": 1585995903887,
       "confirmed": 91159,
       "recovered": 25007,
       "deaths": 1275,
@@ -1813,11 +1813,11 @@
       "active": 4005
     },
     "Nordrhein-Westfalen": {
-      "updated": 1585951217330,
-      "confirmed": 18557,
+      "updated": 1585995903870,
+      "confirmed": 19405,
       "recovered": 6213,
-      "deaths": 224,
-      "active": 12120
+      "deaths": 250,
+      "active": 12942
     },
     "Rheinland-Pfalz": {
       "updated": 1585993804448,
@@ -1862,11 +1862,11 @@
       "active": 624
     },
     "weitere Fälle bundesweit": {
-      "updated": 1585993804450,
-      "confirmed": 4100,
+      "updated": 1585995903873,
+      "confirmed": 3252,
       "recovered": 4700,
-      "deaths": 71,
-      "active": -671
+      "deaths": 45,
+      "active": -1493
     }
   },
   "china": {

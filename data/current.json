@@ -1,2077 +1,2133 @@
 {
   "global": {
     "Afghanistan": {
-      "updated": 1585687787000,
-      "confirmed": 174,
-      "recovered": 5,
-      "deaths": 4,
-      "active": 165
+      "updated": 1585977904117,
+      "confirmed": 281,
+      "recovered": 10,
+      "deaths": 6,
+      "active": 265
     },
     "Albania": {
-      "updated": 1585687787000,
-      "confirmed": 243,
-      "recovered": 52,
-      "deaths": 15,
-      "active": 176
+      "updated": 1585977904117,
+      "confirmed": 304,
+      "recovered": 89,
+      "deaths": 17,
+      "active": 198
     },
     "Algeria": {
-      "updated": 1585687787000,
-      "confirmed": 716,
-      "recovered": 46,
-      "deaths": 44,
-      "active": 626
+      "updated": 1585977904117,
+      "confirmed": 1171,
+      "recovered": 62,
+      "deaths": 105,
+      "active": 1004
     },
     "Andorra": {
-      "updated": 1585687787000,
-      "confirmed": 376,
-      "recovered": 10,
-      "deaths": 12,
-      "active": 354
+      "updated": 1585977904117,
+      "confirmed": 439,
+      "recovered": 16,
+      "deaths": 16,
+      "active": 407
     },
     "Angola": {
-      "updated": 1585687787000,
-      "confirmed": 7,
+      "updated": 1585977904117,
+      "confirmed": 8,
       "recovered": 1,
       "deaths": 2,
-      "active": 4
+      "active": 5
     },
     "Antigua and Barbuda": {
-      "updated": 1585687787000,
-      "confirmed": 7,
+      "updated": 1585977904117,
+      "confirmed": 15,
       "recovered": 0,
       "deaths": 0,
-      "active": 7
+      "active": 15
     },
     "Argentina": {
-      "updated": 1585687787000,
-      "confirmed": 966,
-      "recovered": 240,
-      "deaths": 26,
-      "active": 700
+      "updated": 1585977904117,
+      "confirmed": 1353,
+      "recovered": 266,
+      "deaths": 42,
+      "active": 1045
     },
     "Armenia": {
-      "updated": 1585687787000,
-      "confirmed": 532,
-      "recovered": 30,
-      "deaths": 3,
-      "active": 499
+      "updated": 1585977904117,
+      "confirmed": 736,
+      "recovered": 43,
+      "deaths": 7,
+      "active": 686
+    },
+    "Austia": {
+      "updated": 1585977904117,
+      "confirmed": 11524,
+      "recovered": 2022,
+      "deaths": 168,
+      "active": 9334
     },
     "Australia": {
-      "updated": 1585688158000,
-      "confirmed": 4559,
-      "recovered": 358,
-      "deaths": 18,
-      "active": 4183
-    },
-    "Austria": {
-      "updated": 1585687787000,
-      "confirmed": 10122,
-      "recovered": 1095,
-      "deaths": 128,
-      "active": 8899
+      "updated": 1585977904133,
+      "confirmed": 5330,
+      "recovered": 649,
+      "deaths": 28,
+      "active": 4653
     },
     "Azerbaijan": {
-      "updated": 1585687787000,
-      "confirmed": 298,
-      "recovered": 26,
+      "updated": 1585977904117,
+      "confirmed": 443,
+      "recovered": 32,
       "deaths": 5,
-      "active": 267
+      "active": 406
     },
     "Bahamas": {
-      "updated": 1585687787000,
-      "confirmed": 14,
-      "recovered": 1,
-      "deaths": 0,
-      "active": 13
-    },
-    "Bahrain": {
-      "updated": 1585687787000,
-      "confirmed": 567,
-      "recovered": 295,
-      "deaths": 4,
-      "active": 268
-    },
-    "Bangladesh": {
-      "updated": 1585687787000,
-      "confirmed": 51,
-      "recovered": 25,
-      "deaths": 5,
+      "updated": 1585977904118,
+      "confirmed": 24,
+      "recovered": 0,
+      "deaths": 3,
       "active": 21
     },
+    "Bahrain": {
+      "updated": 1585977904118,
+      "confirmed": 672,
+      "recovered": 382,
+      "deaths": 4,
+      "active": 286
+    },
+    "Bangladesh": {
+      "updated": 1585977904118,
+      "confirmed": 61,
+      "recovered": 26,
+      "deaths": 6,
+      "active": 29
+    },
     "Barbados": {
-      "updated": 1585687787000,
-      "confirmed": 34,
+      "updated": 1585977904118,
+      "confirmed": 51,
       "recovered": 0,
       "deaths": 0,
-      "active": 34
+      "active": 51
     },
     "Belarus": {
-      "updated": 1585687787000,
-      "confirmed": 152,
-      "recovered": 47,
-      "deaths": 1,
-      "active": 104
+      "updated": 1585977904118,
+      "confirmed": 351,
+      "recovered": 53,
+      "deaths": 4,
+      "active": 294
     },
     "Belgium": {
-      "updated": 1585687787000,
-      "confirmed": 12775,
-      "recovered": 1696,
-      "deaths": 705,
-      "active": 10374
+      "updated": 1585977904118,
+      "confirmed": 16770,
+      "recovered": 2872,
+      "deaths": 1143,
+      "active": 12755
     },
     "Belize": {
-      "updated": 1585687787000,
-      "confirmed": 3,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 3
-    },
-    "Benin": {
-      "updated": 1585687787000,
-      "confirmed": 9,
-      "recovered": 1,
-      "deaths": 0,
-      "active": 8
-    },
-    "Bhutan": {
-      "updated": 1585687787000,
+      "updated": 1585977904118,
       "confirmed": 4,
       "recovered": 0,
       "deaths": 0,
       "active": 4
     },
+    "Benin": {
+      "updated": 1585977904118,
+      "confirmed": 16,
+      "recovered": 2,
+      "deaths": 0,
+      "active": 14
+    },
+    "Bhutan": {
+      "updated": 1585977904118,
+      "confirmed": 5,
+      "recovered": 2,
+      "deaths": 0,
+      "active": 3
+    },
     "Bolivia": {
-      "updated": 1585687787000,
-      "confirmed": 107,
-      "recovered": 0,
-      "deaths": 6,
-      "active": 101
+      "updated": 1585977904118,
+      "confirmed": 139,
+      "recovered": 1,
+      "deaths": 10,
+      "active": 128
     },
     "Bosnia and Herzegovina": {
-      "updated": 1585687787000,
-      "confirmed": 418,
-      "recovered": 17,
-      "deaths": 12,
-      "active": 389
+      "updated": 1585977904118,
+      "confirmed": 579,
+      "recovered": 27,
+      "deaths": 17,
+      "active": 535
     },
     "Botswana": {
-      "updated": 1585687787000,
+      "updated": 1585977904118,
+      "confirmed": 4,
+      "recovered": 0,
+      "deaths": 1,
+      "active": 3
+    },
+    "Brazil": {
+      "updated": 1585977904118,
+      "confirmed": 9216,
+      "recovered": 127,
+      "deaths": 365,
+      "active": 8724
+    },
+    "Brunei": {
+      "updated": 1585977904118,
+      "confirmed": 134,
+      "recovered": 65,
+      "deaths": 1,
+      "active": 68
+    },
+    "Bulgaria": {
+      "updated": 1585977904118,
+      "confirmed": 485,
+      "recovered": 30,
+      "deaths": 14,
+      "active": 441
+    },
+    "Burkina Faso": {
+      "updated": 1585977904118,
+      "confirmed": 302,
+      "recovered": 50,
+      "deaths": 16,
+      "active": 236
+    },
+    "Burundi": {
+      "updated": 1585977904118,
       "confirmed": 3,
       "recovered": 0,
       "deaths": 0,
       "active": 3
     },
-    "Brazil": {
-      "updated": 1585687787000,
-      "confirmed": 5717,
-      "recovered": 127,
-      "deaths": 201,
-      "active": 5389
-    },
-    "Brunei": {
-      "updated": 1585687787000,
-      "confirmed": 129,
-      "recovered": 45,
-      "deaths": 1,
-      "active": 83
-    },
-    "Bulgaria": {
-      "updated": 1585687787000,
-      "confirmed": 399,
-      "recovered": 17,
-      "deaths": 8,
-      "active": 374
-    },
-    "Burkina Faso": {
-      "updated": 1585687787000,
-      "confirmed": 261,
-      "recovered": 32,
-      "deaths": 14,
-      "active": 215
-    },
-    "Burma": {
-      "updated": 1585687787000,
-      "confirmed": 15,
-      "recovered": 0,
-      "deaths": 1,
-      "active": 14
-    },
-    "Burundi": {
-      "updated": 1585687787000,
-      "confirmed": 2,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 2
-    },
     "Cambodia": {
-      "updated": 1585687787000,
-      "confirmed": 109,
-      "recovered": 23,
+      "updated": 1585977904118,
+      "confirmed": 114,
+      "recovered": 50,
       "deaths": 0,
-      "active": 86
+      "active": 64
     },
     "Cameroon": {
-      "updated": 1585687787000,
-      "confirmed": 193,
-      "recovered": 5,
-      "deaths": 6,
-      "active": 182
+      "updated": 1585977904118,
+      "confirmed": 509,
+      "recovered": 17,
+      "deaths": 8,
+      "active": 484
     },
     "Canada": {
-      "updated": 1585688142000,
-      "confirmed": 8471,
-      "recovered": 0,
-      "deaths": 95,
-      "active": 8376
+      "updated": 1585977904133,
+      "confirmed": 12532,
+      "recovered": 2321,
+      "deaths": 187,
+      "active": 10024
     },
     "Cape Verde": {
-      "updated": 1585687787000,
+      "updated": 1585977904118,
       "confirmed": 6,
       "recovered": 0,
       "deaths": 1,
       "active": 5
     },
     "Central African Republic": {
-      "updated": 1585687787000,
-      "confirmed": 3,
+      "updated": 1585977904118,
+      "confirmed": 8,
       "recovered": 0,
       "deaths": 0,
-      "active": 3
+      "active": 8
     },
     "Chad": {
-      "updated": 1585687787000,
-      "confirmed": 7,
+      "updated": 1585977904118,
+      "confirmed": 8,
       "recovered": 0,
       "deaths": 0,
-      "active": 7
+      "active": 8
     },
     "Chile": {
-      "updated": 1585687787000,
-      "confirmed": 2738,
-      "recovered": 156,
-      "deaths": 12,
-      "active": 2570
+      "updated": 1585977904118,
+      "confirmed": 3737,
+      "recovered": 427,
+      "deaths": 22,
+      "active": 3288
     },
     "China": {
-      "updated": 1585662844000,
-      "confirmed": 82278,
-      "recovered": 76206,
-      "deaths": 3309,
-      "active": 2763
+      "updated": 1585977904132,
+      "confirmed": 81638,
+      "recovered": 76751,
+      "deaths": 3326,
+      "active": 1561
     },
     "Colombia": {
-      "updated": 1585687787000,
-      "confirmed": 906,
-      "recovered": 31,
-      "deaths": 16,
-      "active": 859
+      "updated": 1585977904118,
+      "confirmed": 1267,
+      "recovered": 55,
+      "deaths": 25,
+      "active": 1187
     },
     "Costa Rica": {
-      "updated": 1585687787000,
-      "confirmed": 347,
-      "recovered": 4,
+      "updated": 1585977904118,
+      "confirmed": 416,
+      "recovered": 11,
       "deaths": 2,
-      "active": 341
+      "active": 403
     },
     "Croatia": {
-      "updated": 1585687787000,
-      "confirmed": 867,
-      "recovered": 67,
-      "deaths": 6,
-      "active": 794
-    },
-    "Cruiseship and others": {
-      "updated": 1585687800000,
-      "confirmed": 49,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 49
+      "updated": 1585977904118,
+      "confirmed": 1079,
+      "recovered": 92,
+      "deaths": 8,
+      "active": 979
     },
     "Cuba": {
-      "updated": 1585687787000,
-      "confirmed": 186,
-      "recovered": 8,
+      "updated": 1585977904118,
+      "confirmed": 269,
+      "recovered": 15,
       "deaths": 6,
-      "active": 172
+      "active": 248
     },
-    "DR Congo": {
-      "updated": 1585687787000,
-      "confirmed": 98,
-      "recovered": 2,
-      "deaths": 8,
-      "active": 88
+    "Cyprus": {
+      "updated": 1585977904118,
+      "confirmed": 396,
+      "recovered": 28,
+      "deaths": 11,
+      "active": 357
+    },
+    "Czechia": {
+      "updated": 1585977904118,
+      "confirmed": 4190,
+      "recovered": 72,
+      "deaths": 53,
+      "active": 4065
+    },
+    "Democratic Republic of the Congo": {
+      "updated": 1585977904118,
+      "confirmed": 148,
+      "recovered": 3,
+      "deaths": 16,
+      "active": 129
     },
     "Denmark": {
-      "updated": 1585687787000,
-      "confirmed": 3039,
-      "recovered": 77,
-      "deaths": 90,
-      "active": 2872
+      "updated": 1585977904118,
+      "confirmed": 3757,
+      "recovered": 1193,
+      "deaths": 139,
+      "active": 2425
     },
     "Djibouti": {
-      "updated": 1585687787000,
-      "confirmed": 30,
-      "recovered": 0,
+      "updated": 1585977904118,
+      "confirmed": 49,
+      "recovered": 8,
       "deaths": 0,
-      "active": 30
+      "active": 41
     },
     "Dominica": {
-      "updated": 1585687787000,
-      "confirmed": 12,
+      "updated": 1585977904118,
+      "confirmed": 14,
       "recovered": 0,
       "deaths": 0,
-      "active": 12
+      "active": 14
     },
     "Dominican Republic": {
-      "updated": 1585687787000,
-      "confirmed": 1109,
-      "recovered": 5,
-      "deaths": 51,
-      "active": 1053
+      "updated": 1585977904118,
+      "confirmed": 1488,
+      "recovered": 16,
+      "deaths": 68,
+      "active": 1404
+    },
+    "East Timor": {
+      "updated": 1585977904123,
+      "confirmed": 1,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 1
     },
     "Ecuador": {
-      "updated": 1585687787000,
-      "confirmed": 2240,
-      "recovered": 54,
-      "deaths": 75,
-      "active": 2111
+      "updated": 1585977904118,
+      "confirmed": 3368,
+      "recovered": 65,
+      "deaths": 145,
+      "active": 3158
     },
     "Egypt": {
-      "updated": 1585687787000,
-      "confirmed": 710,
-      "recovered": 157,
-      "deaths": 46,
-      "active": 507
+      "updated": 1585977904118,
+      "confirmed": 985,
+      "recovered": 216,
+      "deaths": 66,
+      "active": 703
     },
     "El Salvador": {
-      "updated": 1585687787000,
-      "confirmed": 32,
+      "updated": 1585977904118,
+      "confirmed": 46,
       "recovered": 0,
-      "deaths": 0,
-      "active": 32
+      "deaths": 3,
+      "active": 43
     },
     "Equatorial Guinea": {
-      "updated": 1585687787000,
-      "confirmed": 12,
+      "updated": 1585977904119,
+      "confirmed": 16,
       "recovered": 1,
-      "deaths": 0,
-      "active": 11
-    },
-    "Eritrea": {
-      "updated": 1585687787000,
-      "confirmed": 15,
-      "recovered": 0,
       "deaths": 0,
       "active": 15
     },
+    "Eritrea": {
+      "updated": 1585977904119,
+      "confirmed": 22,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 22
+    },
     "Estonia": {
-      "updated": 1585687787000,
-      "confirmed": 745,
-      "recovered": 26,
-      "deaths": 4,
-      "active": 715
+      "updated": 1585977904119,
+      "confirmed": 961,
+      "recovered": 48,
+      "deaths": 12,
+      "active": 901
     },
     "Eswatini": {
-      "updated": 1585687787000,
+      "updated": 1585977904119,
       "confirmed": 9,
       "recovered": 0,
       "deaths": 0,
       "active": 9
     },
     "Ethiopia": {
-      "updated": 1585687787000,
-      "confirmed": 26,
-      "recovered": 2,
+      "updated": 1585977904119,
+      "confirmed": 35,
+      "recovered": 3,
       "deaths": 0,
-      "active": 24
+      "active": 32
     },
     "Fiji": {
-      "updated": 1585687787000,
-      "confirmed": 5,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 5
-    },
-    "Finland": {
-      "updated": 1585687787000,
-      "confirmed": 1418,
-      "recovered": 10,
-      "deaths": 17,
-      "active": 1391
-    },
-    "France": {
-      "updated": 1585687787000,
-      "confirmed": 52827,
-      "recovered": 9513,
-      "deaths": 3532,
-      "active": 39782
-    },
-    "Gabon": {
-      "updated": 1585687787000,
-      "confirmed": 16,
-      "recovered": 0,
-      "deaths": 1,
-      "active": 15
-    },
-    "Gambia": {
-      "updated": 1585687787000,
-      "confirmed": 4,
-      "recovered": 0,
-      "deaths": 1,
-      "active": 3
-    },
-    "Georgia": {
-      "updated": 1585687787000,
-      "confirmed": 110,
-      "recovered": 21,
-      "deaths": 0,
-      "active": 89
-    },
-    "Germany": {
-      "updated": 1585677600000,
-      "confirmed": 70985,
-      "recovered": 15826,
-      "deaths": 702,
-      "active": 54457
-    },
-    "Ghana": {
-      "updated": 1585687787000,
-      "confirmed": 161,
-      "recovered": 31,
-      "deaths": 5,
-      "active": 125
-    },
-    "Greece": {
-      "updated": 1585687787000,
-      "confirmed": 1314,
-      "recovered": 52,
-      "deaths": 49,
-      "active": 1213
-    },
-    "Grenada": {
-      "updated": 1585687787000,
-      "confirmed": 9,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 9
-    },
-    "Guatemala": {
-      "updated": 1585687787000,
-      "confirmed": 38,
-      "recovered": 10,
-      "deaths": 1,
-      "active": 27
-    },
-    "Guinea": {
-      "updated": 1585687787000,
-      "confirmed": 22,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 22
-    },
-    "Guinea-Bissau": {
-      "updated": 1585687787000,
-      "confirmed": 8,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 8
-    },
-    "Guyana": {
-      "updated": 1585687787000,
+      "updated": 1585977904119,
       "confirmed": 12,
       "recovered": 0,
-      "deaths": 2,
-      "active": 10
-    },
-    "Haiti": {
-      "updated": 1585687787000,
-      "confirmed": 15,
-      "recovered": 1,
       "deaths": 0,
-      "active": 14
+      "active": 12
     },
-    "Honduras": {
-      "updated": 1585687787000,
-      "confirmed": 141,
-      "recovered": 3,
-      "deaths": 7,
-      "active": 131
-    },
-    "Hungary": {
-      "updated": 1585687787000,
-      "confirmed": 492,
-      "recovered": 37,
-      "deaths": 16,
-      "active": 439
-    },
-    "Iceland": {
-      "updated": 1585687787000,
-      "confirmed": 1135,
-      "recovered": 198,
-      "deaths": 2,
-      "active": 935
-    },
-    "India": {
-      "updated": 1585687787000,
-      "confirmed": 1397,
-      "recovered": 123,
-      "deaths": 35,
-      "active": 1239
-    },
-    "Indonesia": {
-      "updated": 1585687787000,
-      "confirmed": 1528,
-      "recovered": 81,
-      "deaths": 136,
-      "active": 1311
-    },
-    "Iran": {
-      "updated": 1585687787000,
-      "confirmed": 44605,
-      "recovered": 14656,
-      "deaths": 2898,
-      "active": 27051
-    },
-    "Iraq": {
-      "updated": 1585687787000,
-      "confirmed": 694,
-      "recovered": 170,
-      "deaths": 50,
-      "active": 474
-    },
-    "Ireland": {
-      "updated": 1585687787000,
-      "confirmed": 3235,
-      "recovered": 5,
-      "deaths": 71,
-      "active": 3159
-    },
-    "Israel": {
-      "updated": 1585687787000,
-      "confirmed": 5358,
-      "recovered": 224,
+    "Finland": {
+      "updated": 1585977904119,
+      "confirmed": 1615,
+      "recovered": 300,
       "deaths": 20,
-      "active": 5114
+      "active": 1295
     },
-    "Italy": {
-      "updated": 1585687787000,
-      "confirmed": 105792,
-      "recovered": 15729,
-      "deaths": 12428,
-      "active": 77635
+    "France": {
+      "updated": 1585977904119,
+      "confirmed": 64338,
+      "recovered": 14008,
+      "deaths": 6507,
+      "active": 43823
     },
-    "Ivory Coast": {
-      "updated": 1585687787000,
-      "confirmed": 168,
-      "recovered": 6,
+    "Gabon": {
+      "updated": 1585977904119,
+      "confirmed": 21,
+      "recovered": 1,
       "deaths": 1,
-      "active": 161
+      "active": 19
     },
-    "Jamaica": {
-      "updated": 1585687787000,
-      "confirmed": 36,
+    "Gambia": {
+      "updated": 1585977904119,
+      "confirmed": 4,
       "recovered": 2,
       "deaths": 1,
-      "active": 33
+      "active": 1
     },
-    "Japan": {
-      "updated": 1585687787000,
-      "confirmed": 1953,
-      "recovered": 424,
-      "deaths": 56,
-      "active": 1473
+    "Georgia": {
+      "updated": 1585977904119,
+      "confirmed": 155,
+      "recovered": 28,
+      "deaths": 0,
+      "active": 127
     },
-    "Jordan": {
-      "updated": 1585687787000,
-      "confirmed": 274,
-      "recovered": 30,
+    "Germany": {
+      "updated": 1585951217335,
+      "confirmed": 91159,
+      "recovered": 24981,
+      "deaths": 1275,
+      "active": 64903
+    },
+    "Ghana": {
+      "updated": 1585977904120,
+      "confirmed": 205,
+      "recovered": 31,
       "deaths": 5,
-      "active": 239
+      "active": 169
     },
-    "Kazakhstan": {
-      "updated": 1585687787000,
-      "confirmed": 343,
-      "recovered": 24,
-      "deaths": 2,
-      "active": 317
+    "Greece": {
+      "updated": 1585977904120,
+      "confirmed": 1613,
+      "recovered": 78,
+      "deaths": 63,
+      "active": 1472
     },
-    "Kenya": {
-      "updated": 1585687787000,
-      "confirmed": 59,
-      "recovered": 1,
-      "deaths": 1,
-      "active": 57
-    },
-    "Kosovo": {
-      "updated": 1585687787000,
-      "confirmed": 106,
-      "recovered": 1,
-      "deaths": 1,
-      "active": 104
-    },
-    "Kuwait": {
-      "updated": 1585687787000,
-      "confirmed": 289,
-      "recovered": 73,
-      "deaths": 0,
-      "active": 216
-    },
-    "Kyrgyzstan": {
-      "updated": 1585687787000,
-      "confirmed": 107,
-      "recovered": 3,
-      "deaths": 0,
-      "active": 104
-    },
-    "Laos": {
-      "updated": 1585687787000,
-      "confirmed": 9,
+    "Grenada": {
+      "updated": 1585977904120,
+      "confirmed": 12,
       "recovered": 0,
       "deaths": 0,
-      "active": 9
+      "active": 12
     },
-    "Latvia": {
-      "updated": 1585687787000,
-      "confirmed": 398,
+    "Guatemala": {
+      "updated": 1585977904120,
+      "confirmed": 50,
+      "recovered": 12,
+      "deaths": 1,
+      "active": 37
+    },
+    "Guinea": {
+      "updated": 1585977904120,
+      "confirmed": 73,
+      "recovered": 2,
+      "deaths": 0,
+      "active": 71
+    },
+    "Guinea-Bissau": {
+      "updated": 1585977904120,
+      "confirmed": 15,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 15
+    },
+    "Guyana": {
+      "updated": 1585977904120,
+      "confirmed": 23,
+      "recovered": 0,
+      "deaths": 4,
+      "active": 19
+    },
+    "Haiti": {
+      "updated": 1585977904120,
+      "confirmed": 18,
       "recovered": 1,
       "deaths": 0,
-      "active": 397
+      "active": 17
+    },
+    "Honduras": {
+      "updated": 1585977904120,
+      "confirmed": 264,
+      "recovered": 3,
+      "deaths": 15,
+      "active": 246
+    },
+    "Hungary": {
+      "updated": 1585977904120,
+      "confirmed": 623,
+      "recovered": 43,
+      "deaths": 26,
+      "active": 554
+    },
+    "Iceland": {
+      "updated": 1585977904120,
+      "confirmed": 1364,
+      "recovered": 309,
+      "deaths": 4,
+      "active": 1051
+    },
+    "India": {
+      "updated": 1585977904120,
+      "confirmed": 3082,
+      "recovered": 192,
+      "deaths": 86,
+      "active": 2804
+    },
+    "Indonesia": {
+      "updated": 1585977904120,
+      "confirmed": 1986,
+      "recovered": 134,
+      "deaths": 181,
+      "active": 1671
+    },
+    "Iran": {
+      "updated": 1585977904120,
+      "confirmed": 53183,
+      "recovered": 17935,
+      "deaths": 3294,
+      "active": 31954
+    },
+    "Iraq": {
+      "updated": 1585977904120,
+      "confirmed": 820,
+      "recovered": 226,
+      "deaths": 54,
+      "active": 540
+    },
+    "Ireland": {
+      "updated": 1585977904120,
+      "confirmed": 4273,
+      "recovered": 25,
+      "deaths": 120,
+      "active": 4128
+    },
+    "Israel": {
+      "updated": 1585977904120,
+      "confirmed": 7428,
+      "recovered": 403,
+      "deaths": 40,
+      "active": 6985
+    },
+    "Italy": {
+      "updated": 1585977904120,
+      "confirmed": 119827,
+      "recovered": 19758,
+      "deaths": 14681,
+      "active": 85388
+    },
+    "Ivory Coast": {
+      "updated": 1585977904118,
+      "confirmed": 218,
+      "recovered": 19,
+      "deaths": 1,
+      "active": 198
+    },
+    "Jamaica": {
+      "updated": 1585977904121,
+      "confirmed": 53,
+      "recovered": 7,
+      "deaths": 3,
+      "active": 43
+    },
+    "Japan": {
+      "updated": 1585977904121,
+      "confirmed": 2935,
+      "recovered": 514,
+      "deaths": 69,
+      "active": 2352
+    },
+    "Jordan": {
+      "updated": 1585977904121,
+      "confirmed": 310,
+      "recovered": 58,
+      "deaths": 5,
+      "active": 247
+    },
+    "Kazakhstan": {
+      "updated": 1585977904121,
+      "confirmed": 464,
+      "recovered": 29,
+      "deaths": 6,
+      "active": 429
+    },
+    "Kenya": {
+      "updated": 1585977904121,
+      "confirmed": 122,
+      "recovered": 4,
+      "deaths": 4,
+      "active": 114
+    },
+    "Kosovo": {
+      "updated": 1585977904121,
+      "confirmed": 126,
+      "recovered": 10,
+      "deaths": 1,
+      "active": 115
+    },
+    "Kuwait": {
+      "updated": 1585977904121,
+      "confirmed": 417,
+      "recovered": 82,
+      "deaths": 0,
+      "active": 335
+    },
+    "Kyrgyzstan": {
+      "updated": 1585977904121,
+      "confirmed": 144,
+      "recovered": 6,
+      "deaths": 1,
+      "active": 137
+    },
+    "Laos": {
+      "updated": 1585977904121,
+      "confirmed": 10,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 10
+    },
+    "Latvia": {
+      "updated": 1585977904121,
+      "confirmed": 493,
+      "recovered": 1,
+      "deaths": 1,
+      "active": 491
     },
     "Lebanon": {
-      "updated": 1585687787000,
-      "confirmed": 463,
-      "recovered": 37,
-      "deaths": 12,
-      "active": 414
+      "updated": 1585977904121,
+      "confirmed": 508,
+      "recovered": 50,
+      "deaths": 17,
+      "active": 441
     },
     "Liberia": {
-      "updated": 1585687787000,
+      "updated": 1585977904121,
+      "confirmed": 7,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 7
+    },
+    "Libya": {
+      "updated": 1585977904121,
+      "confirmed": 56,
+      "recovered": 0,
+      "deaths": 4,
+      "active": 52
+    },
+    "Liechtenstein": {
+      "updated": 1585977904121,
+      "confirmed": 75,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 75
+    },
+    "Lithuania": {
+      "updated": 1585977904121,
+      "confirmed": 696,
+      "recovered": 7,
+      "deaths": 9,
+      "active": 680
+    },
+    "Luxembourg": {
+      "updated": 1585977904121,
+      "confirmed": 2612,
+      "recovered": 500,
+      "deaths": 31,
+      "active": 2081
+    },
+    "Madagascar": {
+      "updated": 1585977904121,
+      "confirmed": 70,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 70
+    },
+    "Malawi": {
+      "updated": 1585977904121,
       "confirmed": 3,
       "recovered": 0,
       "deaths": 0,
       "active": 3
     },
-    "Libya": {
-      "updated": 1585687787000,
-      "confirmed": 8,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 8
-    },
-    "Liechtenstein": {
-      "updated": 1585687787000,
-      "confirmed": 68,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 68
-    },
-    "Lithuania": {
-      "updated": 1585687787000,
-      "confirmed": 537,
-      "recovered": 7,
-      "deaths": 8,
-      "active": 522
-    },
-    "Luxembourg": {
-      "updated": 1585687787000,
-      "confirmed": 2178,
-      "recovered": 80,
-      "deaths": 23,
-      "active": 2075
-    },
-    "Macedonia": {
-      "updated": 1585687787000,
-      "confirmed": 329,
-      "recovered": 12,
-      "deaths": 9,
-      "active": 308
-    },
-    "Madagascar": {
-      "updated": 1585687787000,
-      "confirmed": 57,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 57
-    },
     "Malaysia": {
-      "updated": 1585687787000,
-      "confirmed": 2766,
-      "recovered": 537,
-      "deaths": 43,
-      "active": 2186
+      "updated": 1585977904121,
+      "confirmed": 3333,
+      "recovered": 827,
+      "deaths": 53,
+      "active": 2453
     },
-    "Maldives": {
-      "updated": 1585687787000,
-      "confirmed": 18,
+    "Maledives": {
+      "updated": 1585977904121,
+      "confirmed": 19,
       "recovered": 13,
       "deaths": 0,
-      "active": 5
-    },
-    "Mali": {
-      "updated": 1585687787000,
-      "confirmed": 28,
-      "recovered": 0,
-      "deaths": 2,
-      "active": 26
+      "active": 6
     },
     "Malta": {
-      "updated": 1585687787000,
-      "confirmed": 169,
+      "updated": 1585977904121,
+      "confirmed": 202,
       "recovered": 2,
       "deaths": 0,
-      "active": 167
+      "active": 200
     },
-    "Mauritania": {
-      "updated": 1585687787000,
+    "Mauretania": {
+      "updated": 1585977904121,
       "confirmed": 6,
       "recovered": 2,
       "deaths": 1,
       "active": 3
     },
     "Mauritius": {
-      "updated": 1585687787000,
-      "confirmed": 143,
+      "updated": 1585977904121,
+      "confirmed": 186,
       "recovered": 0,
-      "deaths": 5,
-      "active": 138
+      "deaths": 7,
+      "active": 179
     },
     "Mexico": {
-      "updated": 1585687787000,
-      "confirmed": 1094,
-      "recovered": 35,
-      "deaths": 28,
-      "active": 1031
+      "updated": 1585977904121,
+      "confirmed": 1688,
+      "recovered": 633,
+      "deaths": 60,
+      "active": 995
     },
     "Moldova": {
-      "updated": 1585687787000,
-      "confirmed": 353,
-      "recovered": 18,
-      "deaths": 4,
-      "active": 331
+      "updated": 1585977904121,
+      "confirmed": 591,
+      "recovered": 26,
+      "deaths": 8,
+      "active": 557
     },
     "Monaco": {
-      "updated": 1585687787000,
-      "confirmed": 52,
-      "recovered": 2,
+      "updated": 1585977904121,
+      "confirmed": 64,
+      "recovered": 3,
       "deaths": 1,
-      "active": 49
+      "active": 60
     },
     "Mongolia": {
-      "updated": 1585687787000,
-      "confirmed": 12,
+      "updated": 1585977904121,
+      "confirmed": 14,
       "recovered": 2,
+      "deaths": 0,
+      "active": 12
+    },
+    "Montenegro": {
+      "updated": 1585977904121,
+      "confirmed": 174,
+      "recovered": 1,
+      "deaths": 2,
+      "active": 171
+    },
+    "Morocco": {
+      "updated": 1585977904121,
+      "confirmed": 791,
+      "recovered": 57,
+      "deaths": 48,
+      "active": 686
+    },
+    "Mozambique": {
+      "updated": 1585977904121,
+      "confirmed": 10,
+      "recovered": 0,
       "deaths": 0,
       "active": 10
     },
-    "Montenegro": {
-      "updated": 1585687787000,
-      "confirmed": 109,
+    "Myanmar": {
+      "updated": 1585977904118,
+      "confirmed": 20,
       "recovered": 0,
-      "deaths": 2,
-      "active": 107
-    },
-    "Morocco": {
-      "updated": 1585687787000,
-      "confirmed": 602,
-      "recovered": 24,
-      "deaths": 36,
-      "active": 542
-    },
-    "Mozambique": {
-      "updated": 1585687787000,
-      "confirmed": 8,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 8
+      "deaths": 1,
+      "active": 19
     },
     "Namibia": {
-      "updated": 1585687787000,
-      "confirmed": 11,
-      "recovered": 2,
+      "updated": 1585977904121,
+      "confirmed": 14,
+      "recovered": 3,
       "deaths": 0,
-      "active": 9
+      "active": 11
     },
     "Nepal": {
-      "updated": 1585687787000,
-      "confirmed": 5,
+      "updated": 1585977904121,
+      "confirmed": 6,
       "recovered": 1,
       "deaths": 0,
-      "active": 4
+      "active": 5
     },
     "Netherlands": {
-      "updated": 1585687787000,
-      "confirmed": 12667,
-      "recovered": 253,
-      "deaths": 1040,
-      "active": 11374
+      "updated": 1585977904121,
+      "confirmed": 15723,
+      "recovered": 250,
+      "deaths": 1487,
+      "active": 13986
     },
     "New Zealand": {
-      "updated": 1585687787000,
-      "confirmed": 647,
-      "recovered": 74,
+      "updated": 1585977904122,
+      "confirmed": 950,
+      "recovered": 127,
       "deaths": 1,
-      "active": 572
+      "active": 822
     },
     "Nicaragua": {
-      "updated": 1585687787000,
-      "confirmed": 4,
+      "updated": 1585977904122,
+      "confirmed": 5,
       "recovered": 0,
       "deaths": 1,
-      "active": 3
+      "active": 4
     },
     "Niger": {
-      "updated": 1585687787000,
-      "confirmed": 27,
+      "updated": 1585977904122,
+      "confirmed": 120,
       "recovered": 0,
-      "deaths": 3,
-      "active": 24
+      "deaths": 5,
+      "active": 115
     },
     "Nigeria": {
-      "updated": 1585687787000,
-      "confirmed": 135,
-      "recovered": 8,
-      "deaths": 2,
-      "active": 125
+      "updated": 1585977904122,
+      "confirmed": 210,
+      "recovered": 25,
+      "deaths": 4,
+      "active": 181
+    },
+    "North Macedonia": {
+      "updated": 1585977904122,
+      "confirmed": 430,
+      "recovered": 20,
+      "deaths": 12,
+      "active": 398
     },
     "Norway": {
-      "updated": 1585687787000,
-      "confirmed": 4635,
-      "recovered": 13,
-      "deaths": 39,
-      "active": 4583
+      "updated": 1585977904122,
+      "confirmed": 5370,
+      "recovered": 32,
+      "deaths": 59,
+      "active": 5279
     },
     "Oman": {
-      "updated": 1585687787000,
-      "confirmed": 192,
-      "recovered": 34,
+      "updated": 1585977904122,
+      "confirmed": 252,
+      "recovered": 57,
       "deaths": 1,
-      "active": 157
-    },
-    "Osttimor": {
-      "updated": 1585687787000,
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 1
+      "active": 194
     },
     "Pakistan": {
-      "updated": 1585687787000,
-      "confirmed": 1938,
-      "recovered": 76,
-      "deaths": 26,
-      "active": 1836
+      "updated": 1585977904122,
+      "confirmed": 2686,
+      "recovered": 126,
+      "deaths": 40,
+      "active": 2520
+    },
+    "Palestinian territories": {
+      "updated": 1585977904124,
+      "confirmed": 194,
+      "recovered": 21,
+      "deaths": 1,
+      "active": 172
     },
     "Panama": {
-      "updated": 1585687787000,
-      "confirmed": 1075,
-      "recovered": 9,
-      "deaths": 27,
-      "active": 1039
+      "updated": 1585977904122,
+      "confirmed": 1673,
+      "recovered": 10,
+      "deaths": 41,
+      "active": 1622
     },
     "Papua New Guinea": {
-      "updated": 1585687787000,
+      "updated": 1585977904122,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0,
       "active": 1
     },
     "Paraguay": {
-      "updated": 1585687787000,
-      "confirmed": 65,
-      "recovered": 1,
+      "updated": 1585977904122,
+      "confirmed": 96,
+      "recovered": 12,
       "deaths": 3,
-      "active": 61
+      "active": 81
     },
     "Peru": {
-      "updated": 1585687787000,
-      "confirmed": 1065,
-      "recovered": 394,
-      "deaths": 30,
-      "active": 641
+      "updated": 1585977904122,
+      "confirmed": 1595,
+      "recovered": 537,
+      "deaths": 61,
+      "active": 997
     },
     "Philippines": {
-      "updated": 1585687787000,
-      "confirmed": 2084,
-      "recovered": 49,
-      "deaths": 88,
-      "active": 1947
+      "updated": 1585977904122,
+      "confirmed": 3018,
+      "recovered": 52,
+      "deaths": 136,
+      "active": 2830
     },
     "Poland": {
-      "updated": 1585687787000,
-      "confirmed": 2311,
-      "recovered": 7,
-      "deaths": 33,
-      "active": 2271
+      "updated": 1585977904122,
+      "confirmed": 3383,
+      "recovered": 56,
+      "deaths": 71,
+      "active": 3256
     },
     "Portugal": {
-      "updated": 1585687787000,
-      "confirmed": 7443,
-      "recovered": 43,
-      "deaths": 160,
-      "active": 7240
+      "updated": 1585977904122,
+      "confirmed": 9886,
+      "recovered": 68,
+      "deaths": 246,
+      "active": 9572
     },
     "Qatar": {
-      "updated": 1585687787000,
-      "confirmed": 781,
-      "recovered": 62,
-      "deaths": 2,
-      "active": 717
+      "updated": 1585977904122,
+      "confirmed": 1075,
+      "recovered": 93,
+      "deaths": 3,
+      "active": 979
     },
     "Republic of the Congo": {
-      "updated": 1585687787000,
-      "confirmed": 19,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 19
+      "updated": 1585977904118,
+      "confirmed": 22,
+      "recovered": 2,
+      "deaths": 2,
+      "active": 18
     },
     "Romania": {
-      "updated": 1585687787000,
-      "confirmed": 2245,
-      "recovered": 220,
-      "deaths": 82,
-      "active": 1943
+      "updated": 1585977904122,
+      "confirmed": 3183,
+      "recovered": 283,
+      "deaths": 133,
+      "active": 2767
     },
     "Russia": {
-      "updated": 1585687787000,
-      "confirmed": 2337,
-      "recovered": 121,
-      "deaths": 17,
-      "active": 2199
+      "updated": 1585977904122,
+      "confirmed": 4149,
+      "recovered": 281,
+      "deaths": 34,
+      "active": 3834
     },
     "Rwanda": {
-      "updated": 1585687787000,
-      "confirmed": 75,
+      "updated": 1585977904122,
+      "confirmed": 89,
       "recovered": 0,
       "deaths": 0,
-      "active": 75
-    },
-    "Saint Kitts und Nevis": {
-      "updated": 1585687787000,
-      "confirmed": 8,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 8
-    },
-    "Saint Lucia": {
-      "updated": 1585687787000,
-      "confirmed": 9,
-      "recovered": 1,
-      "deaths": 0,
-      "active": 8
+      "active": 89
     },
     "Saint Vincent and the Grenadines": {
-      "updated": 1585687787000,
-      "confirmed": 1,
+      "updated": 1585977904122,
+      "confirmed": 7,
       "recovered": 1,
       "deaths": 0,
-      "active": 0
+      "active": 6
     },
     "San Marino": {
-      "updated": 1585687787000,
-      "confirmed": 230,
-      "recovered": 13,
-      "deaths": 25,
-      "active": 192
+      "updated": 1585977904122,
+      "confirmed": 251,
+      "recovered": 26,
+      "deaths": 32,
+      "active": 193
     },
     "Saudi Arabia": {
-      "updated": 1585687787000,
-      "confirmed": 1563,
-      "recovered": 165,
-      "deaths": 10,
-      "active": 1388
+      "updated": 1585977904122,
+      "confirmed": 2039,
+      "recovered": 351,
+      "deaths": 25,
+      "active": 1663
     },
     "Senegal": {
-      "updated": 1585687787000,
-      "confirmed": 175,
-      "recovered": 40,
-      "deaths": 0,
-      "active": 135
+      "updated": 1585977904122,
+      "confirmed": 207,
+      "recovered": 66,
+      "deaths": 1,
+      "active": 140
     },
     "Serbia": {
-      "updated": 1585687787000,
-      "confirmed": 785,
+      "updated": 1585977904122,
+      "confirmed": 1476,
       "recovered": 0,
-      "deaths": 16,
-      "active": 769
+      "deaths": 39,
+      "active": 1437
     },
     "Seychelles": {
-      "updated": 1585687787000,
+      "updated": 1585977904122,
       "confirmed": 10,
       "recovered": 0,
       "deaths": 0,
       "active": 10
     },
     "Sierra Leone": {
-      "updated": 1585687787000,
-      "confirmed": 1,
+      "updated": 1585977904122,
+      "confirmed": 2,
       "recovered": 0,
       "deaths": 0,
-      "active": 1
+      "active": 2
     },
     "Singapore": {
-      "updated": 1585687787000,
-      "confirmed": 926,
-      "recovered": 240,
-      "deaths": 3,
-      "active": 683
+      "updated": 1585977904122,
+      "confirmed": 1114,
+      "recovered": 282,
+      "deaths": 6,
+      "active": 826
     },
     "Slovakia": {
-      "updated": 1585687787000,
-      "confirmed": 363,
-      "recovered": 3,
-      "deaths": 0,
-      "active": 360
+      "updated": 1585977904123,
+      "confirmed": 450,
+      "recovered": 10,
+      "deaths": 1,
+      "active": 439
     },
     "Slovenia": {
-      "updated": 1585687787000,
-      "confirmed": 802,
-      "recovered": 10,
-      "deaths": 15,
-      "active": 777
+      "updated": 1585977904123,
+      "confirmed": 934,
+      "recovered": 70,
+      "deaths": 20,
+      "active": 844
     },
     "Somalia": {
-      "updated": 1585687787000,
-      "confirmed": 5,
-      "recovered": 1,
-      "deaths": 0,
-      "active": 4
-    },
-    "South Africa": {
-      "updated": 1585687787000,
-      "confirmed": 1353,
-      "recovered": 31,
-      "deaths": 5,
-      "active": 1317
-    },
-    "South Korea": {
-      "updated": 1585687787000,
-      "confirmed": 9786,
-      "recovered": 5408,
-      "deaths": 162,
-      "active": 4216
-    },
-    "Spain": {
-      "updated": 1585687787000,
-      "confirmed": 94417,
-      "recovered": 19259,
-      "deaths": 8269,
-      "active": 66889
-    },
-    "Sri Lanka": {
-      "updated": 1585687787000,
-      "confirmed": 143,
-      "recovered": 17,
-      "deaths": 2,
-      "active": 124
-    },
-    "Sudan": {
-      "updated": 1585687787000,
+      "updated": 1585977904123,
       "confirmed": 7,
       "recovered": 1,
-      "deaths": 2,
-      "active": 4
-    },
-    "Suriname": {
-      "updated": 1585687787000,
-      "confirmed": 8,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 8
-    },
-    "Sweden": {
-      "updated": 1585687787000,
-      "confirmed": 4435,
-      "recovered": 16,
-      "deaths": 180,
-      "active": 4239
-    },
-    "Switzerland": {
-      "updated": 1585687787000,
-      "confirmed": 16605,
-      "recovered": 1823,
-      "deaths": 433,
-      "active": 14349
-    },
-    "Syria": {
-      "updated": 1585687787000,
-      "confirmed": 10,
-      "recovered": 0,
-      "deaths": 2,
-      "active": 8
-    },
-    "Taiwan": {
-      "updated": 1585639619000,
-      "confirmed": 322,
-      "recovered": 39,
-      "deaths": 5,
-      "active": 278
-    },
-    "Tanzania": {
-      "updated": 1585687787000,
-      "confirmed": 19,
-      "recovered": 1,
-      "deaths": 1,
-      "active": 17
-    },
-    "Thailand": {
-      "updated": 1585687787000,
-      "confirmed": 1651,
-      "recovered": 342,
-      "deaths": 10,
-      "active": 1299
-    },
-    "Togo": {
-      "updated": 1585687787000,
-      "confirmed": 34,
-      "recovered": 10,
-      "deaths": 1,
-      "active": 23
-    },
-    "Trinidad and Tobago": {
-      "updated": 1585687787000,
-      "confirmed": 87,
-      "recovered": 1,
-      "deaths": 3,
-      "active": 83
-    },
-    "Tschechien": {
-      "updated": 1585687787000,
-      "confirmed": 3257,
-      "recovered": 45,
-      "deaths": 31,
-      "active": 3181
-    },
-    "Tunisia": {
-      "updated": 1585687787000,
-      "confirmed": 362,
-      "recovered": 3,
-      "deaths": 10,
-      "active": 349
-    },
-    "Turkey": {
-      "updated": 1585687787000,
-      "confirmed": 13531,
-      "recovered": 243,
-      "deaths": 214,
-      "active": 13074
-    },
-    "Uganda": {
-      "updated": 1585687787000,
-      "confirmed": 44,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 44
-    },
-    "Ukraine": {
-      "updated": 1585687787000,
-      "confirmed": 645,
-      "recovered": 10,
-      "deaths": 17,
-      "active": 618
-    },
-    "United Arab Emirates": {
-      "updated": 1585687787000,
-      "confirmed": 664,
-      "recovered": 61,
-      "deaths": 6,
-      "active": 597
-    },
-    "United Kingdom": {
-      "updated": 1585687787000,
-      "confirmed": 25474,
-      "recovered": 179,
-      "deaths": 1793,
-      "active": 23502
-    },
-    "United States": {
-      "updated": 1585687800000,
-      "confirmed": 184134,
-      "recovered": 0,
-      "deaths": 3721,
-      "active": 180413
-    },
-    "Uruguay": {
-      "updated": 1585687787000,
-      "confirmed": 320,
-      "recovered": 25,
-      "deaths": 1,
-      "active": 294
-    },
-    "Uzbekistan": {
-      "updated": 1585687787000,
-      "confirmed": 172,
-      "recovered": 7,
-      "deaths": 2,
-      "active": 163
-    },
-    "Vatican City": {
-      "updated": 1585687787000,
-      "confirmed": 6,
-      "recovered": 0,
       "deaths": 0,
       "active": 6
     },
-    "Venezuela": {
-      "updated": 1585687787000,
-      "confirmed": 135,
-      "recovered": 39,
-      "deaths": 3,
-      "active": 93
+    "South Africa": {
+      "updated": 1585977904123,
+      "confirmed": 1505,
+      "recovered": 95,
+      "deaths": 9,
+      "active": 1401
     },
-    "Vietnam": {
-      "updated": 1585687787000,
-      "confirmed": 207,
-      "recovered": 58,
-      "deaths": 0,
-      "active": 149
+    "South Korea": {
+      "updated": 1585977904121,
+      "confirmed": 10156,
+      "recovered": 6325,
+      "deaths": 177,
+      "active": 3654
     },
-    "West Bank and Gaza": {
-      "updated": 1585687787000,
-      "confirmed": 119,
-      "recovered": 18,
-      "deaths": 1,
-      "active": 100
+    "Spain": {
+      "updated": 1585977904123,
+      "confirmed": 119199,
+      "recovered": 30513,
+      "deaths": 11198,
+      "active": 77488
     },
-    "Zambia": {
-      "updated": 1585687787000,
-      "confirmed": 35,
+    "Sri Lanka": {
+      "updated": 1585977904123,
+      "confirmed": 159,
+      "recovered": 24,
+      "deaths": 5,
+      "active": 130
+    },
+    "St. Kitts and Nevis": {
+      "updated": 1585977904122,
+      "confirmed": 9,
       "recovered": 0,
       "deaths": 0,
-      "active": 35
+      "active": 9
+    },
+    "St. Lucia": {
+      "updated": 1585977904122,
+      "confirmed": 13,
+      "recovered": 1,
+      "deaths": 0,
+      "active": 12
+    },
+    "Sudan": {
+      "updated": 1585977904123,
+      "confirmed": 10,
+      "recovered": 2,
+      "deaths": 2,
+      "active": 6
+    },
+    "Suriname": {
+      "updated": 1585977904123,
+      "confirmed": 10,
+      "recovered": 0,
+      "deaths": 1,
+      "active": 9
+    },
+    "Sweden": {
+      "updated": 1585977904123,
+      "confirmed": 6131,
+      "recovered": 205,
+      "deaths": 358,
+      "active": 5568
+    },
+    "Switzerland": {
+      "updated": 1585977904123,
+      "confirmed": 19606,
+      "recovered": 4846,
+      "deaths": 591,
+      "active": 14169
+    },
+    "Syria": {
+      "updated": 1585977904123,
+      "confirmed": 16,
+      "recovered": 0,
+      "deaths": 2,
+      "active": 14
+    },
+    "Taiwan": {
+      "updated": 1585951211551,
+      "confirmed": 348,
+      "recovered": 50,
+      "deaths": 5,
+      "active": 293
+    },
+    "Tanzania": {
+      "updated": 1585977904123,
+      "confirmed": 20,
+      "recovered": 3,
+      "deaths": 1,
+      "active": 16
+    },
+    "Thailand": {
+      "updated": 1585977904123,
+      "confirmed": 1978,
+      "recovered": 612,
+      "deaths": 19,
+      "active": 1347
+    },
+    "Togo": {
+      "updated": 1585977904123,
+      "confirmed": 40,
+      "recovered": 17,
+      "deaths": 3,
+      "active": 20
+    },
+    "Trinidad and Tobago": {
+      "updated": 1585977904123,
+      "confirmed": 100,
+      "recovered": 1,
+      "deaths": 6,
+      "active": 93
+    },
+    "Tunisia": {
+      "updated": 1585977904123,
+      "confirmed": 495,
+      "recovered": 5,
+      "deaths": 18,
+      "active": 472
+    },
+    "Turkey": {
+      "updated": 1585977904123,
+      "confirmed": 20921,
+      "recovered": 484,
+      "deaths": 425,
+      "active": 20012
+    },
+    "USA": {
+      "updated": 1585977904132,
+      "confirmed": 277305,
+      "recovered": 9863,
+      "deaths": 7134,
+      "active": 260308
+    },
+    "Uganda": {
+      "updated": 1585977904123,
+      "confirmed": 48,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 48
+    },
+    "Ukraine": {
+      "updated": 1585977904123,
+      "confirmed": 1072,
+      "recovered": 22,
+      "deaths": 27,
+      "active": 1023
+    },
+    "United Arab Emirates": {
+      "updated": 1585977904123,
+      "confirmed": 1264,
+      "recovered": 108,
+      "deaths": 9,
+      "active": 1147
+    },
+    "United Kingdom": {
+      "updated": 1585977904123,
+      "confirmed": 38168,
+      "recovered": 135,
+      "deaths": 3605,
+      "active": 34428
+    },
+    "Uruguay": {
+      "updated": 1585977904123,
+      "confirmed": 386,
+      "recovered": 86,
+      "deaths": 4,
+      "active": 296
+    },
+    "Uzbekistan": {
+      "updated": 1585977904123,
+      "confirmed": 227,
+      "recovered": 25,
+      "deaths": 2,
+      "active": 200
+    },
+    "Vatican City": {
+      "updated": 1585977904120,
+      "confirmed": 7,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 7
+    },
+    "Venezuela": {
+      "updated": 1585977904123,
+      "confirmed": 153,
+      "recovered": 52,
+      "deaths": 7,
+      "active": 94
+    },
+    "Vietnam": {
+      "updated": 1585977904123,
+      "confirmed": 239,
+      "recovered": 85,
+      "deaths": 0,
+      "active": 154
+    },
+    "Zambia": {
+      "updated": 1585977904124,
+      "confirmed": 39,
+      "recovered": 2,
+      "deaths": 1,
+      "active": 36
     },
     "Zimbabwe": {
-      "updated": 1585687787000,
+      "updated": 1585977904124,
+      "confirmed": 9,
+      "recovered": 0,
+      "deaths": 1,
+      "active": 8
+    }
+  },
+  "usa": {
+    "Alabama": {
+      "updated": 1585977904130,
+      "confirmed": 1535,
+      "recovered": 0,
+      "deaths": 38,
+      "active": 1497
+    },
+    "Alaska": {
+      "updated": 1585977904129,
+      "confirmed": 157,
+      "recovered": 0,
+      "deaths": 3,
+      "active": 154
+    },
+    "American Samoa": {
+      "updated": 1585668963400,
+      "confirmed": 0,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 0
+    },
+    "American Virgin Islands": {
+      "updated": 1585977904128,
+      "confirmed": 38,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 38
+    },
+    "Arizona": {
+      "updated": 1585977904129,
+      "confirmed": 1937,
+      "recovered": 0,
+      "deaths": 41,
+      "active": 1896
+    },
+    "Arkansas": {
+      "updated": 1585977904128,
+      "confirmed": 738,
+      "recovered": 0,
+      "deaths": 12,
+      "active": 726
+    },
+    "California": {
+      "updated": 1585977904128,
+      "confirmed": 12507,
+      "recovered": 0,
+      "deaths": 279,
+      "active": 12228
+    },
+    "Colorado": {
+      "updated": 1585977904129,
+      "confirmed": 4173,
+      "recovered": 0,
+      "deaths": 111,
+      "active": 4062
+    },
+    "Connecticut": {
+      "updated": 1585977904128,
+      "confirmed": 4914,
+      "recovered": 0,
+      "deaths": 131,
+      "active": 4783
+    },
+    "Delaware": {
+      "updated": 1585977904124,
+      "confirmed": 450,
+      "recovered": 0,
+      "deaths": 14,
+      "active": 436
+    },
+    "District of Columbia": {
+      "updated": 1585977904130,
+      "confirmed": 757,
+      "recovered": 0,
+      "deaths": 15,
+      "active": 742
+    },
+    "Florida": {
+      "updated": 1585977904130,
+      "confirmed": 10268,
+      "recovered": 0,
+      "deaths": 170,
+      "active": 10098
+    },
+    "Georgia": {
+      "updated": 1585977904128,
+      "confirmed": 5967,
+      "recovered": 0,
+      "deaths": 198,
+      "active": 5769
+    },
+    "Guam": {
+      "updated": 1585977904129,
+      "confirmed": 84,
+      "recovered": 0,
+      "deaths": 4,
+      "active": 80
+    },
+    "Hawaii": {
+      "updated": 1585977904130,
+      "confirmed": 319,
+      "recovered": 0,
+      "deaths": 3,
+      "active": 316
+    },
+    "Idaho": {
+      "updated": 1585977904129,
+      "confirmed": 1013,
+      "recovered": 0,
+      "deaths": 10,
+      "active": 1003
+    },
+    "Illinois": {
+      "updated": 1585977904127,
+      "confirmed": 8904,
+      "recovered": 0,
+      "deaths": 210,
+      "active": 8694
+    },
+    "Indiana": {
+      "updated": 1585977904128,
+      "confirmed": 3437,
+      "recovered": 0,
+      "deaths": 102,
+      "active": 3335
+    },
+    "Iowa": {
+      "updated": 1585977904129,
+      "confirmed": 699,
+      "recovered": 0,
+      "deaths": 11,
+      "active": 688
+    },
+    "Kansas": {
+      "updated": 1585977904128,
+      "confirmed": 629,
+      "recovered": 0,
+      "deaths": 18,
+      "active": 611
+    },
+    "Kentucky": {
+      "updated": 1585977904130,
+      "confirmed": 831,
+      "recovered": 0,
+      "deaths": 37,
+      "active": 794
+    },
+    "Louisiana": {
+      "updated": 1585977904128,
+      "confirmed": 10297,
+      "recovered": 0,
+      "deaths": 370,
+      "active": 9927
+    },
+    "Maine": {
+      "updated": 1585977904130,
+      "confirmed": 432,
+      "recovered": 0,
+      "deaths": 9,
+      "active": 423
+    },
+    "Maryland": {
+      "updated": 1585977904129,
+      "confirmed": 2758,
+      "recovered": 0,
+      "deaths": 43,
+      "active": 2715
+    },
+    "Massachusetts": {
+      "updated": 1585977904130,
+      "confirmed": 10402,
+      "recovered": 0,
+      "deaths": 192,
+      "active": 10210
+    },
+    "Michigan": {
+      "updated": 1585977904129,
+      "confirmed": 12744,
+      "recovered": 0,
+      "deaths": 479,
+      "active": 12265
+    },
+    "Minnesota": {
+      "updated": 1585977904124,
+      "confirmed": 789,
+      "recovered": 0,
+      "deaths": 22,
+      "active": 767
+    },
+    "Mississippi": {
+      "updated": 1585977904124,
+      "confirmed": 1358,
+      "recovered": 0,
+      "deaths": 29,
+      "active": 1329
+    },
+    "Missouri": {
+      "updated": 1585977904129,
+      "confirmed": 2152,
+      "recovered": 0,
+      "deaths": 33,
+      "active": 2119
+    },
+    "Montana": {
+      "updated": 1585977904130,
+      "confirmed": 262,
+      "recovered": 0,
+      "deaths": 5,
+      "active": 257
+    },
+    "Nebraska": {
+      "updated": 1585977904130,
+      "confirmed": 279,
+      "recovered": 0,
+      "deaths": 6,
+      "active": 273
+    },
+    "Nevada": {
+      "updated": 1585977904129,
+      "confirmed": 1559,
+      "recovered": 0,
+      "deaths": 43,
+      "active": 1516
+    },
+    "New Hampshire": {
+      "updated": 1585977904130,
+      "confirmed": 540,
+      "recovered": 0,
+      "deaths": 7,
+      "active": 533
+    },
+    "New Jersey": {
+      "updated": 1585977904129,
+      "confirmed": 29895,
+      "recovered": 0,
+      "deaths": 646,
+      "active": 29249
+    },
+    "New Mexico": {
+      "updated": 1585977904128,
+      "confirmed": 534,
+      "recovered": 0,
+      "deaths": 10,
+      "active": 524
+    },
+    "New York": {
+      "updated": 1585977904129,
+      "confirmed": 103060,
+      "recovered": 0,
+      "deaths": 2935,
+      "active": 100125
+    },
+    "North Carolina": {
+      "updated": 1585977904130,
+      "confirmed": 2336,
+      "recovered": 0,
+      "deaths": 29,
+      "active": 2307
+    },
+    "North Dakota": {
+      "updated": 1585977904128,
+      "confirmed": 173,
+      "recovered": 0,
+      "deaths": 3,
+      "active": 170
+    },
+    "Northern Mariana Islands": {
+      "updated": 1585977904129,
       "confirmed": 8,
       "recovered": 0,
       "deaths": 1,
       "active": 7
     },
-    "Zypern": {
-      "updated": 1585687787000,
-      "confirmed": 262,
-      "recovered": 23,
-      "deaths": 8,
-      "active": 231
-    }
-  },
-  "usa": {
-    "Alabama": {
-      "updated": 1585687800000,
-      "confirmed": 949,
-      "recovered": 0,
-      "deaths": 15,
-      "active": 934
-    },
-    "Alaska": {
-      "updated": 1585687800000,
-      "confirmed": 119,
-      "recovered": 0,
-      "deaths": 3,
-      "active": 116
-    },
-    "Arizona": {
-      "updated": 1585687800000,
-      "confirmed": 1289,
-      "recovered": 0,
-      "deaths": 24,
-      "active": 1265
-    },
-    "Arkansas": {
-      "updated": 1585687800000,
-      "confirmed": 508,
-      "recovered": 0,
-      "deaths": 8,
-      "active": 500
-    },
-    "California": {
-      "updated": 1585687800000,
-      "confirmed": 7540,
-      "recovered": 0,
-      "deaths": 153,
-      "active": 7387
-    },
-    "Colorado": {
-      "updated": 1585687800000,
-      "confirmed": 2627,
-      "recovered": 0,
-      "deaths": 51,
-      "active": 2576
-    },
-    "Connecticut": {
-      "updated": 1585687800000,
-      "confirmed": 2571,
-      "recovered": 0,
-      "deaths": 36,
-      "active": 2535
-    },
-    "Cruiseship \"Grand Princess\"": {
-      "updated": 1585687800000,
-      "confirmed": 103,
-      "recovered": 0,
-      "deaths": 3,
-      "active": 100
-    },
-    "Delaware": {
-      "updated": 1585687800000,
-      "confirmed": 264,
-      "recovered": 0,
-      "deaths": 10,
-      "active": 254
-    },
-    "District of Columbia": {
-      "updated": 1585687800000,
-      "confirmed": 495,
-      "recovered": 0,
-      "deaths": 9,
-      "active": 486
-    },
-    "Florida": {
-      "updated": 1585687800000,
-      "confirmed": 6338,
-      "recovered": 0,
-      "deaths": 77,
-      "active": 6261
-    },
-    "Georgia": {
-      "updated": 1585687800000,
-      "confirmed": 3815,
-      "recovered": 0,
-      "deaths": 108,
-      "active": 3707
-    },
-    "Guam": {
-      "updated": 1585687800000,
-      "confirmed": 69,
-      "recovered": 0,
-      "deaths": 2,
-      "active": 67
-    },
-    "Hawaii": {
-      "updated": 1585687800000,
-      "confirmed": 204,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 204
-    },
-    "Idaho": {
-      "updated": 1585687800000,
-      "confirmed": 475,
-      "recovered": 0,
-      "deaths": 8,
-      "active": 467
-    },
-    "Illinois": {
-      "updated": 1585687800000,
-      "confirmed": 5994,
-      "recovered": 0,
-      "deaths": 74,
-      "active": 5920
-    },
-    "Indiana": {
-      "updated": 1585687800000,
-      "confirmed": 2158,
-      "recovered": 0,
-      "deaths": 48,
-      "active": 2110
-    },
-    "Iowa": {
-      "updated": 1585687800000,
-      "confirmed": 497,
-      "recovered": 0,
-      "deaths": 7,
-      "active": 490
-    },
-    "Kansas": {
-      "updated": 1585687800000,
-      "confirmed": 434,
-      "recovered": 0,
-      "deaths": 9,
-      "active": 425
-    },
-    "Kentucky": {
-      "updated": 1585687800000,
-      "confirmed": 480,
-      "recovered": 0,
-      "deaths": 11,
-      "active": 469
-    },
-    "Louisiana": {
-      "updated": 1585687800000,
-      "confirmed": 5237,
-      "recovered": 0,
-      "deaths": 239,
-      "active": 4998
-    },
-    "Maine": {
-      "updated": 1585687800000,
-      "confirmed": 303,
-      "recovered": 0,
-      "deaths": 5,
-      "active": 298
-    },
-    "Maryland": {
-      "updated": 1585687800000,
-      "confirmed": 1660,
-      "recovered": 0,
-      "deaths": 18,
-      "active": 1642
-    },
-    "Massachusetts": {
-      "updated": 1585687800000,
-      "confirmed": 6620,
-      "recovered": 0,
-      "deaths": 88,
-      "active": 6532
-    },
-    "Michigan": {
-      "updated": 1585687800000,
-      "confirmed": 7615,
-      "recovered": 0,
-      "deaths": 259,
-      "active": 7356
-    },
-    "Minnesota": {
-      "updated": 1585687800000,
-      "confirmed": 629,
-      "recovered": 0,
-      "deaths": 12,
-      "active": 617
-    },
-    "Mississippi": {
-      "updated": 1585687800000,
-      "confirmed": 937,
-      "recovered": 0,
-      "deaths": 20,
-      "active": 917
-    },
-    "Missouri": {
-      "updated": 1585687800000,
-      "confirmed": 1110,
-      "recovered": 0,
-      "deaths": 14,
-      "active": 1096
-    },
-    "Montana": {
-      "updated": 1585687800000,
-      "confirmed": 184,
-      "recovered": 0,
-      "deaths": 5,
-      "active": 179
-    },
-    "Nebraska": {
-      "updated": 1585687800000,
-      "confirmed": 153,
-      "recovered": 0,
-      "deaths": 3,
-      "active": 150
-    },
-    "Nevada": {
-      "updated": 1585687800000,
-      "confirmed": 1044,
-      "recovered": 0,
-      "deaths": 26,
-      "active": 1018
-    },
-    "New Hampshire": {
-      "updated": 1585687800000,
-      "confirmed": 314,
-      "recovered": 0,
-      "deaths": 3,
-      "active": 311
-    },
-    "New Jersey": {
-      "updated": 1585687800000,
-      "confirmed": 18696,
-      "recovered": 0,
-      "deaths": 267,
-      "active": 18429
-    },
-    "New Mexico": {
-      "updated": 1585687800000,
-      "confirmed": 281,
-      "recovered": 0,
-      "deaths": 4,
-      "active": 277
-    },
-    "New York": {
-      "updated": 1585687800000,
-      "confirmed": 75795,
-      "recovered": 0,
-      "deaths": 1550,
-      "active": 74245
-    },
-    "North Carolina": {
-      "updated": 1585687800000,
-      "confirmed": 1512,
-      "recovered": 0,
-      "deaths": 11,
-      "active": 1501
-    },
-    "North Dakota": {
-      "updated": 1585687800000,
-      "confirmed": 122,
-      "recovered": 0,
-      "deaths": 3,
-      "active": 119
-    },
     "Ohio": {
-      "updated": 1585687800000,
-      "confirmed": 2199,
+      "updated": 1585977904130,
+      "confirmed": 3312,
       "recovered": 0,
-      "deaths": 55,
-      "active": 2144
+      "deaths": 91,
+      "active": 3221
     },
     "Oklahoma": {
-      "updated": 1585687800000,
-      "confirmed": 566,
+      "updated": 1585977904124,
+      "confirmed": 990,
       "recovered": 0,
-      "deaths": 23,
-      "active": 543
+      "deaths": 38,
+      "active": 952
     },
     "Oregon": {
-      "updated": 1585687800000,
-      "confirmed": 612,
+      "updated": 1585977904130,
+      "confirmed": 899,
       "recovered": 0,
-      "deaths": 16,
-      "active": 596
+      "deaths": 22,
+      "active": 877
     },
     "Pennsylvania": {
-      "updated": 1585687800000,
-      "confirmed": 4963,
+      "updated": 1585977904128,
+      "confirmed": 8570,
       "recovered": 0,
-      "deaths": 63,
-      "active": 4900
+      "deaths": 102,
+      "active": 8468
     },
     "Puerto Rico": {
-      "updated": 1585687800000,
-      "confirmed": 239,
-      "recovered": 0,
-      "deaths": 8,
-      "active": 231
-    },
-    "Rhode Island": {
-      "updated": 1585687800000,
-      "confirmed": 488,
-      "recovered": 0,
-      "deaths": 8,
-      "active": 480
-    },
-    "South Carolina": {
-      "updated": 1585687800000,
-      "confirmed": 925,
-      "recovered": 0,
-      "deaths": 18,
-      "active": 907
-    },
-    "South Dakota": {
-      "updated": 1585687800000,
-      "confirmed": 108,
-      "recovered": 0,
-      "deaths": 1,
-      "active": 107
-    },
-    "Tennessee": {
-      "updated": 1585687800000,
-      "confirmed": 2041,
-      "recovered": 0,
-      "deaths": 14,
-      "active": 2027
-    },
-    "Texas": {
-      "updated": 1585687800000,
-      "confirmed": 3532,
-      "recovered": 0,
-      "deaths": 52,
-      "active": 3480
-    },
-    "Utah": {
-      "updated": 1585687800000,
-      "confirmed": 878,
-      "recovered": 0,
-      "deaths": 5,
-      "active": 873
-    },
-    "Vermont": {
-      "updated": 1585687800000,
-      "confirmed": 293,
-      "recovered": 0,
-      "deaths": 13,
-      "active": 280
-    },
-    "Virginia": {
-      "updated": 1585687800000,
-      "confirmed": 1249,
+      "updated": 1585977904128,
+      "confirmed": 378,
       "recovered": 0,
       "deaths": 15,
-      "active": 1234
+      "active": 363
+    },
+    "Recovered": {
+      "updated": 1585977904128,
+      "confirmed": 0,
+      "recovered": 9863,
+      "deaths": 0,
+      "active": -9863
+    },
+    "Rhode Island": {
+      "updated": 1585977904130,
+      "confirmed": 711,
+      "recovered": 0,
+      "deaths": 14,
+      "active": 697
+    },
+    "South Carolina": {
+      "updated": 1585977904130,
+      "confirmed": 1700,
+      "recovered": 0,
+      "deaths": 34,
+      "active": 1666
+    },
+    "South Dakota": {
+      "updated": 1585977904129,
+      "confirmed": 187,
+      "recovered": 0,
+      "deaths": 2,
+      "active": 185
+    },
+    "Tennessee": {
+      "updated": 1585977904129,
+      "confirmed": 3068,
+      "recovered": 0,
+      "deaths": 44,
+      "active": 3024
+    },
+    "Texas": {
+      "updated": 1585977904128,
+      "confirmed": 6025,
+      "recovered": 0,
+      "deaths": 104,
+      "active": 5921
+    },
+    "USA": {
+      "updated": 1585977904132,
+      "confirmed": 277305,
+      "recovered": 9863,
+      "deaths": 7134,
+      "active": 260308
+    },
+    "Utah": {
+      "updated": 1585977904129,
+      "confirmed": 1255,
+      "recovered": 0,
+      "deaths": 7,
+      "active": 1248
+    },
+    "Vermont": {
+      "updated": 1585977904130,
+      "confirmed": 389,
+      "recovered": 0,
+      "deaths": 17,
+      "active": 372
+    },
+    "Virginia": {
+      "updated": 1585977904130,
+      "confirmed": 2012,
+      "recovered": 0,
+      "deaths": 47,
+      "active": 1965
     },
     "Washington": {
-      "updated": 1585687800000,
-      "confirmed": 5280,
+      "updated": 1585977904129,
+      "confirmed": 6967,
       "recovered": 0,
-      "deaths": 222,
-      "active": 5058
+      "deaths": 295,
+      "active": 6672
     },
     "West Virginia": {
-      "updated": 1585687800000,
-      "confirmed": 145,
+      "updated": 1585977904129,
+      "confirmed": 237,
       "recovered": 0,
-      "deaths": 1,
-      "active": 144
+      "deaths": 2,
+      "active": 235
     },
     "Wisconsin": {
-      "updated": 1585687800000,
-      "confirmed": 1366,
+      "updated": 1585977904128,
+      "confirmed": 2012,
       "recovered": 0,
-      "deaths": 24,
-      "active": 1342
+      "deaths": 51,
+      "active": 1961
     },
     "Wyoming": {
-      "updated": 1585687800000,
-      "confirmed": 109,
+      "updated": 1585977904129,
+      "confirmed": 166,
       "recovered": 0,
       "deaths": 0,
-      "active": 109
+      "active": 166
+    },
+    "other": {
+      "updated": 1585090544062,
+      "confirmed": 1,
+      "recovered": 178,
+      "deaths": 0,
+      "active": -177
     }
   },
   "canada": {
     "Alberta": {
-      "updated": 1585688142000,
-      "confirmed": 690,
+      "updated": 1585977904114,
+      "confirmed": 1075,
       "recovered": 0,
-      "deaths": 8,
-      "active": 682
+      "deaths": 18,
+      "active": 1057
     },
     "British Columbia": {
-      "updated": 1585688142000,
-      "confirmed": 970,
+      "updated": 1585977904115,
+      "confirmed": 1174,
       "recovered": 0,
-      "deaths": 19,
-      "active": 951
+      "deaths": 35,
+      "active": 1139
+    },
+    "Canada": {
+      "updated": 1585977904133,
+      "confirmed": 12532,
+      "recovered": 2321,
+      "deaths": 187,
+      "active": 10024
     },
     "Manitoba": {
-      "updated": 1585688142000,
-      "confirmed": 103,
-      "recovered": 0,
-      "deaths": 1,
-      "active": 102
-    },
-    "New Brunswick": {
-      "updated": 1585688142000,
-      "confirmed": 70,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 70
-    },
-    "Newfoundland and Labrador": {
-      "updated": 1585688142000,
-      "confirmed": 152,
-      "recovered": 0,
-      "deaths": 1,
-      "active": 151
-    },
-    "Northwest Territories": {
-      "updated": 1585688142000,
-      "confirmed": 1,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 1
-    },
-    "Nova Scotia": {
-      "updated": 1585688142000,
-      "confirmed": 147,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 147
-    },
-    "Ontario": {
-      "updated": 1585688142000,
-      "confirmed": 1966,
-      "recovered": 0,
-      "deaths": 33,
-      "active": 1933
-    },
-    "Prince Edward Island": {
-      "updated": 1585688142000,
-      "confirmed": 21,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 21
-    },
-    "Québec": {
-      "updated": 1585688142000,
-      "confirmed": 4162,
-      "recovered": 0,
-      "deaths": 31,
-      "active": 4131
-    },
-    "Saskatchewan": {
-      "updated": 1585688142000,
-      "confirmed": 184,
+      "updated": 1585977904116,
+      "confirmed": 182,
       "recovered": 0,
       "deaths": 2,
-      "active": 182
+      "active": 180
     },
-    "Yukon": {
-      "updated": 1585688142000,
-      "confirmed": 5,
+    "New Brunswick": {
+      "updated": 1585977904116,
+      "confirmed": 91,
       "recovered": 0,
       "deaths": 0,
-      "active": 5
+      "active": 91
+    },
+    "Newfoundland and Labrador": {
+      "updated": 1585977904116,
+      "confirmed": 195,
+      "recovered": 0,
+      "deaths": 1,
+      "active": 194
+    },
+    "Northwest Territories": {
+      "updated": 1585977904116,
+      "confirmed": 4,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 4
+    },
+    "Nova Scotia": {
+      "updated": 1585977904116,
+      "confirmed": 207,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 207
+    },
+    "Ontario": {
+      "updated": 1585977904116,
+      "confirmed": 3255,
+      "recovered": 0,
+      "deaths": 67,
+      "active": 3188
+    },
+    "Prince Edward Island": {
+      "updated": 1585977904116,
+      "confirmed": 22,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 22
+    },
+    "Québec": {
+      "updated": 1585977904117,
+      "confirmed": 6101,
+      "recovered": 0,
+      "deaths": 61,
+      "active": 6040
+    },
+    "Recovered": {
+      "updated": 1585977904117,
+      "confirmed": 0,
+      "recovered": 2321,
+      "deaths": 0,
+      "active": -2321
+    },
+    "Saskatchewan": {
+      "updated": 1585977904117,
+      "confirmed": 220,
+      "recovered": 0,
+      "deaths": 3,
+      "active": 217
+    },
+    "Yukon": {
+      "updated": 1585977904117,
+      "confirmed": 6,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 6
     }
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1585674000000,
-      "confirmed": 13313,
-      "recovered": 1368,
-      "deaths": 196,
-      "active": 11749
+      "updated": 1585951217327,
+      "confirmed": 17180,
+      "recovered": 2894,
+      "deaths": 321,
+      "active": 13965
     },
-    "Bayern": {
-      "updated": 1585656000000,
-      "confirmed": 15505,
-      "recovered": 900,
-      "deaths": 191,
-      "active": 14414
+    "Bavaria": {
+      "updated": 1585951217328,
+      "confirmed": 20962,
+      "recovered": 3690,
+      "deaths": 327,
+      "active": 16945
     },
     "Berlin": {
-      "updated": 1585677600000,
-      "confirmed": 2777,
-      "recovered": 1055,
-      "deaths": 15,
-      "active": 1707
+      "updated": 1585951217328,
+      "confirmed": 3486,
+      "recovered": 1720,
+      "deaths": 22,
+      "active": 1744
     },
     "Brandenburg": {
-      "updated": 1585674000000,
-      "confirmed": 945,
-      "recovered": 77,
-      "deaths": 5,
-      "active": 863
+      "updated": 1585951217328,
+      "confirmed": 1311,
+      "recovered": 133,
+      "deaths": 14,
+      "active": 1164
     },
     "Bremen": {
-      "updated": 1585670400000,
-      "confirmed": 315,
-      "recovered": 71,
-      "deaths": 5,
+      "updated": 1585951217329,
+      "confirmed": 354,
+      "recovered": 109,
+      "deaths": 6,
       "active": 239
     },
+    "Germany": {
+      "updated": 1585951217335,
+      "confirmed": 91159,
+      "recovered": 24981,
+      "deaths": 1275,
+      "active": 64903
+    },
     "Hamburg": {
-      "updated": 1585648800000,
-      "confirmed": 2290,
-      "recovered": 750,
-      "deaths": 9,
-      "active": 1531
+      "updated": 1585951217329,
+      "confirmed": 2739,
+      "recovered": 1250,
+      "deaths": 16,
+      "active": 1473
     },
-    "Hessen": {
-      "updated": 1585656000000,
-      "confirmed": 3301,
-      "recovered": 353,
-      "deaths": 18,
-      "active": 2930
+    "Hesse": {
+      "updated": 1585951217329,
+      "confirmed": 4097,
+      "recovered": 731,
+      "deaths": 37,
+      "active": 3329
     },
-    "Mecklenburg-Vorpommern": {
-      "updated": 1585666800000,
-      "confirmed": 412,
-      "recovered": 42,
-      "deaths": 3,
-      "active": 367
+    "Lower Saxony": {
+      "updated": 1585951217329,
+      "confirmed": 5455,
+      "recovered": 1481,
+      "deaths": 72,
+      "active": 3902
     },
-    "Niedersachsen": {
-      "updated": 1585652400000,
-      "confirmed": 4348,
-      "recovered": 724,
-      "deaths": 43,
-      "active": 3581
+    "Mecklenburg-Western Pomerania": {
+      "updated": 1585951217329,
+      "confirmed": 501,
+      "recovered": 95,
+      "deaths": 5,
+      "active": 401
     },
-    "Nordrhein-Westfalen": {
-      "updated": 1585663200000,
-      "confirmed": 15241,
-      "recovered": 3381,
-      "deaths": 148,
-      "active": 11712
+    "North Rhine-Westphalia": {
+      "updated": 1585951217330,
+      "confirmed": 18557,
+      "recovered": 6213,
+      "deaths": 224,
+      "active": 12120
     },
-    "Rheinland-Pfalz": {
-      "updated": 1585652400000,
-      "confirmed": 2839,
-      "recovered": 164,
-      "deaths": 22,
-      "active": 2653
+    "Rhineland-Palatinate": {
+      "updated": 1585951217330,
+      "confirmed": 3466,
+      "recovered": 690,
+      "deaths": 30,
+      "active": 2746
     },
     "Saarland": {
-      "updated": 1585670400000,
-      "confirmed": 961,
-      "recovered": 61,
-      "deaths": 12,
-      "active": 888
+      "updated": 1585951217330,
+      "confirmed": 1318,
+      "recovered": 179,
+      "deaths": 20,
+      "active": 1119
     },
-    "Sachsen": {
-      "updated": 1585656000000,
-      "confirmed": 2084,
-      "recovered": 33,
-      "deaths": 13,
-      "active": 2038
+    "Saxony": {
+      "updated": 1585951217330,
+      "confirmed": 2646,
+      "recovered": 243,
+      "deaths": 25,
+      "active": 2378
     },
-    "Sachsen-Anhalt": {
-      "updated": 1585663200000,
-      "confirmed": 752,
-      "recovered": 22,
-      "deaths": 7,
-      "active": 723
+    "Saxony-Anhalt": {
+      "updated": 1585951217331,
+      "confirmed": 898,
+      "recovered": 291,
+      "deaths": 11,
+      "active": 596
     },
-    "Schleswig-Holstein": {
-      "updated": 1585638000000,
-      "confirmed": 1135,
-      "recovered": 46,
+    "Sleswick-Holsatia": {
+      "updated": 1585951217331,
+      "confirmed": 1448,
+      "recovered": 122,
+      "deaths": 15,
+      "active": 1311
+    },
+    "Thuringia": {
+      "updated": 1585951217331,
+      "confirmed": 1074,
+      "recovered": 440,
       "deaths": 9,
-      "active": 1080
+      "active": 625
     },
-    "Thüringen": {
-      "updated": 1585670400000,
-      "confirmed": 840,
-      "recovered": 129,
-      "deaths": 6,
-      "active": 705
-    },
-    "nicht zugeordnet": {
-      "updated": 1585605600000,
-      "confirmed": 3927,
-      "recovered": 6650,
-      "deaths": 0,
-      "active": -2723
+    "other cases in Germany": {
+      "updated": 1585951217331,
+      "confirmed": 5667,
+      "recovered": 4700,
+      "deaths": 121,
+      "active": 846
     }
   },
   "china": {
     "Anhui": {
-      "updated": 1583644741000,
+      "updated": 1583967600000,
       "confirmed": 990,
       "recovered": 984,
       "deaths": 6,
       "active": 0
     },
     "Beijing": {
-      "updated": 1585633614000,
-      "confirmed": 580,
-      "recovered": 418,
+      "updated": 1585968303773,
+      "confirmed": 585,
+      "recovered": 438,
       "deaths": 8,
-      "active": 154
+      "active": 139
+    },
+    "China": {
+      "updated": 1585977904132,
+      "confirmed": 81638,
+      "recovered": 76751,
+      "deaths": 3326,
+      "active": 1561
     },
     "Chongqing": {
-      "updated": 1585440852000,
+      "updated": 1585951211539,
       "confirmed": 579,
       "recovered": 570,
       "deaths": 6,
       "active": 3
     },
     "Fujian": {
-      "updated": 1585620631000,
-      "confirmed": 343,
-      "recovered": 295,
+      "updated": 1585968303774,
+      "confirmed": 350,
+      "recovered": 301,
       "deaths": 1,
-      "active": 47
+      "active": 48
     },
     "Gansu": {
-      "updated": 1585491946000,
+      "updated": 1585977904115,
       "confirmed": 138,
-      "recovered": 125,
+      "recovered": 131,
       "deaths": 2,
-      "active": 11
+      "active": 5
     },
     "Guangdong": {
-      "updated": 1585648596000,
-      "confirmed": 1494,
-      "recovered": 1356,
+      "updated": 1585977904116,
+      "confirmed": 1516,
+      "recovered": 1378,
       "deaths": 8,
       "active": 130
     },
     "Guangxi": {
-      "updated": 1584678825000,
+      "updated": 1585951211540,
       "confirmed": 254,
-      "recovered": 250,
+      "recovered": 252,
       "deaths": 2,
-      "active": 2
+      "active": 0
     },
     "Guizhou": {
-      "updated": 1584495463000,
+      "updated": 1584496383000,
       "confirmed": 146,
       "recovered": 144,
       "deaths": 2,
       "active": 0
     },
     "Hainan": {
-      "updated": 1585024155000,
+      "updated": 1585692363945,
       "confirmed": 168,
       "recovered": 168,
       "deaths": 6,
       "active": -6
     },
     "Hebei": {
-      "updated": 1585534070000,
-      "confirmed": 321,
+      "updated": 1585951211540,
+      "confirmed": 326,
       "recovered": 310,
       "deaths": 6,
-      "active": 5
+      "active": 10
     },
     "Heilongjiang": {
-      "updated": 1585181739000,
-      "confirmed": 484,
+      "updated": 1585968303774,
+      "confirmed": 491,
       "recovered": 469,
       "deaths": 13,
-      "active": 2
+      "active": 9
     },
     "Henan": {
-      "updated": 1585446241000,
+      "updated": 1585951211540,
       "confirmed": 1276,
       "recovered": 1251,
       "deaths": 22,
       "active": 3
     },
     "Hong Kong": {
-      "updated": 1585645805000,
-      "confirmed": 714,
-      "recovered": 128,
+      "updated": 1585951211540,
+      "confirmed": 845,
+      "recovered": 173,
       "deaths": 4,
-      "active": 582
+      "active": 668
     },
     "Hubei": {
-      "updated": 1585616797000,
-      "confirmed": 67801,
-      "recovered": 63153,
-      "deaths": 3187,
-      "active": 1461
+      "updated": 1585968303774,
+      "confirmed": 67803,
+      "recovered": 63762,
+      "deaths": 3207,
+      "active": 834
     },
     "Hunan": {
-      "updated": 1584174305000,
-      "confirmed": 1018,
+      "updated": 1585951211540,
+      "confirmed": 1019,
       "recovered": 1014,
       "deaths": 4,
-      "active": 0
+      "active": 1
+    },
+    "Inner Mongolia": {
+      "updated": 1585951211540,
+      "confirmed": 117,
+      "recovered": 74,
+      "deaths": 1,
+      "active": 42
     },
     "Jiangsu": {
-      "updated": 1585617041000,
-      "confirmed": 646,
-      "recovered": 631,
+      "updated": 1585951211540,
+      "confirmed": 651,
+      "recovered": 632,
       "deaths": 0,
-      "active": 15
+      "active": 19
     },
     "Jiangxi": {
-      "updated": 1585538115000,
+      "updated": 1585951211540,
       "confirmed": 937,
       "recovered": 935,
       "deaths": 1,
       "active": 1
     },
     "Jilin": {
-      "updated": 1585441700000,
+      "updated": 1585951211540,
       "confirmed": 98,
       "recovered": 92,
       "deaths": 1,
       "active": 5
     },
     "Liaoning": {
-      "updated": 1585614180000,
-      "confirmed": 139,
-      "recovered": 124,
+      "updated": 1585968303775,
+      "confirmed": 141,
+      "recovered": 125,
       "deaths": 2,
-      "active": 13
+      "active": 14
     },
-    "Macau": {
-      "updated": 1585662844000,
-      "confirmed": 41,
+    "Macao": {
+      "updated": 1585951211541,
+      "confirmed": 43,
       "recovered": 10,
       "deaths": 0,
-      "active": 31
-    },
-    "Nei Mongol": {
-      "updated": 1585612483000,
-      "confirmed": 107,
-      "recovered": 74,
-      "deaths": 1,
-      "active": 32
+      "active": 33
     },
     "Ningxia": {
-      "updated": 1584348425000,
+      "updated": 1584369525000,
       "confirmed": 75,
       "recovered": 75,
       "deaths": 0,
       "active": 0
     },
     "Qinghai": {
-      "updated": 1582456742000,
+      "updated": 1583967600000,
       "confirmed": 18,
       "recovered": 18,
       "deaths": 0,
       "active": 0
     },
     "Shaanxi": {
-      "updated": 1585188865000,
-      "confirmed": 253,
-      "recovered": 242,
+      "updated": 1585977904117,
+      "confirmed": 256,
+      "recovered": 245,
       "deaths": 3,
       "active": 8
     },
     "Shandong": {
-      "updated": 1585615457000,
-      "confirmed": 774,
-      "recovered": 753,
+      "updated": 1585968303775,
+      "confirmed": 778,
+      "recovered": 755,
       "deaths": 7,
-      "active": 14
+      "active": 16
     },
     "Shanghai": {
-      "updated": 1585640591000,
-      "confirmed": 509,
-      "recovered": 341,
-      "deaths": 5,
-      "active": 163
+      "updated": 1585977904117,
+      "confirmed": 529,
+      "recovered": 348,
+      "deaths": 6,
+      "active": 175
     },
     "Shanxi": {
-      "updated": 1585441215000,
-      "confirmed": 136,
+      "updated": 1585951211542,
+      "confirmed": 137,
       "recovered": 133,
       "deaths": 0,
-      "active": 3
+      "active": 4
     },
     "Sichuan": {
-      "updated": 1585530555000,
-      "confirmed": 550,
-      "recovered": 536,
+      "updated": 1585968303775,
+      "confirmed": 557,
+      "recovered": 538,
       "deaths": 3,
-      "active": 11
+      "active": 16
     },
     "Tianjin": {
-      "updated": 1585662844000,
-      "confirmed": 174,
-      "recovered": 135,
+      "updated": 1585951211542,
+      "confirmed": 180,
+      "recovered": 140,
       "deaths": 3,
-      "active": 36
+      "active": 37
     },
     "Tibet": {
-      "updated": 1582456742000,
+      "updated": 1583967600000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Xinjiang Uygur": {
-      "updated": 1583645462000,
+      "updated": 1583967600000,
       "confirmed": 76,
       "recovered": 73,
       "deaths": 3,
       "active": 0
     },
     "Yunnan": {
-      "updated": 1585609938000,
-      "confirmed": 181,
+      "updated": 1585951211542,
+      "confirmed": 184,
       "recovered": 172,
       "deaths": 2,
-      "active": 7
+      "active": 10
     },
     "Zhejiang": {
-      "updated": 1585617829000,
-      "confirmed": 1257,
-      "recovered": 1226,
+      "updated": 1585977904117,
+      "confirmed": 1262,
+      "recovered": 1229,
       "deaths": 1,
-      "active": 30
+      "active": 32
     }
   },
   "vietnam": {

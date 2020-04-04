@@ -435,7 +435,7 @@
       "active": 125
     },
     "Germany": {
-      "updated": 1586017805292,
+      "updated": 1586023205100,
       "confirmed": 92150,
       "recovered": 26007,
       "deaths": 1330,
@@ -1764,11 +1764,11 @@
       "active": 18139
     },
     "Berlin": {
-      "updated": 1585951217328,
-      "confirmed": 3486,
+      "updated": 1586023205086,
+      "confirmed": 3626,
       "recovered": 1720,
-      "deaths": 22,
-      "active": 1744
+      "deaths": 24,
+      "active": 1882
     },
     "Brandenburg": {
       "updated": 1586016604736,
@@ -1862,11 +1862,11 @@
       "active": 624
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586019304800,
-      "confirmed": 991,
+      "updated": 1586023205091,
+      "confirmed": 851,
       "recovered": 4700,
-      "deaths": 12,
-      "active": -3721
+      "deaths": 10,
+      "active": -3859
     }
   },
   "china": {

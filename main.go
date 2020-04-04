@@ -112,6 +112,10 @@ func main() {
 			parent = "global"
 		}
 
+		if parent == "Germany" {
+			label = record[2]
+		}
+
 		d := datum{
 			parent:    parent,
 			label:     label,

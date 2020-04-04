@@ -14,8 +14,8 @@ function makeMap(opts) {
     throw "missing topojson or geojson";
   }
 
-  var selectedData = opts.selectedData || "active";
-  var sortData = opts.sortData || "active";
+  var selectedData = opts.selectedData || "confirmed";
+  var sortData = opts.sortData || "confirmed";
   var sortDirection = opts.sortDirection || "desc";
   var searchFilters = {};
 

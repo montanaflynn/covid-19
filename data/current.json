@@ -1677,13 +1677,6 @@
       "deaths": 35,
       "active": 1139
     },
-    "Canada": {
-      "updated": 1585982403687,
-      "confirmed": 12532,
-      "recovered": 2321,
-      "deaths": 187,
-      "active": 10024
-    },
     "Manitoba": {
       "updated": 1585982403660,
       "confirmed": 182,
@@ -1740,13 +1733,6 @@
       "deaths": 61,
       "active": 6040
     },
-    "Recovered": {
-      "updated": 1585982403661,
-      "confirmed": 0,
-      "recovered": 2321,
-      "deaths": 0,
-      "active": -2321
-    },
     "Saskatchewan": {
       "updated": 1585982403661,
       "confirmed": 220,
@@ -1770,7 +1756,7 @@
       "deaths": 321,
       "active": 13965
     },
-    "Bavaria": {
+    "Bayern": {
       "updated": 1585951217328,
       "confirmed": 20962,
       "recovered": 3690,
@@ -1798,13 +1784,6 @@
       "deaths": 6,
       "active": 239
     },
-    "Germany": {
-      "updated": 1585951217335,
-      "confirmed": 91159,
-      "recovered": 24981,
-      "deaths": 1275,
-      "active": 64903
-    },
     "Hamburg": {
       "updated": 1585951217329,
       "confirmed": 2739,
@@ -1812,35 +1791,35 @@
       "deaths": 16,
       "active": 1473
     },
-    "Hesse": {
+    "Hessen": {
       "updated": 1585951217329,
       "confirmed": 4097,
       "recovered": 731,
       "deaths": 37,
       "active": 3329
     },
-    "Lower Saxony": {
-      "updated": 1585951217329,
-      "confirmed": 5455,
-      "recovered": 1481,
-      "deaths": 72,
-      "active": 3902
-    },
-    "Mecklenburg-Western Pomerania": {
+    "Mecklenburg-Vorpommern": {
       "updated": 1585951217329,
       "confirmed": 501,
       "recovered": 95,
       "deaths": 5,
       "active": 401
     },
-    "North Rhine-Westphalia": {
+    "Niedersachsen": {
+      "updated": 1585951217329,
+      "confirmed": 5455,
+      "recovered": 1481,
+      "deaths": 72,
+      "active": 3902
+    },
+    "Nordrhein-Westfalen": {
       "updated": 1585951217330,
       "confirmed": 18557,
       "recovered": 6213,
       "deaths": 224,
       "active": 12120
     },
-    "Rhineland-Palatinate": {
+    "Rheinland-Pfalz": {
       "updated": 1585951217330,
       "confirmed": 3466,
       "recovered": 690,
@@ -1854,35 +1833,35 @@
       "deaths": 20,
       "active": 1119
     },
-    "Saxony": {
+    "Sachsen": {
       "updated": 1585951217330,
       "confirmed": 2646,
       "recovered": 243,
       "deaths": 25,
       "active": 2378
     },
-    "Saxony-Anhalt": {
+    "Sachsen-Anhalt": {
       "updated": 1585951217331,
       "confirmed": 898,
       "recovered": 291,
       "deaths": 11,
       "active": 596
     },
-    "Sleswick-Holsatia": {
+    "Schleswig-Holstein": {
       "updated": 1585951217331,
       "confirmed": 1448,
       "recovered": 122,
       "deaths": 15,
       "active": 1311
     },
-    "Thuringia": {
+    "Thüringen": {
       "updated": 1585951217331,
       "confirmed": 1074,
       "recovered": 440,
       "deaths": 9,
       "active": 625
     },
-    "other cases in Germany": {
+    "weitere Fälle bundesweit": {
       "updated": 1585951217331,
       "confirmed": 5667,
       "recovered": 4700,
@@ -1904,13 +1883,6 @@
       "recovered": 438,
       "deaths": 8,
       "active": 139
-    },
-    "China": {
-      "updated": 1585977904132,
-      "confirmed": 81638,
-      "recovered": 76751,
-      "deaths": 3326,
-      "active": 1561
     },
     "Chongqing": {
       "updated": 1585951211539,

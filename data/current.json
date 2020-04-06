@@ -71,11 +71,11 @@
       "active": 8479
     },
     "Azerbaijan": {
-      "updated": 1586177108591,
-      "confirmed": 584,
-      "recovered": 32,
+      "updated": 1586177704128,
+      "confirmed": 641,
+      "recovered": 44,
       "deaths": 7,
-      "active": 545
+      "active": 590
     },
     "Bahamas": {
       "updated": 1586176803467,
@@ -85,11 +85,11 @@
       "active": 20
     },
     "Bahrain": {
-      "updated": 1586177108591,
-      "confirmed": 700,
-      "recovered": 431,
+      "updated": 1586177704128,
+      "confirmed": 723,
+      "recovered": 451,
       "deaths": 4,
-      "active": 265
+      "active": 268
     },
     "Bangladesh": {
       "updated": 1586176803467,
@@ -127,11 +127,11 @@
       "active": 4
     },
     "Benin": {
-      "updated": 1586177108591,
+      "updated": 1586177704129,
       "confirmed": 22,
       "recovered": 5,
-      "deaths": 0,
-      "active": 17
+      "deaths": 1,
+      "active": 16
     },
     "Bhutan": {
       "updated": 1586176803467,
@@ -148,11 +148,11 @@
       "active": 170
     },
     "Bosnia and Herzegovina": {
-      "updated": 1586177108591,
+      "updated": 1586177704129,
       "confirmed": 667,
-      "recovered": 44,
+      "recovered": 47,
       "deaths": 27,
-      "active": 596
+      "active": 593
     },
     "Botswana": {
       "updated": 1586176803468,
@@ -302,11 +302,11 @@
       "active": 133
     },
     "Denmark": {
-      "updated": 1586177108593,
+      "updated": 1586177704130,
       "confirmed": 4647,
-      "recovered": 1327,
-      "deaths": 179,
-      "active": 3141
+      "recovered": 1378,
+      "deaths": 187,
+      "active": 3082
     },
     "Djibouti": {
       "updated": 1586176803469,
@@ -442,7 +442,7 @@
       "active": 150
     },
     "Germany": {
-      "updated": 1586176206761,
+      "updated": 1586177710049,
       "confirmed": 100132,
       "recovered": 35855,
       "deaths": 1584,
@@ -820,11 +820,11 @@
       "active": 8
     },
     "Netherlands": {
-      "updated": 1586177108598,
-      "confirmed": 17851,
+      "updated": 1586177704133,
+      "confirmed": 18803,
       "recovered": 250,
-      "deaths": 1766,
-      "active": 15835
+      "deaths": 1867,
+      "active": 16686
     },
     "New Zealand": {
       "updated": 1586176803473,
@@ -932,11 +932,11 @@
       "active": 3941
     },
     "Portugal": {
-      "updated": 1586177108599,
-      "confirmed": 11278,
-      "recovered": 75,
-      "deaths": 295,
-      "active": 10908
+      "updated": 1586177704133,
+      "confirmed": 11730,
+      "recovered": 140,
+      "deaths": 311,
+      "active": 11279
     },
     "Qatar": {
       "updated": 1586176803473,
@@ -1841,11 +1841,11 @@
       "active": 12329
     },
     "Rheinland-Pfalz": {
-      "updated": 1586163609649,
-      "confirmed": 3882,
+      "updated": 1586177710044,
+      "confirmed": 3917,
       "recovered": 1157,
-      "deaths": 32,
-      "active": 2693
+      "deaths": 33,
+      "active": 2727
     },
     "Saarland": {
       "updated": 1586163609649,
@@ -1883,11 +1883,11 @@
       "active": 625
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586176504787,
-      "confirmed": 2436,
+      "updated": 1586177710045,
+      "confirmed": 2401,
       "recovered": 6950,
-      "deaths": 61,
-      "active": -4575
+      "deaths": 60,
+      "active": -4609
     }
   },
   "china": {

@@ -442,11 +442,11 @@
       "active": 147
     },
     "Germany": {
-      "updated": 1586194206193,
+      "updated": 1586194805188,
       "confirmed": 101178,
-      "recovered": 35881,
+      "recovered": 35922,
       "deaths": 1612,
-      "active": 63685
+      "active": 63644
     },
     "Ghana": {
       "updated": 1586193604308,
@@ -1771,11 +1771,11 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1586163304424,
-      "confirmed": 19287,
+      "updated": 1586194805172,
+      "confirmed": 20029,
       "recovered": 4996,
-      "deaths": 387,
-      "active": 13904
+      "deaths": 427,
+      "active": 14606
     },
     "Bayern": {
       "updated": 1586176206752,
@@ -1792,14 +1792,14 @@
       "active": 1723
     },
     "Brandenburg": {
-      "updated": 1586163304425,
-      "confirmed": 1463,
+      "updated": 1586194504891,
+      "confirmed": 1511,
       "recovered": 241,
-      "deaths": 27,
-      "active": 1195
+      "deaths": 31,
+      "active": 1239
     },
     "Bremen": {
-      "updated": 1586194206171,
+      "updated": 1586194504891,
       "confirmed": 395,
       "recovered": 161,
       "deaths": 9,
@@ -1820,11 +1820,11 @@
       "active": 3521
     },
     "Mecklenburg-Vorpommern": {
-      "updated": 1586192705604,
+      "updated": 1586194504892,
       "confirmed": 531,
-      "recovered": 143,
+      "recovered": 184,
       "deaths": 6,
-      "active": 382
+      "active": 341
     },
     "Niedersachsen": {
       "updated": 1586176504785,
@@ -1862,7 +1862,7 @@
       "active": 2784
     },
     "Sachsen-Anhalt": {
-      "updated": 1586189410064,
+      "updated": 1586194504894,
       "confirmed": 989,
       "recovered": 400,
       "deaths": 12,
@@ -1883,11 +1883,11 @@
       "active": 625
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586194206178,
-      "confirmed": 3198,
+      "updated": 1586194805179,
+      "confirmed": 2408,
       "recovered": 6950,
-      "deaths": 82,
-      "active": -3834
+      "deaths": 38,
+      "active": -4580
     }
   },
   "china": {

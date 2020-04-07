@@ -442,7 +442,7 @@
       "active": 154
     },
     "Germany": {
-      "updated": 1586243405709,
+      "updated": 1586248805260,
       "confirmed": 103375,
       "recovered": 36081,
       "deaths": 1810,
@@ -1792,11 +1792,11 @@
       "active": 1737
     },
     "Brandenburg": {
-      "updated": 1586210406614,
-      "confirmed": 1511,
+      "updated": 1586249104651,
+      "confirmed": 1524,
       "recovered": 241,
-      "deaths": 31,
-      "active": 1239
+      "deaths": 33,
+      "active": 1250
     },
     "Bremen": {
       "updated": 1586243405701,
@@ -1834,11 +1834,11 @@
       "active": 4127
     },
     "Nordrhein-Westfalen": {
-      "updated": 1586210406616,
-      "confirmed": 20814,
+      "updated": 1586248805254,
+      "confirmed": 21582,
       "recovered": 8090,
-      "deaths": 297,
-      "active": 12427
+      "deaths": 347,
+      "active": 13145
     },
     "Rheinland-Pfalz": {
       "updated": 1586243705303,
@@ -1869,11 +1869,11 @@
       "active": 577
     },
     "Schleswig-Holstein": {
-      "updated": 1586243705304,
-      "confirmed": 1730,
+      "updated": 1586248805255,
+      "confirmed": 1735,
       "recovered": 203,
       "deaths": 24,
-      "active": 1503
+      "active": 1508
     },
     "Thüringen": {
       "updated": 1586243705305,
@@ -1883,11 +1883,11 @@
       "active": 640
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586243705305,
-      "confirmed": 3190,
+      "updated": 1586249104655,
+      "confirmed": 2404,
       "recovered": 6950,
-      "deaths": 163,
-      "active": -3923
+      "deaths": 111,
+      "active": -4657
     }
   },
   "china": {

@@ -442,7 +442,7 @@
       "active": 146
     },
     "Germany": {
-      "updated": 1586281514213,
+      "updated": 1586283905217,
       "confirmed": 105604,
       "recovered": 38287,
       "deaths": 1905,
@@ -1778,11 +1778,11 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1586263505092,
-      "confirmed": 20141,
+      "updated": 1586283905209,
+      "confirmed": 20635,
       "recovered": 5967,
-      "deaths": 433,
-      "active": 13741
+      "deaths": 464,
+      "active": 14204
     },
     "Bayern": {
       "updated": 1586264416138,
@@ -1890,11 +1890,11 @@
       "active": 605
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586282705080,
-      "confirmed": 3020,
+      "updated": 1586283605400,
+      "confirmed": 2526,
       "recovered": 4000,
-      "deaths": 121,
-      "active": -1101
+      "deaths": 90,
+      "active": -1564
     }
   },
   "china": {

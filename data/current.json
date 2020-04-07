@@ -393,7 +393,7 @@
       "active": 46
     },
     "Falkland Islands (Malvinas)": {
-      "updated": 1586221204878,
+      "updated": 1586275508938,
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0,
@@ -442,11 +442,11 @@
       "active": 147
     },
     "Germany": {
-      "updated": 1586273405685,
+      "updated": 1586275509996,
       "confirmed": 104199,
-      "recovered": 37710,
+      "recovered": 37794,
       "deaths": 1842,
-      "active": 64647
+      "active": 64563
     },
     "Ghana": {
       "updated": 1586272804284,
@@ -1134,6 +1134,13 @@
       "deaths": 2,
       "active": 15
     },
+    "São Tomé and Príncipe": {
+      "updated": 1586275508949,
+      "confirmed": 4,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 4
+    },
     "Taiwan": {
       "updated": 1586254804471,
       "confirmed": 376,
@@ -1820,18 +1827,18 @@
       "active": 3553
     },
     "Mecklenburg-Vorpommern": {
-      "updated": 1586274305736,
+      "updated": 1586274605214,
       "confirmed": 555,
-      "recovered": 184,
+      "recovered": 219,
       "deaths": 11,
-      "active": 360
+      "active": 325
     },
     "Niedersachsen": {
-      "updated": 1586263505095,
-      "confirmed": 6359,
+      "updated": 1586274905013,
+      "confirmed": 6444,
       "recovered": 2303,
-      "deaths": 122,
-      "active": 3934
+      "deaths": 124,
+      "active": 4017
     },
     "Nordrhein-Westfalen": {
       "updated": 1586273405677,
@@ -1862,11 +1869,11 @@
       "active": 2038
     },
     "Sachsen-Anhalt": {
-      "updated": 1586268309259,
-      "confirmed": 1014,
-      "recovered": 400,
-      "deaths": 15,
-      "active": 599
+      "updated": 1586275509991,
+      "confirmed": 1024,
+      "recovered": 449,
+      "deaths": 16,
+      "active": 559
     },
     "Schleswig-Holstein": {
       "updated": 1586264416141,
@@ -1883,11 +1890,11 @@
       "active": 653
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586274305738,
-      "confirmed": 2104,
+      "updated": 1586275509991,
+      "confirmed": 2009,
       "recovered": 4000,
-      "deaths": 81,
-      "active": -1977
+      "deaths": 78,
+      "active": -2069
     }
   },
   "china": {

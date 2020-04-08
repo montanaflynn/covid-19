@@ -442,11 +442,11 @@
       "active": 157
     },
     "Germany": {
-      "updated": 1586334904742,
-      "confirmed": 107663,
-      "recovered": 38287,
-      "deaths": 2016,
-      "active": 67360
+      "updated": 1586359504567,
+      "confirmed": 109329,
+      "recovered": 39609,
+      "deaths": 2096,
+      "active": 67624
     },
     "Ghana": {
       "updated": 1586358764206,
@@ -1778,18 +1778,18 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1586330404691,
+      "updated": 1586359504556,
       "confirmed": 20680,
-      "recovered": 5967,
+      "recovered": 6394,
       "deaths": 464,
-      "active": 14249
+      "active": 13822
     },
     "Bayern": {
-      "updated": 1586330404691,
-      "confirmed": 27564,
-      "recovered": 6660,
-      "deaths": 564,
-      "active": 20340
+      "updated": 1586359504557,
+      "confirmed": 28053,
+      "recovered": 7900,
+      "deaths": 589,
+      "active": 19564
     },
     "Berlin": {
       "updated": 1586296805603,
@@ -1799,11 +1799,11 @@
       "active": 1773
     },
     "Brandenburg": {
-      "updated": 1586334904729,
+      "updated": 1586359504558,
       "confirmed": 1599,
-      "recovered": 241,
+      "recovered": 287,
       "deaths": 35,
-      "active": 1323
+      "active": 1277
     },
     "Bremen": {
       "updated": 1586330404692,
@@ -1813,46 +1813,46 @@
       "active": 233
     },
     "Hamburg": {
-      "updated": 1586296805605,
-      "confirmed": 3217,
-      "recovered": 1790,
-      "deaths": 25,
-      "active": 1402
+      "updated": 1586359504558,
+      "confirmed": 3370,
+      "recovered": 1900,
+      "deaths": 29,
+      "active": 1441
     },
     "Hessen": {
-      "updated": 1586330703944,
-      "confirmed": 4965,
-      "recovered": 1211,
-      "deaths": 84,
-      "active": 3670
+      "updated": 1586359504559,
+      "confirmed": 5114,
+      "recovered": 1416,
+      "deaths": 92,
+      "active": 3606
     },
     "Mecklenburg-Vorpommern": {
-      "updated": 1586296805606,
-      "confirmed": 555,
-      "recovered": 219,
+      "updated": 1586359504560,
+      "confirmed": 571,
+      "recovered": 240,
       "deaths": 11,
-      "active": 325
+      "active": 320
     },
     "Niedersachsen": {
-      "updated": 1586296805607,
-      "confirmed": 6444,
-      "recovered": 2303,
-      "deaths": 124,
-      "active": 4017
+      "updated": 1586359504560,
+      "confirmed": 6845,
+      "recovered": 2544,
+      "deaths": 139,
+      "active": 4162
     },
     "Nordrhein-Westfalen": {
-      "updated": 1586334904731,
-      "confirmed": 22669,
-      "recovered": 9212,
-      "deaths": 408,
-      "active": 13049
+      "updated": 1586359504560,
+      "confirmed": 22849,
+      "recovered": 9888,
+      "deaths": 413,
+      "active": 12548
     },
     "Rheinland-Pfalz": {
-      "updated": 1586330703945,
-      "confirmed": 4148,
-      "recovered": 1386,
-      "deaths": 45,
-      "active": 2717
+      "updated": 1586359504561,
+      "confirmed": 4247,
+      "recovered": 1523,
+      "deaths": 50,
+      "active": 2674
     },
     "Saarland": {
       "updated": 1586296805608,
@@ -1869,18 +1869,18 @@
       "active": 2031
     },
     "Sachsen-Anhalt": {
-      "updated": 1586296805609,
-      "confirmed": 1024,
-      "recovered": 449,
+      "updated": 1586359504562,
+      "confirmed": 1077,
+      "recovered": 486,
       "deaths": 16,
-      "active": 559
+      "active": 575
     },
     "Schleswig-Holstein": {
-      "updated": 1586334904733,
+      "updated": 1586359504562,
       "confirmed": 1830,
-      "recovered": 243,
+      "recovered": 425,
       "deaths": 28,
-      "active": 1559
+      "active": 1377
     },
     "Thüringen": {
       "updated": 1586331004996,
@@ -1890,11 +1890,11 @@
       "active": 625
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586334904733,
-      "confirmed": 2340,
-      "recovered": 4000,
-      "deaths": 68,
-      "active": -1728
+      "updated": 1586359504563,
+      "confirmed": 2466,
+      "recovered": 2000,
+      "deaths": 86,
+      "active": 380
     }
   },
   "china": {

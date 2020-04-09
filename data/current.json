@@ -442,11 +442,11 @@
       "active": 161
     },
     "Germany": {
-      "updated": 1586427604348,
+      "updated": 1586440805336,
       "confirmed": 113296,
-      "recovered": 48569,
+      "recovered": 48669,
       "deaths": 2349,
-      "active": 62378
+      "active": 62278
     },
     "Ghana": {
       "updated": 1586436003413,
@@ -1813,11 +1813,11 @@
       "active": 237
     },
     "Hamburg": {
-      "updated": 1586416204716,
-      "confirmed": 3370,
-      "recovered": 1900,
+      "updated": 1586440805326,
+      "confirmed": 3518,
+      "recovered": 2000,
       "deaths": 44,
-      "active": 1426
+      "active": 1474
     },
     "Hessen": {
       "updated": 1586427304591,
@@ -1834,11 +1834,11 @@
       "active": 321
     },
     "Niedersachsen": {
-      "updated": 1586427304591,
-      "confirmed": 6845,
+      "updated": 1586440504557,
+      "confirmed": 7104,
       "recovered": 2800,
       "deaths": 141,
-      "active": 3904
+      "active": 4163
     },
     "Nordrhein-Westfalen": {
       "updated": 1586431204746,
@@ -1848,11 +1848,11 @@
       "active": 12148
     },
     "Rheinland-Pfalz": {
-      "updated": 1586427604341,
-      "confirmed": 4336,
+      "updated": 1586440504558,
+      "confirmed": 4407,
       "recovered": 1643,
-      "deaths": 50,
-      "active": 2643
+      "deaths": 52,
+      "active": 2712
     },
     "Saarland": {
       "updated": 1586383214638,
@@ -1883,18 +1883,18 @@
       "active": 848
     },
     "Thüringen": {
-      "updated": 1586416505646,
-      "confirmed": 1351,
+      "updated": 1586440805330,
+      "confirmed": 1354,
       "recovered": 640,
-      "deaths": 20,
-      "active": 691
+      "deaths": 21,
+      "active": 693
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586431204748,
-      "confirmed": 3251,
+      "updated": 1586440805331,
+      "confirmed": 2770,
       "recovered": 2650,
-      "deaths": 159,
-      "active": 442
+      "deaths": 156,
+      "active": -36
     }
   },
   "china": {

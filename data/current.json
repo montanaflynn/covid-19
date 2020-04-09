@@ -442,11 +442,11 @@
       "active": 158
     },
     "Germany": {
-      "updated": 1586415904025,
+      "updated": 1586417404905,
       "confirmed": 113296,
-      "recovered": 46306,
+      "recovered": 46931,
       "deaths": 2349,
-      "active": 64641
+      "active": 64016
     },
     "Ghana": {
       "updated": 1586401504128,
@@ -1876,11 +1876,11 @@
       "active": 575
     },
     "Schleswig-Holstein": {
-      "updated": 1586416505645,
-      "confirmed": 1932,
-      "recovered": 425,
-      "deaths": 34,
-      "active": 1473
+      "updated": 1586417404899,
+      "confirmed": 1934,
+      "recovered": 1050,
+      "deaths": 36,
+      "active": 848
     },
     "Thüringen": {
       "updated": 1586416505646,
@@ -1890,10 +1890,10 @@
       "active": 691
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586416505646,
-      "confirmed": 3841,
+      "updated": 1586417404900,
+      "confirmed": 3839,
       "recovered": 2650,
-      "deaths": 199,
+      "deaths": 197,
       "active": 992
     }
   },

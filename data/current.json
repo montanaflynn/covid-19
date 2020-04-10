@@ -415,10 +415,10 @@
     },
     "France": {
       "updated": 1586505608985,
-      "confirmed": 117749,
+      "confirmed": 86334,
       "recovered": 23206,
       "deaths": 12210,
-      "active": 82333
+      "active": 50918
     },
     "Gabon": {
       "updated": 1586505608985,
@@ -442,7 +442,7 @@
       "active": 175
     },
     "Germany": {
-      "updated": 1586506204299,
+      "updated": 1586506804275,
       "confirmed": 118235,
       "recovered": 52407,
       "deaths": 2607,
@@ -1883,25 +1883,25 @@
       "active": 593
     },
     "Schleswig-Holstein": {
-      "updated": 1586506504856,
+      "updated": 1586506804270,
       "confirmed": 2029,
       "recovered": 1050,
-      "deaths": 36,
-      "active": 943
+      "deaths": 38,
+      "active": 941
     },
     "Thüringen": {
-      "updated": 1586469604921,
-      "confirmed": 1359,
+      "updated": 1586506804270,
+      "confirmed": 1416,
       "recovered": 740,
-      "deaths": 21,
-      "active": 598
+      "deaths": 24,
+      "active": 652
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586506504856,
-      "confirmed": 3904,
+      "updated": 1586506804271,
+      "confirmed": 3847,
       "recovered": 4500,
-      "deaths": 215,
-      "active": -811
+      "deaths": 210,
+      "active": -863
     }
   },
   "china": {

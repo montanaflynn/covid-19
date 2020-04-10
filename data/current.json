@@ -176,11 +176,11 @@
       "active": 36
     },
     "Bulgaria": {
-      "updated": 1586531103834,
-      "confirmed": 624,
+      "updated": 1586531403646,
+      "confirmed": 635,
       "recovered": 54,
-      "deaths": 24,
-      "active": 546
+      "deaths": 25,
+      "active": 556
     },
     "Burkina Faso": {
       "updated": 1586530808581,
@@ -435,25 +435,25 @@
       "active": 1
     },
     "Georgia": {
-      "updated": 1586531103836,
+      "updated": 1586531403648,
       "confirmed": 230,
-      "recovered": 52,
+      "recovered": 54,
       "deaths": 3,
-      "active": 175
+      "active": 173
     },
     "Germany": {
-      "updated": 1586531109089,
-      "confirmed": 118235,
+      "updated": 1586531408935,
+      "confirmed": 119401,
       "recovered": 55832,
       "deaths": 2607,
-      "active": 59796
+      "active": 60962
     },
     "Ghana": {
-      "updated": 1586531103836,
+      "updated": 1586531403649,
       "confirmed": 378,
-      "recovered": 3,
+      "recovered": 4,
       "deaths": 6,
-      "active": 369
+      "active": 368
     },
     "Greece": {
       "updated": 1586530808583,
@@ -526,11 +526,11 @@
       "active": 1001
     },
     "Iceland": {
-      "updated": 1586531103836,
-      "confirmed": 1648,
-      "recovered": 688,
+      "updated": 1586531403649,
+      "confirmed": 1675,
+      "recovered": 751,
       "deaths": 6,
-      "active": 954
+      "active": 918
     },
     "India": {
       "updated": 1586530808583,
@@ -610,11 +610,11 @@
       "active": 204
     },
     "Kazakhstan": {
-      "updated": 1586531103837,
+      "updated": 1586531403649,
       "confirmed": 802,
-      "recovered": 63,
+      "recovered": 64,
       "deaths": 9,
-      "active": 730
+      "active": 729
     },
     "Kenya": {
       "updated": 1586530808584,
@@ -981,11 +981,11 @@
       "active": 11
     },
     "San Marino": {
-      "updated": 1586531103839,
-      "confirmed": 333,
-      "recovered": 49,
+      "updated": 1586531403651,
+      "confirmed": 344,
+      "recovered": 50,
       "deaths": 34,
-      "active": 250
+      "active": 260
     },
     "Saudi Arabia": {
       "updated": 1586530808592,
@@ -1023,11 +1023,11 @@
       "active": 7
     },
     "Singapore": {
-      "updated": 1586531103839,
-      "confirmed": 1910,
-      "recovered": 460,
-      "deaths": 6,
-      "active": 1444
+      "updated": 1586531403651,
+      "confirmed": 2108,
+      "recovered": 492,
+      "deaths": 7,
+      "active": 1609
     },
     "Slovakia": {
       "updated": 1586530808592,
@@ -1121,11 +1121,11 @@
       "active": 8610
     },
     "Switzerland": {
-      "updated": 1586531103839,
-      "confirmed": 24172,
+      "updated": 1586531403651,
+      "confirmed": 24427,
       "recovered": 10600,
-      "deaths": 958,
-      "active": 12614
+      "deaths": 987,
+      "active": 12840
     },
     "Syria": {
       "updated": 1586530808592,
@@ -1219,11 +1219,11 @@
       "active": 56964
     },
     "United States": {
-      "updated": 1586531103847,
-      "confirmed": 465330,
+      "updated": 1586531403660,
+      "confirmed": 466118,
       "recovered": 26522,
-      "deaths": 16654,
-      "active": 422154
+      "deaths": 16687,
+      "active": 422909
     },
     "Uruguay": {
       "updated": 1586530808593,
@@ -1452,11 +1452,11 @@
       "active": 544
     },
     "Maryland": {
-      "updated": 1586531103844,
-      "confirmed": 6185,
+      "updated": 1586531403657,
+      "confirmed": 6968,
       "recovered": 0,
-      "deaths": 138,
-      "active": 6047
+      "deaths": 171,
+      "active": 6797
     },
     "Massachusetts": {
       "updated": 1586530808595,
@@ -1897,11 +1897,11 @@
       "active": 626
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586531109085,
-      "confirmed": 1951,
+      "updated": 1586531408929,
+      "confirmed": 3117,
       "recovered": 4500,
       "deaths": 126,
-      "active": -2675
+      "active": -1509
     }
   },
   "china": {

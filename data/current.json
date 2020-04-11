@@ -246,11 +246,11 @@
       "active": 4865
     },
     "China": {
-      "updated": 1586577903139,
-      "confirmed": 81942,
-      "recovered": 77518,
+      "updated": 1586578204282,
+      "confirmed": 81969,
+      "recovered": 77525,
       "deaths": 3339,
-      "active": 1085
+      "active": 1105
     },
     "Colombia": {
       "updated": 1586577609129,
@@ -1219,11 +1219,11 @@
       "active": 64456
     },
     "United States": {
-      "updated": 1586577903139,
-      "confirmed": 500233,
-      "recovered": 29077,
-      "deaths": 18709,
-      "active": 452447
+      "updated": 1586578204282,
+      "confirmed": 500351,
+      "recovered": 29078,
+      "deaths": 18720,
+      "active": 452553
     },
     "Uruguay": {
       "updated": 1586577609134,
@@ -1333,11 +1333,11 @@
       "active": 1178
     },
     "California": {
-      "updated": 1586577903135,
-      "confirmed": 21203,
+      "updated": 1586578204280,
+      "confirmed": 21286,
       "recovered": 0,
-      "deaths": 590,
-      "active": 20613
+      "deaths": 591,
+      "active": 20695
     },
     "Colorado": {
       "updated": 1586577609136,
@@ -1487,11 +1487,11 @@
       "active": 2387
     },
     "Missouri": {
-      "updated": 1586577903135,
-      "confirmed": 3897,
+      "updated": 1586578204280,
+      "confirmed": 3902,
       "recovered": 0,
-      "deaths": 99,
-      "active": 3798
+      "deaths": 105,
+      "active": 3797
     },
     "Montana": {
       "updated": 1586577609140,
@@ -1501,11 +1501,11 @@
       "active": 359
     },
     "Nebraska": {
-      "updated": 1586577903136,
-      "confirmed": 635,
+      "updated": 1586578204281,
+      "confirmed": 647,
       "recovered": 0,
-      "deaths": 15,
-      "active": 620
+      "deaths": 17,
+      "active": 630
     },
     "Nevada": {
       "updated": 1586577609136,
@@ -1529,11 +1529,11 @@
       "active": 52656
     },
     "New Mexico": {
-      "updated": 1586577903134,
+      "updated": 1586578204279,
       "confirmed": 1091,
       "recovered": 0,
-      "deaths": 17,
-      "active": 1074
+      "deaths": 19,
+      "active": 1072
     },
     "New York": {
       "updated": 1586577609136,
@@ -1599,11 +1599,11 @@
       "active": 686
     },
     "Recovered": {
-      "updated": 1586577903134,
+      "updated": 1586578204279,
       "confirmed": 0,
-      "recovered": 29077,
+      "recovered": 29078,
       "deaths": 0,
-      "active": -29077
+      "active": -29078
     },
     "Rhode Island": {
       "updated": 1586577609140,
@@ -1927,11 +1927,11 @@
       "active": 3
     },
     "Fujian": {
-      "updated": 1586577903117,
+      "updated": 1586578204264,
       "confirmed": 351,
-      "recovered": 311,
+      "recovered": 317,
       "deaths": 1,
-      "active": 39
+      "active": 33
     },
     "Gansu": {
       "updated": 1586556608476,
@@ -2130,11 +2130,11 @@
       "active": 8
     },
     "Zhejiang": {
-      "updated": 1586577903120,
+      "updated": 1586578204267,
       "confirmed": 1267,
-      "recovered": 1235,
+      "recovered": 1236,
       "deaths": 1,
-      "active": 31
+      "active": 30
     }
   },
   "vietnam": {

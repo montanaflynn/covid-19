@@ -442,7 +442,7 @@
       "active": 187
     },
     "Germany": {
-      "updated": 1586713814126,
+      "updated": 1586718304298,
       "confirmed": 126656,
       "recovered": 60042,
       "deaths": 2908,
@@ -1785,11 +1785,11 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1586680504579,
-      "confirmed": 24078,
+      "updated": 1586718304286,
+      "confirmed": 24431,
       "recovered": 12267,
-      "deaths": 649,
-      "active": 11162
+      "deaths": 669,
+      "active": 11495
     },
     "Bayern": {
       "updated": 1586693704747,
@@ -1827,11 +1827,11 @@
       "active": 1761
     },
     "Hessen": {
-      "updated": 1586680504582,
-      "confirmed": 5859,
+      "updated": 1586718604855,
+      "confirmed": 6003,
       "recovered": 1966,
-      "deaths": 123,
-      "active": 3770
+      "deaths": 133,
+      "active": 3904
     },
     "Mecklenburg-Vorpommern": {
       "updated": 1586710503918,
@@ -1897,11 +1897,11 @@
       "active": 596
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586713814121,
-      "confirmed": 3044,
+      "updated": 1586718604859,
+      "confirmed": 2547,
       "recovered": 4500,
-      "deaths": 117,
-      "active": -1573
+      "deaths": 87,
+      "active": -2040
     }
   },
   "china": {

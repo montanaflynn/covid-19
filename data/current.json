@@ -1813,10 +1813,10 @@
       "active": 1374
     },
     "Bremen": {
-      "updated": 1586772609191,
-      "confirmed": 486,
+      "updated": 1586801405023,
+      "confirmed": 489,
       "recovered": 253,
-      "deaths": 17,
+      "deaths": 20,
       "active": 216
     },
     "Hamburg": {
@@ -1827,11 +1827,11 @@
       "active": 1831
     },
     "Hessen": {
-      "updated": 1586772609192,
+      "updated": 1586801405024,
       "confirmed": 6114,
       "recovered": 2086,
-      "deaths": 135,
-      "active": 3893
+      "deaths": 136,
+      "active": 3892
     },
     "Mecklenburg-Vorpommern": {
       "updated": 1586795405129,
@@ -1897,11 +1897,11 @@
       "active": 576
     },
     "weitere Fälle bundesweit": {
-      "updated": 1586801104637,
-      "confirmed": 1372,
+      "updated": 1586801405028,
+      "confirmed": 1369,
       "recovered": 4500,
-      "deaths": 47,
-      "active": -3175
+      "deaths": 43,
+      "active": -3174
     }
   },
   "china": {

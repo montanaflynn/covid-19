@@ -414,11 +414,11 @@
       "active": 1587018001051
     },
     "France": {
-      "updated": 1587012311748,
-      "confirmed": 1587012311748,
+      "updated": 1587020412657,
+      "confirmed": 1587020412657,
       "recovered": 106206,
       "deaths": 30995,
-      "active": 1587012174547
+      "active": 1587020275456
     },
     "Gabon": {
       "updated": 1587016556000,
@@ -442,11 +442,11 @@
       "active": 1587018004211
     },
     "Germany": {
-      "updated": 1586988120000,
-      "confirmed": 1586992809715,
+      "updated": 1587020400000,
+      "confirmed": 1587020104454,
       "recovered": 134753,
       "deaths": 71995,
-      "active": 1586992602967
+      "active": 1587019897706
     },
     "Ghana": {
       "updated": 1587016556000,
@@ -1792,11 +1792,11 @@
       "active": 1586987970242
     },
     "Bayern": {
-      "updated": 1586955600000,
-      "confirmed": 1586988009127,
-      "recovered": 34664,
+      "updated": 1587016800000,
+      "confirmed": 1587020104445,
+      "recovered": 35142,
       "deaths": 16310,
-      "active": 1586987958153
+      "active": 1587020052993
     },
     "Berlin": {
       "updated": 1586971800000,
@@ -1813,32 +1813,32 @@
       "active": 1586988006018
     },
     "Bremen": {
-      "updated": 1586966400000,
-      "confirmed": 1586988009128,
-      "recovered": 504,
+      "updated": 1587016800000,
+      "confirmed": 1587020104446,
+      "recovered": 507,
       "deaths": 271,
-      "active": 1586988008353
+      "active": 1587020103668
     },
     "Hamburg": {
-      "updated": 1586955600000,
-      "confirmed": 1586988009128,
+      "updated": 1587016800000,
+      "confirmed": 1587020104446,
       "recovered": 3978,
       "deaths": 2100,
-      "active": 1586988003050
+      "active": 1587020098368
     },
     "Hessen": {
-      "updated": 1586955600000,
-      "confirmed": 1586988009128,
-      "recovered": 6347,
+      "updated": 1587016800000,
+      "confirmed": 1587020104446,
+      "recovered": 6470,
       "deaths": 2320,
-      "active": 1586988000461
+      "active": 1587020095656
     },
     "Mecklenburg-Vorpommern": {
-      "updated": 1586962800000,
-      "confirmed": 1586988009128,
-      "recovered": 633,
+      "updated": 1587016800000,
+      "confirmed": 1587020104446,
+      "recovered": 634,
       "deaths": 390,
-      "active": 1586988008105
+      "active": 1587020103422
     },
     "Niedersachsen": {
       "updated": 1586952000000,
@@ -1855,11 +1855,11 @@
       "active": 1586987966700
     },
     "Rheinland-Pfalz": {
-      "updated": 1586959200000,
-      "confirmed": 1586988009129,
-      "recovered": 5032,
+      "updated": 1587016800000,
+      "confirmed": 1587020104447,
+      "recovered": 5087,
       "deaths": 2790,
-      "active": 1586988001307
+      "active": 1587020096570
     },
     "Saarland": {
       "updated": 1586968200000,
@@ -1869,11 +1869,11 @@
       "active": 1586988005982
     },
     "Sachsen": {
-      "updated": 1586955600000,
-      "confirmed": 1586988009129,
+      "updated": 1587020400000,
+      "confirmed": 1587020104448,
       "recovered": 4028,
       "deaths": 2200,
-      "active": 1586988002901
+      "active": 1587020098220
     },
     "Sachsen-Anhalt": {
       "updated": 1586959200000,
@@ -1883,25 +1883,25 @@
       "active": 1586988007122
     },
     "Schleswig-Holstein": {
-      "updated": 1586937600000,
-      "confirmed": 1586988009130,
-      "recovered": 2248,
+      "updated": 1587016800000,
+      "confirmed": 1587020104449,
+      "recovered": 2294,
       "deaths": 1400,
-      "active": 1586988005482
+      "active": 1587020100755
     },
     "Thüringen": {
-      "updated": 1586962800000,
-      "confirmed": 1586964304659,
-      "recovered": 1566,
+      "updated": 1587016800000,
+      "confirmed": 1587020104449,
+      "recovered": 1601,
       "deaths": 1040,
-      "active": 1586964302053
+      "active": 1587020101808
     },
     "weitere Fälle bundesweit": {
       "updated": 1586988120000,
-      "confirmed": 1586992809710,
-      "recovered": 3300,
+      "confirmed": 1587020104449,
+      "recovered": 2559,
       "deaths": 5875,
-      "active": 1586992800535
+      "active": 1587020096015
     }
   },
   "china": {

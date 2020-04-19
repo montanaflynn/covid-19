@@ -49,6 +49,9 @@ func getVietnamData() (map[string]cases, error) {
 				for _, r := range rows {
 					if len(r) == 5 {
 						province := strings.TrimSpace(r[0])
+						if province == "TP. Hồ Chí Minh" {
+							province = "Hồ Chí Minh"
+						}
 						confirmed, err := strconv.Atoi(strings.TrimSpace(r[1]))
 						if err != nil {
 							log.Fatal(err)

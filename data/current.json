@@ -1785,18 +1785,18 @@
   },
   "germany": {
     "Baden-Württemberg": {
-      "updated": 1587229200000,
-      "confirmed": 1587247211966,
-      "recovered": 27710,
+      "updated": 1587283200000,
+      "confirmed": 1587285909401,
+      "recovered": 27883,
       "deaths": 14464,
-      "active": 1587247169792
+      "active": 1587285867054
     },
     "Bayern": {
-      "updated": 1587211200000,
-      "confirmed": 1587247211966,
-      "recovered": 37254,
+      "updated": 1587283200000,
+      "confirmed": 1587285909402,
+      "recovered": 37407,
       "deaths": 20880,
-      "active": 1587247153832
+      "active": 1587285851115
     },
     "Berlin": {
       "updated": 1587229200000,
@@ -1813,18 +1813,18 @@
       "active": 1587247208419
     },
     "Bremen": {
-      "updated": 1587229200000,
-      "confirmed": 1587247211967,
-      "recovered": 582,
+      "updated": 1587283200000,
+      "confirmed": 1587285909403,
+      "recovered": 585,
       "deaths": 301,
-      "active": 1587247211084
+      "active": 1587285908517
     },
     "Hamburg": {
-      "updated": 1587214800000,
-      "confirmed": 1587247211967,
+      "updated": 1587283200000,
+      "confirmed": 1587285909403,
       "recovered": 4297,
       "deaths": 2400,
-      "active": 1587247205270
+      "active": 1587285902706
     },
     "Hessen": {
       "updated": 1587213000000,
@@ -1869,11 +1869,11 @@
       "active": 1587247208629
     },
     "Sachsen": {
-      "updated": 1587211200000,
-      "confirmed": 1587247211968,
+      "updated": 1587283200000,
+      "confirmed": 1587285909405,
       "recovered": 4240,
       "deaths": 2600,
-      "active": 1587247205128
+      "active": 1587285902565
     },
     "Sachsen-Anhalt": {
       "updated": 1587211200000,
@@ -1898,10 +1898,10 @@
     },
     "weitere Fälle bundesweit": {
       "updated": 1587247380000,
-      "confirmed": 1587283809095,
-      "recovered": 3246,
+      "confirmed": 1587285909407,
+      "recovered": 2917,
       "deaths": 8354,
-      "active": 1587283797495
+      "active": 1587285898136
     }
   },
   "china": {

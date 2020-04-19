@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 	"net/http"
 	"strconv"
@@ -14,9 +13,8 @@ import (
 )
 
 var (
-	baseURL    = "https://funkeinteraktiv.b-cdn.net"
-	endpoint   = "/current.v4.csv"
-	vietnamAPI = "https://maps.vnpost.vn/app/api/democoronas/"
+	baseURL  = "https://funkeinteraktiv.b-cdn.net"
+	endpoint = "/current.v4.csv"
 )
 
 type datum struct {
@@ -89,15 +87,15 @@ func main() {
 
 		date := time.Unix(int64(updated), 0)
 
-		confirmed, err := strconv.Atoi(record[12])
+		confirmed, err := strconv.Atoi(record[13])
 		if err != nil {
 			log.Fatal(err)
 		}
-		recovered, err := strconv.Atoi(record[13])
+		recovered, err := strconv.Atoi(record[14])
 		if err != nil {
 			log.Fatal(err)
 		}
-		deaths, err := strconv.Atoi(record[14])
+		deaths, err := strconv.Atoi(record[15])
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -207,42 +205,9 @@ func main() {
 	}
 
 	// get vietnam province data
-	res, err = http.Get(vietnamAPI)
+	vietnamCounts, err := getVietnamData()
 	if err != nil {
 		log.Fatal(err)
-	}
-
-	defer res.Body.Close()
-	resBody, err := ioutil.ReadAll(res.Body)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	vietnamData := []vietnamDataSchema{}
-
-	err = json.Unmarshal(resBody, &vietnamData)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	vietnamCounts := make(map[string]cases)
-
-	for _, d := range vietnamData {
-		c, ok := vietnamCounts[d.Address]
-		if !ok {
-			active := d.Number - d.Recovered
-			vietnamCounts[d.Address] = cases{0, d.Number, d.Recovered, 0, active}
-		} else {
-			updatedConfirmed := c.Confirmed + d.Number
-			updatedRecovered := c.Recovered + d.Recovered
-			updatedDeaths := c.Deaths + 0
-			updatedActive := c.Active + (d.Number - d.Recovered)
-			updated := 0
-			if c.Updated > 0 {
-				updated = c.Updated
-			}
-			vietnamCounts[d.Address] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
-		}
 	}
 
 	output := results{
@@ -260,17 +225,4 @@ func main() {
 
 	fmt.Printf("%s\n", jsonBytes)
 	return
-}
-
-type vietnamDataSchema struct {
-	Recovered int     `json:"recovered"`
-	Doubt     int     `json:"doubt"`
-	Code      string  `json:"code"`
-	Lat       float64 `json:"Lat"`
-	Number    int     `json:"number"`
-	Date      string  `json:"date"`
-	Lng       float64 `json:"Lng"`
-	ID        int     `json:"id"`
-	Address   string  `json:"address"`
-	Deaths    int     `json:"deaths"`
 }

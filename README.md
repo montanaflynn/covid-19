@@ -18,7 +18,7 @@ https://montanaflynn.github.io/covid-19/data/current.json
 
 The data comes from a [https://interaktiv.morgenpost.de](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/) [csv file](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) which is converted to JSON and translated into english.
 
-Additional Vietnamese province level data comes from a [https://ncov.moh.gov.vn/ban-do-vn](https://ncov.moh.gov.vn/ban-do-vn) [json api](https://maps.vnpost.vn/app/api/democoronas/).
+Additional Vietnamese province level data comes from [wikipedia](https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_d%E1%BB%8Bch_COVID-19_t%E1%BA%A1i_Vi%E1%BB%87t_Nam).
 
 ## Architecture
 

@@ -31,6 +31,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git commit -m "Update current data" -a
+          git pull origin master --rebase
       - name: Push Data
         if: success()
         uses: ad-m/github-push-action@master

@@ -1,4 +1,444 @@
 {
+  "canada": {
+    "Alberta": {
+      "updated": 1587400697000,
+      "confirmed": 2803,
+      "recovered": 0,
+      "deaths": 55,
+      "active": 2748
+    },
+    "British Columbia": {
+      "updated": 1587400697000,
+      "confirmed": 1647,
+      "recovered": 0,
+      "deaths": 82,
+      "active": 1565
+    },
+    "Manitoba": {
+      "updated": 1587400697000,
+      "confirmed": 253,
+      "recovered": 0,
+      "deaths": 5,
+      "active": 248
+    },
+    "New Brunswick": {
+      "updated": 1587400697000,
+      "confirmed": 118,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 118
+    },
+    "Newfoundland and Labrador": {
+      "updated": 1587400697000,
+      "confirmed": 257,
+      "recovered": 0,
+      "deaths": 3,
+      "active": 254
+    },
+    "Northwest Territories": {
+      "updated": 1587400697000,
+      "confirmed": 5,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 5
+    },
+    "Nova Scotia": {
+      "updated": 1587400697000,
+      "confirmed": 675,
+      "recovered": 0,
+      "deaths": 9,
+      "active": 666
+    },
+    "Ontario": {
+      "updated": 1587400697000,
+      "confirmed": 11866,
+      "recovered": 0,
+      "deaths": 610,
+      "active": 11256
+    },
+    "Prince Edward Island": {
+      "updated": 1587400697000,
+      "confirmed": 26,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 26
+    },
+    "Québec": {
+      "updated": 1587400697000,
+      "confirmed": 18357,
+      "recovered": 0,
+      "deaths": 877,
+      "active": 17480
+    },
+    "Saskatchewan": {
+      "updated": 1587400697000,
+      "confirmed": 315,
+      "recovered": 0,
+      "deaths": 4,
+      "active": 311
+    },
+    "Yukon": {
+      "updated": 1587400697000,
+      "confirmed": 9,
+      "recovered": 0,
+      "deaths": 0,
+      "active": 9
+    }
+  },
+  "china": {
+    "Anhui": {
+      "updated": 1586394740000,
+      "confirmed": 991,
+      "recovered": 984,
+      "deaths": 6,
+      "active": 1
+    },
+    "Beijing": {
+      "updated": 1587346711000,
+      "confirmed": 593,
+      "recovered": 514,
+      "deaths": 8,
+      "active": 71
+    },
+    "Chongqing": {
+      "updated": 1585440852000,
+      "confirmed": 579,
+      "recovered": 570,
+      "deaths": 6,
+      "active": 3
+    },
+    "Fujian": {
+      "updated": 1587261987000,
+      "confirmed": 355,
+      "recovered": 339,
+      "deaths": 1,
+      "active": 15
+    },
+    "Gansu": {
+      "updated": 1587044654000,
+      "confirmed": 139,
+      "recovered": 137,
+      "deaths": 2,
+      "active": 0
+    },
+    "Guangdong": {
+      "updated": 1587346955000,
+      "confirmed": 1581,
+      "recovered": 1494,
+      "deaths": 8,
+      "active": 79
+    },
+    "Guangxi": {
+      "updated": 1585786562000,
+      "confirmed": 254,
+      "recovered": 252,
+      "deaths": 2,
+      "active": 0
+    },
+    "Guizhou": {
+      "updated": 1587257467000,
+      "confirmed": 147,
+      "recovered": 145,
+      "deaths": 2,
+      "active": 0
+    },
+    "Hainan": {
+      "updated": 1585024155000,
+      "confirmed": 168,
+      "recovered": 168,
+      "deaths": 6,
+      "active": -6
+    },
+    "Hebei": {
+      "updated": 1587345614000,
+      "confirmed": 328,
+      "recovered": 317,
+      "deaths": 6,
+      "active": 5
+    },
+    "Heilongjiang": {
+      "updated": 1587345614000,
+      "confirmed": 905,
+      "recovered": 472,
+      "deaths": 13,
+      "active": 420
+    },
+    "Henan": {
+      "updated": 1586825037000,
+      "confirmed": 1276,
+      "recovered": 1254,
+      "deaths": 22,
+      "active": 0
+    },
+    "Hong Kong": {
+      "updated": 1587376778000,
+      "confirmed": 1025,
+      "recovered": 630,
+      "deaths": 4,
+      "active": 391
+    },
+    "Hubei": {
+      "updated": 1587347503000,
+      "confirmed": 68128,
+      "recovered": 63511,
+      "deaths": 4512,
+      "active": 105
+    },
+    "Hunan": {
+      "updated": 1587172510000,
+      "confirmed": 1019,
+      "recovered": 1015,
+      "deaths": 4,
+      "active": 0
+    },
+    "Inner Mongolia": {
+      "updated": 1587345614000,
+      "confirmed": 194,
+      "recovered": 104,
+      "deaths": 1,
+      "active": 89
+    },
+    "Jiangsu": {
+      "updated": 1587085509000,
+      "confirmed": 653,
+      "recovered": 643,
+      "deaths": 0,
+      "active": 10
+    },
+    "Jiangxi": {
+      "updated": 1586481762000,
+      "confirmed": 937,
+      "recovered": 936,
+      "deaths": 1,
+      "active": 0
+    },
+    "Jilin": {
+      "updated": 1587255152000,
+      "confirmed": 104,
+      "recovered": 97,
+      "deaths": 1,
+      "active": 6
+    },
+    "Liaoning": {
+      "updated": 1587345614000,
+      "confirmed": 146,
+      "recovered": 143,
+      "deaths": 2,
+      "active": 1
+    },
+    "Macao": {
+      "updated": 1587376778000,
+      "confirmed": 45,
+      "recovered": 22,
+      "deaths": 0,
+      "active": 23
+    },
+    "Ningxia": {
+      "updated": 1584369525000,
+      "confirmed": 75,
+      "recovered": 75,
+      "deaths": 0,
+      "active": 0
+    },
+    "Qinghai": {
+      "updated": 1583967600000,
+      "confirmed": 18,
+      "recovered": 18,
+      "deaths": 0,
+      "active": 0
+    },
+    "Shaanxi": {
+      "updated": 1587085509000,
+      "confirmed": 256,
+      "recovered": 252,
+      "deaths": 3,
+      "active": 1
+    },
+    "Shandong": {
+      "updated": 1587174579000,
+      "confirmed": 787,
+      "recovered": 765,
+      "deaths": 7,
+      "active": 15
+    },
+    "Shanghai": {
+      "updated": 1587369028000,
+      "confirmed": 638,
+      "recovered": 530,
+      "deaths": 7,
+      "active": 101
+    },
+    "Shanxi": {
+      "updated": 1587081539000,
+      "confirmed": 197,
+      "recovered": 135,
+      "deaths": 0,
+      "active": 62
+    },
+    "Sichuan": {
+      "updated": 1587257467000,
+      "confirmed": 561,
+      "recovered": 554,
+      "deaths": 3,
+      "active": 4
+    },
+    "Tianjin": {
+      "updated": 1587306886000,
+      "confirmed": 189,
+      "recovered": 174,
+      "deaths": 3,
+      "active": 12
+    },
+    "Tibet": {
+      "updated": 1583967600000,
+      "confirmed": 1,
+      "recovered": 1,
+      "deaths": 0,
+      "active": 0
+    },
+    "Xinjiang Uygur": {
+      "updated": 1583967600000,
+      "confirmed": 76,
+      "recovered": 73,
+      "deaths": 3,
+      "active": 0
+    },
+    "Yunnan": {
+      "updated": 1587254414000,
+      "confirmed": 184,
+      "recovered": 178,
+      "deaths": 2,
+      "active": 4
+    },
+    "Zhejiang": {
+      "updated": 1587347868000,
+      "confirmed": 1268,
+      "recovered": 1249,
+      "deaths": 1,
+      "active": 18
+    }
+  },
+  "germany": {
+    "Baden-Württemberg": {
+      "updated": 1587398400000,
+      "confirmed": 28537,
+      "recovered": 16337,
+      "deaths": 1014,
+      "active": 11186
+    },
+    "Bayern": {
+      "updated": 1587384000000,
+      "confirmed": 38232,
+      "recovered": 21620,
+      "deaths": 1299,
+      "active": 15313
+    },
+    "Berlin": {
+      "updated": 1587315600000,
+      "confirmed": 5225,
+      "recovered": 4015,
+      "deaths": 94,
+      "active": 1116
+    },
+    "Brandenburg": {
+      "updated": 1587373200000,
+      "confirmed": 2396,
+      "recovered": 1280,
+      "deaths": 91,
+      "active": 1025
+    },
+    "Bremen": {
+      "updated": 1587394800000,
+      "confirmed": 607,
+      "recovered": 317,
+      "deaths": 25,
+      "active": 265
+    },
+    "Hamburg": {
+      "updated": 1587384000000,
+      "confirmed": 4368,
+      "recovered": 2600,
+      "deaths": 91,
+      "active": 1677
+    },
+    "Hessen": {
+      "updated": 1587384000000,
+      "confirmed": 7228,
+      "recovered": 4700,
+      "deaths": 246,
+      "active": 2282
+    },
+    "Mecklenburg-Vorpommern": {
+      "updated": 1587387600000,
+      "confirmed": 653,
+      "recovered": 459,
+      "deaths": 15,
+      "active": 179
+    },
+    "Niedersachsen": {
+      "updated": 1587385800000,
+      "confirmed": 9150,
+      "recovered": 5426,
+      "deaths": 303,
+      "active": 3421
+    },
+    "Nordrhein-Westfalen": {
+      "updated": 1587376800000,
+      "confirmed": 29580,
+      "recovered": 18413,
+      "deaths": 882,
+      "active": 10285
+    },
+    "Rheinland-Pfalz": {
+      "updated": 1587384000000,
+      "confirmed": 5523,
+      "recovered": 3538,
+      "deaths": 114,
+      "active": 1871
+    },
+    "Saarland": {
+      "updated": 1587315600000,
+      "confirmed": 2348,
+      "recovered": 1111,
+      "deaths": 102,
+      "active": 1135
+    },
+    "Sachsen": {
+      "updated": 1587380400000,
+      "confirmed": 4323,
+      "recovered": 2850,
+      "deaths": 111,
+      "active": 1362
+    },
+    "Sachsen-Anhalt": {
+      "updated": 1587393000000,
+      "confirmed": 1387,
+      "recovered": 925,
+      "deaths": 32,
+      "active": 430
+    },
+    "Schleswig-Holstein": {
+      "updated": 1587366000000,
+      "confirmed": 2426,
+      "recovered": 1700,
+      "deaths": 67,
+      "active": 659
+    },
+    "Thüringen": {
+      "updated": 1587384000000,
+      "confirmed": 1789,
+      "recovered": 1250,
+      "deaths": 53,
+      "active": 486
+    },
+    "weitere Fälle bundesweit": {
+      "updated": 1587400200000,
+      "confirmed": 2428,
+      "recovered": 4959,
+      "deaths": 130,
+      "active": -2661
+    }
+  },
   "global": {
     "Afghanistan": {
       "updated": 1587400231000,
@@ -414,11 +854,11 @@
       "active": 2070
     },
     "France": {
-      "updated": 1587333910807,
-      "confirmed": 112606,
-      "recovered": 36578,
-      "deaths": 19718,
-      "active": 56310
+      "updated": 1587404112428,
+      "confirmed": 114657,
+      "recovered": 37409,
+      "deaths": 20265,
+      "active": 56983
     },
     "Gabon": {
       "updated": 1587400231000,
@@ -1697,708 +2137,268 @@
       "active": -177
     }
   },
-  "canada": {
-    "Alberta": {
-      "updated": 1587400697000,
-      "confirmed": 2803,
-      "recovered": 0,
-      "deaths": 55,
-      "active": 2748
-    },
-    "British Columbia": {
-      "updated": 1587400697000,
-      "confirmed": 1647,
-      "recovered": 0,
-      "deaths": 82,
-      "active": 1565
-    },
-    "Manitoba": {
-      "updated": 1587400697000,
-      "confirmed": 253,
-      "recovered": 0,
-      "deaths": 5,
-      "active": 248
-    },
-    "New Brunswick": {
-      "updated": 1587400697000,
-      "confirmed": 118,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 118
-    },
-    "Newfoundland and Labrador": {
-      "updated": 1587400697000,
-      "confirmed": 257,
-      "recovered": 0,
-      "deaths": 3,
-      "active": 254
-    },
-    "Northwest Territories": {
-      "updated": 1587400697000,
-      "confirmed": 5,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 5
-    },
-    "Nova Scotia": {
-      "updated": 1587400697000,
-      "confirmed": 675,
-      "recovered": 0,
-      "deaths": 9,
-      "active": 666
-    },
-    "Ontario": {
-      "updated": 1587400697000,
-      "confirmed": 11866,
-      "recovered": 0,
-      "deaths": 610,
-      "active": 11256
-    },
-    "Prince Edward Island": {
-      "updated": 1587400697000,
-      "confirmed": 26,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 26
-    },
-    "Québec": {
-      "updated": 1587400697000,
-      "confirmed": 18357,
-      "recovered": 0,
-      "deaths": 877,
-      "active": 17480
-    },
-    "Saskatchewan": {
-      "updated": 1587400697000,
-      "confirmed": 315,
-      "recovered": 0,
-      "deaths": 4,
-      "active": 311
-    },
-    "Yukon": {
-      "updated": 1587400697000,
-      "confirmed": 9,
-      "recovered": 0,
-      "deaths": 0,
-      "active": 9
-    }
-  },
-  "germany": {
-    "Baden-Württemberg": {
-      "updated": 1587398400000,
-      "confirmed": 28537,
-      "recovered": 16337,
-      "deaths": 1014,
-      "active": 11186
-    },
-    "Bayern": {
-      "updated": 1587384000000,
-      "confirmed": 38232,
-      "recovered": 21620,
-      "deaths": 1299,
-      "active": 15313
-    },
-    "Berlin": {
-      "updated": 1587315600000,
-      "confirmed": 5225,
-      "recovered": 4015,
-      "deaths": 94,
-      "active": 1116
-    },
-    "Brandenburg": {
-      "updated": 1587373200000,
-      "confirmed": 2396,
-      "recovered": 1280,
-      "deaths": 91,
-      "active": 1025
-    },
-    "Bremen": {
-      "updated": 1587394800000,
-      "confirmed": 607,
-      "recovered": 317,
-      "deaths": 25,
-      "active": 265
-    },
-    "Hamburg": {
-      "updated": 1587384000000,
-      "confirmed": 4368,
-      "recovered": 2600,
-      "deaths": 91,
-      "active": 1677
-    },
-    "Hessen": {
-      "updated": 1587384000000,
-      "confirmed": 7228,
-      "recovered": 4700,
-      "deaths": 246,
-      "active": 2282
-    },
-    "Mecklenburg-Vorpommern": {
-      "updated": 1587387600000,
-      "confirmed": 653,
-      "recovered": 459,
-      "deaths": 15,
-      "active": 179
-    },
-    "Niedersachsen": {
-      "updated": 1587385800000,
-      "confirmed": 9150,
-      "recovered": 5426,
-      "deaths": 303,
-      "active": 3421
-    },
-    "Nordrhein-Westfalen": {
-      "updated": 1587376800000,
-      "confirmed": 29580,
-      "recovered": 18413,
-      "deaths": 882,
-      "active": 10285
-    },
-    "Rheinland-Pfalz": {
-      "updated": 1587384000000,
-      "confirmed": 5523,
-      "recovered": 3538,
-      "deaths": 114,
-      "active": 1871
-    },
-    "Saarland": {
-      "updated": 1587315600000,
-      "confirmed": 2348,
-      "recovered": 1111,
-      "deaths": 102,
-      "active": 1135
-    },
-    "Sachsen": {
-      "updated": 1587380400000,
-      "confirmed": 4323,
-      "recovered": 2850,
-      "deaths": 111,
-      "active": 1362
-    },
-    "Sachsen-Anhalt": {
-      "updated": 1587393000000,
-      "confirmed": 1387,
-      "recovered": 925,
-      "deaths": 32,
-      "active": 430
-    },
-    "Schleswig-Holstein": {
-      "updated": 1587366000000,
-      "confirmed": 2426,
-      "recovered": 1700,
-      "deaths": 67,
-      "active": 659
-    },
-    "Thüringen": {
-      "updated": 1587384000000,
-      "confirmed": 1789,
-      "recovered": 1250,
-      "deaths": 53,
-      "active": 486
-    },
-    "weitere Fälle bundesweit": {
-      "updated": 1587400200000,
-      "confirmed": 2428,
-      "recovered": 4959,
-      "deaths": 130,
-      "active": -2661
-    }
-  },
-  "china": {
-    "Anhui": {
-      "updated": 1586394740000,
-      "confirmed": 991,
-      "recovered": 984,
-      "deaths": 6,
-      "active": 1
-    },
-    "Beijing": {
-      "updated": 1587346711000,
-      "confirmed": 593,
-      "recovered": 514,
-      "deaths": 8,
-      "active": 71
-    },
-    "Chongqing": {
-      "updated": 1585440852000,
-      "confirmed": 579,
-      "recovered": 570,
-      "deaths": 6,
-      "active": 3
-    },
-    "Fujian": {
-      "updated": 1587261987000,
-      "confirmed": 355,
-      "recovered": 339,
-      "deaths": 1,
-      "active": 15
-    },
-    "Gansu": {
-      "updated": 1587044654000,
-      "confirmed": 139,
-      "recovered": 137,
-      "deaths": 2,
-      "active": 0
-    },
-    "Guangdong": {
-      "updated": 1587346955000,
-      "confirmed": 1581,
-      "recovered": 1494,
-      "deaths": 8,
-      "active": 79
-    },
-    "Guangxi": {
-      "updated": 1585786562000,
-      "confirmed": 254,
-      "recovered": 252,
-      "deaths": 2,
-      "active": 0
-    },
-    "Guizhou": {
-      "updated": 1587257467000,
-      "confirmed": 147,
-      "recovered": 145,
-      "deaths": 2,
-      "active": 0
-    },
-    "Hainan": {
-      "updated": 1585024155000,
-      "confirmed": 168,
-      "recovered": 168,
-      "deaths": 6,
-      "active": -6
-    },
-    "Hebei": {
-      "updated": 1587345614000,
-      "confirmed": 328,
-      "recovered": 317,
-      "deaths": 6,
-      "active": 5
-    },
-    "Heilongjiang": {
-      "updated": 1587345614000,
-      "confirmed": 905,
-      "recovered": 472,
-      "deaths": 13,
-      "active": 420
-    },
-    "Henan": {
-      "updated": 1586825037000,
-      "confirmed": 1276,
-      "recovered": 1254,
-      "deaths": 22,
-      "active": 0
-    },
-    "Hong Kong": {
-      "updated": 1587376778000,
-      "confirmed": 1025,
-      "recovered": 630,
-      "deaths": 4,
-      "active": 391
-    },
-    "Hubei": {
-      "updated": 1587347503000,
-      "confirmed": 68128,
-      "recovered": 63511,
-      "deaths": 4512,
-      "active": 105
-    },
-    "Hunan": {
-      "updated": 1587172510000,
-      "confirmed": 1019,
-      "recovered": 1015,
-      "deaths": 4,
-      "active": 0
-    },
-    "Inner Mongolia": {
-      "updated": 1587345614000,
-      "confirmed": 194,
-      "recovered": 104,
-      "deaths": 1,
-      "active": 89
-    },
-    "Jiangsu": {
-      "updated": 1587085509000,
-      "confirmed": 653,
-      "recovered": 643,
-      "deaths": 0,
-      "active": 10
-    },
-    "Jiangxi": {
-      "updated": 1586481762000,
-      "confirmed": 937,
-      "recovered": 936,
-      "deaths": 1,
-      "active": 0
-    },
-    "Jilin": {
-      "updated": 1587255152000,
-      "confirmed": 104,
-      "recovered": 97,
-      "deaths": 1,
-      "active": 6
-    },
-    "Liaoning": {
-      "updated": 1587345614000,
-      "confirmed": 146,
-      "recovered": 143,
-      "deaths": 2,
-      "active": 1
-    },
-    "Macao": {
-      "updated": 1587376778000,
-      "confirmed": 45,
-      "recovered": 22,
-      "deaths": 0,
-      "active": 23
-    },
-    "Ningxia": {
-      "updated": 1584369525000,
-      "confirmed": 75,
-      "recovered": 75,
-      "deaths": 0,
-      "active": 0
-    },
-    "Qinghai": {
-      "updated": 1583967600000,
-      "confirmed": 18,
-      "recovered": 18,
-      "deaths": 0,
-      "active": 0
-    },
-    "Shaanxi": {
-      "updated": 1587085509000,
-      "confirmed": 256,
-      "recovered": 252,
-      "deaths": 3,
-      "active": 1
-    },
-    "Shandong": {
-      "updated": 1587174579000,
-      "confirmed": 787,
-      "recovered": 765,
-      "deaths": 7,
-      "active": 15
-    },
-    "Shanghai": {
-      "updated": 1587369028000,
-      "confirmed": 638,
-      "recovered": 530,
-      "deaths": 7,
-      "active": 101
-    },
-    "Shanxi": {
-      "updated": 1587081539000,
-      "confirmed": 197,
-      "recovered": 135,
-      "deaths": 0,
-      "active": 62
-    },
-    "Sichuan": {
-      "updated": 1587257467000,
-      "confirmed": 561,
-      "recovered": 554,
-      "deaths": 3,
-      "active": 4
-    },
-    "Tianjin": {
-      "updated": 1587306886000,
-      "confirmed": 189,
-      "recovered": 174,
-      "deaths": 3,
-      "active": 12
-    },
-    "Tibet": {
-      "updated": 1583967600000,
-      "confirmed": 1,
-      "recovered": 1,
-      "deaths": 0,
-      "active": 0
-    },
-    "Xinjiang Uygur": {
-      "updated": 1583967600000,
-      "confirmed": 76,
-      "recovered": 73,
-      "deaths": 3,
-      "active": 0
-    },
-    "Yunnan": {
-      "updated": 1587254414000,
-      "confirmed": 184,
-      "recovered": 178,
-      "deaths": 2,
-      "active": 4
-    },
-    "Zhejiang": {
-      "updated": 1587347868000,
-      "confirmed": 1268,
-      "recovered": 1249,
-      "deaths": 1,
-      "active": 18
-    }
-  },
   "vietnam": {
     "An Giang": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Bình Dương": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Bình Phước": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Bình Thuận": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 9,
       "recovered": 9,
       "deaths": 0,
       "active": 0
     },
     "Bạc Liêu": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Bắc Giang": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,
       "active": 0
     },
     "Bắc Ninh": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Bến Tre": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Cần Thơ": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Hà Giang": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0,
       "active": 1
     },
     "Hà Nam": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,
       "active": 0
     },
     "Hà Nội": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 112,
       "recovered": 74,
       "deaths": 0,
       "active": 38
     },
     "Hà Tĩnh": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 4,
       "recovered": 3,
       "deaths": 0,
       "active": 1
     },
     "Hưng Yên": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hải Dương": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hải Phòng": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Hồ Chí Minh": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 55,
       "recovered": 52,
       "deaths": 0,
       "active": 3
     },
     "Khánh Hòa": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Kiên Giang": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Lai Châu": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Lào Cai": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Lạng Sơn": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Nam Định": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Nghệ An": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Ninh Bình": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 13,
       "recovered": 11,
       "deaths": 0,
       "active": 2
     },
     "Ninh Thuận": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Quảng Nam": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Quảng Ninh": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 7,
       "recovered": 7,
       "deaths": 0,
       "active": 0
     },
     "Sóc Trăng": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
       "active": 0
     },
     "Thanh Hóa": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 3,
       "recovered": 2,
       "deaths": 0,
       "active": 1
     },
     "Thái Nguyên": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0,
       "active": 1
     },
     "Thừa Thiên - Huế": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Trà Vinh": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Tây Ninh": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 3,
       "recovered": 2,
       "deaths": 0,
       "active": 1
     },
     "Vĩnh Phúc": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 19,
       "recovered": 14,
       "deaths": 0,
       "active": 5
     },
     "Đà Nẵng": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 6,
       "recovered": 6,
       "deaths": 0,
       "active": 0
     },
     "Đồng Nai": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0,
       "active": 1
     },
     "Đồng Tháp": {
-      "updated": 1587404061000,
+      "updated": 1587404958000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,

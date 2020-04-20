@@ -201,6 +201,7 @@ function makeMap(opts) {
 
     geometries.forEach(function (geo, i) {
       let locationName = geo.properties[opts.propertyName];
+      console.log(opts.mapName, locationName);
       if (locationName === "Ningxia Hui") {
         locationName = "Ningxia";
       } else if (locationName === "Xizang") {
@@ -217,6 +218,10 @@ function makeMap(opts) {
         locationName = "Bosnia and Herzegovina";
       } else if (locationName === "Macedonia") {
         locationName = "North Macedonia";
+      } else if (locationName === "Khánh Hoà") {
+        locationName = "Khánh Hòa";
+      } else if (locationName === "Thanh Hoá") {
+        locationName = "Thanh Hóa";
       }
 
       if (locationName in data[opts.dataName]) {
@@ -232,6 +237,8 @@ function makeMap(opts) {
         geometries[i].properties.recovered = 0;
         geometries[i].properties.deaths = 0;
         geometries[i].properties.active = 0;
+        // console.log(opts.mapName, locationName);
+        // console.log(data[opts.dataName]);
       }
     });
 

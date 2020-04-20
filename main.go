@@ -38,16 +38,10 @@ type cases struct {
 	Active    int `json:"active"`
 }
 
-type results struct {
-	Global  map[string]cases `json:"global"`
-	USA     map[string]cases `json:"usa"`
-	Canada  map[string]cases `json:"canada"`
-	Germany map[string]cases `json:"germany"`
-	China   map[string]cases `json:"china"`
-	Vietnam map[string]cases `json:"vietnam"`
-}
-
 func main() {
+
+	db := newDatabase()
+	db.createTable()
 
 	log.SetFlags(log.Llongfile)
 
@@ -210,15 +204,20 @@ func main() {
 		log.Fatal(err)
 	}
 
-	output := results{
-		Global:  countryCounts,
-		USA:     usaCounts,
-		Canada:  canadaCounts,
-		Germany: germanyCounts,
-		China:   chinaCounts,
-		Vietnam: vietnamCounts,
+	results := map[string]map[string]cases{
+		"global":  countryCounts,
+		"usa":     usaCounts,
+		"canada":  canadaCounts,
+		"germany": germanyCounts,
+		"china":   chinaCounts,
+		"vietnam": vietnamCounts,
 	}
-	jsonBytes, err := json.MarshalIndent(output, "", "  ")
+
+	// save data to database
+	db.saveData(results)
+
+	// output data in JSON format
+	jsonBytes, err := json.MarshalIndent(results, "", "  ")
 	if err != nil {
 		log.Fatal(err)
 	}

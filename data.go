@@ -38,6 +38,30 @@ func (d *database) createTable() {
 	}
 }
 
+func insertData(tx *sql.Tx, primaryRegion, secondaryRegion string, data cases) {
+	stmt, err := tx.Prepare(`
+	INSERT INTO data(timestamp, primary_region, secondary_region, confirmed, recovered, deaths, active)
+	VALUES($1, $2, $3, $4, $5, $6, $7);
+	`)
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer stmt.Close()
+
+	_, err = stmt.Exec(
+		time.Now().Unix(),
+		primaryRegion,
+		secondaryRegion,
+		data.Confirmed,
+		data.Recovered,
+		data.Deaths,
+		data.Active,
+	)
+	if err != nil {
+		log.Fatalf("%q: %v\n", err, stmt)
+	}
+}
+
 func (d *database) saveData(data map[string]map[string]cases) {
 	for primaryRegion, secondaryRegions := range data {
 		for secondaryRegion, caseData := range secondaryRegions {
@@ -62,7 +86,7 @@ func (d *database) saveData(data map[string]map[string]cases) {
 				active    sql.NullInt32
 			)
 			err = stmt.QueryRow(primaryRegion, secondaryRegion).Scan(&confirmed, &recovered, &deaths, &active)
-			if err != nil {
+			if err != nil && err != sql.ErrNoRows {
 				log.Fatal(err)
 			}
 
@@ -72,28 +96,10 @@ func (d *database) saveData(data map[string]map[string]cases) {
 				deathsMatch := int(deaths.Int32) != caseData.Deaths
 				activeMatch := int(active.Int32) != caseData.Active
 				if confirmedMatch && recoveredMatch && deathsMatch && activeMatch {
-					stmt, err = tx.Prepare(`
-					INSERT INTO data(timestamp, primary_region, secondary_region, confirmed, recovered, deaths, active)
-					VALUES($1, $2, $3, $4, $5, $6, $7);
-					`)
-					if err != nil {
-						log.Fatal(err)
-					}
-					defer stmt.Close()
-
-					_, err = stmt.Exec(
-						time.Now().Unix(),
-						primaryRegion,
-						secondaryRegion,
-						caseData.Confirmed,
-						caseData.Recovered,
-						caseData.Deaths,
-						caseData.Active,
-					)
-					if err != nil {
-						log.Fatalf("%q: %v\n", err, stmt)
-					}
+					insertData(tx, primaryRegion, secondaryRegion, caseData)
 				}
+			} else {
+				insertData(tx, primaryRegion, secondaryRegion, caseData)
 			}
 			tx.Commit()
 		}

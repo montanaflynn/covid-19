@@ -20,7 +20,7 @@ https://montanaflynn.github.io/covid-19/data/historical.json
 
 ## Data Sources
 
-The current and historical data comes from [https://interaktiv.morgenpost.de](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/) csv files [current](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) and [historical](https://funkeinteraktiv.b-cdn.net/history.light.v4.csv) which are converted to JSON.
+The current and historical data comes from [https://interaktiv.morgenpost.de](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/) [current](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) and [historical](https://funkeinteraktiv.b-cdn.net/history.light.v4.csv) CSV files which are converted to JSON and commited to this repo along with the original format.
 
 Additional Vietnamese province level data comes from [wikipedia](https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_d%E1%BB%8Bch_COVID-19_t%E1%BA%A1i_Vi%E1%BB%87t_Nam).
 

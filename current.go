@@ -15,8 +15,19 @@ import (
 
 func insertCurrentData(ctx context.Context, tx *sql.Tx, primaryRegion, secondaryRegion string, data cases) error {
 	stmt, err := tx.Prepare(`
-	INSERT INTO data(timestamp, primary_region, secondary_region, confirmed, recovered, deaths, active)
-	VALUES($1, $2, $3, $4, $5, $6, $7);
+	INSERT INTO data(
+		timestamp, 
+		primary_region, 
+		secondary_region, 
+		confirmed, 
+		recovered, 
+		deaths, 
+		active, 
+		population, 
+		latitude, 
+		longitude
+	)
+	VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10);
 	`)
 	if err != nil {
 		return err
@@ -32,6 +43,9 @@ func insertCurrentData(ctx context.Context, tx *sql.Tx, primaryRegion, secondary
 		data.Recovered,
 		data.Deaths,
 		data.Active,
+		data.Population,
+		data.Latitude,
+		data.Longitude,
 	)
 	if err != nil {
 		return err

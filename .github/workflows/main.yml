@@ -24,7 +24,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-go-
       - name: Run Program
-        run: go run *.go > data/current.json
+        run: go run *.go
       - name: Commit Data
         continue-on-error: true
         run: |

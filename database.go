@@ -9,38 +9,22 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-type database struct {
-	sqlite *sql.DB
-}
-
-func newDatabase() (*database, error) {
-	db, err := sql.Open("sqlite3", "./covid.db")
-	if err != nil {
-		return nil, err
-	}
-	return &database{db}, nil
-}
-
-func (db *database) createCurrentDataTable(ctx context.Context) error {
-	sqlStmt := `
-	CREATE TABLE IF NOT EXISTS data (
+var (
+	currentDataSchema = `
+	CREATE TABLE IF NOT EXISTS current_data (
 		timestamp INTEGER NOT NULL,
 		primary_region STRING NOT NULL,
 		secondary_region STRING,
 		confirmed INTEGER,
 		recovered INTEGER,
 		deaths INTEGER,
-		active INTEGER
+		active INTEGER,
+		population INTEGER,
+		longitude REAL,
+		latitude REAL
 	);`
-	_, err := db.sqlite.ExecContext(ctx, sqlStmt)
-	if err != nil {
-		return errors.Wrap(err, sqlStmt)
-	}
-	return nil
-}
 
-func (db *database) createHistoricalDataTable(ctx context.Context) error {
-	sqlStmt := `
+	historicalDataSchema = `
 	CREATE TABLE IF NOT EXISTS historical_data (
 		timestamp INTEGER NOT NULL,
 		date INTEGER NOT NULL,
@@ -55,9 +39,32 @@ func (db *database) createHistoricalDataTable(ctx context.Context) error {
 		latitude REAL,
 		UNIQUE(date, primary_region, secondary_region)
 	);`
-	_, err := db.sqlite.ExecContext(ctx, sqlStmt)
+)
+
+type database struct {
+	sqlite *sql.DB
+}
+
+func newDatabase() (*database, error) {
+	db, err := sql.Open("sqlite3", "./data/covid.db")
 	if err != nil {
-		return errors.Wrap(err, sqlStmt)
+		return nil, err
+	}
+	return &database{db}, nil
+}
+
+func (db *database) createCurrentDataTable(ctx context.Context) error {
+	_, err := db.sqlite.ExecContext(ctx, currentDataSchema)
+	if err != nil {
+		return errors.Wrap(err, currentDataSchema)
+	}
+	return nil
+}
+
+func (db *database) createHistoricalDataTable(ctx context.Context) error {
+	_, err := db.sqlite.ExecContext(ctx, historicalDataSchema)
+	if err != nil {
+		return errors.Wrap(err, historicalDataSchema)
 	}
 	return nil
 }

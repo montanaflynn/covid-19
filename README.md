@@ -23,8 +23,9 @@ Data | URL
 Current | https://montanaflynn.github.io/covid-19/data/historical.csv
 Historical | https://montanaflynn.github.io/covid-19/data/current.csv
 
+### SQLite Format:
 
-Also available as [sqlite3 database](./data/covid.db) in the following tables:
+The data is available in a [sqlite database](./data/covid.db) with the following tables:
 
 Table | Schema URL
 ------|--------
@@ -33,11 +34,11 @@ Table | Schema URL
 
 ## Architecture
 
-The current and historical data comes from [https://interaktiv.morgenpost.de](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/) [current](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) and [historical](https://funkeinteraktiv.b-cdn.net/history.light.v4.csv) CSV files which are converted to JSON and commited to this repo along with the original format. The data is also saved in [sqlite3 database](./data/covid.db).
+The current and historical data comes from [https://interaktiv.morgenpost.de](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/) [current](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) and [historical](https://funkeinteraktiv.b-cdn.net/history.light.v4.csv) CSV files which are converted to JSON and commited to this repo along with the original format. The data is also saved in [sqlite database](./data/covid.db).
 
 Additional Vietnamese province level data comes from [wikipedia](https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_d%E1%BB%8Bch_COVID-19_t%E1%BA%A1i_Vi%E1%BB%87t_Nam).
 
-A [GitHub action](https://github.com/montanaflynn/covid-19/blob/master/.github/workflows/main.yml) checks for updates every 15 minutes and updates the [JSON files](./data) and [sqlite3 database](./data/covid.db).
+A [GitHub action](https://github.com/montanaflynn/covid-19/blob/master/.github/workflows/main.yml) checks for updates every 15 minutes and updates the [JSON files](./data) and [sqlite database](./data/covid.db).
 
 The JSON files [current.json](https://raw.githubusercontent.com/montanaflynn/covid-19/master/data/current.json) and [historical.json](https://montanaflynn.github.io/covid-19/data/historical.json) are hosted on GitHub so there is no running costs associated with this project.
 

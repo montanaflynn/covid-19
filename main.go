@@ -7,45 +7,58 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 	"strings"
 	"time"
 )
 
 var (
-	baseURL  = "https://funkeinteraktiv.b-cdn.net"
-	endpoint = "/current.v4.csv"
+	currentDataBaseURL  = "https://funkeinteraktiv.b-cdn.net"
+	currentDataEndpoint = "/current.v4.csv"
+	currentDataURL      = fmt.Sprintf("%s%s", currentDataBaseURL, currentDataEndpoint)
 )
 
 type datum struct {
-	parent    string
-	label     string
-	updated   int
-	date      time.Time
-	confirmed int
-	recovered int
-	deaths    int
-	source    string
-	sourceURL string
-	scraper   string
+	parent     string
+	label      string
+	updated    int
+	date       time.Time
+	confirmed  int
+	recovered  int
+	deaths     int
+	active     int
+	population int
+	latitude   float64
+	longitude  float64
+	source     string
+	sourceURL  string
+	scraper    string
 }
 
 type cases struct {
-	Updated   int `json:"updated"`
-	Confirmed int `json:"confirmed"`
-	Recovered int `json:"recovered"`
-	Deaths    int `json:"deaths"`
-	Active    int `json:"active"`
+	Date       int     `json:"date,omitempty"`
+	Updated    int     `json:"updated"`
+	Confirmed  int     `json:"confirmed"`
+	Recovered  int     `json:"recovered"`
+	Deaths     int     `json:"deaths"`
+	Active     int     `json:"active"`
+	Population int     `json:"population,omitempty"`
+	Longitude  float64 `json:"longitude,omitempty"`
+	Latitude   float64 `json:"latitude,omitempty"`
 }
 
 func main() {
 
 	db := newDatabase()
-	db.createTable()
+	db.createCurrentDataTable()
+	db.createHistoricalDataTable()
+
+	db.saveHistoricalData()
 
 	log.SetFlags(log.Llongfile)
 
-	res, err := http.Get(fmt.Sprintf("%s%s?t=%d", baseURL, endpoint, time.Now().Unix()))
+	res, err := http.Get(fmt.Sprintf("%s?t=%d", currentDataURL, time.Now().Unix()))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -94,6 +107,10 @@ func main() {
 			log.Fatal(err)
 		}
 
+		longitude, _ := strconv.ParseFloat(record[6], 64)
+		latitude, _ := strconv.ParseFloat(record[7], 64)
+		population, _ := strconv.Atoi(record[8])
+
 		parent := record[5]
 		if parent == "null" {
 			parent = "global"
@@ -113,16 +130,20 @@ func main() {
 		}
 
 		d := datum{
-			parent:    parent,
-			label:     label,
-			updated:   updated,
-			date:      date,
-			confirmed: confirmed,
-			recovered: recovered,
-			deaths:    deaths,
-			source:    record[15],
-			sourceURL: record[16],
-			scraper:   record[17],
+			parent:     parent,
+			label:      label,
+			updated:    updated,
+			date:       date,
+			confirmed:  confirmed,
+			recovered:  recovered,
+			deaths:     deaths,
+			active:     confirmed - (recovered + deaths),
+			longitude:  longitude,
+			latitude:   latitude,
+			population: population,
+			source:     record[15],
+			sourceURL:  record[16],
+			scraper:    record[17],
 		}
 
 		data = append(data, d)
@@ -151,20 +172,34 @@ func main() {
 			countryName = strings.Replace(countryName, "USA", "United States", -1)
 			countryName = strings.Replace(countryName, "Austia", "Austria", -1)
 
+			updated := d.updated
+			confirmed := d.confirmed
+			recovered := d.recovered
+			deaths := d.deaths
+			active := d.active
+			population := d.population
+			longitude := d.longitude
+			latitude := d.latitude
+
 			c, ok := countryCounts[countryName]
-			if !ok {
-				active := d.confirmed - d.recovered - d.deaths
-				countryCounts[countryName] = cases{d.updated, d.confirmed, d.recovered, d.deaths, active}
-			} else {
-				updatedConfirmed := c.Confirmed + d.confirmed
-				updatedRecovered := c.Recovered + d.recovered
-				updatedDeaths := c.Deaths + d.deaths
-				updatedActive := c.Active + (d.confirmed - d.recovered - d.deaths)
-				updated := d.updated
+			if ok {
+				confirmed = c.Confirmed + d.confirmed
+				recovered = c.Recovered + d.recovered
+				deaths = c.Deaths + d.deaths
+				active = c.Active + d.active
 				if c.Updated > d.updated {
 					updated = c.Updated
 				}
-				countryCounts[countryName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
+			}
+			countryCounts[countryName] = cases{
+				Updated:    updated,
+				Confirmed:  confirmed,
+				Recovered:  recovered,
+				Deaths:     deaths,
+				Active:     active,
+				Population: population,
+				Longitude:  longitude,
+				Latitude:   latitude,
 			}
 
 		} else if countryName == "USA" || countryName == "Canada" || countryName == "Germany" || countryName == "China" {
@@ -180,20 +215,35 @@ func main() {
 				countMap = chinaCounts
 			}
 
+			updated := d.updated
+			confirmed := d.confirmed
+			recovered := d.recovered
+			deaths := d.deaths
+			active := d.active
+			population := d.population
+			longitude := d.longitude
+			latitude := d.latitude
+
 			c, ok := countMap[labelName]
-			if !ok {
-				active := d.confirmed - d.recovered - d.deaths
-				countMap[labelName] = cases{d.updated, d.confirmed, d.recovered, d.deaths, active}
-			} else {
-				updatedConfirmed := c.Confirmed + d.confirmed
-				updatedRecovered := c.Recovered + d.recovered
-				updatedDeaths := c.Deaths + d.deaths
-				updatedActive := c.Active + (d.confirmed - d.recovered - d.deaths)
-				updated := d.updated
+			if ok {
+				confirmed = c.Confirmed + d.confirmed
+				recovered = c.Recovered + d.recovered
+				deaths = c.Deaths + d.deaths
+				active = c.Active + d.active
 				if c.Updated > d.updated {
 					updated = c.Updated
 				}
-				countMap[labelName] = cases{updated, updatedConfirmed, updatedRecovered, updatedDeaths, updatedActive}
+			}
+
+			countMap[labelName] = cases{
+				Updated:    updated,
+				Confirmed:  confirmed,
+				Recovered:  recovered,
+				Deaths:     deaths,
+				Active:     active,
+				Population: population,
+				Longitude:  longitude,
+				Latitude:   latitude,
 			}
 		}
 	}
@@ -214,7 +264,7 @@ func main() {
 	}
 
 	// save data to database
-	db.saveData(results)
+	db.saveCurrentData(results)
 
 	// output data in JSON format
 	jsonBytes, err := json.MarshalIndent(results, "", "  ")
@@ -222,6 +272,14 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("%s\n", jsonBytes)
-	return
+	f, err := os.Create("./data/current.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
+
+	_, err = f.Write(jsonBytes)
+	if err != nil {
+		log.Fatal(err)
+	}
 }

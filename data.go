@@ -20,7 +20,7 @@ func newDatabase() database {
 	return database{db}
 }
 
-func (d *database) createTable() {
+func (db *database) createCurrentDataTable() {
 	sqlStmt := `
 	CREATE TABLE IF NOT EXISTS data (
 		timestamp INTEGER NOT NULL,
@@ -31,14 +31,14 @@ func (d *database) createTable() {
 		deaths INTEGER,
 		active INTEGER
 	);`
-	_, err := d.sqlite.Exec(sqlStmt)
+	_, err := db.sqlite.Exec(sqlStmt)
 	if err != nil {
 		log.Fatalf("%q: %s\n", err, sqlStmt)
 		return
 	}
 }
 
-func insertData(tx *sql.Tx, primaryRegion, secondaryRegion string, data cases) {
+func insertCurrentData(tx *sql.Tx, primaryRegion, secondaryRegion string, data cases) {
 	stmt, err := tx.Prepare(`
 	INSERT INTO data(timestamp, primary_region, secondary_region, confirmed, recovered, deaths, active)
 	VALUES($1, $2, $3, $4, $5, $6, $7);
@@ -62,15 +62,15 @@ func insertData(tx *sql.Tx, primaryRegion, secondaryRegion string, data cases) {
 	}
 }
 
-func (d *database) saveData(data map[string]map[string]cases) {
+func (db *database) saveCurrentData(data map[string]map[string]cases) {
 	for primaryRegion, secondaryRegions := range data {
 		for secondaryRegion, caseData := range secondaryRegions {
-			tx, err := d.sqlite.Begin()
+			tx, err := db.sqlite.Begin()
 			if err != nil {
 				log.Fatal(err)
 			}
 
-			stmt, err := d.sqlite.Prepare(`
+			stmt, err := db.sqlite.Prepare(`
 			SELECT confirmed, recovered, deaths, active 
 			FROM data WHERE primary_region = $1 AND secondary_region = $2
 			ORDER by timestamp desc;
@@ -96,10 +96,10 @@ func (d *database) saveData(data map[string]map[string]cases) {
 				deathsMatch := int(deaths.Int32) != caseData.Deaths
 				activeMatch := int(active.Int32) != caseData.Active
 				if confirmedMatch && recoveredMatch && deathsMatch && activeMatch {
-					insertData(tx, primaryRegion, secondaryRegion, caseData)
+					insertCurrentData(tx, primaryRegion, secondaryRegion, caseData)
 				}
 			} else {
-				insertData(tx, primaryRegion, secondaryRegion, caseData)
+				insertCurrentData(tx, primaryRegion, secondaryRegion, caseData)
 			}
 			tx.Commit()
 		}

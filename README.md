@@ -14,17 +14,21 @@ If you want the current data in `JSON` format it's available here:
 
 https://montanaflynn.github.io/covid-19/data/current.json
 
+If you want the historical data in `JSON` format it's available here:
+
+https://montanaflynn.github.io/covid-19/data/historical.json
+
 ## Data Sources
 
-The data comes from a [https://interaktiv.morgenpost.de](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/) [csv file](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) which is converted to JSON and translated into english.
+The current and historical data comes from [https://interaktiv.morgenpost.de](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/) csv files [current](https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/data/Coronavirus.current.v2.csv) and [historical](https://funkeinteraktiv.b-cdn.net/history.light.v4.csv) which are converted to JSON.
 
 Additional Vietnamese province level data comes from [wikipedia](https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_d%E1%BB%8Bch_COVID-19_t%E1%BA%A1i_Vi%E1%BB%87t_Nam).
 
 ## Architecture
 
-A [GitHub action](https://github.com/montanaflynn/covid-19/blob/master/.github/workflows/main.yml) checks for updates every 15 minutes and updates the [current.json](https://raw.githubusercontent.com/montanaflynn/covid-19/master/data/current.json) file.
+A [GitHub action](https://github.com/montanaflynn/covid-19/blob/master/.github/workflows/main.yml) checks for updates every 15 minutes and updates the [JSON files](./data) and [sqlite3 database](./covid.db).
 
-The [JSON file](https://montanaflynn.github.io/covid-19/data/current.json) and [website](https://montanaflynn.github.io/covid-19) are both hosted on GitHub so there is no running costs associated with this project.
+The JSON files [current.json](https://raw.githubusercontent.com/montanaflynn/covid-19/master/data/current.json) and [current.json](https://raw.githubusercontent.com/montanaflynn/covid-19/master/data/current.json) and [historical.json](https://montanaflynn.github.io/covid-19/data/historical.json) are both hosted on GitHub so there is no running costs associated with this project.
 
 The website maps and tables are rendered in the browser using [map.js](https://github.com/montanaflynn/covid-19/blob/master/assets/map.js).
 

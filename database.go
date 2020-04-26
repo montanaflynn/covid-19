@@ -3,22 +3,22 @@ package main
 import (
 	"context"
 	"database/sql"
-	"log"
 
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/pkg/errors"
+	"golang.org/x/sync/errgroup"
 )
 
 type database struct {
 	sqlite *sql.DB
 }
 
-func newDatabase() database {
+func newDatabase() (*database, error) {
 	db, err := sql.Open("sqlite3", "./covid.db")
 	if err != nil {
-		log.Fatal(err)
+		return nil, err
 	}
-	return database{db}
+	return &database{db}, nil
 }
 
 func (db *database) createCurrentDataTable(ctx context.Context) error {
@@ -59,5 +59,27 @@ func (db *database) createHistoricalDataTable(ctx context.Context) error {
 	if err != nil {
 		return errors.Wrap(err, sqlStmt)
 	}
+	return nil
+}
+
+func createTables(ctx context.Context, db database) error {
+	g, _ := errgroup.WithContext(ctx)
+	g.Go(func() error {
+		return db.createCurrentDataTable(ctx)
+	})
+	g.Go(func() error {
+		return db.createHistoricalDataTable(ctx)
+	})
+
+	err := g.Wait()
+	if err != nil {
+		return err
+	}
+
+	err = ctx.Err()
+	if err != nil {
+		return err
+	}
+
 	return nil
 }

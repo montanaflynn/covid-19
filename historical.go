@@ -7,17 +7,10 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"net/http"
 	"os"
 	"strconv"
 	"strings"
 	"time"
-)
-
-var (
-	historicalDataBaseURL  = "https://funkeinteraktiv.b-cdn.net"
-	historicalDataEndpoint = "/history.light.v4.csv"
-	historicalDataURL      = fmt.Sprintf("%s%s", historicalDataBaseURL, historicalDataEndpoint)
 )
 
 func (d *database) insertHistoricalData(ctx context.Context, data datum) error {
@@ -65,20 +58,20 @@ func (d *database) insertHistoricalData(ctx context.Context, data datum) error {
 	return nil
 }
 
-func getHistoricalData(ctx context.Context, db database) error {
-	res, err := http.Get(historicalDataURL)
+func getHistoricalData(ctx context.Context, db *database, file string) error {
+
+	csvFile, err := os.Open(file)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
+	defer csvFile.Close()
 
-	defer res.Body.Close()
-
-	r := csv.NewReader(res.Body)
+	r := csv.NewReader(csvFile)
 
 	// skip the headers
 	_, err = r.Read()
 	if err == io.EOF {
-		log.Fatal("missing csv headers")
+		return err
 	}
 
 	var data []datum
@@ -91,7 +84,7 @@ func getHistoricalData(ctx context.Context, db database) error {
 			break
 		}
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 
 		date, err := time.Parse("20060102", record[9])
@@ -110,17 +103,17 @@ func getHistoricalData(ctx context.Context, db database) error {
 
 		confirmed, err := strconv.Atoi(record[12])
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 
 		recovered, err := strconv.Atoi(record[13])
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 
 		deaths, err := strconv.Atoi(record[14])
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 
 		longitude, err := strconv.ParseFloat(record[6], 32)
@@ -189,7 +182,7 @@ func getHistoricalData(ctx context.Context, db database) error {
 	for _, d := range data {
 		err := db.insertHistoricalData(ctx, d)
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 
 		countryName := d.parent
@@ -294,18 +287,18 @@ func getHistoricalData(ctx context.Context, db database) error {
 	// output data in JSON format
 	jsonBytes, err := json.MarshalIndent(results, "", "  ")
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 
-	f, err := os.Create("./data/historical.json")
+	dataFile, err := os.Create(historicalJSONFilePath)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
-	defer f.Close()
+	defer dataFile.Close()
 
-	_, err = f.Write(jsonBytes)
+	_, err = dataFile.Write(jsonBytes)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 
 	return nil

@@ -5,23 +5,21 @@ import (
 	"database/sql"
 	"encoding/csv"
 	"encoding/json"
-	"fmt"
 	"io"
 	"log"
-	"net/http"
 	"os"
 	"strconv"
 	"strings"
 	"time"
 )
 
-func insertCurrentData(ctx context.Context, tx *sql.Tx, primaryRegion, secondaryRegion string, data cases) {
+func insertCurrentData(ctx context.Context, tx *sql.Tx, primaryRegion, secondaryRegion string, data cases) error {
 	stmt, err := tx.Prepare(`
 	INSERT INTO data(timestamp, primary_region, secondary_region, confirmed, recovered, deaths, active)
 	VALUES($1, $2, $3, $4, $5, $6, $7);
 	`)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 	defer stmt.Close()
 
@@ -36,16 +34,18 @@ func insertCurrentData(ctx context.Context, tx *sql.Tx, primaryRegion, secondary
 		data.Active,
 	)
 	if err != nil {
-		log.Fatalf("%q: %v\n", err, stmt)
+		return err
 	}
+
+	return nil
 }
 
-func (db *database) saveCurrentData(ctx context.Context, data map[string]map[string]cases) {
+func (db *database) saveCurrentData(ctx context.Context, data map[string]map[string]cases) error {
 	for primaryRegion, secondaryRegions := range data {
 		for secondaryRegion, caseData := range secondaryRegions {
 			tx, err := db.sqlite.Begin()
 			if err != nil {
-				log.Fatal(err)
+				return err
 			}
 
 			stmt, err := db.sqlite.Prepare(`
@@ -54,7 +54,7 @@ func (db *database) saveCurrentData(ctx context.Context, data map[string]map[str
 			ORDER by timestamp desc;
 			`)
 			if err != nil {
-				log.Fatal(err)
+				return err
 			}
 			defer stmt.Close()
 			var (
@@ -65,7 +65,7 @@ func (db *database) saveCurrentData(ctx context.Context, data map[string]map[str
 			)
 			err = stmt.QueryRow(primaryRegion, secondaryRegion).Scan(&confirmed, &recovered, &deaths, &active)
 			if err != nil && err != sql.ErrNoRows {
-				log.Fatal(err)
+				return err
 			}
 
 			if confirmed.Valid && recovered.Valid && deaths.Valid && active.Valid {
@@ -82,25 +82,25 @@ func (db *database) saveCurrentData(ctx context.Context, data map[string]map[str
 			tx.Commit()
 		}
 	}
+	return nil
 }
 
-func getCurrentData(ctx context.Context, db database) error {
+func getCurrentData(ctx context.Context, db *database, file string) error {
 
-	res, err := http.Get(fmt.Sprintf("%s?t=%d", currentDataURL, time.Now().Unix()))
+	csvFile, err := os.Open(file)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
+	defer csvFile.Close()
 
-	defer res.Body.Close()
-
-	r := csv.NewReader(res.Body)
+	r := csv.NewReader(csvFile)
 
 	var data []datum
 
 	// skip the headers
 	_, err = r.Read()
 	if err == io.EOF {
-		log.Fatal("missing csv headers")
+		return err
 	}
 
 	// Iterate through the records
@@ -111,7 +111,7 @@ func getCurrentData(ctx context.Context, db database) error {
 			break
 		}
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 
 		updated, err := strconv.Atoi(record[11])
@@ -124,15 +124,15 @@ func getCurrentData(ctx context.Context, db database) error {
 
 		confirmed, err := strconv.Atoi(record[13])
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 		recovered, err := strconv.Atoi(record[14])
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 		deaths, err := strconv.Atoi(record[15])
 		if err != nil {
-			log.Fatal(err)
+			return err
 		}
 
 		longitude, _ := strconv.ParseFloat(record[6], 64)
@@ -279,7 +279,7 @@ func getCurrentData(ctx context.Context, db database) error {
 	// get vietnam province data
 	vietnamCounts, err := getVietnamData()
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 
 	results := map[string]map[string]cases{
@@ -297,18 +297,18 @@ func getCurrentData(ctx context.Context, db database) error {
 	// output data in JSON format
 	jsonBytes, err := json.MarshalIndent(results, "", "  ")
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 
-	f, err := os.Create("./data/current.json")
+	dataFile, err := os.Create(currentJSONFilePath)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
-	defer f.Close()
+	defer dataFile.Close()
 
-	_, err = f.Write(jsonBytes)
+	_, err = dataFile.Write(jsonBytes)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 
 	return nil

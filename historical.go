@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"encoding/csv"
 	"encoding/json"
 	"fmt"
@@ -19,30 +20,7 @@ var (
 	historicalDataURL      = fmt.Sprintf("%s%s", historicalDataBaseURL, historicalDataEndpoint)
 )
 
-func (d *database) createHistoricalDataTable() {
-	sqlStmt := `
-	CREATE TABLE IF NOT EXISTS historical_data (
-		timestamp INTEGER NOT NULL,
-		date INTEGER NOT NULL,
-		primary_region STRING NOT NULL,
-		secondary_region STRING,
-		confirmed INTEGER,
-		recovered INTEGER,
-		deaths INTEGER,
-		active INTEGER,
-		population INTEGER,
-		longitude REAL,
-		latitude REAL,
-		UNIQUE(date, primary_region, secondary_region)
-	);`
-	_, err := d.sqlite.Exec(sqlStmt)
-	if err != nil {
-		log.Fatalf("%q: %s\n", err, sqlStmt)
-		return
-	}
-}
-
-func (d *database) insertHistoricalData(data datum) error {
+func (d *database) insertHistoricalData(ctx context.Context, data datum) error {
 	sqlStatement := `
 	INSERT OR IGNORE INTO historical_data(
 		timestamp, 
@@ -58,7 +36,7 @@ func (d *database) insertHistoricalData(data datum) error {
 		latitude
 	)
 	VALUES($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11);`
-	res, err := d.sqlite.Exec(sqlStatement,
+	res, err := d.sqlite.ExecContext(ctx, sqlStatement,
 		data.updated,
 		data.date.Unix(),
 		data.parent,
@@ -87,7 +65,7 @@ func (d *database) insertHistoricalData(data datum) error {
 	return nil
 }
 
-func (db *database) saveHistoricalData() error {
+func getHistoricalData(ctx context.Context, db database) error {
 	res, err := http.Get(historicalDataURL)
 	if err != nil {
 		log.Fatal(err)
@@ -208,10 +186,8 @@ func (db *database) saveHistoricalData() error {
 		"china":   chinaCounts,
 	}
 
-	// caseHistory := []cases{}
-
 	for _, d := range data {
-		err := db.insertHistoricalData(d)
+		err := db.insertHistoricalData(ctx, d)
 		if err != nil {
 			log.Fatal(err)
 		}

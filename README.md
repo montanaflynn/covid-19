@@ -11,25 +11,25 @@ https://montanaflynn.github.io/covid-19
 ### JSON Format:
 
 Data | URL
------|--------|----
-Current|https://montanaflynn.github.io/covid-19/data/current.json
-Historical|https://montanaflynn.github.io/covid-19/data/historical.json
+-----|--------
+Current | https://montanaflynn.github.io/covid-19/data/current.json
+Historical | https://montanaflynn.github.io/covid-19/data/historical.json
 
 
 ### CSV Format:
 
 Data | URL
------|--------|----
-Current|https://montanaflynn.github.io/covid-19/data/historical.csv
-Historical|https://montanaflynn.github.io/covid-19/data/current.csv
+-----|--------
+Current | https://montanaflynn.github.io/covid-19/data/historical.csv
+Historical | https://montanaflynn.github.io/covid-19/data/current.csv
 
 
 Also available as [sqlite3 database](./data/covid.db) in the following tables:
 
 Table | Schema URL
------|--------|----
-`current_data`| [database.go#L14-L24](https://github.com/montanaflynn/covid-19/blob/master/database.go#L12-L22)
-`historical_data`| [database.go#L28-L41](https://github.com/montanaflynn/covid-19/blob/master/database.go#L28-L41)
+------|--------
+`current_data` | [database.go#L14-L24](https://github.com/montanaflynn/covid-19/blob/master/database.go#L12-L22)
+`historical_data` | [database.go#L28-L41](https://github.com/montanaflynn/covid-19/blob/master/database.go#L28-L41)
 
 ## Architecture
 

@@ -18,16 +18,18 @@ var (
 )
 
 func getVietnamData() (map[string]cases, error) {
+	t := newTimer("getting vietnamese wikipedia data")
+	defer t.end()
 	response, err := http.Get(fmt.Sprintf("%s%s", wikiBaseURL, wikiEndpoint))
 	if err != nil {
-		return nil, nil
+		return nil, err
 	}
 	defer response.Body.Close()
 
 	// Create a goquery document from the HTTP response
 	doc, err := goquery.NewDocumentFromReader(response.Body)
 	if err != nil {
-		return nil, nil
+		return nil, err
 	}
 
 	var rows [][]string

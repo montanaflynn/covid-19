@@ -6,8 +6,6 @@ import (
 	"io"
 	"net/http"
 	"os"
-
-	"golang.org/x/sync/errgroup"
 )
 
 var (
@@ -65,19 +63,4 @@ func saveData(ctx context.Context, url, file string) error {
 			return nil
 		}
 	}
-}
-
-func saveOriginalData(ctx context.Context) error {
-	g, ctx := errgroup.WithContext(ctx)
-
-	fn := func(ctx context.Context, url, file string) func() error {
-		return func() error {
-			return saveData(ctx, url, file)
-		}
-	}
-
-	g.Go(fn(ctx, currentDataURL, "./data/current.csv"))
-	g.Go(fn(ctx, historicalDataURL, "./data/historical.csv"))
-
-	return g.Wait()
 }

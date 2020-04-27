@@ -15,7 +15,7 @@ var (
 	currentCSVFilePath     = "./data/current.csv"
 )
 
-func saveConvertedData(ctx context.Context, db *database) error {
+func getData(ctx context.Context, db *database) error {
 	g, ctx := errgroup.WithContext(ctx)
 
 	g.Go(func() error {
@@ -30,23 +30,22 @@ func saveConvertedData(ctx context.Context, db *database) error {
 }
 
 func main() {
-
 	log.SetFlags(log.Llongfile)
+
+	t := newTimer("setting up sqlite database")
 
 	db, err := newDatabase()
 	if err != nil {
 		log.Fatal(err)
 	}
 
+	t.end().reset("getting all the data")
+	defer t.end()
+
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
-	err = saveOriginalData(ctx)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	err = saveConvertedData(ctx, db)
+	err = getData(ctx, db)
 	if err != nil {
 		log.Fatal(err)
 	}

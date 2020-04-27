@@ -60,6 +60,13 @@ func (d *database) insertHistoricalData(ctx context.Context, data datum) error {
 
 func getHistoricalData(ctx context.Context, db *database, file string) error {
 
+	t := newTimer("saving historical csv data")
+	err := saveData(ctx, historicalDataURL, "./data/historical.csv")
+	if err != nil {
+		return err
+	}
+	t.end().reset("saving historical json data")
+	defer t.end()
 	csvFile, err := os.Open(file)
 	if err != nil {
 		return err

@@ -101,10 +101,43 @@ func (db *database) saveCurrentData(ctx context.Context, data map[string]map[str
 
 func getCurrentData(ctx context.Context, db *database, file string) error {
 
+	t := newTimer("saving current csv data")
+	err := saveData(ctx, currentDataURL, "./data/current.csv")
+	if err != nil {
+		return err
+	}
+	t.end()
+
+	vietnamDataChan := make(chan map[string]cases)
+	vietnamErrChan := make(chan error)
+
+	// get vietnam province data
+	go func() {
+		vietnamCounts, err := getVietnamData()
+		if err != nil {
+			vietnamErrChan <- err
+			return
+		}
+		vietnamDataChan <- vietnamCounts
+	}()
+
+	vietnamCounts := make(map[string]cases)
+
+	select {
+	case result := <-vietnamDataChan:
+		vietnamCounts = result
+	case err := <-vietnamErrChan:
+		return err
+	}
+
+	t.reset("saving current json data")
+	defer t.end()
+
 	csvFile, err := os.Open(file)
 	if err != nil {
 		return err
 	}
+
 	defer csvFile.Close()
 
 	r := csv.NewReader(csvFile)
@@ -288,12 +321,6 @@ func getCurrentData(ctx context.Context, db *database, file string) error {
 				Latitude:   latitude,
 			}
 		}
-	}
-
-	// get vietnam province data
-	vietnamCounts, err := getVietnamData()
-	if err != nil {
-		return err
 	}
 
 	results := map[string]map[string]cases{

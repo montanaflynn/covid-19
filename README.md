@@ -6,7 +6,11 @@ If you want to see the current cases on maps worldwide or by country:
 
 https://montanaflynn.github.io/covid-19
 
-## Data
+If you want to see the historical cases by country or region over time:
+
+https://montanaflynn.github.io/covid-19/historical.html
+
+If you want to use the data for your own project:
 
 Dataset | Format | URL
 --------|---------|----

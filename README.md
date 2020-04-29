@@ -8,24 +8,14 @@ https://montanaflynn.github.io/covid-19
 
 ## Data
 
-### JSON Format:
+Dataset | Format | URL
+--------|---------|----
+Current | JSON | https://montanaflynn.github.io/covid-19/data/current.json
+Current | CSV  | https://montanaflynn.github.io/covid-19/data/current.csv
+Historical | JSON | https://montanaflynn.github.io/covid-19/data/historical.json
+Historical | CSV  | https://montanaflynn.github.io/covid-19/data/current.csv
 
-Data | URL
------|--------
-Current | https://montanaflynn.github.io/covid-19/data/current.json
-Historical | https://montanaflynn.github.io/covid-19/data/historical.json
-
-
-### CSV Format:
-
-Data | URL
------|--------
-Current | https://montanaflynn.github.io/covid-19/data/historical.csv
-Historical | https://montanaflynn.github.io/covid-19/data/current.csv
-
-### SQLite Format:
-
-The data is available in a [sqlite database](./data/covid.db) with the following tables:
+The data is also available in a [sqlite database](./data/covid.db) with the following tables:
 
 Table | Schema URL
 ------|--------
@@ -44,9 +34,10 @@ The JSON files [current.json](https://raw.githubusercontent.com/montanaflynn/cov
 
 The website maps and tables are rendered in the browser using [map.js](https://github.com/montanaflynn/covid-19/blob/master/assets/map.js).
 
-## Screenshot
+## Screenshots
 
 [![](https://i.imgur.com/z370DBE.png)](https://montanaflynn.github.io/covid-19/)
+[![](https://i.imgur.com/c4AHfNb.png)](https://montanaflynn.github.io/covid-19/historical.html)
 
 ## TODO
 

@@ -517,9 +517,9 @@
     "Hessen": {
       "updated": 1588593600000,
       "confirmed": 8549,
-      "recovered": 6400,
+      "recovered": 6800,
       "deaths": 372,
-      "active": 1777,
+      "active": 1377,
       "population": 6176000,
       "longitude": 9.217535,
       "latitude": 50.758489
@@ -545,7 +545,7 @@
       "latitude": 52.518203
     },
     "Nordrhein-Westfalen": {
-      "updated": 1588575600000,
+      "updated": 1588591800000,
       "confirmed": 33560,
       "recovered": 25840,
       "deaths": 1290,
@@ -575,21 +575,21 @@
       "latitude": 49.41788
     },
     "Sachsen": {
-      "updated": 1588507200000,
-      "confirmed": 4731,
-      "recovered": 4100,
-      "deaths": 167,
-      "active": 464,
+      "updated": 1588593600000,
+      "confirmed": 4749,
+      "recovered": 4150,
+      "deaths": 169,
+      "active": 430,
       "population": 4085000,
       "longitude": 13.349228,
       "latitude": 51.022904
     },
     "Sachsen-Anhalt": {
-      "updated": 1588422600000,
-      "confirmed": 1577,
-      "recovered": 1200,
-      "deaths": 44,
-      "active": 333,
+      "updated": 1588507200000,
+      "confirmed": 1579,
+      "recovered": 1219,
+      "deaths": 45,
+      "active": 315,
       "population": 2245000,
       "longitude": 11.68063,
       "latitude": 51.926892
@@ -616,10 +616,10 @@
     },
     "weitere Fälle bundesweit": {
       "updated": 1588595520000,
-      "confirmed": 1655,
-      "recovered": 5125,
-      "deaths": 101,
-      "active": -3571
+      "confirmed": 1637,
+      "recovered": 4675,
+      "deaths": 99,
+      "active": -3137
     }
   },
   "global": {
@@ -3062,210 +3062,210 @@
   },
   "vietnam": {
     "Bình Thuận": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 9,
       "recovered": 8,
       "deaths": 0,
       "active": 1
     },
     "Bạc Liêu": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Bắc Giang": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 4,
       "recovered": 3,
       "deaths": 0,
       "active": 1
     },
     "Bắc Ninh": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Bến Tre": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Cần Thơ": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Hà Giang": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hà Nam": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 4,
       "recovered": 3,
       "deaths": 0,
       "active": 1
     },
     "Hà Nội": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 112,
       "recovered": 83,
       "deaths": 0,
       "active": 29
     },
     "Hà Tĩnh": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 4,
       "recovered": 3,
       "deaths": 0,
       "active": 1
     },
     "Hưng Yên": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hải Dương": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hồ Chí Minh": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 56,
       "recovered": 50,
       "deaths": 0,
       "active": 6
     },
     "Khánh Hòa": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Lai Châu": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Lào Cai": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Ninh Bình": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 13,
       "recovered": 13,
       "deaths": 0,
       "active": 0
     },
     "Ninh Thuận": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Quảng Nam": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Quảng Ninh": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 7,
       "recovered": 5,
       "deaths": 0,
       "active": 2
     },
     "Thanh Hóa": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 3,
       "recovered": 2,
       "deaths": 0,
       "active": 1
     },
     "Thái Bình": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0,
       "active": 2
     },
     "Thái Nguyên": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0,
       "active": 1
     },
     "Thừa Thiên - Huế": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Trà Vinh": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Tây Ninh": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Vĩnh Phúc": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 19,
       "recovered": 14,
       "deaths": 0,
       "active": 5
     },
     "Đà Nẵng": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 6,
       "recovered": 6,
       "deaths": 0,
       "active": 0
     },
     "Đồng Nai": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Đồng Tháp": {
-      "updated": 1588596613000,
+      "updated": 1588597747000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,

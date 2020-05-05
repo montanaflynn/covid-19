@@ -695,7 +695,7 @@ au,null,Australien,null,Australia,null,135,-25,25677680,20200501,0,1588368751000
 au,null,Australien,null,Australia,null,135,-25,25677680,20200502,0,1588455152000,6781,5796,93
 au,null,Australien,null,Australia,null,135,-25,25677680,20200503,0,1588541549000,6799,5817,95
 au,null,Australien,null,Australia,null,135,-25,25677680,20200504,0,1588627952000,6823,5863,96
-au,null,Australien,null,Australia,null,135,-25,25677680,20200505,0,1588660350000,6849,5888,96
+au,null,Australien,null,Australia,null,135,-25,25677680,20200505,0,1588663951000,6849,5890,97
 au.act,au,Australisches Hauptstadtterritorium,Australien,Australian Capital Territory,Australia,149.0124,-35.4735,358894,20200313,1,1584054000000,1,0,0
 au.act,au,Australisches Hauptstadtterritorium,Australien,Australian Capital Territory,Australia,149.0124,-35.4735,358894,20200314,1,1584150783000,1,0,0
 au.act,au,Australisches Hauptstadtterritorium,Australien,Australian Capital Territory,Australia,149.0124,-35.4735,358894,20200315,1,1584150783000,1,0,0
@@ -849,7 +849,7 @@ au.nsw,au,New South Wales,Australien,New South Wales,Australia,151.2093,-33.8688
 au.nsw,au,New South Wales,Australien,New South Wales,Australia,151.2093,-33.8688,7238819,20200502,1,1588455152000,3031,2300,41
 au.nsw,au,New South Wales,Australien,New South Wales,Australia,151.2093,-33.8688,7238819,20200503,1,1588541549000,3035,2306,42
 au.nsw,au,New South Wales,Australien,New South Wales,Australia,151.2093,-33.8688,7238819,20200504,1,1588627952000,3033,2328,43
-au.nsw,au,New South Wales,Australien,New South Wales,Australia,151.2093,-33.8688,7238819,20200505,1,1588660350000,3035,2349,43
+au.nsw,au,New South Wales,Australien,New South Wales,Australia,151.2093,-33.8688,7238819,20200505,1,1588663951000,3035,2349,44
 au.nt,au,Northern Territory,Australien,Northern Territory,Australia,130.8456,-12.4634,229675,20200304,1,1583350982000,1,0,0
 au.nt,au,Northern Territory,Australien,Northern Territory,Australia,130.8456,-12.4634,229675,20200305,1,1583362800000,1,0,0
 au.nt,au,Northern Territory,Australien,Northern Territory,Australia,130.8456,-12.4634,229675,20200306,1,1583362800000,1,0,0
@@ -1170,7 +1170,7 @@ au.tas,au,Tasmania,Australien,Tasmania,Australia,147.3272,-42.8821,507626,202005
 au.tas,au,Tasmania,Australien,Tasmania,Australia,147.3272,-42.8821,507626,20200502,1,1588455152000,221,157,13
 au.tas,au,Tasmania,Australien,Tasmania,Australia,147.3272,-42.8821,507626,20200503,1,1588541549000,221,158,13
 au.tas,au,Tasmania,Australien,Tasmania,Australia,147.3272,-42.8821,507626,20200504,1,1588627952000,221,164,13
-au.tas,au,Tasmania,Australien,Tasmania,Australia,147.3272,-42.8821,507626,20200505,1,1588660350000,223,162,13
+au.tas,au,Tasmania,Australien,Tasmania,Australia,147.3272,-42.8821,507626,20200505,1,1588663951000,223,164,13
 au.vic,au,Victoria,Australien,Victoria,Australia,144.9631,-37.8136,5547527,20200127,1,1580079600000,1,0,0
 au.vic,au,Victoria,Australien,Victoria,Australia,144.9631,-37.8136,5547527,20200128,1,1580252400000,1,0,0
 au.vic,au,Victoria,Australien,Victoria,Australia,144.9631,-37.8136,5547527,20200129,1,1580326200000,1,0,0
@@ -2071,7 +2071,7 @@ bn,null,Brunei,null,Brunei,null,114.7277,4.5353,442400,20200501,"0,1",1588368751
 bn,null,Brunei,null,Brunei,null,114.7277,4.5353,442400,20200502,"0,1",1588455152000,138,126,1
 bn,null,Brunei,null,Brunei,null,114.7277,4.5353,442400,20200503,"0,1",1588541549000,138,128,1
 bn,null,Brunei,null,Brunei,null,114.7277,4.5353,442400,20200504,"0,1",1588627952000,138,130,1
-bn,null,Brunei,null,Brunei,null,114.7277,4.5353,442400,20200505,"0,1",1588660350000,138,130,1
+bn,null,Brunei,null,Brunei,null,114.7277,4.5353,442400,20200505,"0,1",1588663951000,138,131,1
 bo,null,Bolivien,null,Bolivia,null,-63.5887,-16.2902,11469896,20200311,"0,1",1583952723000,2,0,0
 bo,null,Bolivien,null,Bolivia,null,-63.5887,-16.2902,11469896,20200312,"0,1",1583967600000,2,0,0
 bo,null,Bolivien,null,Bolivia,null,-63.5887,-16.2902,11469896,20200313,"0,1",1584138122000,2,0,0
@@ -7267,7 +7267,7 @@ cz,null,Tschechien,null,Czechia,null,15.473,49.8175,10693939,20200501,"0,1",1588
 cz,null,Tschechien,null,Czechia,null,15.473,49.8175,10693939,20200502,"0,1",1588455152000,7750,3446,245
 cz,null,Tschechien,null,Czechia,null,15.473,49.8175,10693939,20200503,"0,1",1588541549000,7764,3584,245
 cz,null,Tschechien,null,Czechia,null,15.473,49.8175,10693939,20200504,"0,1",1588627952000,7799,3786,251
-cz,null,Tschechien,null,Czechia,null,15.473,49.8175,10693939,20200505,"0,1",1588660350000,7819,3807,252
+cz,null,Tschechien,null,Czechia,null,15.473,49.8175,10693939,20200505,"0,1",1588663951000,7841,3816,252
 de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200127,0,1580122800000,1,0,0
 de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200128,0,1580209200000,4,0,0
 de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200129,0,1580288400000,4,0,0
@@ -10159,7 +10159,7 @@ ge,null,Georgien,null,Georgia,null,43.3569,42.3154,3723464,20200501,"0,1",158836
 ge,null,Georgien,null,Georgia,null,43.3569,42.3154,3723464,20200502,"0,1",1588455152000,582,207,8
 ge,null,Georgien,null,Georgia,null,43.3569,42.3154,3723464,20200503,"0,1",1588541549000,589,221,9
 ge,null,Georgien,null,Georgia,null,43.3569,42.3154,3723464,20200504,"0,1",1588627952000,593,223,9
-ge,null,Georgien,null,Georgia,null,43.3569,42.3154,3723464,20200505,"0,1",1588660350000,593,223,9
+ge,null,Georgien,null,Georgia,null,43.3569,42.3154,3723464,20200505,"0,1",1588663951000,604,240,9
 gf,null,Französisch-Guyana,Frankreich,French Guiana,France,-53,4,290691,20200307,"0,1",1583551385000,5,0,0
 gf,null,Französisch-Guyana,Frankreich,French Guiana,France,-53,4,290691,20200308,"0,1",1583622000000,5,0,0
 gf,null,Französisch-Guyana,Frankreich,French Guiana,France,-53,4,290691,20200309,"0,1",1583708400000,5,0,0
@@ -13012,7 +13012,7 @@ lt,null,Litauen,null,Lithuania,null,23.8813,55.1694,2793471,20200501,"0,1",15883
 lt,null,Litauen,null,Lithuania,null,23.8813,55.1694,2793471,20200502,"0,1",1588455152000,1406,632,46
 lt,null,Litauen,null,Lithuania,null,23.8813,55.1694,2793471,20200503,"0,1",1588541549000,1410,635,46
 lt,null,Litauen,null,Lithuania,null,23.8813,55.1694,2793471,20200504,"0,1",1588627952000,1419,638,46
-lt,null,Litauen,null,Lithuania,null,23.8813,55.1694,2793471,20200505,"0,1",1588660350000,1419,638,46
+lt,null,Litauen,null,Lithuania,null,23.8813,55.1694,2793471,20200505,"0,1",1588663951000,1423,678,46
 lu,null,Luxemburg,null,Luxembourg,null,6.1296,49.8153,626108,20200229,"0,1",1583010185000,1,0,0
 lu,null,Luxemburg,null,Luxembourg,null,6.1296,49.8153,626108,20200301,"0,1",1583046787000,1,0,0
 lu,null,Luxemburg,null,Luxembourg,null,6.1296,49.8153,626108,20200302,"0,1",1583103600000,1,0,0
@@ -13144,7 +13144,7 @@ lv,null,Lettland,null,Latvia,null,24.6032,56.8796,1906800,20200501,"0,1",1588368
 lv,null,Lettland,null,Latvia,null,24.6032,56.8796,1906800,20200502,"0,1",1588455152000,871,348,16
 lv,null,Lettland,null,Latvia,null,24.6032,56.8796,1906800,20200503,"0,1",1588541549000,879,348,16
 lv,null,Lettland,null,Latvia,null,24.6032,56.8796,1906800,20200504,"0,1",1588627952000,896,348,16
-lv,null,Lettland,null,Latvia,null,24.6032,56.8796,1906800,20200505,"0,1",1588660350000,896,348,16
+lv,null,Lettland,null,Latvia,null,24.6032,56.8796,1906800,20200505,"0,1",1588663951000,896,348,17
 ma,null,Marokko,null,Morocco,null,-7.0926,31.7917,35868274,20200302,"0,1",1583188389000,1,0,0
 ma,null,Marokko,null,Morocco,null,-7.0926,31.7917,35868274,20200303,"0,1",1583249582000,1,0,0
 ma,null,Marokko,null,Morocco,null,-7.0926,31.7917,35868274,20200304,"0,1",1583276400000,1,0,0
@@ -17585,7 +17585,7 @@ ua,null,Ukraine,null,Ukraine,null,31.1656,48.3794,41879904,20200501,"0,1",158836
 ua,null,Ukraine,null,Ukraine,null,31.1656,48.3794,41879904,20200502,"0,1",1588455152000,11411,1498,279
 ua,null,Ukraine,null,Ukraine,null,31.1656,48.3794,41879904,20200503,"0,1",1588541549000,11913,1548,288
 ua,null,Ukraine,null,Ukraine,null,31.1656,48.3794,41879904,20200504,"0,1",1588627952000,12331,1619,303
-ua,null,Ukraine,null,Ukraine,null,31.1656,48.3794,41879904,20200505,"0,1",1588660350000,12331,1619,303
+ua,null,Ukraine,null,Ukraine,null,31.1656,48.3794,41879904,20200505,"0,1",1588663951000,12697,1875,316
 ug,null,Uganda,null,Uganda,null,32.290275,1.373333,40299300,20200321,"0,1",1584834182000,1,0,0
 ug,null,Uganda,null,Uganda,null,32.290275,1.373333,40299300,20200322,"0,1",1584841383000,1,0,0
 ug,null,Uganda,null,Uganda,null,32.290275,1.373333,40299300,20200323,"0,1",1585001577000,9,0,0

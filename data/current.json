@@ -457,19 +457,19 @@
     "Baden-Württemberg": {
       "updated": 1588662000000,
       "confirmed": 32482,
-      "recovered": 25238,
+      "recovered": 25800,
       "deaths": 1453,
-      "active": 5791,
+      "active": 5229,
       "population": 10880000,
       "longitude": 9.147687,
       "latitude": 48.606091
     },
     "Bayern": {
-      "updated": 1588593600000,
+      "updated": 1588662000000,
       "confirmed": 43407,
-      "recovered": 34610,
+      "recovered": 35300,
       "deaths": 1950,
-      "active": 6847,
+      "active": 6157,
       "population": 12844000,
       "longitude": 11.658165,
       "latitude": 48.768814
@@ -477,9 +477,9 @@
     "Berlin": {
       "updated": 1588662000000,
       "confirmed": 6042,
-      "recovered": 5154,
+      "recovered": 5200,
       "deaths": 154,
-      "active": 734,
+      "active": 688,
       "population": 3520000,
       "longitude": 13.40732,
       "latitude": 52.52045
@@ -487,9 +487,9 @@
     "Brandenburg": {
       "updated": 1588581000000,
       "confirmed": 2999,
-      "recovered": 2240,
+      "recovered": 2400,
       "deaths": 151,
-      "active": 608,
+      "active": 448,
       "population": 2485000,
       "longitude": 14.124409,
       "latitude": 52.073056
@@ -497,9 +497,9 @@
     "Bremen": {
       "updated": 1588662000000,
       "confirmed": 895,
-      "recovered": 500,
+      "recovered": 600,
       "deaths": 32,
-      "active": 363,
+      "active": 263,
       "population": 671000,
       "longitude": 8.731851,
       "latitude": 53.029599
@@ -507,9 +507,9 @@
     "Hamburg": {
       "updated": 1588662000000,
       "confirmed": 4843,
-      "recovered": 3800,
+      "recovered": 3900,
       "deaths": 172,
-      "active": 871,
+      "active": 771,
       "population": 1787000,
       "longitude": 10.007046,
       "latitude": 53.576158
@@ -517,9 +517,9 @@
     "Hessen": {
       "updated": 1588662000000,
       "confirmed": 8585,
-      "recovered": 6800,
+      "recovered": 7000,
       "deaths": 381,
-      "active": 1404,
+      "active": 1204,
       "population": 6176000,
       "longitude": 9.217535,
       "latitude": 50.758489
@@ -527,9 +527,9 @@
     "Mecklenburg-Vorpommern": {
       "updated": 1588662000000,
       "confirmed": 703,
-      "recovered": 579,
+      "recovered": 600,
       "deaths": 19,
-      "active": 105,
+      "active": 84,
       "population": 1612000,
       "longitude": 12.708563,
       "latitude": 53.810625
@@ -537,9 +537,9 @@
     "Niedersachsen": {
       "updated": 1588593600000,
       "confirmed": 10425,
-      "recovered": 7973,
+      "recovered": 8600,
       "deaths": 468,
-      "active": 1984,
+      "active": 1357,
       "population": 7927000,
       "longitude": 9.944255,
       "latitude": 52.518203
@@ -547,9 +547,9 @@
     "Nordrhein-Westfalen": {
       "updated": 1588662000000,
       "confirmed": 33728,
-      "recovered": 25840,
+      "recovered": 28600,
       "deaths": 1332,
-      "active": 6556,
+      "active": 3796,
       "population": 17866000,
       "longitude": 7.385313,
       "latitude": 51.510157
@@ -557,9 +557,9 @@
     "Rheinland-Pfalz": {
       "updated": 1588662000000,
       "confirmed": 6160,
-      "recovered": 5134,
+      "recovered": 5300,
       "deaths": 182,
-      "active": 844,
+      "active": 678,
       "population": 4053000,
       "longitude": 7.269307,
       "latitude": 50.104033
@@ -567,9 +567,9 @@
     "Saarland": {
       "updated": 1588662000000,
       "confirmed": 2618,
-      "recovered": 2082,
+      "recovered": 2200,
       "deaths": 141,
-      "active": 395,
+      "active": 277,
       "population": 996000,
       "longitude": 6.961042,
       "latitude": 49.41788
@@ -587,9 +587,9 @@
     "Sachsen-Anhalt": {
       "updated": 1588602600000,
       "confirmed": 1587,
-      "recovered": 1232,
+      "recovered": 1400,
       "deaths": 46,
-      "active": 309,
+      "active": 141,
       "population": 2245000,
       "longitude": 11.68063,
       "latitude": 51.926892
@@ -597,9 +597,9 @@
     "Schleswig-Holstein": {
       "updated": 1588662000000,
       "confirmed": 2799,
-      "recovered": 2200,
+      "recovered": 2300,
       "deaths": 118,
-      "active": 481,
+      "active": 381,
       "population": 2859000,
       "longitude": 9.713017,
       "latitude": 54.1882542
@@ -617,9 +617,9 @@
     "weitere Fälle bundesweit": {
       "updated": 1588660320000,
       "confirmed": 1738,
-      "recovered": 5768,
+      "recovered": 0,
       "deaths": 124,
-      "active": -4154
+      "active": 1614
     }
   },
   "global": {
@@ -1266,9 +1266,9 @@
     "Germany": {
       "updated": 1588662000000,
       "confirmed": 166152,
-      "recovered": 135100,
+      "recovered": 135150,
       "deaths": 6993,
-      "active": 24059,
+      "active": 24009,
       "population": 83149300,
       "longitude": 9.9,
       "latitude": 51
@@ -3062,210 +3062,210 @@
   },
   "vietnam": {
     "Bình Thuận": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 9,
       "recovered": 8,
       "deaths": 0,
       "active": 1
     },
     "Bạc Liêu": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Bắc Giang": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 4,
       "recovered": 3,
       "deaths": 0,
       "active": 1
     },
     "Bắc Ninh": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Bến Tre": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Cần Thơ": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Hà Giang": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hà Nam": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 4,
       "recovered": 3,
       "deaths": 0,
       "active": 1
     },
     "Hà Nội": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 112,
       "recovered": 92,
       "deaths": 0,
       "active": 20
     },
     "Hà Tĩnh": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 4,
       "recovered": 3,
       "deaths": 0,
       "active": 1
     },
     "Hưng Yên": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hải Dương": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hồ Chí Minh": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 56,
       "recovered": 50,
       "deaths": 0,
       "active": 6
     },
     "Khánh Hòa": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Lai Châu": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Lào Cai": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Ninh Bình": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 13,
       "recovered": 13,
       "deaths": 0,
       "active": 0
     },
     "Ninh Thuận": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Quảng Nam": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Quảng Ninh": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 7,
       "recovered": 5,
       "deaths": 0,
       "active": 2
     },
     "Thanh Hóa": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 3,
       "recovered": 2,
       "deaths": 0,
       "active": 1
     },
     "Thái Bình": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 2,
       "recovered": 0,
       "deaths": 0,
       "active": 2
     },
     "Thái Nguyên": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 0,
       "deaths": 0,
       "active": 1
     },
     "Thừa Thiên - Huế": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Trà Vinh": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Tây Ninh": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Vĩnh Phúc": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 19,
       "recovered": 16,
       "deaths": 0,
       "active": 3
     },
     "Đà Nẵng": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 6,
       "recovered": 6,
       "deaths": 0,
       "active": 0
     },
     "Đồng Nai": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Đồng Tháp": {
-      "updated": 1588663211000,
+      "updated": 1588664102000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,

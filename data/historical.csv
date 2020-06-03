@@ -10093,7 +10093,7 @@ de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200530,0,1590874320000,1
 de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200531,0,1590957180000,183410,165352,8540
 de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200601,0,1591045200000,183594,165632,8555
 de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200602,0,1591133580000,183879,166609,8563
-de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200603,0,1591184700000,184097,167410,8576
+de,null,Deutschland,null,Germany,null,9.9,51,83149300,20200603,0,1591185600000,184097,167420,8587
 de.bb,de,Brandenburg,Deutschland,Brandenburg,Germany,14.124409,52.073056,2485000,20200127,1,1580122800000,0,0,0
 de.bb,de,Brandenburg,Deutschland,Brandenburg,Germany,14.124409,52.073056,2485000,20200128,1,1580209200000,0,0,0
 de.bb,de,Brandenburg,Deutschland,Brandenburg,Germany,14.124409,52.073056,2485000,20200129,1,1580288400000,0,0,0
@@ -10609,7 +10609,7 @@ de.by,de,Bayern,Deutschland,Bavaria,Germany,11.658165,48.768814,12844000,2020053
 de.by,de,Bayern,Deutschland,Bavaria,Germany,11.658165,48.768814,12844000,20200531,1,1590928200000,47178,42920,2466
 de.by,de,Bayern,Deutschland,Bavaria,Germany,11.658165,48.768814,12844000,20200601,1,1590998400000,47269,42920,2468
 de.by,de,Bayern,Deutschland,Bavaria,Germany,11.658165,48.768814,12844000,20200602,1,1591099200000,47298,43140,2472
-de.by,de,Bayern,Deutschland,Bavaria,Germany,11.658165,48.768814,12844000,20200603,1,1591099200000,47298,43300,2472
+de.by,de,Bayern,Deutschland,Bavaria,Germany,11.658165,48.768814,12844000,20200603,1,1591185600000,47345,43310,2479
 de.hb,de,Bremen,Deutschland,Bremen,Germany,8.731851,53.029599,671000,20200127,1,1580122800000,0,0,0
 de.hb,de,Bremen,Deutschland,Bremen,Germany,8.731851,53.029599,671000,20200128,1,1580209200000,0,0,0
 de.hb,de,Bremen,Deutschland,Bremen,Germany,8.731851,53.029599,671000,20200129,1,1580288400000,0,0,0
@@ -11254,7 +11254,7 @@ de.nd,de,Niedersachsen,Deutschland,Lower Saxony,Germany,9.944255,52.518203,79270
 de.nd,de,Niedersachsen,Deutschland,Lower Saxony,Germany,9.944255,52.518203,7927000,20200531,1,1590928200000,11999,10600,596
 de.nd,de,Niedersachsen,Deutschland,Lower Saxony,Germany,9.944255,52.518203,7927000,20200601,1,1591009200000,12043,10700,597
 de.nd,de,Niedersachsen,Deutschland,Lower Saxony,Germany,9.944255,52.518203,7927000,20200602,1,1591097400000,12069,10700,599
-de.nd,de,Niedersachsen,Deutschland,Lower Saxony,Germany,9.944255,52.518203,7927000,20200603,1,1591167600000,12114,10800,599
+de.nd,de,Niedersachsen,Deutschland,Lower Saxony,Germany,9.944255,52.518203,7927000,20200603,1,1591185600000,12137,10800,604
 de.nw,de,Nordrhein-Westfalen,Deutschland,North Rhine-Westphalia,Germany,7.385313,51.510157,17866000,20200127,1,1580122800000,0,0,0
 de.nw,de,Nordrhein-Westfalen,Deutschland,North Rhine-Westphalia,Germany,7.385313,51.510157,17866000,20200128,1,1580209200000,0,0,0
 de.nw,de,Nordrhein-Westfalen,Deutschland,North Rhine-Westphalia,Germany,7.385313,51.510157,17866000,20200129,1,1580288400000,0,0,0
@@ -12157,7 +12157,7 @@ de.th,de,Thüringen,Deutschland,Thuringia,Germany,11.004142,50.894378,2171000,20
 de.th,de,Thüringen,Deutschland,Thuringia,Germany,11.004142,50.894378,2171000,20200531,1,1590922800000,2986,2590,162
 de.th,de,Thüringen,Deutschland,Thuringia,Germany,11.004142,50.894378,2171000,20200601,1,1591005600000,3015,2610,162
 de.th,de,Thüringen,Deutschland,Thuringia,Germany,11.004142,50.894378,2171000,20200602,1,1591093800000,3020,2630,163
-de.th,de,Thüringen,Deutschland,Thuringia,Germany,11.004142,50.894378,2171000,20200603,1,1591167600000,3024,2660,166
+de.th,de,Thüringen,Deutschland,Thuringia,Germany,11.004142,50.894378,2171000,20200603,1,1591183800000,3024,2660,166
 dj,null,Dschibuti,null,Djibouti,null,42.5903,11.8251,1078373,20200318,"0,1",1584534783000,1,0,0
 dj,null,Dschibuti,null,Djibouti,null,42.5903,11.8251,1078373,20200319,"0,1",1584629586000,1,0,0
 dj,null,Dschibuti,null,Djibouti,null,42.5903,11.8251,1078373,20200320,"0,1",1584629586000,1,0,0
@@ -32539,7 +32539,7 @@ de.xx,de,weitere Fälle bundesweit,Deutschland,other cases in Germany,Germany,nu
 de.xx,de,weitere Fälle bundesweit,Deutschland,other cases in Germany,Germany,null,null,null,20200531,1,1590957180000,1575,0,0
 de.xx,de,weitere Fälle bundesweit,Deutschland,other cases in Germany,Germany,null,null,null,20200601,1,1591045200000,1455,0,0
 de.xx,de,weitere Fälle bundesweit,Deutschland,other cases in Germany,Germany,null,null,null,20200602,1,1591133580000,1514,0,1
-de.xx,de,weitere Fälle bundesweit,Deutschland,other cases in Germany,Germany,null,null,null,20200603,1,1591183980000,1545,0,1
+de.xx,de,weitere Fälle bundesweit,Deutschland,other cases in Germany,Germany,null,null,null,20200603,1,1591183980000,1475,0,0
 mm,null,Myanmar,null,Myanmar,null,95.45,21.1,54339766,20200327,"0,1",1585347279000,8,0,0
 mm,null,Myanmar,null,Myanmar,null,95.45,21.1,54339766,20200328,"0,1",1585432607000,8,0,0
 mm,null,Myanmar,null,Myanmar,null,95.45,21.1,54339766,20200329,"0,1",1585502685000,10,0,0

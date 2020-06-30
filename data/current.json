@@ -1,17 +1,17 @@
 {
   "canada": {
     "Alberta": {
-      "updated": 1593552847000,
-      "confirmed": 8067,
-      "recovered": 7354,
+      "updated": 1593556903000,
+      "confirmed": 8108,
+      "recovered": 7407,
       "deaths": 154,
-      "active": 559,
+      "active": 547,
       "population": 4286134,
       "longitude": -116.5765,
       "latitude": 53.9333
     },
     "British Columbia": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 2904,
       "recovered": 2577,
       "deaths": 174,
@@ -21,7 +21,7 @@
       "latitude": 53.7267
     },
     "Manitoba": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 325,
       "recovered": 300,
       "deaths": 7,
@@ -31,7 +31,7 @@
       "latitude": 53.7609
     },
     "New Brunswick": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 165,
       "recovered": 159,
       "deaths": 2,
@@ -41,7 +41,7 @@
       "latitude": 46.5653
     },
     "Newfoundland and Labrador": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 261,
       "recovered": 258,
       "deaths": 3,
@@ -51,7 +51,7 @@
       "latitude": 53.1355
     },
     "Northwest Territories": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 5,
       "recovered": 5,
       "deaths": 0,
@@ -61,7 +61,7 @@
       "latitude": 64.8255
     },
     "Nova Scotia": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 1062,
       "recovered": 998,
       "deaths": 63,
@@ -71,17 +71,17 @@
       "latitude": 44.682
     },
     "Ontario": {
-      "updated": 1593552847000,
-      "confirmed": 36908,
-      "recovered": 31828,
-      "deaths": 2726,
-      "active": 2354,
+      "updated": 1593556903000,
+      "confirmed": 36961,
+      "recovered": 31869,
+      "deaths": 2730,
+      "active": 2362,
       "population": 14193384,
       "longitude": -85.3232,
       "latitude": 51.2538
     },
     "Prince Edward Island": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 27,
       "recovered": 27,
       "deaths": 0,
@@ -91,7 +91,7 @@
       "latitude": 46.5107
     },
     "Québec": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 55458,
       "recovered": 24798,
       "deaths": 5503,
@@ -101,7 +101,7 @@
       "latitude": 52.9399
     },
     "Saskatchewan": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 785,
       "recovered": 684,
       "deaths": 13,
@@ -111,7 +111,7 @@
       "latitude": 52.9399
     },
     "Yukon": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 11,
       "recovered": 11,
       "deaths": 0,
@@ -123,7 +123,7 @@
   },
   "china": {
     "Anhui": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 991,
       "recovered": 985,
       "deaths": 6,
@@ -133,7 +133,7 @@
       "latitude": 31.8257
     },
     "Beijing": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 919,
       "recovered": 586,
       "deaths": 9,
@@ -143,7 +143,7 @@
       "latitude": 40.1824
     },
     "Chongqing": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 582,
       "recovered": 573,
       "deaths": 6,
@@ -153,7 +153,7 @@
       "latitude": 30.0571758751839
     },
     "Fujian": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 363,
       "recovered": 357,
       "deaths": 1,
@@ -163,7 +163,7 @@
       "latitude": 26.0789
     },
     "Gansu": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 164,
       "recovered": 143,
       "deaths": 2,
@@ -173,7 +173,7 @@
       "latitude": 37.8099
     },
     "Guangdong": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 1641,
       "recovered": 1627,
       "deaths": 8,
@@ -183,7 +183,7 @@
       "latitude": 23.3417
     },
     "Guangxi": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 254,
       "recovered": 252,
       "deaths": 2,
@@ -193,7 +193,7 @@
       "latitude": 23.8298
     },
     "Guizhou": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 147,
       "recovered": 145,
       "deaths": 2,
@@ -203,7 +203,7 @@
       "latitude": 26.8154
     },
     "Hainan": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 171,
       "recovered": 165,
       "deaths": 6,
@@ -213,7 +213,7 @@
       "latitude": 19.1959
     },
     "Hebei": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 349,
       "recovered": 334,
       "deaths": 6,
@@ -223,7 +223,7 @@
       "latitude": 39.549
     },
     "Heilongjiang": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 947,
       "recovered": 934,
       "deaths": 13,
@@ -233,7 +233,7 @@
       "latitude": 47.862
     },
     "Henan": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 1276,
       "recovered": 1254,
       "deaths": 22,
@@ -243,7 +243,7 @@
       "latitude": 33.882
     },
     "Hong Kong": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 1205,
       "recovered": 1107,
       "deaths": 7,
@@ -253,7 +253,7 @@
       "latitude": 22.3
     },
     "Hubei": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 68135,
       "recovered": 63623,
       "deaths": 4512,
@@ -263,7 +263,7 @@
       "latitude": 30.9756
     },
     "Hunan": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 1019,
       "recovered": 1015,
       "deaths": 4,
@@ -273,7 +273,7 @@
       "latitude": 27.6104
     },
     "Inner Mongolia": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 238,
       "recovered": 237,
       "deaths": 1,
@@ -283,7 +283,7 @@
       "latitude": 44.0935
     },
     "Jiangsu": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 654,
       "recovered": 654,
       "deaths": 0,
@@ -293,7 +293,7 @@
       "latitude": 32.9711
     },
     "Jiangxi": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 932,
       "recovered": 931,
       "deaths": 1,
@@ -303,7 +303,7 @@
       "latitude": 27.614
     },
     "Jilin": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 155,
       "recovered": 153,
       "deaths": 2,
@@ -313,7 +313,7 @@
       "latitude": 43.6661
     },
     "Liaoning": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 155,
       "recovered": 147,
       "deaths": 2,
@@ -323,7 +323,7 @@
       "latitude": 41.2956
     },
     "Macao": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 46,
       "recovered": 45,
       "deaths": 0,
@@ -333,7 +333,7 @@
       "latitude": 22.1667
     },
     "Ningxia": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 75,
       "recovered": 75,
       "deaths": 0,
@@ -343,7 +343,7 @@
       "latitude": 37.2692
     },
     "Qinghai": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 18,
       "recovered": 18,
       "deaths": 0,
@@ -353,7 +353,7 @@
       "latitude": 35.7452
     },
     "Shaanxi": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 320,
       "recovered": 308,
       "deaths": 3,
@@ -363,7 +363,7 @@
       "latitude": 35.1917
     },
     "Shandong": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 792,
       "recovered": 785,
       "deaths": 7,
@@ -373,7 +373,7 @@
       "latitude": 36.3427
     },
     "Shanghai": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 712,
       "recovered": 675,
       "deaths": 7,
@@ -383,7 +383,7 @@
       "latitude": 31.202
     },
     "Shanxi": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 198,
       "recovered": 198,
       "deaths": 0,
@@ -393,7 +393,7 @@
       "latitude": 37.5777
     },
     "Sichuan": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 595,
       "recovered": 578,
       "deaths": 3,
@@ -403,7 +403,7 @@
       "latitude": 30.6171
     },
     "Tianjin": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 198,
       "recovered": 194,
       "deaths": 3,
@@ -413,7 +413,7 @@
       "latitude": 39.3054
     },
     "Tibet": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
@@ -423,7 +423,7 @@
       "latitude": 31.6927
     },
     "Xinjiang Uygur": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 76,
       "recovered": 73,
       "deaths": 3,
@@ -433,7 +433,7 @@
       "latitude": 41.1129
     },
     "Yunnan": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 185,
       "recovered": 183,
       "deaths": 2,
@@ -443,7 +443,7 @@
       "latitude": 24.974
     },
     "Zhejiang": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 1269,
       "recovered": 1267,
       "deaths": 1,
@@ -615,7 +615,7 @@
       "latitude": 50.894378
     },
     "weitere Fälle bundesweit": {
-      "updated": 1593552840000,
+      "updated": 1593556860000,
       "confirmed": 1005,
       "recovered": 187,
       "deaths": 0,
@@ -704,7 +704,7 @@
       "latitude": 40.0691
     },
     "Australia": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 7834,
       "recovered": 7037,
       "deaths": 104,
@@ -924,11 +924,11 @@
       "latitude": 3.848
     },
     "Canada": {
-      "updated": 1593552847000,
-      "confirmed": 105978,
-      "recovered": 68999,
-      "deaths": 8645,
-      "active": 28334,
+      "updated": 1593556903000,
+      "confirmed": 106072,
+      "recovered": 69093,
+      "deaths": 8649,
+      "active": 28330,
       "population": 37993130,
       "longitude": -109,
       "latitude": 56
@@ -964,7 +964,7 @@
       "latitude": 15.4542
     },
     "Chile": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 279393,
       "recovered": 241229,
       "deaths": 5688,
@@ -974,7 +974,7 @@
       "latitude": -35.6751
     },
     "China": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 83531,
       "recovered": 78470,
       "deaths": 4634,
@@ -1194,7 +1194,7 @@
       "latitude": 9.145
     },
     "Falkland Islands (Malvinas)": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 13,
       "recovered": 13,
       "deaths": 0,
@@ -1264,7 +1264,7 @@
       "latitude": 42.3154
     },
     "Germany": {
-      "updated": 1593552840000,
+      "updated": 1593556860000,
       "confirmed": 195418,
       "recovered": 178100,
       "deaths": 8990,
@@ -1294,7 +1294,7 @@
       "latitude": 39.0742
     },
     "Greenland": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 13,
       "recovered": 13,
       "deaths": 0,
@@ -1454,7 +1454,7 @@
       "latitude": 31.046051
     },
     "Italy": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 240578,
       "recovered": 190248,
       "deaths": 34767,
@@ -1714,7 +1714,7 @@
       "latitude": -20.348404
     },
     "Mexico": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 220657,
       "recovered": 170147,
       "deaths": 27121,
@@ -2174,7 +2174,7 @@
       "latitude": 7
     },
     "Spain": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 249271,
       "recovered": 150376,
       "deaths": 28355,
@@ -2385,20 +2385,20 @@
     },
     "United Kingdom": {
       "updated": 1593556885000,
-      "confirmed": 312655,
-      "recovered": 2,
+      "confirmed": 312654,
+      "recovered": 0,
       "deaths": 43730,
-      "active": 268923,
+      "active": 268924,
       "population": 66435550,
       "longitude": -3.436,
       "latitude": 55.3781
     },
     "United States": {
-      "updated": 1593552847000,
-      "confirmed": 2615232,
-      "recovered": 704934,
-      "deaths": 127089,
-      "active": 1783209,
+      "updated": 1593556903000,
+      "confirmed": 2620106,
+      "recovered": 720360,
+      "deaths": 127117,
+      "active": 1772629,
       "population": 329624709,
       "longitude": -100,
       "latitude": 40
@@ -2496,7 +2496,7 @@
   },
   "usa": {
     "Alabama": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 38045,
       "recovered": 18866,
       "deaths": 950,
@@ -2506,17 +2506,17 @@
       "latitude": 32.3182
     },
     "Alaska": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 937,
-      "recovered": 525,
+      "recovered": 526,
       "deaths": 14,
-      "active": 398,
+      "active": 397,
       "population": 710231,
       "longitude": -152.404419,
       "latitude": 61.370716
     },
     "American Samoa": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 0,
       "recovered": 0,
       "deaths": 0,
@@ -2526,37 +2526,37 @@
       "latitude": -14.271
     },
     "American Virgin Islands": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 81,
-      "recovered": 71,
+      "recovered": 73,
       "deaths": 6,
-      "active": 4,
+      "active": 2,
       "population": 104578,
       "longitude": -64.8963,
       "latitude": 18.3358
     },
     "Arizona": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 79215,
-      "recovered": 9179,
+      "recovered": 9411,
       "deaths": 1641,
-      "active": 68395,
+      "active": 68163,
       "population": 6392017,
       "longitude": -111.431221,
       "latitude": 33.729759
     },
     "Arkansas": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 20777,
-      "recovered": 14066,
+      "recovered": 14531,
       "deaths": 270,
-      "active": 6441,
+      "active": 5976,
       "population": 2915918,
       "longitude": -92.373123,
       "latitude": 34.969704
     },
     "California": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 226851,
       "recovered": 0,
       "deaths": 6013,
@@ -2566,17 +2566,17 @@
       "latitude": 36.116203
     },
     "Colorado": {
-      "updated": 1593552847000,
-      "confirmed": 32494,
-      "recovered": 4459,
-      "deaths": 1681,
-      "active": 26354,
+      "updated": 1593556903000,
+      "confirmed": 32698,
+      "recovered": 4479,
+      "deaths": 1690,
+      "active": 26529,
       "population": 5029196,
       "longitude": -105.311104,
       "latitude": 39.059811
     },
     "Connecticut": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 46514,
       "recovered": 8053,
       "deaths": 4322,
@@ -2586,27 +2586,27 @@
       "latitude": 41.597782
     },
     "Delaware": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 11474,
-      "recovered": 6665,
+      "recovered": 6667,
       "deaths": 509,
-      "active": 4300,
+      "active": 4298,
       "population": 897934,
       "longitude": -75.507141,
       "latitude": 39.318523
     },
     "District of Columbia": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 10327,
-      "recovered": 1200,
+      "recovered": 1270,
       "deaths": 551,
-      "active": 8576,
+      "active": 8506,
       "population": 601723,
       "longitude": -77.026817,
       "latitude": 38.897438
     },
     "Florida": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 152434,
       "recovered": 0,
       "deaths": 3505,
@@ -2616,7 +2616,7 @@
       "latitude": 27.766279
     },
     "Georgia": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 81886,
       "recovered": 0,
       "deaths": 2806,
@@ -2626,7 +2626,7 @@
       "latitude": 33.040619
     },
     "Guam": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 257,
       "recovered": 179,
       "deaths": 5,
@@ -2636,27 +2636,27 @@
       "latitude": 13.4443
     },
     "Hawaii": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 900,
-      "recovered": 719,
+      "recovered": 722,
       "deaths": 18,
-      "active": 163,
+      "active": 160,
       "population": 1360301,
       "longitude": -157.498337,
       "latitude": 21.094318
     },
     "Idaho": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 5752,
-      "recovered": 3898,
+      "recovered": 4073,
       "deaths": 91,
-      "active": 1763,
+      "active": 1588,
       "population": 1567582,
       "longitude": -114.478828,
       "latitude": 44.240459
     },
     "Illinois": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 143185,
       "recovered": 0,
       "deaths": 6923,
@@ -2666,47 +2666,47 @@
       "latitude": 40.349457
     },
     "Indiana": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 45594,
-      "recovered": 34348,
+      "recovered": 34646,
       "deaths": 2640,
-      "active": 8606,
+      "active": 8308,
       "population": 6483802,
       "longitude": -86.258278,
       "latitude": 39.849426
     },
     "Iowa": {
-      "updated": 1593552847000,
-      "confirmed": 29007,
-      "recovered": 17851,
+      "updated": 1593556903000,
+      "confirmed": 29009,
+      "recovered": 23212,
       "deaths": 715,
-      "active": 10441,
+      "active": 5082,
       "population": 3046355,
       "longitude": -93.210526,
       "latitude": 42.011539
     },
     "Kansas": {
-      "updated": 1593552847000,
-      "confirmed": 14319,
+      "updated": 1593556903000,
+      "confirmed": 14370,
       "recovered": 794,
       "deaths": 273,
-      "active": 13252,
+      "active": 13303,
       "population": 2853118,
       "longitude": -96.726486,
       "latitude": 38.5266
     },
     "Kentucky": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 15624,
-      "recovered": 3939,
+      "recovered": 3990,
       "deaths": 565,
-      "active": 11120,
+      "active": 11069,
       "population": 4339367,
       "longitude": -84.670067,
       "latitude": 37.66814
     },
     "Louisiana": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 58104,
       "recovered": 42225,
       "deaths": 3221,
@@ -2716,27 +2716,27 @@
       "latitude": 31.169546
     },
     "Maine": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 3253,
-      "recovered": 2623,
+      "recovered": 2646,
       "deaths": 105,
-      "active": 525,
+      "active": 502,
       "population": 1328361,
       "longitude": -69.381927,
       "latitude": 44.693947
     },
     "Maryland": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 67559,
-      "recovered": 4979,
+      "recovered": 4982,
       "deaths": 3190,
-      "active": 59390,
+      "active": 59387,
       "population": 5773552,
       "longitude": -76.802101,
       "latitude": 39.063946
     },
     "Massachusetts": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 108882,
       "recovered": 0,
       "deaths": 8053,
@@ -2746,7 +2746,7 @@
       "latitude": 42.230171
     },
     "Michigan": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 70728,
       "recovered": 51099,
       "deaths": 6193,
@@ -2756,17 +2756,17 @@
       "latitude": 43.326618
     },
     "Minnesota": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 36303,
-      "recovered": 31225,
+      "recovered": 31601,
       "deaths": 1476,
-      "active": 3602,
+      "active": 3226,
       "population": 5303925,
       "longitude": -93.900192,
       "latitude": 45.694454
     },
     "Mississippi": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 27247,
       "recovered": 19388,
       "deaths": 1073,
@@ -2776,7 +2776,7 @@
       "latitude": 32.741646
     },
     "Missouri": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 20961,
       "recovered": 0,
       "deaths": 1004,
@@ -2786,27 +2786,27 @@
       "latitude": 38.456085
     },
     "Montana": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 967,
-      "recovered": 609,
+      "recovered": 642,
       "deaths": 22,
-      "active": 336,
+      "active": 303,
       "population": 989415,
       "longitude": -110.454353,
       "latitude": 46.921925
     },
     "Nebraska": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 19042,
-      "recovered": 13322,
+      "recovered": 13547,
       "deaths": 269,
-      "active": 5451,
+      "active": 5226,
       "population": 1826341,
       "longitude": -98.268082,
       "latitude": 41.12537
     },
     "Nevada": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 18456,
       "recovered": 689,
       "deaths": 507,
@@ -2816,7 +2816,7 @@
       "latitude": 38.313515
     },
     "New Hampshire": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 5760,
       "recovered": 4435,
       "deaths": 367,
@@ -2826,37 +2826,37 @@
       "latitude": 43.452492
     },
     "New Jersey": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 171667,
-      "recovered": 30163,
+      "recovered": 30213,
       "deaths": 15035,
-      "active": 126469,
+      "active": 126419,
       "population": 8791894,
       "longitude": -74.521011,
       "latitude": 40.298904
     },
     "New Mexico": {
-      "updated": 1593552847000,
-      "confirmed": 11982,
-      "recovered": 5264,
-      "deaths": 493,
-      "active": 6225,
+      "updated": 1593556903000,
+      "confirmed": 12147,
+      "recovered": 5296,
+      "deaths": 497,
+      "active": 6354,
       "population": 2059179,
       "longitude": -106.248482,
       "latitude": 34.840515
     },
     "New York": {
-      "updated": 1593552847000,
-      "confirmed": 393544,
-      "recovered": 70435,
+      "updated": 1593556903000,
+      "confirmed": 393454,
+      "recovered": 70487,
       "deaths": 32032,
-      "active": 291077,
+      "active": 290935,
       "population": 19378102,
       "longitude": -74.948051,
       "latitude": 42.165726
     },
     "North Carolina": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 64802,
       "recovered": 45538,
       "deaths": 1369,
@@ -2866,17 +2866,17 @@
       "latitude": 35.630066
     },
     "North Dakota": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 3576,
-      "recovered": 3163,
+      "recovered": 3195,
       "deaths": 79,
-      "active": 334,
+      "active": 302,
       "population": 672591,
       "longitude": -99.784012,
       "latitude": 47.528912
     },
     "Northern Mariana Islands": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 30,
       "recovered": 19,
       "deaths": 2,
@@ -2886,7 +2886,7 @@
       "latitude": 15.0979
     },
     "Ohio": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 51789,
       "recovered": 0,
       "deaths": 2863,
@@ -2896,37 +2896,37 @@
       "latitude": 40.388783
     },
     "Oklahoma": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 13760,
-      "recovered": 9587,
+      "recovered": 10085,
       "deaths": 387,
-      "active": 3786,
+      "active": 3288,
       "population": 3751351,
       "longitude": -96.928917,
       "latitude": 35.565342
     },
     "Oregon": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 8656,
-      "recovered": 2700,
+      "recovered": 2722,
       "deaths": 207,
-      "active": 5749,
+      "active": 5727,
       "population": 3831074,
       "longitude": -122.070938,
       "latitude": 44.572021
     },
     "Pennsylvania": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 91139,
-      "recovered": 67070,
+      "recovered": 67552,
       "deaths": 6649,
-      "active": 17420,
+      "active": 16938,
       "population": 12702379,
       "longitude": -77.209755,
       "latitude": 40.590752
     },
     "Puerto Rico": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 7465,
       "recovered": 0,
       "deaths": 153,
@@ -2943,87 +2943,87 @@
       "active": -350135
     },
     "Rhode Island": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 16813,
-      "recovered": 1627,
+      "recovered": 1631,
       "deaths": 950,
-      "active": 14236,
+      "active": 14232,
       "population": 1052567,
       "longitude": -71.51178,
       "latitude": 41.680893
     },
     "South Carolina": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 36399,
-      "recovered": 13456,
+      "recovered": 15471,
       "deaths": 739,
-      "active": 22204,
+      "active": 20189,
       "population": 4625364,
       "longitude": -80.945007,
       "latitude": 33.856892
     },
     "South Dakota": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 6764,
-      "recovered": 5818,
+      "recovered": 5872,
       "deaths": 91,
-      "active": 855,
+      "active": 801,
       "population": 814180,
       "longitude": -99.438828,
       "latitude": 44.299782
     },
     "Tennessee": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 43509,
-      "recovered": 26962,
+      "recovered": 27599,
       "deaths": 604,
-      "active": 15943,
+      "active": 15306,
       "population": 6346105,
       "longitude": -86.692345,
       "latitude": 35.747845
     },
     "Texas": {
-      "updated": 1593552847000,
-      "confirmed": 156772,
-      "recovered": 81335,
-      "deaths": 2416,
-      "active": 73021,
+      "updated": 1593556903000,
+      "confirmed": 161261,
+      "recovered": 84818,
+      "deaths": 2431,
+      "active": 74012,
       "population": 25145561,
       "longitude": -97.563461,
       "latitude": 31.054487
     },
     "Utah": {
-      "updated": 1593552847000,
-      "confirmed": 22218,
-      "recovered": 12205,
+      "updated": 1593556903000,
+      "confirmed": 22217,
+      "recovered": 12398,
       "deaths": 172,
-      "active": 9841,
+      "active": 9647,
       "population": 2763885,
       "longitude": -111.862434,
       "latitude": 40.150032
     },
     "Vermont": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 1208,
-      "recovered": 949,
+      "recovered": 953,
       "deaths": 56,
-      "active": 203,
+      "active": 199,
       "population": 625741,
       "longitude": -72.710686,
       "latitude": 44.045876
     },
     "Virginia": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 62787,
-      "recovered": 8023,
+      "recovered": 8080,
       "deaths": 1763,
-      "active": 53001,
+      "active": 52944,
       "population": 8001024,
       "longitude": -78.169968,
       "latitude": 37.769337
     },
     "Washington": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 32253,
       "recovered": 0,
       "deaths": 1320,
@@ -3033,31 +3033,31 @@
       "latitude": 47.400902
     },
     "West Virginia": {
-      "updated": 1593552847000,
-      "confirmed": 2888,
-      "recovered": 2196,
+      "updated": 1593556903000,
+      "confirmed": 2905,
+      "recovered": 2272,
       "deaths": 93,
-      "active": 599,
+      "active": 540,
       "population": 1852994,
       "longitude": -80.954453,
       "latitude": 38.491226
     },
     "Wisconsin": {
-      "updated": 1593552847000,
+      "updated": 1593556903000,
       "confirmed": 28659,
-      "recovered": 22217,
+      "recovered": 22587,
       "deaths": 784,
-      "active": 5658,
+      "active": 5288,
       "population": 5686986,
       "longitude": -89.616508,
       "latitude": 44.268543
     },
     "Wyoming": {
-      "updated": 1593552847000,
-      "confirmed": 1450,
-      "recovered": 1070,
+      "updated": 1593556903000,
+      "confirmed": 1487,
+      "recovered": 1097,
       "deaths": 20,
-      "active": 360,
+      "active": 370,
       "population": 563626,
       "longitude": -107.30249,
       "latitude": 42.755966
@@ -3072,217 +3072,217 @@
   },
   "vietnam": {
     "Bà Rịa - Vũng Tàu": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 9,
       "recovered": 1,
       "deaths": 0,
       "active": 8
     },
     "Bình Thuận": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 9,
       "recovered": 9,
       "deaths": 0,
       "active": 0
     },
     "Bạc Liêu": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 21,
       "recovered": 21,
       "deaths": 0,
       "active": 0
     },
     "Bắc Giang": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,
       "active": 0
     },
     "Bắc Ninh": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Bến Tre": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Cần Thơ": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Hà Giang": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Hà Nam": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,
       "active": 0
     },
     "Hà Nội": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 121,
       "recovered": 117,
       "deaths": 0,
       "active": 4
     },
     "Hà Tĩnh": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,
       "active": 0
     },
     "Hưng Yên": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 5,
       "recovered": 3,
       "deaths": 0,
       "active": 2
     },
     "Hải Dương": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,
       "active": 0
     },
     "Hồ Chí Minh": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 62,
       "recovered": 59,
       "deaths": 0,
       "active": 3
     },
     "Khánh Hòa": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Lai Châu": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Lào Cai": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Ninh Bình": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 13,
       "recovered": 13,
       "deaths": 0,
       "active": 0
     },
     "Ninh Thuận": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Quảng Nam": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 5,
       "recovered": 3,
       "deaths": 0,
       "active": 2
     },
     "Quảng Ninh": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 9,
       "recovered": 9,
       "deaths": 0,
       "active": 0
     },
     "Thanh Hóa": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 3,
       "recovered": 3,
       "deaths": 0,
       "active": 0
     },
     "Thái Bình": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 30,
       "recovered": 30,
       "deaths": 0,
       "active": 0
     },
     "Thái Nguyên": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Thừa Thiên - Huế": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Trà Vinh": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 2,
       "recovered": 2,
       "deaths": 0,
       "active": 0
     },
     "Tây Ninh": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 4,
       "recovered": 4,
       "deaths": 0,
       "active": 0
     },
     "Vĩnh Phúc": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 19,
       "recovered": 19,
       "deaths": 0,
       "active": 0
     },
     "Đà Nẵng": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 6,
       "recovered": 6,
       "deaths": 0,
       "active": 0
     },
     "Đồng Nai": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 1,
       "recovered": 1,
       "deaths": 0,
       "active": 0
     },
     "Đồng Tháp": {
-      "updated": 1593558692000,
+      "updated": 1593559224000,
       "confirmed": 6,
       "recovered": 5,
       "deaths": 0,

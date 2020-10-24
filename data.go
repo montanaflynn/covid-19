@@ -10,9 +10,9 @@ import (
 
 var (
 	httpClient             = http.Client{}
-	baseURL                = "https://funkeinteraktiv.b-cdn.net"
-	currentDataEndpoint    = "/current.v4.csv"
-	historicalDataEndpoint = "/history.light.v4.csv"
+	baseURL                = "https://interaktiv.morgenpost.de"
+	currentDataEndpoint    = "/data/corona/current.v4.csv"
+	historicalDataEndpoint = "/data/corona/history.light.v4.csv"
 	currentDataURL         = fmt.Sprintf("%s%s", baseURL, currentDataEndpoint)
 	historicalDataURL      = fmt.Sprintf("%s%s", baseURL, historicalDataEndpoint)
 )
